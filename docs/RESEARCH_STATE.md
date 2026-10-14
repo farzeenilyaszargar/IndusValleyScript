@@ -48,6 +48,12 @@ All 29 shortlisted standardized reference drawings were viewed in a contact shee
 
 All 715 reference JPEGs are cached in .cache/glyph-reference (not committed). Optional Pillow producer scripts/glyph_morphology.py exports source hashes, canvas/ink bounds, aspect/density, centroid, second moments and component sizes/counts. It checks cached source hashes on reruns. data/raw/glyph_morphology_manifest.json fixes the numerical snapshot digest. Standard-library validator checks its integrity and arithmetic; main reproduction does not claim to regenerate image features. Two independent synthetic-mask tests passed; six already-viewed stroke component counts match, which validates implementation only. Core checks remain 23 plus two optional Pillow tests. Local checking of all 37 JSON artifacts and Linux CI run 38631640413 pass. Paper version 0.7 documents this morphology representation, not phonetic values; all nine rendered pages were visually reviewed, with references starting on their own page.
 
+## Completed release 0.8 extension
+
+Experiment 008 was committed before execution. Metadata-conditioned bigrams retain 3,591 eligible artifact rows and keep exact/reverse copies together. Split: 2,989 train, 303 validation, 299 test. Pooled test score 5.499 bits/token; type 5.439, site 5.532, site+type 5.419. Site+type's nominal gain 0.079 has a grouped 98.33% interval [0.013,0.151], but models use different selected base smoothing.
+
+Post-score diagnostic holds base smoothing fixed: type/site+type increments 0.015/0.034 have 95% intervals crossing zero; site-only increment -0.079 is worse. No robust independent metadata contribution is established. The diagnostic did not reselect models using test scores. Three new checks bring core tests to 26, plus two optional image tests. Paper version 0.8 and ledger report this confound and duplicate-weighting/archaeological dependence limits. Full decipherment remains unachieved and goal active.
+
 ## Next substantive work
 
 1. Constrain prospective phonetic/rebus alignments through independent lexical or archaeological anchors; controlled representation comparison is now executed and rank reversal confirms that nearest entropy alone cannot select a family. Investigate matching vocabulary/sparse-estimator controls and other language families before alignment claims.

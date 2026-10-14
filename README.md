@@ -23,7 +23,7 @@ Complete acquisition of every excavated sign and successful decipherment are ope
 - [Searchable catalogue](docs/SIGN_CATALOGUE.html) (download and open locally; remote images require network access)
 - [Data audit](docs/DATA.md), [literature](docs/LITERATURE.md), [remaining hypotheses](docs/HYPOTHESES.md)
 
-Release 0.7: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
+Release 0.8: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
 
 Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, including EOS and a collapsed unknown-sign event. This measures sequence predictability, not translation. No phonetic key or language family has been identified.
 
@@ -38,6 +38,8 @@ The [stroke-count experiment](docs/EXPERIMENT_005.md) exports described graphic 
 The [paired-object correspondence experiment](docs/EXPERIMENT_006.md) aligns 85 usable records across catalogues. It predicts 31/39 held-out positions and shortlists 29 correspondences for glyph review. These link catalogue labels, not sounds or meanings; mappings are not automatically propagated.
 
 The [reference-glyph screen](docs/EXPERIMENT_007.md) reviews 29 standardized drawings and acquires scalar morphology descriptors for all 715 glyph references. Drawings broadly fit descriptions, with conflicts/variant questions retained. This is not original-object photo verification or a decipherment. The optional producer `scripts/glyph_morphology.py` requires Pillow; images remain in ignored local cache, while the default pipeline validates the numeric descriptor snapshot.
+
+The [metadata-conditioned experiment](docs/EXPERIMENT_008.md) tests site/type formulas. A small site-plus-type aggregate gain is partly due to smoothing; matched-strength type and site-plus-type intervals overlap zero. No robust independent metadata effect or decoded administrative formula is established.
 
 ## Reproduce
 

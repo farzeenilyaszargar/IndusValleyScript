@@ -17,5 +17,6 @@
 - Described stroke counts depend on followers under height/position-preserving controls (two-test-adjusted p=0.004/0.008). All three followers with at least five events admit multiple counts. Graphic counts are not proven numerical values; no metrological scale or sign meaning is established.
 - Paired-object catalogue integration: 85 usable pairs; training selects reversed relative alignment. Held-out majority correspondence accuracy 31/39 positions, 82.1% source-ID coverage, 29 candidate mappings for glyph review. These are catalogue labels, not sound assignments.
 - Reference-glyph screening: all 29 candidate drawings broadly fit source descriptions, with unresolved variant/conflict cases. Scalar morphology records cover 715 cached reference images; no original-object photos, numerical values or phonetic readings are validated.
+- Metadata-conditioned models: site-plus-type shows a small aggregate gain, but matched-smoothing type/site-plus-type intervals overlap zero. No robust independent metadata contribution or decoded object-class formula is established.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

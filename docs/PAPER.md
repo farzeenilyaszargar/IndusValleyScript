@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.7 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.8 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -168,6 +168,20 @@ Experiment 007 screens the 29 shortlisted reference glyphs against their supplie
 All 715 pinned reference images were acquired into private local cache. Source URLs and SHA-256 hashes are preserved. Scalar numeric descriptors encode thresholded ink bounding-box aspect, ink density, centroid, second moments and eight-connected component counts. Image assets, fonts and reconstructible pixel grids are not packaged. These features describe rendering morphology; cropping, antialiasing, stylistic choices, crossings and gaps can affect them. They are not learned linguistic or semantic embeddings.
 
 The six already screened simple-stroke examples produce component counts 1, 2, 3, 4, 1 and 3 for IDs 001, 002, 003, 004, 031 and 033, matching their described shapes. Two independent synthetic-mask tests check connectivity and translation invariance. The source-derived matches validate extraction only, not discovery of numerical values. Optional Pillow-based production can reacquire/hash-check the images; default offline reproduction validates the committed numerical snapshot's hash and arithmetic invariants rather than regenerating image features. Original-object and catalogue provenance verification remains necessary before interpretation.
+
+### 4.12 Metadata-conditioned formula models and smoothing sensitivity
+
+Experiment 008 retains all 3591 eligible artifact rows with their metadata, grouping exact/reversed texts before partitioning. Seed 42 yields 2989 training, 303 validation and 299 test rows. Duplicates remain weighted as observed occurrences, so these scores are not directly comparable to the earlier deduplicated benchmark. Metadata conditions use the literal type prefix, site, or their combination, and back off to pooled bigrams. Both smoothing strengths are selected on validation data from 1/5/20/100. Target signs, speculative translations and interpretive classes are excluded from metadata.
+
+| Metadata condition | Test bits/token | Gain vs selected pool | Gain at matched smoothing |
+|---|---|---|---|
+| type | 5.439 | 0.060 | 0.015 |
+| site | 5.532 | -0.034 | -0.079 |
+| site_type | 5.419 | 0.079 | 0.034 |
+
+The validation-selected pooled benchmark scores 5.499 bits/token. Site-plus-type gains 0.079 bits/token, with grouped 98.33 percent interval [0.013, 0.151] as a three-comparison sensitivity. However, the metadata models select pooled strength 100 while the pooled benchmark selects 20. An exploratory matched-strength ablation, added after initial scores without reselecting models, reduces the type and site-plus-type increments to 0.015 and 0.034 bits/token. Their 95 percent intervals [-0.059, 0.081] and [-0.020, 0.088] overlap zero. Site-only conditioning is worse at matched smoothing (increment -0.079, interval [-0.149, -0.021]). Thus the nominal aggregate gain is partly attributable to smoothing differences; this test does not establish a robust independent metadata contribution.
+
+Confidence intervals resample whole exact/reversed groups (1,000 draws); related molds, near copies and uncertain type annotations are not fully controlled. Test rows are dominated by 159 seals and 94 tablets, with other categories much smaller. Archaeological usage differences remain plausible, but these fitted formulas do not decode commodities, names, dialects or grammatical parts of speech. Metadata and transcription quality require further review before interpreting a single reconstructed grammar across object classes.
 
 ## 5. Limitations and implications for decipherment
 

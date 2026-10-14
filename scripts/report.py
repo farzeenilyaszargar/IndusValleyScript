@@ -15,6 +15,10 @@ def main():
     stroke=read('stroke_count_constraints')
     correspondence=read('catalogue_correspondence')
     glyph=json.loads((ROOT/'data/processed/glyph_morphology.json').read_text())
+    meta=read('metadata_conditioning')
+    meta_rows='\n'.join(f'| {kind} | {m["test_bits"]:.3f} | {m["paired_improvement"]["improvement_bits"]:.3f} | '+
+        f'{m["matched_smoothing_ablation"]["metadata_increment"]["improvement_bits"]:.3f} |'
+        for kind,m in meta['models'].items())
     stroke_rows='\n'.join(f'| {f["sign"]} | {f["events"]} | '+
         ', '.join(f'{count}: {n}' for count,n in f['stroke_count_distribution'].items())+' |'
         for f in stroke['followers'] if f['support_at_least_5'])
@@ -37,7 +41,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.7 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.8 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -195,6 +199,18 @@ All {glyph['images']} pinned reference images were acquired into private local c
 
 The six already screened simple-stroke examples produce component counts 1, 2, 3, 4, 1 and 3 for IDs 001, 002, 003, 004, 031 and 033, matching their described shapes. Two independent synthetic-mask tests check connectivity and translation invariance. The source-derived matches validate extraction only, not discovery of numerical values. Optional Pillow-based production can reacquire/hash-check the images; default offline reproduction validates the committed numerical snapshot's hash and arithmetic invariants rather than regenerating image features. Original-object and catalogue provenance verification remains necessary before interpretation.
 
+### 4.12 Metadata-conditioned formula models and smoothing sensitivity
+
+Experiment 008 retains all {meta['eligible_rows']} eligible artifact rows with their metadata, grouping exact/reversed texts before partitioning. Seed 42 yields {meta['train_rows']} training, {meta['validation_rows']} validation and {meta['test_rows']} test rows. Duplicates remain weighted as observed occurrences, so these scores are not directly comparable to the earlier deduplicated benchmark. Metadata conditions use the literal type prefix, site, or their combination, and back off to pooled bigrams. Both smoothing strengths are selected on validation data from 1/5/20/100. Target signs, speculative translations and interpretive classes are excluded from metadata.
+
+| Metadata condition | Test bits/token | Gain vs selected pool | Gain at matched smoothing |
+|---|---|---|---|
+{meta_rows}
+
+The validation-selected pooled benchmark scores {meta['pooled']['test_bits']:.3f} bits/token. Site-plus-type gains 0.079 bits/token, with grouped 98.33 percent interval [0.013, 0.151] as a three-comparison sensitivity. However, the metadata models select pooled strength 100 while the pooled benchmark selects 20. An exploratory matched-strength ablation, added after initial scores without reselecting models, reduces the type and site-plus-type increments to 0.015 and 0.034 bits/token. Their 95 percent intervals [-0.059, 0.081] and [-0.020, 0.088] overlap zero. Site-only conditioning is worse at matched smoothing (increment -0.079, interval [-0.149, -0.021]). Thus the nominal aggregate gain is partly attributable to smoothing differences; this test does not establish a robust independent metadata contribution.
+
+Confidence intervals resample whole exact/reversed groups (1,000 draws); related molds, near copies and uncertain type annotations are not fully controlled. Test rows are dominated by 159 seals and 94 tablets, with other categories much smaller. Archaeological usage differences remain plausible, but these fitted formulas do not decode commodities, names, dialects or grammatical parts of speech. Metadata and transcription quality require further review before interpreting a single reconstructed grammar across object classes.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -251,6 +267,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Described stroke counts depend on followers under height/position-preserving controls (two-test-adjusted p=0.004/0.008). All three followers with at least five events admit multiple counts. Graphic counts are not proven numerical values; no metrological scale or sign meaning is established.
 - Paired-object catalogue integration: 85 usable pairs; training selects reversed relative alignment. Held-out majority correspondence accuracy 31/39 positions, 82.1% source-ID coverage, 29 candidate mappings for glyph review. These are catalogue labels, not sound assignments.
 - Reference-glyph screening: all 29 candidate drawings broadly fit source descriptions, with unresolved variant/conflict cases. Scalar morphology records cover 715 cached reference images; no original-object photos, numerical values or phonetic readings are validated.
+- Metadata-conditioned models: site-plus-type shows a small aggregate gain, but matched-smoothing type/site-plus-type intervals overlap zero. No robust independent metadata contribution or decoded object-class formula is established.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''
