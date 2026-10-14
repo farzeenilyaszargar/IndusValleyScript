@@ -28,7 +28,7 @@ CISI source explicitly describes visual left-to-right transcription of sealings 
 
 ## Catalogue completeness
 
-The public glyph index has 715 non-placeholder IDs. The raw ICIT export contains 712 observed non-placeholder IDs, with seven not in that index. The Parpola description catalogue contains 395 non-damage entries. These counts describe these sources, not the number of distinct signs in the civilization. Lists differ in how they split allographs and compound signs. Cross-reference fields are attributed source proposals, not a validated merge table. Do not equate a Wells W-ID, ICIT numeric ID, and Parpola P-ID without checking actual glyphs.
+The verified image directory has 715 non-placeholder IDs, covering all 712 observed non-placeholder IDs in the raw export. Initially, the explorer's numeric sign list omitted seven observed IDs while listing nine IDs with no image file. The tree-based acquisition fixes the catalogue and preserves the discrepancy in `data/raw/glyph_reference_validation.json`. The Parpola description catalogue contains 395 non-damage entries. These counts describe these sources, not the number of distinct signs in the civilization. Lists differ in how they split allographs and compound signs. Cross-reference fields are attributed source proposals, not a validated merge table. Do not equate a Wells W-ID, ICIT numeric ID, and Parpola P-ID without checking actual glyphs.
 
 ## Limits on inferred independence
 

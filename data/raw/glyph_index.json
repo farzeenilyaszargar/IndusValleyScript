@@ -1,12 +1,6 @@
 [
   {
     "namespace": "ICIT",
-    "sign": "000",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S000.jpg",
-    "placeholder": true
-  },
-  {
-    "namespace": "ICIT",
     "sign": "001",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S001.jpg",
     "placeholder": false
@@ -189,6 +183,12 @@
     "namespace": "ICIT",
     "sign": "042",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S042.jpg",
+    "placeholder": false
+  },
+  {
+    "namespace": "ICIT",
+    "sign": "043",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S043.jpg",
     "placeholder": false
   },
   {
@@ -531,12 +531,6 @@
     "namespace": "ICIT",
     "sign": "113",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S113.jpg",
-    "placeholder": false
-  },
-  {
-    "namespace": "ICIT",
-    "sign": "114",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S114.jpg",
     "placeholder": false
   },
   {
@@ -1117,6 +1111,12 @@
   },
   {
     "namespace": "ICIT",
+    "sign": "237",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S237.jpg",
+    "placeholder": false
+  },
+  {
+    "namespace": "ICIT",
     "sign": "240",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S240.jpg",
     "placeholder": false
@@ -1189,8 +1189,8 @@
   },
   {
     "namespace": "ICIT",
-    "sign": "258",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S258.jpg",
+    "sign": "259",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S259.jpg",
     "placeholder": false
   },
   {
@@ -1329,12 +1329,6 @@
     "namespace": "ICIT",
     "sign": "287",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S287.jpg",
-    "placeholder": false
-  },
-  {
-    "namespace": "ICIT",
-    "sign": "289",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S289.jpg",
     "placeholder": false
   },
   {
@@ -1849,12 +1843,6 @@
   },
   {
     "namespace": "ICIT",
-    "sign": "399",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S399.jpg",
-    "placeholder": false
-  },
-  {
-    "namespace": "ICIT",
     "sign": "400",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S400.jpg",
     "placeholder": false
@@ -2149,6 +2137,12 @@
   },
   {
     "namespace": "ICIT",
+    "sign": "463",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S463.jpg",
+    "placeholder": false
+  },
+  {
+    "namespace": "ICIT",
     "sign": "465",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S465.jpg",
     "placeholder": false
@@ -2353,6 +2347,12 @@
   },
   {
     "namespace": "ICIT",
+    "sign": "514",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S514.jpg",
+    "placeholder": false
+  },
+  {
+    "namespace": "ICIT",
     "sign": "515",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S515.jpg",
     "placeholder": false
@@ -2451,6 +2451,12 @@
     "namespace": "ICIT",
     "sign": "535",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S535.jpg",
+    "placeholder": false
+  },
+  {
+    "namespace": "ICIT",
+    "sign": "539",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S539.jpg",
     "placeholder": false
   },
   {
@@ -2893,6 +2899,12 @@
   },
   {
     "namespace": "ICIT",
+    "sign": "643",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S643.jpg",
+    "placeholder": false
+  },
+  {
+    "namespace": "ICIT",
     "sign": "645",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S645.jpg",
     "placeholder": false
@@ -3175,12 +3187,6 @@
   },
   {
     "namespace": "ICIT",
-    "sign": "726",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S726.jpg",
-    "placeholder": false
-  },
-  {
-    "namespace": "ICIT",
     "sign": "727",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S727.jpg",
     "placeholder": false
@@ -3315,6 +3321,12 @@
     "namespace": "ICIT",
     "sign": "753",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S753.jpg",
+    "placeholder": false
+  },
+  {
+    "namespace": "ICIT",
+    "sign": "759",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S759.jpg",
     "placeholder": false
   },
   {
@@ -3733,6 +3745,12 @@
   },
   {
     "namespace": "ICIT",
+    "sign": "839",
+    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S839.jpg",
+    "placeholder": false
+  },
+  {
+    "namespace": "ICIT",
     "sign": "840",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S840.jpg",
     "placeholder": false
@@ -3877,12 +3895,6 @@
   },
   {
     "namespace": "ICIT",
-    "sign": "867",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S867.jpg",
-    "placeholder": false
-  },
-  {
-    "namespace": "ICIT",
     "sign": "868",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S868.jpg",
     "placeholder": false
@@ -3909,12 +3921,6 @@
     "namespace": "ICIT",
     "sign": "872",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S872.jpg",
-    "placeholder": false
-  },
-  {
-    "namespace": "ICIT",
-    "sign": "873",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S873.jpg",
     "placeholder": false
   },
   {
@@ -4263,18 +4269,6 @@
     "namespace": "ICIT",
     "sign": "953",
     "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S953.jpg",
-    "placeholder": false
-  },
-  {
-    "namespace": "ICIT",
-    "sign": "954",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S954.jpg",
-    "placeholder": false
-  },
-  {
-    "namespace": "ICIT",
-    "sign": "955",
-    "image_url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/icit/full/S955.jpg",
     "placeholder": false
   },
   {

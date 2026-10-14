@@ -2327,6 +2327,11 @@
       "sha256": "c63ec38dc9b4c3ef4c2620f0d6c2b02931b5ef89efd828b9c8125e3fa2025995",
       "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/default_features.json"
     },
+    "glyph_reference_validation.json": {
+      "url": "https://api.github.com/repos/tejesh-raut/indus-valley-script/git/trees/8dc5837469bc6694c05f9b310eee90b08399df9e?recursive=1",
+      "sha256": "bb2728d51b4e2fa661c753d85f1b7425674a7e47365d7796c62c076349e176f3",
+      "transformation": "image path coverage audit"
+    },
     "glyph_index.json": {
       "url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/data/signs.js",
       "sha256": "1c789802c3fb9c11371b7a848e01645f2a47164f795440912dbbf352feecea21",
@@ -2338,7 +2343,8 @@
     "CISI_LICENSE.txt": "3d83c5b374fbe6fc293f288edc09582835cb89eff5ee9aded1bb648b65a0a951",
     "cisi_corpus.json": "cea2f4d24b890ac019d39e911e3819130b27b8ff532e3043f6575e2eedd6061f",
     "cisi_features.json": "b44f82da96d4acbf6fb127ec95d59560f328770036aff397f0778fd452596ade",
-    "glyph_index.json": "ef70bf34044ea173d7d3edc4a1cae4042d8eed3e2bdbdaba600ba0dd6de222da",
+    "glyph_index.json": "5ce52226a45689ce5ef492e59282b02c36713dd29165cf9ba14d28e73c4043b3",
+    "glyph_reference_validation.json": "b1b3eb7ac9a482ec8f6db8d44d579406b9d08f3de0a465c15cab71721193549e",
     "icit_metadata.csv": "07f674f943fc6f23c69404c400d2f5f18f4a984f004fd7c4e17ef6df042f0023"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "source_commit": "8dc5837469bc6694c05f9b310eee90b08399df9e",
+  "verification": "GitHub tree at pinned commit",
+  "listed_nonplaceholder_ids": 715,
+  "verified_image_files": 715,
+  "listed_ids_without_files": [
+    "114",
+    "258",
+    "289",
+    "399",
+    "726",
+    "867",
+    "873",
+    "954",
+    "955"
+  ],
+  "files_not_in_sign_list": [
+    "043",
+    "237",
+    "259",
+    "463",
+    "514",
+    "539",
+    "643",
+    "759",
+    "839"
+  ],
+  "tree_truncated": false
+}

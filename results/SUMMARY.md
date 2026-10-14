@@ -1,0 +1,14 @@
+# Results snapshot
+
+15 October 2026. No decipherment claimed.
+
+- Corpus: 2,156 clean distinct sequences, 9,221 tokens, 637 IDs.
+- Inventory: 715 verified remote glyph references; 395 separate Parpola descriptions.
+- Mean held-out scores: unigram 6.450, bigram 5.452, trigram 5.453 bits/token (including EOS; unseen signs collapsed to UNK).
+- Mask top-1: 29.0-35.5%; top-5: 52.1-57.5%; frequent-sign top-1 baseline: 9.4-11.4%.
+- Entropy: 3.892 bits; all three permutation p-values 0.005 (199 trials each).
+- Simple tally/fish adjacency: 17 vs null mean 5.902, exploratory p=0.002.
+- Role-template held-out coverage: 66.8%; single-shuffle coverage 32.3%.
+- Ten abstract substitutions preserve entropy: no phonetic or semantic key identified.
+
+Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

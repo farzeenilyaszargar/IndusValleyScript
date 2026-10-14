@@ -13,26 +13,11 @@
   "cisi_clean_unique": 91,
   "parpola_catalog_signs_excluding_damage": 395,
   "glyph_reference_ids_excluding_placeholders": 715,
-  "observed_icit_ids_without_glyph_reference": [
-    "043",
-    "237",
-    "463",
-    "514",
-    "643",
-    "759",
-    "839"
-  ],
+  "observed_icit_ids_without_glyph_reference": [],
   "glyph_reference_ids_not_observed": [
-    "114",
-    "258",
+    "259",
     "275",
-    "289",
-    "399",
-    "726",
-    "867",
-    "873",
-    "954",
-    "955"
+    "539"
   ],
   "orientation": "ICIT stored order, not asserted reading order; CISI reversed per source convention",
   "inventory_limit": "Public source coverage only, not every excavated sign; catalogues disagree on allographs."

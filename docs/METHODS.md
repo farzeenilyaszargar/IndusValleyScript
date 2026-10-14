@@ -10,9 +10,56 @@ Started 15 October 2026 (Asia/Kolkata). This file distinguishes completed experi
 - Identified that `xlits.csv` contains speculative sound assignments and canonical sign conflations; excluded it from analytical input.
 - Began reading original research on n-grams, entropy, networks, rebus interpretation, and critiques of linguistic inference.
 
-## Pending
+## Executed experiments (release 0.1)
 
-Corpus ingestion, sign inventory coverage audit, numeric encodings, statistical baselines, embeddings, grammar induction, constrained semantic hypothesis tests, and research paper.
+| Method | Output | Finding |
+|---|---|---|
+| Literature review | LITERATURE.md | Nine sources inspected at explicitly stated scope |
+| Pinned acquisition and source hashes | data/raw/manifest.json | 5,679 ICIT-derived rows, 179 annotated CISI sides; proposed readings excluded |
+| Conservative filtering and deduplication | data/processed/audit.json | 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 91 clean distinct CISI sequences |
+| Icon coverage and separate catalogues | SIGN_CATALOGUE.html; data/raw/glyph_reference_validation.json | 715 verified remote image files cover all 712 raw observed IDs; 395 separate Parpola descriptions |
+| Integer encoding | data/processed/encodings.json; numeric_inscriptions.json | Per-namespace dense integers; PAD/UNK/BOS/EOS reserved; no phonetic values |
+| Frequency, lengths, hapax, repeated phrases | results/descriptive.json | Mean length 4.277, hapax fraction 36.1%; 47 repeated five-sign subsequences |
+| Conditional entropy, three shuffle controls | results/entropy_nulls.json | 3.892 observed vs null means 4.593/4.757/4.958 bits; p=0.005 each, 199 trials; Bonferroni-adjusted p=0.015 for three tests |
+| Unigram, bigram, trigram prediction | results/sequence_models.json | Five reverse/exact-group splits; validation-selected smoothing; mean test scores 6.450/5.452/5.453 bits/token including EOS; no consistent trigram gain |
+| Paired bootstrap uncertainty | sequence_models.json | 500 resamples per split; all unigram-to-bigram intervals exclude zero; conditional on corpus |
+| Hidden-sign prediction | sequence_models.json | 29.0-35.5% top-1, 52.1-57.5% top-5; frequent-sign baseline 9.4-11.4%; synthetic masking only |
+| Reading-order sensitivity | results/reverse_models.json | Reversed texts remain predictable; no reading direction established by models alone |
+| Cross-site transfer | results/site_transfer.json | Bigram gains on Harappa and Mohenjo-daro holds; target-attested sequences and reversals excluded from training |
+| Independent positional slot predictor | results/slot_control.json | Sign-only unigram/slot/bigram scores 7.085/6.829/6.111 bits; positions explain part of predictability |
+| Synthetic administrative slots | results/synthetic_slots.json | Entropy 5.109 bits; generator does not match observed local order and long repeats; richer administrative systems remain viable |
+| Context embeddings and neighbours | results/embeddings_sparse_ppmi.json; embeddings_32d.json; context_neighbours.json | Training-only directional PPMI, deterministic 32D projection, exact sparse cosine; no semantic values assigned |
+| Finite template grammar | results/grammar.json; position_profiles.json | Held-out coverage 66.8% vs 32.3% in one shuffle; operational positions, not parts of speech |
+| Candidate segmentation | results/segmentation_candidates.json | 163 train-selected pairs with count >=5 and PMI >=1; collocations, not confirmed words |
+| Directed transition graph | results/transition_network.json | Adjacency edges and degrees; no semantic classification or recursive-tree replication |
+| Conservative tally/fish adjacency | results/numeral_fish.json | 17 adjacencies vs null mean 5.902, exploratory p=0.002, 499 trials; no sound or numerical value established |
+| Substitution identifiability | results/substitution_identifiability.json | Ten abstract syllable relabelings preserve entropy; structure alone cannot choose meanings |
+| Filtering sensitivity | results/sensitivity.json | Descriptive subsets: length>=3, R/L metadata only, eligible rows retaining duplicate occurrences |
+| Correctness and repeatability checks | scripts/test_pipeline.py; scripts/reproduce.py | Damage handling, exact/reverse split isolation, probability normalization, shuffle invariants, relabel invariance; deterministic JSON comparison |
+| Research paper | PAPER.md; output/pdf/indus_structural_research.pdf | Generated from executed outputs; PDF rendered and visually reviewed |
+
+## Revisions, errors corrected, and negative results
+
+- Initial icon indexing used the explorer's numeric list and missed seven observed IDs. A pinned image-tree audit recovered those seven plus two other image IDs, and found nine non-placeholder listed IDs with no file. The corrected catalogue uses verified paths and records the discrepancy.
+- A broad description search for vertical strokes included complex decorated signs, including fish with strokes. It was unsuitable as a numeral proxy. The final morphology test uses conservative explicit catalogue sets (fish P048-P065; simple strokes P121-P130, P144, P145, P147, P150, P151). This refinement followed exploratory inspection; its p-value is not preregistered confirmation.
+- The initial masked-prediction baseline chose EOS. It was corrected to choose the most frequent actual training sign and results regenerated before committing them.
+- Trigrams gave no consistent predictive gain over bigrams. Independent slot generation did not reproduce the observed local dependence or five-sign repeats in this run. Abstract syllable relabeling did not identify a unique key.
+- Upstream xlits.csv contains speculative phonetic values and conflations; it was inspected but excluded from acquisition and modeling.
+- A guessed ACL URL resolved to an unrelated article and was excluded; the actual critique and reply were retrieved by title.
+
+## Pending methods and resource gaps
+
+1. Independent photographic verification, orientation review, complete inventory acquisition and catalogue crosswalk validation.
+2. Blind allograph split/merge experiments and uncertainty propagation.
+3. Artifact/mold/family splits, near-duplicate analysis and metadata-conditioned models.
+4. HMM/latent grammar fitting, nonlocal dependency tests, richer administrative baselines.
+5. Licensed historical corpora and matched grapheme comparisons for Dravidian, Indo-Aryan, Austroasiatic and other hypotheses.
+6. Constrained multilingual/rebus alignment with external lexical anchors, chronology and equal-complexity alternative mappings.
+7. Number/quantity reconstruction using stroke counts, metrology and independently identified archaeological contexts.
+8. OCR and glyph-shape models using appropriately licensed labeled images.
+9. Secure bilingual/name anchors if identified, independent specialist review and prospective predictions.
+
+These are planned, not claimed as tried. The goal remains active: exhaustive acquisition and genuine decipherment have not been achieved. “Any and all methods” is an open research objective, not a finite procedure completed in this release.
 
 ## Evidence policy
 

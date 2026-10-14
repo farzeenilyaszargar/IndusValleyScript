@@ -14,3 +14,29 @@ The research separates catalogues, uncertain transcriptions, structural patterns
 6. Maintain the paper and incrementally push results.
 
 Complete acquisition of every excavated sign and successful decipherment are open objectives; available public digitizations do not establish exhaustive coverage.
+
+## Results and artifacts
+
+- [Results snapshot](results/SUMMARY.md)
+- [Research paper](docs/PAPER.md) and [PDF](output/pdf/indus_structural_research.pdf)
+- [Methods and failures](docs/METHODS.md)
+- [Searchable catalogue](docs/SIGN_CATALOGUE.html) (download and open locally; remote images require network access)
+- [Data audit](docs/DATA.md), [literature](docs/LITERATURE.md), [remaining hypotheses](docs/HYPOTHESES.md)
+
+Release 0.1: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
+
+Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, including EOS and a collapsed unknown-sign event. This measures sequence predictability, not translation. No phonetic key or language family has been identified.
+
+## Reproduce
+
+Python 3.14 was used; analytical scripts require only the standard library.
+
+```sh
+python3 scripts/reproduce.py --check
+```
+
+This verifies snapshot hashes, runs correctness tests, rebuilds artifacts and checks byte-identical JSON. Fresh network acquisition uses `python3 scripts/acquire.py`, followed by `python3 scripts/reproduce.py`. Git is needed for reacquisition of the pinned CISI source.
+
+For optional PDF export, install ReportLab and run `python3 scripts/paper_pdf.py`. The Markdown paper is generated from result files by `scripts/report.py`. Review PDF layout after substantive changes.
+
+Attribution and inherited-material limits are documented in DATA.md. Proposed translations are excluded from training. Externally hosted image/font assets are not bundled.

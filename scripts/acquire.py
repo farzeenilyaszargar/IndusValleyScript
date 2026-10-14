@@ -3,6 +3,7 @@ import csv
 import hashlib
 import io
 import json
+import re
 from pathlib import Path
 import subprocess
 import urllib.request
@@ -59,16 +60,33 @@ def main():
     repo, commit = SOURCES['explorer']
     raw, info = fetch(repo, commit, 'data/signs.js')
     ids = json.loads(raw.decode().split('=', 1)[1].strip().rstrip(';'))
-    catalog = [{'namespace': 'ICIT', 'sign': f'{n:03}',
-                'image_url': f'https://raw.githubusercontent.com/{repo}/{commit}/icit/full/S{n:03}.jpg',
-                'placeholder': n in (0, 999)} for n in ids]
+    tree_url = f'https://api.github.com/repos/{repo}/git/trees/{commit}?recursive=1'
+    with urllib.request.urlopen(tree_url, timeout=60) as response:
+        tree_raw = response.read()
+    tree = json.loads(tree_raw)
+    if tree.get('truncated'):
+        raise ValueError('Incomplete GitHub tree; cannot verify glyph coverage')
+    paths = {x['path'] for x in tree['tree']}
+    file_ids = sorted(re.fullmatch(r'icit/full/S(\d{3})\.jpg', p).group(1)
+                      for p in paths if re.fullmatch(r'icit/full/S(\d{3})\.jpg', p))
+    listed = {f'{n:03}' for n in ids} - {'000', '999'}
+    catalog = [{'namespace': 'ICIT', 'sign': sign,
+                'image_url': f'https://raw.githubusercontent.com/{repo}/{commit}/icit/full/S{sign}.jpg',
+                'placeholder': sign in ('000', '999')} for sign in file_ids]
+    validation = {'source_commit': commit, 'verification': 'GitHub tree at pinned commit',
+                  'listed_nonplaceholder_ids': len(listed), 'verified_image_files': len(file_ids),
+                  'listed_ids_without_files': sorted(listed-set(file_ids)),
+                  'files_not_in_sign_list': sorted(set(file_ids)-listed), 'tree_truncated': False}
+    (out / 'glyph_reference_validation.json').write_text(json.dumps(validation, indent=2)+'\n')
+    manifest['files']['glyph_reference_validation.json'] = {
+        'url': tree_url, 'sha256': hashlib.sha256(tree_raw).hexdigest(), 'transformation': 'image path coverage audit'}
     (out / 'glyph_index.json').write_text(json.dumps(catalog, indent=2) + '\n')
     manifest['files']['glyph_index.json'] = info | {'transformation': 'numeric IDs and reference links only'}
     # Record output hashes too, including transformed files.
     manifest['output_sha256'] = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
                                  for p in sorted(out.iterdir()) if p.name != 'manifest.json'}
     (out / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
-    print(f'Acquired {len(rows)} ICIT-export records and {len(ids)} glyph references.')
+    print(f'Acquired {len(rows)} ICIT-export records and {len(file_ids)} verified glyph references.')
 
 if __name__ == '__main__':
     main()
