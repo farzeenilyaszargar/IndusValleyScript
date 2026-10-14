@@ -52,7 +52,7 @@ All 715 reference JPEGs are cached in .cache/glyph-reference (not committed). Op
 
 Experiment 008 was committed before execution. Metadata-conditioned bigrams retain 3,591 eligible artifact rows and keep exact/reverse copies together. Split: 2,989 train, 303 validation, 299 test. Pooled test score 5.499 bits/token; type 5.439, site 5.532, site+type 5.419. Site+type's nominal gain 0.079 has a grouped 98.33% interval [0.013,0.151], but models use different selected base smoothing.
 
-Post-score diagnostic holds base smoothing fixed: type/site+type increments 0.015/0.034 have 95% intervals crossing zero; site-only increment -0.079 is worse. No robust independent metadata contribution is established. The diagnostic did not reselect models using test scores. Three new checks bring core tests to 26, plus two optional image tests. Paper version 0.8 and ledger report this confound and duplicate-weighting/archaeological dependence limits. Full decipherment remains unachieved and goal active.
+Post-score diagnostic holds base smoothing fixed: type/site+type increments 0.015/0.034 have 95% intervals crossing zero; site-only increment -0.079 is worse. No robust independent metadata contribution is established. The diagnostic did not reselect models using test scores. Three new checks bring core tests to 26, plus two optional image tests. Local offline checks cover 38 JSON artifacts. All ten rendered pages of paper version 0.8 were visually reviewed; the ledger reports this confound and duplicate-weighting/archaeological dependence limits. Full decipherment remains unachieved and goal active.
 
 ## Next substantive work
 
