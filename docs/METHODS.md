@@ -35,7 +35,7 @@ Started 15 October 2026 (Asia/Kolkata). This file distinguishes completed experi
 | Conservative tally/fish adjacency | results/numeral_fish.json | 17 adjacencies vs null mean 5.902, exploratory p=0.002, 499 trials; no sound or numerical value established |
 | Substitution identifiability | results/substitution_identifiability.json | Ten abstract syllable relabelings preserve entropy; structure alone cannot choose meanings |
 | Filtering sensitivity | results/sensitivity.json | Descriptive subsets: length>=3, R/L metadata only, eligible rows retaining duplicate occurrences |
-| Correctness and repeatability checks | scripts/test_pipeline.py; scripts/reproduce.py | Damage handling, exact/reverse split isolation, probability normalization, shuffle invariants, relabel invariance; deterministic JSON comparison |
+| Correctness and repeatability checks | scripts/test_pipeline.py; scripts/reproduce.py | Damage handling, exact/reverse split isolation, probability normalization, shuffle invariants, relabel invariance; exact JSON structure/labels/counts with float tolerance 1e-12 |
 | Research paper | PAPER.md; output/pdf/indus_structural_research.pdf | Generated from executed outputs; PDF rendered and visually reviewed |
 
 ## Revisions, errors corrected, and negative results
@@ -46,6 +46,7 @@ Started 15 October 2026 (Asia/Kolkata). This file distinguishes completed experi
 - Trigrams gave no consistent predictive gain over bigrams. Independent slot generation did not reproduce the observed local dependence or five-sign repeats in this run. Abstract syllable relabeling did not identify a unique key.
 - Upstream xlits.csv contains speculative phonetic values and conflations; it was inspected but excluded from acquisition and modeling.
 - A guessed ACL URL resolved to an unrelated article and was excluded; the actual critique and reply were retrieved by title.
+- Local byte-identical reproduction passed. Linux CI showed floating-point serialization differences in four result files. The cross-platform check now requires exact structure, IDs, labels and counts, and numerical equality within 1e-12; it fails with a precise location for larger drift. Source snapshots still require exact SHA-256 equality.
 
 ## Pending methods and resource gaps
 

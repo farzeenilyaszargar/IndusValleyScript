@@ -35,7 +35,7 @@ Python 3.14 was used; analytical scripts require only the standard library.
 python3 scripts/reproduce.py --check
 ```
 
-This verifies snapshot hashes, runs correctness tests, rebuilds artifacts and checks byte-identical JSON. Fresh network acquisition uses `python3 scripts/acquire.py`, followed by `python3 scripts/reproduce.py`. Git is needed for reacquisition of the pinned CISI source.
+This verifies snapshot hashes, runs correctness tests, rebuilds artifacts and checks equivalent JSON. Counts, IDs, labels and structure must match exactly; floating-point values use absolute/relative tolerance 1e-12 across platforms. Fresh network acquisition uses `python3 scripts/acquire.py`, followed by `python3 scripts/reproduce.py`. Git is needed for reacquisition of the pinned CISI source.
 
 For optional PDF export, install ReportLab and run `python3 scripts/paper_pdf.py`. The Markdown paper is generated from result files by `scripts/report.py`. Review PDF layout after substantive changes.
 

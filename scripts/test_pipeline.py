@@ -5,9 +5,16 @@ import unittest
 from analyze import Model, canonical, conditional_entropy, shuffled, split
 from normalize import icit_parse
 from extended import SlotModel
+from reproduce import equivalent
 import random
 
 class PipelineTests(unittest.TestCase):
+    def test_cross_platform_comparison_rejects_material_drift(self):
+        equivalent({'ids':['a'],'n':2,'p':0.5},{'ids':['a'],'n':2,'p':0.5+1e-14})
+        for changed in ({'ids':['b'],'n':2,'p':0.5},{'ids':['a'],'n':3,'p':0.5},
+                        {'ids':['a'],'n':2,'p':0.51}):
+            with self.assertRaises(ValueError):equivalent({'ids':['a'],'n':2,'p':0.5},changed)
+
     def test_damaged_and_multiline_rejected(self):
         for text in ('+740-000+',']740-033+','+740/033+','+740-999+'):
             self.assertTrue(icit_parse({'text':text})[1])
