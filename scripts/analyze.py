@@ -149,10 +149,17 @@ def evaluate(texts, seed):
                                   'perplexity': 2**avg_loss(values)}
         models[order], losses[order] = model, values
     delta = [(a[0]-b[0], a[1]) for a, b in zip(losses[1], losses[2])]
+    grouped_delta = C.defaultdict(lambda: [0.0, 0])
+    for t, (loss, n) in zip(test, delta):
+        grouped_delta[canonical(t)][0] += loss
+        grouped_delta[canonical(t)][1] += n
+    group_values = list(grouped_delta.values())
     rng = random.Random(seed)
-    boots = sorted(avg_loss(rng.choices(delta, k=len(delta))) for _ in range(500))
+    boots = sorted(avg_loss(rng.choices(group_values, k=len(group_values))) for _ in range(500))
     result['bigram_improvement_bits'] = avg_loss(delta)
     result['bigram_improvement_bootstrap95'] = [boots[12], boots[487]]
+    result['bootstrap_unit'] = 'exact/reverse sequence group'
+    result['bootstrap_groups'] = len(group_values)
     known = set(models[2].uni)
     result['unknown_test_tokens'] = sum(s not in known for t in test for s in t)
     result['test_sign_tokens'] = sum(map(len, test))

@@ -1387,9 +1387,11 @@
     },
     "bigram_improvement_bits": 0.9802694168110535,
     "bigram_improvement_bootstrap95": [
-      0.8127876958035981,
-      1.1627102539532215
+      0.795203620060391,
+      1.1638098896234432
     ],
+    "bootstrap_unit": "exact/reverse sequence group",
+    "bootstrap_groups": 215,
     "unknown_test_tokens": 30,
     "test_sign_tokens": 926,
     "mask_prediction": {
@@ -2803,9 +2805,11 @@
     },
     "bigram_improvement_bits": 1.106571785915182,
     "bigram_improvement_bootstrap95": [
-      0.9409802618096845,
-      1.2626679142776938
+      0.9565071374012826,
+      1.2656070090300386
     ],
+    "bootstrap_unit": "exact/reverse sequence group",
+    "bootstrap_groups": 215,
     "unknown_test_tokens": 19,
     "test_sign_tokens": 937,
     "mask_prediction": {
@@ -4155,9 +4159,11 @@
     },
     "bigram_improvement_bits": 0.8977712645102577,
     "bigram_improvement_bootstrap95": [
-      0.7662078862728429,
-      1.0189636593479228
+      0.780729762842148,
+      1.0132385206209376
     ],
+    "bootstrap_unit": "exact/reverse sequence group",
+    "bootstrap_groups": 215,
     "unknown_test_tokens": 23,
     "test_sign_tokens": 877,
     "mask_prediction": {
@@ -5519,6 +5525,8 @@
       0.8176730562862027,
       1.1511666631980988
     ],
+    "bootstrap_unit": "exact/reverse sequence group",
+    "bootstrap_groups": 215,
     "unknown_test_tokens": 26,
     "test_sign_tokens": 888,
     "mask_prediction": {
@@ -6940,9 +6948,11 @@
     },
     "bigram_improvement_bits": 1.0075136192463618,
     "bigram_improvement_bootstrap95": [
-      0.841461701820894,
-      1.1595439412413
+      0.8476021096613513,
+      1.15434594668584
     ],
+    "bootstrap_unit": "exact/reverse sequence group",
+    "bootstrap_groups": 215,
     "unknown_test_tokens": 22,
     "test_sign_tokens": 947,
     "mask_prediction": {

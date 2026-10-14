@@ -1386,9 +1386,11 @@
   },
   "bigram_improvement_bits": 0.9110766888413507,
   "bigram_improvement_bootstrap95": [
-    0.7142527953442608,
-    1.095118593961896
+    0.7279920183739521,
+    1.093089657987731
   ],
+  "bootstrap_unit": "exact/reverse sequence group",
+  "bootstrap_groups": 215,
   "unknown_test_tokens": 30,
   "test_sign_tokens": 926,
   "mask_prediction": {

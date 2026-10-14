@@ -72,7 +72,7 @@ Across five splits, bigrams improve prediction by 0.898-1.107 bits/token over un
 | 45 | 6.416 | 5.419 | 5.440 | 32.7% | 57.5% |
 | 46 | 6.476 | 5.469 | 5.457 | 31.9% | 55.8% |
 
-Most-frequent-sign mask baselines range from 9.4 to 11.4 percent. For seed 42, the bigram improvement is 0.980 bits/token, with bootstrap interval [0.813, 1.163]. Reversing all sequences preserves substantial predictive gains, so statistical direction preference alone does not settle reading direction.
+Most-frequent-sign mask baselines range from 9.4 to 11.4 percent. For seed 42, the bigram improvement is 0.980 bits/token, with bootstrap interval [0.795, 1.164]. Reversing all sequences preserves substantial predictive gains, so statistical direction preference alone does not settle reading direction.
 
 ### 4.2 Controls and generalization
 

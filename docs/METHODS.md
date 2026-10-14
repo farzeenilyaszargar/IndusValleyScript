@@ -47,6 +47,7 @@ Started 15 October 2026 (Asia/Kolkata). This file distinguishes completed experi
 - Upstream xlits.csv contains speculative phonetic values and conflations; it was inspected but excluded from acquisition and modeling.
 - A guessed ACL URL resolved to an unrelated article and was excluded; the actual critique and reply were retrieved by title.
 - Local byte-identical reproduction passed. Linux CI showed floating-point serialization differences in four result files. The cross-platform check now requires exact structure, IDs, labels and counts, and numerical equality within 1e-12; it fails with a precise location for larger drift. Source snapshots still require exact SHA-256 equality.
+- Bootstrap resampling was tightened to exact/reverse groups rather than individual sequences, keeping mirrored texts together in confidence intervals as well as dataset splits. The small interval changes do not alter the reported prediction conclusions.
 
 ## Pending methods and resource gaps
 
