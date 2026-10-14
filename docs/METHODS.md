@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.5. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.6. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -49,6 +49,9 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.5. This file distingui
 | Licensed opaque sample packaging | data/language_samples/ATTRIBUTION.md; manifest.json | Numeric samples, source-document metadata and window offsets are committed with Tamil Apache-2.0 and Vedic CC BY-SA 4.0 attribution. Token dictionaries and original text documents stay local; metric recomputation is network-free |
 | Graphic stroke-count / follower constraint test | results/stroke_count_constraints.json | 79 catalogue-described stroke slots; 65 usable follower events. Count/follower MI exceeds height/position-preserving controls; two-test-adjusted p=0.004 overall, 0.008 short-only. All three followers with >=5 examples have multiple counts; no numerical meaning or scale established |
 | Stroke-count correctness tests | scripts/test_stroke_counts.py | Three checks establish known independent/perfect-dependence MI values, permutation preservation of count/height/position marginals and follower identities, and separate tall/short mappings excluding decorated counts |
+| Paired-object catalogue correspondence | results/catalogue_correspondence.json | 85 accepted pairs, 94 audited exclusions; copies in either catalogue grouped. Training selects reversed ICIT alignment. Test accuracy 31/39 positions; source-ID coverage 32/39. Twenty-nine training-derived review candidates; no semantic/sound mapping |
+| Crosswalk consistency and errors | catalogue_correspondence.json | Candidate distributions, held-out failures and known-source-only smoothed log loss preserved. Exploratory comparison finds review candidates consistent with supplied Wells aliases; shared ancestry means this is not independent glyph verification |
+| Correspondence correctness checks | scripts/test_correspondence.py | Four checks: ambiguous/unequal-length joins rejected, alignment does not mutate sources, copies in both catalogues share splits, and unknown source IDs count as failures |
 
 ## Revisions, errors corrected, and negative results
 
@@ -64,6 +67,7 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.5. This file distingui
 - Near-copy confidence intervals resample whole similarity components. Transitive one-substitution groups are a leakage sensitivity test, not a replacement for archaeological family annotation. Different-length neighbours remain a resource gap.
 - Experiment 004 changes its nearest-proxy ranking when only representation changes: word distances favour Sanskrit, letter-plus-mark distances favour Tamil. Vocabulary/sparse-estimator and duplicate-window effects remain visible. This is a failed family-identification criterion, not positive evidence for either candidate.
 - Experiment 005 records morphological counts only. Dependency significance is conditional on slot-exchangeability and specified height/position strata, not archaeological independence. It neither calibrates weights nor establishes tax/ration/star/name semantics. Repeated or related artifact contexts may affect slot exchangeability; independent metrological fields are absent.
+- Experiment 006 provides catalogue label correspondences rather than decipherment. Relative reversal is selected without test data. Fixed known-ID log-loss smoothing was specified after the initial accuracy run and does not alter selection. Wells alias checking is post-inference source consistency, not independent validation; candidate mappings remain provisional and are not propagated.
 
 ## Pending methods and resource gaps
 

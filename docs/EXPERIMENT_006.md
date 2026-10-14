@@ -8,4 +8,6 @@ Group pairs connected by exact/reversed text identity in either catalogue. Split
 
 An initial “review-priority” mapping may be listed only if it has at least three training occurrences on at least two objects and >=90% agreement on a single Parpola ID. This is a shortlist for independent glyph review, not a verified crosswalk. Conflicts, allograph-specific distinctions, and unsuccessful objects remain visible. No source `xlits` canonical or sound assignments may be used.
 
+Log-loss specification: report known-source-ID positions only, with fixed additive 0.5 smoothing across training Parpola targets plus UNK. Unseen target IDs collapse to UNK for this likelihood measure. Unseen source IDs are still counted as failures in all-position accuracy and receive no guessed correspondence. This scoring detail was made explicit after the initial top-1 run; it does not change orientation or mapping selection.
+
 Preserve object IDs, aligned positions, morphology and candidate support. Do not merge namespaces automatically or propagate descriptions to the full ICIT inventory based solely on a training fit. High held-out correspondence would support data integration only; shared catalogue ancestry and local transcription errors limit independence.

@@ -13,6 +13,7 @@ def main():
     allograph=read('allograph_history')
     language=read('language_representation')
     stroke=read('stroke_count_constraints')
+    correspondence=read('catalogue_correspondence')
     stroke_rows='\n'.join(f'| {f["sign"]} | {f["events"]} | '+
         ', '.join(f'{count}: {n}' for count,n in f['stroke_count_distribution'].items())+' |'
         for f in stroke['followers'] if f['support_at_least_5'])
@@ -35,7 +36,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.5 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.6 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -175,6 +176,16 @@ P004 is described as a burden-carrying person, P050 as a plain fish, and P086 as
 
 Most importantly, no independent commodity amounts, matched weights or metrological scale are available for these objects. The experiment therefore cannot calibrate a unit, prove that three strokes mean the number three, or translate a fish sign as a star, gemstone, commodity, or personal-name element. Its contribution is an auditable morphological constraint table and specific combinations to check against independent evidence.
 
+### 4.10 Paired-object catalogue correspondence
+
+Experiment 006 strictly joins first-face Mohenjo-daro catalogue IDs to uniquely labeled ICIT-export objects, requiring both transcriptions to be complete single-line strings of equal length. Of 179 candidate objects, {correspondence['accepted_pairs']} pairs are accepted and {correspondence['rejected_count']} excluded: 87 Parpola-ineligible, five length mismatches and two ICIT-ineligible. Equal length does not prove equal segmentation or object/face identity. Grouping connects exact/reversed strings in either catalogue, retaining repeated texts within partitions. Seed 42 produces 67 training, nine validation and nine test objects.
+
+On training positions, H(Parpola ID | ICIT ID) is {correspondence['orientation_train_entropy']['direct']:.3f} bits for direct alignment and {correspondence['orientation_train_entropy']['reversed']:.3f} when reversing the ICIT sequence. Reversed alignment is selected using training data alone. This is relative source-order evidence for these matched objects, not global photographic verification of reading direction. The earlier main-corpus positional results still refer to stored ICIT order, and have not been automatically reinterpreted as prefixes or suffixes.
+
+The learned majority correspondences correctly predict {correspondence['validation']['correct_positions']}/{correspondence['validation']['positions']} validation positions and {correspondence['test']['correct_positions']}/{correspondence['test']['positions']} test positions ({100*correspondence['test']['top1_rate_all_positions']:.1f} percent including unseen-ID failures). Source-ID coverage is {100*correspondence['test']['known_coverage']:.1f} percent on test data; {correspondence['test']['whole_sequences_correct']}/9 whole test sequences are correct. Known-source-only probabilistic loss is {correspondence['test']['known_source_logloss_bits']:.3f} bits/position using fixed additive 0.5 smoothing over training targets plus UNK; unknown target IDs collapse for this score. It does not measure translations.
+
+The shortlist contains {correspondence['review_priority_count']} training-derived review-priority correspondences, requiring at least three occurrences on two objects and >=90 percent agreement. Conflicting rows and unsuccessful objects remain in the output. Namespaces remain separate: no candidate mapping is treated as an independently glyph-verified equivalence, propagated to all inscriptions, or given a sound/meaning. Shared catalogue ancestry, source transcription errors, the face-ID assumption, small holdout and excluded segmentation disagreements limit independence. The result provides a reproducible path toward catalogue reconciliation needed before constrained interpretation.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -229,6 +240,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Allograph audit: {allograph['variant_ids']} morphology-coded variants of {allograph['base_ids']} base IDs in {allograph['eligible_objects']} clean annotated objects. Previous-variant histories did not improve next-base-sign prediction in five small holdouts.
 - Language-proxy rank reversal: conditional-entropy distance selects Sanskrit with word units and Tamil with letter-plus-mark units under matched lengths/token totals. This method cannot justify a family identification. Opaque derived samples and attribution are packaged for offline reproduction.
 - Described stroke counts depend on followers under height/position-preserving controls (two-test-adjusted p=0.004/0.008). All three followers with at least five events admit multiple counts. Graphic counts are not proven numerical values; no metrological scale or sign meaning is established.
+- Paired-object catalogue integration: 85 usable pairs; training selects reversed relative alignment. Held-out majority correspondence accuracy 31/39 positions, 82.1% source-ID coverage, 29 candidate mappings for glyph review. These are catalogue labels, not sound assignments.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''

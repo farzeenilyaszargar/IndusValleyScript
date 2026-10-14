@@ -36,11 +36,17 @@ Experiment 005 was committed and pushed before execution. A conservative catalog
 
 All three followers with >=5 examples admit multiple counts: P004 [3,4], P050 [1,2,3,4], P086 [3,4,6,8]. No numerical values, metrological scale, commodity labels or linguistic readings are established. Source object IDs and follower morphology are retained for audit. Three new checks bring the total to 19; local offline reproduction passes for all 35 analytical JSON artifacts. Methods and the visually reviewed eight-page paper version 0.5 incorporate both constraints and independent-quantity evidence gaps. The administrative paper's relevant numerical/rate passages were read; exact published glyph classes are not replicated.
 
+## Completed release 0.6 extension
+
+Experiment 006 joins 85 equal-length complete uniquely labeled object pairs and audits 94 exclusions (87 Parpola-ineligible, five unequal-length, two ICIT-ineligible). Copies linked through either catalogue share groups; seed 42 yields 67 train, nine validation and nine test objects. Training alignment entropy is 1.947 bits direct vs 0.087 reversed; reverse ICIT order is selected relative to normalized Parpola transcriptions.
+
+Held-out test: 31/39 correct positions, 32/39 source-ID coverage and two fully correct objects. Known-source-only log loss is 3.485 bits/position with additive 0.5 smoothing and collapsed unknown targets. Twenty-nine review-priority correspondences meet training support/purity thresholds; source Wells aliases agree, but this is shared-metadata consistency, not independent glyph verification. No namespace merge or sound/meaning propagation occurs. Four new checks bring the total to 23. Paper version 0.6 reports catalogue reconciliation as a prerequisite, not decipherment.
+
 ## Next substantive work
 
 1. Constrain prospective phonetic/rebus alignments through independent lexical or archaeological anchors; controlled representation comparison is now executed and rank reversal confirms that nearest entropy alone cannot select a family. Investigate matching vocabulary/sparse-estimator controls and other language families before alignment claims.
 2. Extend artifact-type controls and unequal-length/verified-family leakage audits; one-substitution component holdout is executed.
-3. Expand annotated graphic variant data and blind epigraphic review; the initial previous-variant prediction experiment is executed and gives no gain. Preserve morphology and uncertainty.
+3. Independently review the 29 candidate catalogue correspondences against glyphs and original object/face records, expand annotated variants, and investigate length-mismatch/alias conflicts. The initial previous-variant prediction gives no gain; preserve morphology and uncertainty.
 4. Expand hidden-state grammar size/families and inspect train-only posterior roles; compact HMMs tested so far are worse than bigrams.
 5. Expand graphic count/follower evidence beyond this small selected subset; obtain independently measured quantities, metrological contexts and verified glyph crosswalks before any numerical decoding. Current stroke-count experiment has no such external calibration.
 

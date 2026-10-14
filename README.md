@@ -23,7 +23,7 @@ Complete acquisition of every excavated sign and successful decipherment are ope
 - [Searchable catalogue](docs/SIGN_CATALOGUE.html) (download and open locally; remote images require network access)
 - [Data audit](docs/DATA.md), [literature](docs/LITERATURE.md), [remaining hypotheses](docs/HYPOTHESES.md)
 
-Release 0.5: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
+Release 0.6: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
 
 Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, including EOS and a collapsed unknown-sign event. This measures sequence predictability, not translation. No phonetic key or language family has been identified.
 
@@ -34,6 +34,8 @@ The [allograph experiment](docs/EXPERIMENT_003.md) audits and numerically encode
 The [language-proxy comparison](docs/EXPERIMENT_004.md) matches Indus text lengths/token totals across Tamil and Sanskrit word/letter-plus-mark samples. Conditional-entropy distance selects Sanskrit with words but Tamil with letter-plus-mark units. That representation-dependent reversal supplies no language identification. Attributed opaque numeric samples permit offline reproduction of the metric results.
 
 The [stroke-count experiment](docs/EXPERIMENT_005.md) exports described graphic counts and following-sign combinations. Dependence exceeds a height/position-preserving null, but the three best-supported followers all admit multiple counts. Graphic counts do not establish numerical values, weights or sign meanings.
+
+The [paired-object correspondence experiment](docs/EXPERIMENT_006.md) aligns 85 usable records across catalogues. It predicts 31/39 held-out positions and shortlists 29 correspondences for glyph review. These link catalogue labels, not sounds or meanings; mappings are not automatically propagated.
 
 ## Reproduce
 

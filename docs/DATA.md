@@ -36,6 +36,12 @@ The allograph experiment retains all 92 eligible clean object occurrences, inclu
 
 The prediction experiment compares the same next base-sign target while adding only the preceding sign's morphology. Target morphology is unavailable to its own prediction. It cannot establish allographic equivalence from a failed predictive gain.
 
+## Paired-object candidate crosswalk (release 0.6)
+
+`results/catalogue_correspondence.json` joins 85 uniquely labeled equal-length complete Mohenjo-daro object pairs. It retains all 94 rejected pairs, source positions, morphology, candidate distributions and held-out errors. Exact/reversed text copies in either catalogue share partitions. Training selects reversed relative ICIT alignment; this is evidence about matched source orders, not a blanket normalization rule for every object/site.
+
+Twenty-nine correspondences meet the declared review-priority thresholds; their target labels also agree with the supplied Wells alias fields. Alias agreement is source consistency, not independent confirmation. Face equivalence, glyph shape and shared catalogue ancestry still require review. Candidate mappings are never automatically substituted into analytical corpora or treated as phonetic values.
+
 ## Limits on inferred independence
 
 Exact and reversed texts are grouped in train/validation/test splits. This prevents one obvious leakage mode but does not group every artifact family, shared mold, copied formula, or near duplicate. Site holds exclude sequences attested in the target site, using all eligible raw rows rather than only the first deduplicated record.
