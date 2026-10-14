@@ -29,7 +29,7 @@ Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, inclu
 
 The [hidden-state and near-copy extension](docs/EXPERIMENT_002.md) finds that a validation-selected 8-state HMM is worse than bigrams (5.919 vs 5.461 bits/token). Grouping one-substitution neighbours preserves a 0.922-bit bigram advantage over unigrams. These are predictive constraints and negative model results, not decipherments.
 
-The [allograph experiment](docs/EXPERIMENT_003.md) audits and numerically encodes 210 morphological variants of 133 base signs in 92 eligible CISI objects. Adding preceding-sign morphology did not improve prediction in five small holdouts. [Candidate historical-language sources](docs/LANGUAGE_RESOURCES.md) are pinned for future comparison; no family identification is claimed.
+The [allograph experiment](docs/EXPERIMENT_003.md) audits and numerically encodes 210 morphological variants of 133 base signs in 92 eligible CISI objects. Adding preceding-sign morphology did not improve prediction in five small holdouts. [Candidate historical-language sources](docs/LANGUAGE_RESOURCES.md) are pinned for comparative work; no family identification is claimed.
 
 The [language-proxy comparison](docs/EXPERIMENT_004.md) matches Indus text lengths/token totals across Tamil and Sanskrit word/letter-plus-mark samples. Conditional-entropy distance selects Sanskrit with words but Tamil with letter-plus-mark units. That representation-dependent reversal supplies no language identification. Attributed opaque numeric samples permit offline reproduction of the metric results.
 

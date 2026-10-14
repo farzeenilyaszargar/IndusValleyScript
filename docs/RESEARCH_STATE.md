@@ -28,7 +28,7 @@ Upload history: two release-0.3 push attempts timed out connecting to github.com
 
 Experiment 004 creates 40 matched-length numeric samples across Tamil/Sanskrit and word/letter-plus-mark representations (seeds 17-26). Each sample has 2,156 snippets, exactly 9,221 tokens and the original Indus length list; frequency-preserving controls use 49 shuffles. Nearest mean conditional-entropy distance selects Sanskrit for words, Tamil for letter-plus-mark units. This rank reversal rejects that metric as a justified family identification in this setup. It supplies no phonetic assignment. Vocabulary sizes, duplicate windows, chronology and genre limitations are reported.
 
-Opaque samples are committed under attributed Tamil Apache-2.0 and Vedic CC BY-SA 4.0 terms. Scripts can regenerate samples from hash-verified cached sources; normal reproduction recomputes results from numeric samples without network. Original candidate documents and dictionaries are not packaged. Three new independent parsing/normalization/windowing checks bring the total to 16. The paper and methods ledger report the comparison; the full decipherment goal remains active.
+Opaque samples are committed under attributed Tamil Apache-2.0 and Vedic CC BY-SA 4.0 terms. Scripts can regenerate samples from hash-verified cached sources; normal reproduction recomputes results from numeric samples without network. Original candidate documents and dictionaries are not packaged. Three new independent parsing/normalization/windowing checks bring the total to 16. Local reproduction and Linux CI (run 38627526061, result commit 61833d1) pass. The seven-page paper version 0.4 was rendered and visually reviewed; the full decipherment goal remains active.
 
 ## Next substantive work
 

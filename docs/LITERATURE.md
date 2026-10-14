@@ -19,7 +19,12 @@ Reviewed 15 October 2026. These are methodological notes, not endorsements of pr
 - Rao et al., [A Markov model of the Indus script, PNAS (2009), author-hosted PDF](https://raw.githubusercontent.com/ronojoy/indus/cab6c2d881307825f24d7ed28f7ad62de800ae13/papers/MarkovModelIndusScript.pdf): PMC access encountered a browser check; the author's repository supplied the paper and supplement. Inspected abstract, rationale, corpus and missing-sign prediction passages. The authors use an EBUDS subset excluding ambiguous/multiline/repeated texts and discuss predicting missing signs through a most-probable completion. Our explicit-stop HMM is an independent extension, not a replication of that paper. The inspected author repository contains papers but no machine-readable transcription dataset.
 - Daggumati and Revesz, [A method of identifying allographs in undeciphered scripts and its application to the Indus Valley Script (2021)](https://www.nature.com/articles/s41599-021-00713-0): inspected abstract, data-source and direction/mirroring sections. The authors argue for merging certain mirrored/variant pairs using position and contextual evidence. Their proposals motivate allograph and orientation audits, but we have not adopted their proposed merges or established semantic equivalence. Visual review and independently verified crosswalks remain required.
 
-## Foundational catalogue access
+## Representation references for release 0.4
+
+- [Universal Dependencies CoNLL-U format](https://universaldependencies.org/format.html): inspected the token/word/empty-node conventions. Integer-ID rows supply syntactic word forms; multiword ranges and decimal empty nodes are different representations. Our extraction deliberately selects integer-ID non-punctuation FORM fields.
+- [Unicode Text Segmentation, UAX #29](https://www.unicode.org/reports/tr29/): consulted the distinction between Unicode codepoints and grapheme segmentation. Our experiment uses a declared simpler letter-plus-mark scheme, not a claim of full UAX #29 conformance or phonetic syllabification. These are format/representation references, not decipherment evidence.
+
+## Foundational catalogue access and limits
 
 Mahadevan's 1977 concordance; Parpola and collaborators' CISI volumes; Wells's inventories and ICIT documentation. They are foundational sources behind the digitizations, but a repository's attribution does not establish photographic verification of each entry. Catalogue identity and crosswalks require epigraphic review.
 
