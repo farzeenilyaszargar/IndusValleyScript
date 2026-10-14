@@ -1,0 +1,158 @@
+{
+  "design": "docs/EXPERIMENT_002.md",
+  "split_seed": 42,
+  "train": 1723,
+  "validation": 216,
+  "test": 217,
+  "selection": "validation loss only, state count/initialization/checkpoint selected from 18 candidates",
+  "candidates": [
+    {
+      "states": 2,
+      "initialization_seed": 17,
+      "iteration": 5,
+      "training_bits": 6.234943466971638,
+      "validation_bits": 6.448450780960347
+    },
+    {
+      "states": 2,
+      "initialization_seed": 17,
+      "iteration": 10,
+      "training_bits": 5.978832966877352,
+      "validation_bits": 6.248122802313608
+    },
+    {
+      "states": 2,
+      "initialization_seed": 17,
+      "iteration": 20,
+      "training_bits": 5.966075760853816,
+      "validation_bits": 6.247840400485677
+    },
+    {
+      "states": 2,
+      "initialization_seed": 29,
+      "iteration": 5,
+      "training_bits": 6.055662048486378,
+      "validation_bits": 6.300709829378564
+    },
+    {
+      "states": 2,
+      "initialization_seed": 29,
+      "iteration": 10,
+      "training_bits": 5.970735789679795,
+      "validation_bits": 6.242790906124972
+    },
+    {
+      "states": 2,
+      "initialization_seed": 29,
+      "iteration": 20,
+      "training_bits": 5.9665789063991435,
+      "validation_bits": 6.246464064418232
+    },
+    {
+      "states": 4,
+      "initialization_seed": 17,
+      "iteration": 5,
+      "training_bits": 6.158378749386578,
+      "validation_bits": 6.369427222553415
+    },
+    {
+      "states": 4,
+      "initialization_seed": 17,
+      "iteration": 10,
+      "training_bits": 5.914935620059377,
+      "validation_bits": 6.183239021533771
+    },
+    {
+      "states": 4,
+      "initialization_seed": 17,
+      "iteration": 20,
+      "training_bits": 5.749487978624848,
+      "validation_bits": 6.075674754621008
+    },
+    {
+      "states": 4,
+      "initialization_seed": 29,
+      "iteration": 5,
+      "training_bits": 6.072524930411199,
+      "validation_bits": 6.301914522905711
+    },
+    {
+      "states": 4,
+      "initialization_seed": 29,
+      "iteration": 10,
+      "training_bits": 5.8190409522313065,
+      "validation_bits": 6.118163314198285
+    },
+    {
+      "states": 4,
+      "initialization_seed": 29,
+      "iteration": 20,
+      "training_bits": 5.717610308252032,
+      "validation_bits": 6.0387777505615485
+    },
+    {
+      "states": 8,
+      "initialization_seed": 17,
+      "iteration": 5,
+      "training_bits": 6.029066319627472,
+      "validation_bits": 6.239699614148667
+    },
+    {
+      "states": 8,
+      "initialization_seed": 17,
+      "iteration": 10,
+      "training_bits": 5.7631654520279065,
+      "validation_bits": 6.066832938538865
+    },
+    {
+      "states": 8,
+      "initialization_seed": 17,
+      "iteration": 20,
+      "training_bits": 5.458300921126149,
+      "validation_bits": 5.913932238572029
+    },
+    {
+      "states": 8,
+      "initialization_seed": 29,
+      "iteration": 5,
+      "training_bits": 5.985528389129382,
+      "validation_bits": 6.187388121696272
+    },
+    {
+      "states": 8,
+      "initialization_seed": 29,
+      "iteration": 10,
+      "training_bits": 5.681162434217143,
+      "validation_bits": 5.972144342791625
+    },
+    {
+      "states": 8,
+      "initialization_seed": 29,
+      "iteration": 20,
+      "training_bits": 5.444985628155999,
+      "validation_bits": 5.900118534699602
+    }
+  ],
+  "selected": {
+    "states": 8,
+    "initialization_seed": 29,
+    "iteration": 20,
+    "training_bits": 5.444985628155999,
+    "validation_bits": 5.900118534699602
+  },
+  "hmm_test_bits": 5.918803698124215,
+  "bigram_test_bits": 5.461337276648449,
+  "bigram_strength": 20,
+  "hmm_vs_bigram": {
+    "improvement_bits": -0.45746642147576577,
+    "bootstrap95": [
+      -0.5829464948167928,
+      -0.34273746873392386
+    ],
+    "resampling_unit": "exact/reverse group",
+    "groups": 215
+  },
+  "unknown_test_tokens": 30,
+  "scoring": "Generative sign sequence plus STOP; denominator signs+1; unseen IDs map to one UNK event",
+  "limitation": "Single reused exploratory test split; compact tested grammar, not a decipherment or semantic model."
+}

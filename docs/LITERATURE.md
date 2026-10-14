@@ -16,6 +16,13 @@ Reviewed 15 October 2026. These are methodological notes, not endorsements of pr
 
 ## Foundational catalogues to obtain and verify directly
 
+## Additional sources for release 0.2
+
+- Rao et al., [A Markov model of the Indus script, PNAS (2009)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2721819/): accessible indexed abstract/method summaries motivate grammar induction. Direct PMC page access encountered a browser check; full-text reading was not completed in this extension. Our explicit-stop HMM experiment is an independent model test rather than replication of that paper.
+- Daggumati and Revesz, [A method of identifying allographs in undeciphered scripts and its application to the Indus Valley Script (2021)](https://www.nature.com/articles/s41599-021-00713-0): inspected abstract, data-source and direction/mirroring sections. The authors argue for merging certain mirrored/variant pairs using position and contextual evidence. Their proposals motivate allograph and orientation audits, but we have not adopted their proposed merges or established semantic equivalence. Visual review and independently verified crosswalks remain required.
+
+## Foundational catalogue access
+
 Mahadevan's 1977 concordance; Parpola and collaborators' CISI volumes; Wells's inventories and ICIT documentation. They are foundational sources behind the digitizations, but a repository's attribution does not establish photographic verification of each entry. Catalogue identity and crosswalks require epigraphic review.
 
 ## Working language hypotheses

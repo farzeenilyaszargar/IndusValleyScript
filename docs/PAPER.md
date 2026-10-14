@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.1 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.2 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -50,6 +50,12 @@ Operational initial, medial, final, singleton, flexible, and rare classes use tr
 
 The CISI morphology experiment uses conservative catalogue sets: fish P048-P065 and simple stroke groups P121-P130, P144, P145, P147, P150, P151. We count tally-before-fish in the source-supported reading order and compare to 499 within-text permutations. These sets were refined after an initial description search included complex signs; the result is exploratory, not preregistered. Stroke groups are not assigned actual numerical values.
 
+### 3.4 Hidden-state grammar and near-copy extension
+
+The extension design was committed before execution in docs/EXPERIMENT_002.md, after prior exploration of the same corpus. We fit generative hidden Markov models with 2, 4, or 8 hidden states, initialization seeds 17 and 29, and 5/10/20-iteration EM checkpoints. Eighteen configurations are selected by seed-42 validation loss only. Emissions use a training-unigram prior with strength 5; start and transition/stop events receive pseudo-count 0.5. Explicit per-state stop probabilities give a variable-length likelihood. The denominator is signs plus one stop event; unseen sign IDs collapse to UNK. States remain abstract, without semantic or phonetic values. Scaled forward/backward computations were checked against exhaustive hidden-path enumeration in a small independent test case.
+
+For near-copy sensitivity, canonical exact/reversed sequences of equal length at least three are linked if either orientation differs by one sign. Connected components remain together in train/validation/test; two-sign and singleton texts receive only exact/reverse grouping. We shuffle components with seed 42 and allocate 80/10/10 percent by component count, reporting actual text proportions. Confidence intervals resample components. These are similarity groups, not verified artifact families, and transitive links can join otherwise different texts.
+
 ## 4. Results
 
 ### 4.1 Sequence constraints
@@ -92,6 +98,16 @@ In the clean CISI subset, 17 simple-stroke-before-fish adjacencies occur, versus
 
 Ten different bijective assignments of abstract syllable labels preserve conditional entropy exactly, to numerical precision. For 637 distinct labels there are 637! possible bijections, about 10^1511.4. This is a label-invariance demonstration, not a count of historically viable languages. It establishes that frequency and adjacency statistics alone cannot select the actual label meanings. A configured numerical grammar is achievable; recovery of the historical spoken language requires additional constraints.
 
+### 4.5 Hidden-state grammar: a negative predictive result
+
+Validation selects 8 states, initialization seed 29, and 20 EM iterations. Its test loss is 5.919 bits/token, compared to 5.461 for the validation-selected bigram. HMM improvement is -0.457 bits/token, with grouped bootstrap interval [-0.583, -0.343]. Thus the tested compact HMM family performs worse. This does not reject all latent grammars or linguistic interpretations; the parameterization, priors, training duration and short texts constrain the test. The chosen state count lies at the largest tested value, so the experiment does not establish an optimal state count. Exported emissions and posterior positional profiles are structural descriptions, not deciphered categories.
+
+### 4.6 Near-copy robustness
+
+In the original seed-42 split, 57 of 169 test texts of length at least three (33.7 percent) have a one-sign neighbour in training. The new graph has 1,713 connected components; the largest contains 74 canonical sequences. Component splitting produces 1,690 training, 235 validation, and 231 test texts.
+
+On this new holdout, unigram loss is 6.527 and bigram loss 5.606 bits/token. Improvement is 0.922, with component-bootstrap interval [0.755, 1.077]. Prediction gains therefore survive this conservative similarity grouping. The change from the earlier score is not a causal measurement of leakage, since holdout size and composition differ. The comparison does not remove relationships between unequal-length texts or establish actual archaeological independence.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate (36.1 percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -102,7 +118,7 @@ The next useful steps are independent photo verification, allograph sensitivity,
 
 ## 6. Reproducibility and research disclosure
 
-All reported experiments were executed locally. Scripts use Python's standard library for acquisition and analysis; ReportLab is optional for PDF export. Source revisions, hashes, filtering decisions, split groups, sampled null entropies, learned vectors, and test outputs are committed. Run scripts/acquire.py, normalize.py, test_pipeline.py, analyze.py, extended.py, catalogue.py, and report.py in that order. The methods ledger distinguishes executed, revised, and pending work. The PDF is generated from this Markdown source.
+All reported experiments were executed locally. Scripts use Python's standard library for acquisition and analysis; ReportLab is optional for PDF export. Source revisions, hashes, filtering decisions, split groups, sampled null entropies, learned vectors, and test outputs are committed. Run scripts/reproduce.py --check to verify source hashes, tests and regenerated analytical outputs (exact structure and values, floating-point tolerance 1e-12). Fresh acquisition is a separate optional network step. The methods ledger distinguishes executed, revised, and pending work. The PDF is generated from this Markdown source.
 
 Codex drafted code, literature notes, and text and executed the analyses. No specialist epigrapher has reviewed the transcription choices or semantic interpretation. This paper is an evolving research artifact, not a journal submission. Code and data: https://github.com/farzeenilyaszargar/IndusValleyScript
 

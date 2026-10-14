@@ -1,0 +1,53 @@
+{
+  "design": "docs/EXPERIMENT_002.md",
+  "components": 1713,
+  "component_canonical_sequence_sizes": {
+    "1": 1570,
+    "2": 82,
+    "3": 25,
+    "4": 10,
+    "5": 11,
+    "6": 4,
+    "7": 1,
+    "8": 2,
+    "9": 1,
+    "10": 1,
+    "12": 1,
+    "16": 1,
+    "19": 1,
+    "21": 1,
+    "32": 1,
+    "74": 1
+  },
+  "largest_component": 74,
+  "train_texts": 1690,
+  "validation_texts": 235,
+  "test_texts": 231,
+  "original_test_eligible_length_at_least_3": 169,
+  "original_test_with_train_neighbour": 57,
+  "original_test_neighbour_fraction": 0.33727810650887574,
+  "scores": {
+    "1": {
+      "strength": 1,
+      "validation_bits": 6.445636866100932,
+      "test_bits": 6.527114889466279
+    },
+    "2": {
+      "strength": 100,
+      "validation_bits": 5.491748117884375,
+      "test_bits": 5.605576789196997
+    }
+  },
+  "bigram_improvement": {
+    "improvement_bits": 0.9215381002692828,
+    "bootstrap95": [
+      0.7545434766767039,
+      1.0765320377362981
+    ],
+    "resampling_unit": "provided component",
+    "groups": 172
+  },
+  "unknown_test_tokens": 29,
+  "group_rule": "equal length >=3, one sign substitution in either orientation; transitive closure; exact/reverse canonical",
+  "limitation": "Similarity components are not verified artifact families; component-based split has unequal text proportions and different difficulty."
+}

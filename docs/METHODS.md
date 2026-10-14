@@ -37,6 +37,9 @@ Started 15 October 2026 (Asia/Kolkata). This file distinguishes completed experi
 | Filtering sensitivity | results/sensitivity.json | Descriptive subsets: length>=3, R/L metadata only, eligible rows retaining duplicate occurrences |
 | Correctness and repeatability checks | scripts/test_pipeline.py; scripts/reproduce.py | Damage handling, exact/reverse split isolation, probability normalization, shuffle invariants, relabel invariance; exact JSON structure/labels/counts with float tolerance 1e-12 |
 | Research paper | PAPER.md; output/pdf/indus_structural_research.pdf | Generated from executed outputs; PDF rendered and visually reviewed |
+| Hidden-state stochastic grammar | results/latent_grammar.json; latent_grammar_parameters.json | 18 validation-selected candidates; selected 8-state model scores 5.919 bits/token vs bigram 5.461. HMM gain -0.457, grouped interval [-0.583,-0.343]; negative result for this tested family |
+| Near-copy overlap audit and component holdout | results/near_copy.json; near_copy_groups.json | 57/169 original eligible test texts have training neighbours. Grouped holdout retains 0.922-bit bigram gain, component interval [0.755,1.077]; similarity groups are not verified artifact families |
+| HMM numerical validation | scripts/test_latent.py | Three tests compare likelihood/posteriors against exhaustive path enumeration, verify parameter mass after EM, and verify near-copy grouping |
 
 ## Revisions, errors corrected, and negative results
 
@@ -48,13 +51,15 @@ Started 15 October 2026 (Asia/Kolkata). This file distinguishes completed experi
 - A guessed ACL URL resolved to an unrelated article and was excluded; the actual critique and reply were retrieved by title.
 - Local byte-identical reproduction passed. Linux CI showed floating-point serialization differences in four result files. The cross-platform check now requires exact structure, IDs, labels and counts, and numerical equality within 1e-12; it fails with a precise location for larger drift. Source snapshots still require exact SHA-256 equality.
 - Bootstrap resampling was tightened to exact/reverse groups rather than individual sequences, keeping mirrored texts together in confidence intervals as well as dataset splits. The small interval changes do not alter the reported prediction conclusions.
+- Experiment 002 was designed and committed before its execution, on an already explored corpus. Tested 2/4/8 HMM states, seeds 17/29 and 5/10/20 EM checkpoints. Validation selects the largest tested state count; the experiment does not establish an optimal number of states. All tested configurations and the selected model are preserved, including the worse-than-bigram result.
+- Near-copy confidence intervals resample whole similarity components. Transitive one-substitution groups are a leakage sensitivity test, not a replacement for archaeological family annotation. Different-length neighbours remain a resource gap.
 
 ## Pending methods and resource gaps
 
 1. Independent photographic verification, orientation review, complete inventory acquisition and catalogue crosswalk validation.
 2. Blind allograph split/merge experiments and uncertainty propagation.
-3. Artifact/mold/family splits, near-duplicate analysis and metadata-conditioned models.
-4. HMM/latent grammar fitting, nonlocal dependency tests, richer administrative baselines.
+3. Verified artifact/mold/family splits, unequal-length near-duplicate analysis and metadata-conditioned models; one-substitution sensitivity is now executed.
+4. Expanded latent grammar families and state-count range, nonlocal dependency tests, richer administrative baselines; compact HMM experiment is now executed.
 5. Licensed historical corpora and matched grapheme comparisons for Dravidian, Indo-Aryan, Austroasiatic and other hypotheses.
 6. Constrained multilingual/rebus alignment with external lexical anchors, chronology and equal-complexity alternative mappings.
 7. Number/quantity reconstruction using stroke counts, metrology and independently identified archaeological contexts.
