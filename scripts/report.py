@@ -11,6 +11,11 @@ def main():
     g=read('grammar');fish=read('numeral_fish');slot=read('slot_control');site=read('site_transfer')
     latent=read('latent_grammar');near=read('near_copy')
     allograph=read('allograph_history')
+    language=read('language_representation')
+    language_rows='\n'.join(f'| {name.replace("_"," ")} | {r["summary"]["conditional_bits"]["mean"]:.3f} | '
+        f'{r["summary"]["order_constraint_bits"]["mean"]:.3f} | '
+        f'{r["summary"]["absolute_conditional_entropy_distance"]["mean"]:.3f} |'
+        for name,r in language['comparison'].items())
     mean=lambda order:S.mean(r[f'order_{order}']['test_bits_per_token_including_EOS'] for r in models)
     audit=json.loads((ROOT/'data/processed/audit.json').read_text())
     rows='\n'.join(f'| {r["seed"]} | {r["order_1"]["test_bits_per_token_including_EOS"]:.3f} | '
@@ -26,7 +31,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.3 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.4 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -52,7 +57,7 @@ The explorer image directory at commit 8dc5837469bc6694c05f9b310eee90b08399df9e 
 
 Dense integers are assigned independently by namespace, reserving PAD, UNK, BOS, and EOS. Integer distance has no linguistic meaning. ICIT strings retain stored order; metadata does not establish whether that order is already normalized. Initial/final labels therefore denote stored positions. CISI strings are reversed according to the source's explicit sealing transcription convention. Different catalogues are not merged by matching numbers.
 
-For future language comparison we acquired pinned candidate Classical Tamil verses (Akananuru and Purananuru) and UD Vedic Sanskrit word-form data. Acquisition hashes and coverage are recorded in docs/language_resource_inventory.json; raw files remain outside tracked artifacts. The Tamil repository declares Apache 2.0 and the Vedic treebank CC BY-SA 4.0. Missing Akananuru edition links and differences between Sanskrit README counts and actual snapshot counts are documented. These later literary proxies have not been aligned to Indus signs. Corpus availability does not establish chronology, linguistic descent, or comparability of written units.
+For representation-sensitivity comparison we acquired pinned candidate Classical Tamil verses (Akananuru and Purananuru) and UD Vedic Sanskrit word-form data. Acquisition hashes and coverage are recorded in docs/language_resource_inventory.json; raw files remain outside tracked artifacts. The Tamil repository declares Apache 2.0 and the Vedic treebank CC BY-SA 4.0. Opaque derived numeric samples with attributed licenses are packaged for offline metric reproduction. Missing Akananuru edition links and differences between Sanskrit README counts and actual snapshot counts are documented. These later literary proxies have not been phonetically aligned to Indus signs. Corpus availability does not establish chronology, linguistic descent, or comparability of written units.
 
 ## 3. Methods and validation design
 
@@ -138,11 +143,23 @@ Both prediction models target the same next base sign. The alternative uses only
 
 Across five small holdouts of ten canonical groups, variant-history improvements range from {min(r['variant_improvement']['improvement_bits'] for r in allograph['runs']):.3f} to {max(r['variant_improvement']['improvement_bits'] for r in allograph['runs']):.3f} bits/token, averaging {S.mean(r['variant_improvement']['improvement_bits'] for r in allograph['runs']):.3f}. All five point estimates favour base bigrams, while four confidence intervals overlap zero. This supplies no positive predictive support for this representation. It does not prove the variants have identical meanings or sounds: variant histories are sparse, and the sample is geographically narrow. The five holdouts overlap, so they are not five independent negative discoveries. Sound assignments or sign merging would require independent epigraphic and linguistic evidence.
 
+### 4.8 Language-proxy representation sensitivity
+
+Experiment 004 uses ten seeded matched-length samples for each of four conditions: Tamil words, Tamil letter-plus-mark clusters, Sanskrit words, and Sanskrit letter-plus-mark clusters. Every sample contains the exact Indus length list, 2,156 snippets and 9,221 tokens. A document eligible for each length is chosen uniformly, then a contiguous window is chosen uniformly, with replacement. No window crosses a document. Tamil documents are individual verses; Vedic documents are sentence blocks, using all upstream splits for descriptive sampling rather than predictive evaluation. Word/cluster normalization and source hashes are fixed before execution. Letter clusters group a Unicode base letter with following marks; they are not full extended grapheme clusters, phonetic syllables, or Sanskrit aksharas. Word separators are omitted from the cluster stream. Translations and semantic annotations do not supply Indus values.
+
+| Proxy and unit | Mean H conditional | Mean shuffle-minus-real | Distance to Indus H |
+|---|---|---|---|
+{language_rows}
+
+All scores are in bits; Indus H conditional is {language['indus']['conditional_bits']:.3f}, and its matched 49-shuffle-minus-real value is {language['indus']['order_constraint_bits']:.3f}. Ranking by mean absolute conditional-entropy distance selects {language['nearest_proxy_by_representation']['words'].replace('_',' ')} for word units and {language['nearest_proxy_by_representation']['letter_marks'].replace('_',' ')} for letter-plus-mark units. The rank reversal is a negative result for using this single distance as a language identifier. The apparent winner depends on representation even with equal text lengths and token totals.
+
+The sampled vocabulary sizes differ substantially: about 6,677 Tamil word types, 4,409 Sanskrit word types, 202 Tamil cluster types and 36 Sanskrit cluster types, versus 637 Indus sign types. Sparse word counts force low empirical conditional entropy even in frequency-preserving shuffles, illustrating estimator bias rather than low true language entropy. Sampling also produces duplicates: mean counts range from about 9 Tamil word windows to 363 Sanskrit cluster windows. Samples are not deduplicated because exact length matching is the declared design; overlap and document reuse remain limitations. The 49 shuffled trials have p-value resolution 0.02 and are descriptive controls, not decisive linguistic evidence. No language-family assignment, sign/word equivalence or phonetic key follows from the comparison.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
 
-The models establish conditional predictability under declared controls. They cannot determine whether that structure encodes phonology, names, quantities, transactions, or a mixture. Fitting an unconstrained rebus or a surname list would risk selecting the desired answer through researcher flexibility. No Proto-Dravidian, Indo-Aryan, Austroasiatic, or isolate mapping has been tested on historically matched, independently held-out language corpora in this release.
+The models establish conditional predictability under declared controls. They cannot determine whether that structure encodes phonology, names, quantities, transactions, or a mixture. Fitting an unconstrained rebus or a surname list would risk selecting the desired answer through researcher flexibility. Later Tamil and Sanskrit proxies have now been compared structurally under fixed representation choices; no Proto-Dravidian, Indo-Aryan, Austroasiatic, or isolate phonetic mapping has been tested on historically matched, independently held-out language corpora in this release.
 
 The next useful steps are independent photo verification, allograph sensitivity, family-aware splitting, contextual prediction by object class, and constrained comparison with appropriately licensed historical corpora. A decipherment claim should require fixed values that translate unseen material and predict independent archaeological or bilingual observations. Exhaustive acquisition and genuine decipherment remain open objectives.
 
@@ -188,6 +205,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Validation-selected HMM: {latent['hmm_test_bits']:.3f} vs bigram {latent['bigram_test_bits']:.3f} bits/token; the tested HMM is worse.
 - Near-copy component holdout: unigram {near['scores']['1']['test_bits']:.3f}, bigram {near['scores']['2']['test_bits']:.3f} bits/token; grouped gain {near['bigram_improvement']['improvement_bits']:.3f} with 95% interval [{near['bigram_improvement']['bootstrap95'][0]:.3f}, {near['bigram_improvement']['bootstrap95'][1]:.3f}].
 - Allograph audit: {allograph['variant_ids']} morphology-coded variants of {allograph['base_ids']} base IDs in {allograph['eligible_objects']} clean annotated objects. Previous-variant histories did not improve next-base-sign prediction in five small holdouts.
+- Language-proxy rank reversal: conditional-entropy distance selects Sanskrit with word units and Tamil with letter-plus-mark units under matched lengths/token totals. This method cannot justify a family identification. Opaque derived samples and attribution are packaged for offline reproduction.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''

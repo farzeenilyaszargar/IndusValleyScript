@@ -22,11 +22,17 @@ Candidate historical-language resources are now cached locally through scripts/l
 
 Thirteen correctness checks and offline numerical reproduction pass. Paper version 0.3 incorporates the allograph experiment; the research goal remains active and no decipherment is claimed.
 
-Upload status: experiment design 99d406d was pushed successfully. Two subsequent push attempts timed out connecting to github.com port 443; a separate bounded HTTPS probe also timed out. The result/resource commit 8c32783 and reviewed-paper commit f7aacf2 are preserved locally, followed by this continuation-state note. No Linux CI result is claimed for these pending commits. At the next continuation, inspect current Git state and retry `git push origin main`; do not recreate commits or force-push.
+Upload history: two release-0.3 push attempts timed out connecting to github.com port 443. On the release-0.4 continuation, push succeeded and uploaded 8c32783, f7aacf2 and cb40365; the Experiment 004 design was also committed and pushed before execution. Inspect current remote/CI state before asserting validation of any newer commit.
+
+## Completed release 0.4 extension
+
+Experiment 004 creates 40 matched-length numeric samples across Tamil/Sanskrit and word/letter-plus-mark representations (seeds 17-26). Each sample has 2,156 snippets, exactly 9,221 tokens and the original Indus length list; frequency-preserving controls use 49 shuffles. Nearest mean conditional-entropy distance selects Sanskrit for words, Tamil for letter-plus-mark units. This rank reversal rejects that metric as a justified family identification in this setup. It supplies no phonetic assignment. Vocabulary sizes, duplicate windows, chronology and genre limitations are reported.
+
+Opaque samples are committed under attributed Tamil Apache-2.0 and Vedic CC BY-SA 4.0 terms. Scripts can regenerate samples from hash-verified cached sources; normal reproduction recomputes results from numeric samples without network. Original candidate documents and dictionaries are not packaged. Three new independent parsing/normalization/windowing checks bring the total to 16. The paper and methods ledger report the comparison; the full decipherment goal remains active.
 
 ## Next substantive work
 
-1. Use the acquired candidate corpora for controlled unit/genre/short-text structural comparison; explicitly test the effect of representation and avoid interpreting a nearest curve as a language identification. Establish chronology, document grouping, and normalization before constrained alignment.
+1. Constrain prospective phonetic/rebus alignments through independent lexical or archaeological anchors; controlled representation comparison is now executed and rank reversal confirms that nearest entropy alone cannot select a family. Investigate matching vocabulary/sparse-estimator controls and other language families before alignment claims.
 2. Extend artifact-type controls and unequal-length/verified-family leakage audits; one-substitution component holdout is executed.
 3. Expand annotated graphic variant data and blind epigraphic review; the initial previous-variant prediction experiment is executed and gives no gain. Preserve morphology and uncertainty.
 4. Expand hidden-state grammar size/families and inspect train-only posterior roles; compact HMMs tested so far are worse than bigrams.

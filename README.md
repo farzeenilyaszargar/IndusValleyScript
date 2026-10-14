@@ -23,13 +23,15 @@ Complete acquisition of every excavated sign and successful decipherment are ope
 - [Searchable catalogue](docs/SIGN_CATALOGUE.html) (download and open locally; remote images require network access)
 - [Data audit](docs/DATA.md), [literature](docs/LITERATURE.md), [remaining hypotheses](docs/HYPOTHESES.md)
 
-Release 0.3: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
+Release 0.4: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
 
 Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, including EOS and a collapsed unknown-sign event. This measures sequence predictability, not translation. No phonetic key or language family has been identified.
 
 The [hidden-state and near-copy extension](docs/EXPERIMENT_002.md) finds that a validation-selected 8-state HMM is worse than bigrams (5.919 vs 5.461 bits/token). Grouping one-substitution neighbours preserves a 0.922-bit bigram advantage over unigrams. These are predictive constraints and negative model results, not decipherments.
 
 The [allograph experiment](docs/EXPERIMENT_003.md) audits and numerically encodes 210 morphological variants of 133 base signs in 92 eligible CISI objects. Adding preceding-sign morphology did not improve prediction in five small holdouts. [Candidate historical-language sources](docs/LANGUAGE_RESOURCES.md) are pinned for future comparison; no family identification is claimed.
+
+The [language-proxy comparison](docs/EXPERIMENT_004.md) matches Indus text lengths/token totals across Tamil and Sanskrit word/letter-plus-mark samples. Conditional-entropy distance selects Sanskrit with words but Tamil with letter-plus-mark units. That representation-dependent reversal supplies no language identification. Attributed opaque numeric samples permit offline reproduction of the metric results.
 
 ## Reproduce
 

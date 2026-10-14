@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.3. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.4. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -44,6 +44,9 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.3. This file distingui
 | Previous-allograph-history prediction | results/allograph_history.json | Same next-base-sign target; validation-selected strengths; five exact/reverse-group holds. Mean change -0.080 bits/token, all point estimates worse; four intervals overlap zero. No evidence to assign distinct sounds or merge variants |
 | Allograph model checks | scripts/test_allographs.py | Four checks: variant identity excludes layout/confidence, probabilities normalize, unseen histories back off, base duplicates share splits, and target morphology does not predict its own target |
 | Historical-language resource acquisition | scripts/language_inventory.py; docs/language_resource_inventory.json | Pinned Tamil and Vedic Sanskrit candidates downloaded into ignored local cache; file hashes and coverage audited. No alignment or language identification experiment reported yet |
+| Controlled language-proxy representation comparison | results/language_representation.json; data/language_samples | 40 numeric samples, ten seeds for each of two languages/two units; exact Indus lengths and 9,221 tokens per sample; 49 matched-frequency permutations per sample. Entropy distance ranks Sanskrit nearer for words, Tamil nearer for letter-plus-mark units. No family inference |
+| Source normalization and sampling validation | scripts/test_language_compare.py | Three tests verify canonical/mark normalization including Tamil spacing marks, CoNLL-U ranges/empty-node/punctuation exclusions, exact lengths and no document crossing |
+| Licensed opaque sample packaging | data/language_samples/ATTRIBUTION.md; manifest.json | Numeric samples, source-document metadata and window offsets are committed with Tamil Apache-2.0 and Vedic CC BY-SA 4.0 attribution. Token dictionaries and original text documents stay local; metric recomputation is network-free |
 
 ## Revisions, errors corrected, and negative results
 
@@ -57,6 +60,7 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.3. This file distingui
 - Bootstrap resampling was tightened to exact/reverse groups rather than individual sequences, keeping mirrored texts together in confidence intervals as well as dataset splits. The small interval changes do not alter the reported prediction conclusions.
 - Experiment 002 was designed and committed before its execution, on an already explored corpus. Tested 2/4/8 HMM states, seeds 17/29 and 5/10/20 EM checkpoints. Validation selects the largest tested state count; the experiment does not establish an optimal number of states. All tested configurations and the selected model are preserved, including the worse-than-bigram result.
 - Near-copy confidence intervals resample whole similarity components. Transitive one-substitution groups are a leakage sensitivity test, not a replacement for archaeological family annotation. Different-length neighbours remain a resource gap.
+- Experiment 004 changes its nearest-proxy ranking when only representation changes: word distances favour Sanskrit, letter-plus-mark distances favour Tamil. Vocabulary/sparse-estimator and duplicate-window effects remain visible. This is a failed family-identification criterion, not positive evidence for either candidate.
 
 ## Pending methods and resource gaps
 
