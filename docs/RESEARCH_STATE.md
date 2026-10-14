@@ -10,7 +10,9 @@ Pinned data, verified 715 glyph file references, separate 395-entry Parpola cata
 
 ## Completed release 0.2 extension
 
-Experiment 002 was committed before execution. An explicit-stop HMM tested 18 configurations selected on validation; chosen 8-state model scores 5.919 vs bigram 5.461 bits/token, a negative result. One-substitution near-copy components yield unigram/bigram scores 6.527/5.606; grouped gain 0.922 with interval [0.755,1.077]. 57/169 original length>=3 test texts have training neighbours. Three new numerical/grouping tests pass. Posterior parameters and component assignments are exported. Paper and ledger incorporate both results.
+Experiment 002 was committed before execution. An explicit-stop HMM tested 18 configurations selected on validation; chosen 8-state model scores 5.919 vs bigram 5.461 bits/token, a negative result. One-substitution near-copy components yield unigram/bigram scores 6.527/5.606; grouped gain 0.922 with interval [0.755,1.077]. 57/169 original length>=3 test texts have training neighbours. Three new numerical/grouping tests pass. Posterior parameters and component assignments are exported. Paper and ledger incorporate both results. Local reproduction and Linux GitHub CI passed, including all nine correctness checks. The updated six-page PDF was rendered and visually reviewed.
+
+The author-hosted PNAS Markov paper and supplement are available in ronojoy/indus at commit cab6c2d881307825f24d7ed28f7ad62de800ae13; abstract/rationale/corpus/missing-sign passages were inspected. That repository contains no machine-readable transcriptions. A local untracked copy is in .cache/MarkovModelIndusScript.pdf. The paper's most-probable completion approach is useful for future multi-damage restoration tests, which must be validated by masking untouched texts before use on genuinely damaged objects.
 
 ## Next substantive work
 

@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.2. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -10,7 +10,7 @@ Started 15 October 2026 (Asia/Kolkata). This file distinguishes completed experi
 - Identified that `xlits.csv` contains speculative sound assignments and canonical sign conflations; excluded it from analytical input.
 - Began reading original research on n-grams, entropy, networks, rebus interpretation, and critiques of linguistic inference.
 
-## Executed experiments (release 0.1)
+## Executed experiments
 
 | Method | Output | Finding |
 |---|---|---|

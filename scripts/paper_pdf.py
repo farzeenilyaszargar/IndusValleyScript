@@ -34,7 +34,7 @@ def main():
                     rows.append([paragraph(x,'PaperTable') for x in cells])
                 i+=1
             widths=([160,90,90,92] if len(rows[0])==4 else [40,88,88,88,64,64])
-            table=Table(rows,colWidths=widths,repeatRows=1,hAlign='LEFT')
+            table=Table(rows,colWidths=widths,repeatRows=1,hAlign='LEFT',splitByRow=0)
             table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e7efed')),
                 ('LINEBELOW',(0,0),(-1,0),.8,colors.HexColor('#37625b')),
                 ('LINEBELOW',(0,1),(-1,-1),.3,colors.HexColor('#dddddd')),
