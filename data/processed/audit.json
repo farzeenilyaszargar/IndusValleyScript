@@ -1,0 +1,39 @@
+{
+  "icit_raw_rows": 5679,
+  "icit_eligible_rows": 3591,
+  "icit_unique_sequences": 2156,
+  "icit_observed_ids_all_records": 712,
+  "icit_unique_tokens": 9221,
+  "icit_unique_signs": 637,
+  "icit_exclusions": {
+    "unknown_or_separator": 1346,
+    "damaged_boundary_multiline_or_nonstandard": 1544
+  },
+  "cisi_sides": 179,
+  "cisi_clean_unique": 91,
+  "parpola_catalog_signs_excluding_damage": 395,
+  "glyph_reference_ids_excluding_placeholders": 715,
+  "observed_icit_ids_without_glyph_reference": [
+    "043",
+    "237",
+    "463",
+    "514",
+    "643",
+    "759",
+    "839"
+  ],
+  "glyph_reference_ids_not_observed": [
+    "114",
+    "258",
+    "275",
+    "289",
+    "399",
+    "726",
+    "867",
+    "873",
+    "954",
+    "955"
+  ],
+  "orientation": "ICIT stored order, not asserted reading order; CISI reversed per source convention",
+  "inventory_limit": "Public source coverage only, not every excavated sign; catalogues disagree on allographs."
+}

@@ -1,0 +1,2344 @@
+{
+  "sources": {
+    "cisi": [
+      "mayig/indus-valley-script-corpus",
+      "ad2f1e218a34b8c33c57de0d6cb8d99272765bbb"
+    ],
+    "field": [
+      "field-cady/indus_valley_script_corpus",
+      "30308260d8da50151a79185c9e98404db9da331a"
+    ],
+    "explorer": [
+      "tejesh-raut/indus-valley-script",
+      "8dc5837469bc6694c05f9b310eee90b08399df9e"
+    ]
+  },
+  "files": {
+    "icit_metadata.csv": {
+      "url": "https://raw.githubusercontent.com/field-cady/indus_valley_script_corpus/30308260d8da50151a79185c9e98404db9da331a/inscriptions.csv",
+      "sha256": "c22d39c3c2bda869c67fb01e7f2b4cdc64cc424405eafe89550d1702216b3429",
+      "transformation": "metadata whitelist; no proposed readings"
+    },
+    "CISI_LICENSE.txt": {
+      "url": "https://raw.githubusercontent.com/field-cady/indus_valley_script_corpus/30308260d8da50151a79185c9e98404db9da331a/LICENSE",
+      "sha256": "3d83c5b374fbe6fc293f288edc09582835cb89eff5ee9aded1bb648b65a0a951"
+    },
+    "corpus/m001_m099/m001.json": {
+      "sha256": "bec56e1ec01da70ef6c197de36b8dc51fb840a00f16b91bcb80da7005b5dcb59",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m001.json"
+    },
+    "corpus/m001_m099/m003.json": {
+      "sha256": "5755278d241f4e48c8eb72e453c0e99d33b63455cdf0a87f9eb3ff5a533070dc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m003.json"
+    },
+    "corpus/m001_m099/m004.json": {
+      "sha256": "493d870b78853aed03030edb2474ea178f2912eb27e74e4ac9d9ab9468cc1e21",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m004.json"
+    },
+    "corpus/m001_m099/m005.json": {
+      "sha256": "050758d2aecbee669d9d1d54cebd099c79bc8ee0578c69301cb9eaafca094797",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m005.json"
+    },
+    "corpus/m001_m099/m006.json": {
+      "sha256": "71a8a4ec6291c8d036e8a44ca563fa2f692324a10204ff278447df498167aea7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m006.json"
+    },
+    "corpus/m001_m099/m007.json": {
+      "sha256": "b5b95510b88f08abd23a276eba851b60ed5416482b4418a95b1c65896a9f9dd7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m007.json"
+    },
+    "corpus/m001_m099/m008.json": {
+      "sha256": "1a9569dd3d46c8f6ea7ace702f153d76bf05d0b237826c6758682bc26559bbbb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m008.json"
+    },
+    "corpus/m001_m099/m009.json": {
+      "sha256": "39f8ff0599a6414b23280fc1b5f7c0ffa5746f411648ce77e30e82f9140b1752",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m009.json"
+    },
+    "corpus/m001_m099/m010.json": {
+      "sha256": "9ba90f87a38b52a66ebaf1f5ec8c9c86cab45bc9b234e46e833fea39f68ae367",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m010.json"
+    },
+    "corpus/m001_m099/m012.json": {
+      "sha256": "b517da86c0ef88b7fdcd3fd9332acc4caf78a3c699e53d97c9667111f4e18c8a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m012.json"
+    },
+    "corpus/m001_m099/m013.json": {
+      "sha256": "d792bfbf548d686d5e341fae88f540b0c1381648902d6b85a008608c44677d53",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m013.json"
+    },
+    "corpus/m001_m099/m014.json": {
+      "sha256": "6b19e39b3bc8add4b299aed93407b5d65f99d8d2c60a15f17d6358694d56d3fe",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m014.json"
+    },
+    "corpus/m001_m099/m015.json": {
+      "sha256": "b44d836b954780ea87c5972b806c7497c879a87ca5047024257a6c6408562f99",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m015.json"
+    },
+    "corpus/m001_m099/m016.json": {
+      "sha256": "8e311eab92869df808406eb11e546e6a868f38ca64497611e8fa741058ffca65",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m016.json"
+    },
+    "corpus/m001_m099/m017.json": {
+      "sha256": "71b4c1337370b55ab1b0bded34022cfa68feb05056c971e8e2d6be552288abad",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m017.json"
+    },
+    "corpus/m001_m099/m018.json": {
+      "sha256": "36cae92771c2874f7df20a4a55040b029d9096704d04b45c88ff270bab44cafb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m018.json"
+    },
+    "corpus/m001_m099/m019.json": {
+      "sha256": "dc1501eae242d086b21e8186361cda10c2eeb18f3a4a6757d225fa65b69968bc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m019.json"
+    },
+    "corpus/m001_m099/m020.json": {
+      "sha256": "b163f7f5c510314fd5fcc22a441e5fede45b4e6f1d8fd1a51408b1d8177f25aa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m020.json"
+    },
+    "corpus/m001_m099/m021.json": {
+      "sha256": "33c57b3161cc056cd14a7b0db35ba56976969dbea9a6800bc103c6891bb9c89b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m021.json"
+    },
+    "corpus/m001_m099/m022.json": {
+      "sha256": "fc532337eaf7442a37b085c7c8528a6f7c18a89e30f637701dee202adad34ba8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m022.json"
+    },
+    "corpus/m001_m099/m023.json": {
+      "sha256": "925a7365dbb467ccd61df4f80f71e43a948b71eea1738d0f73d5fa92bd3480f1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m023.json"
+    },
+    "corpus/m001_m099/m024.json": {
+      "sha256": "028412369a7217e0b787cb89efabc8571fbc9cfa344fa47dcad11c3829a62bf6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m024.json"
+    },
+    "corpus/m001_m099/m025.json": {
+      "sha256": "5dcf9de82cd08fb079a47a1f5617e405151d2a4f8adf66f14aaf0b24d6b76fde",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m025.json"
+    },
+    "corpus/m001_m099/m026.json": {
+      "sha256": "5a7d8f4b9d8a73edab54ba00b74da91a0a1cf02c017bb4c94d30a794038a7bbb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m026.json"
+    },
+    "corpus/m001_m099/m027.json": {
+      "sha256": "e795493183d7670de19638c766d2f371142d4a6de600c8e47f446847aca89f89",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m027.json"
+    },
+    "corpus/m001_m099/m028.json": {
+      "sha256": "56e6671a9016ec0e6a1f1f4fb36ce0eae68dddf472dfc4a34b83d92f74f011f4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m028.json"
+    },
+    "corpus/m001_m099/m029.json": {
+      "sha256": "383c60feb1e5da1999b5a60d27bb80352b106dd7463f764273d80130f6369d8d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m029.json"
+    },
+    "corpus/m001_m099/m030.json": {
+      "sha256": "88b3ab9711e121c48c7482fdea2690c310c9d2a142429c11a710e1b7457da3b8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m030.json"
+    },
+    "corpus/m001_m099/m031.json": {
+      "sha256": "13b7831df2dae36d5e18ff8706b792e9cd21fb78e2b023fc9bdc81b5d047579a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m031.json"
+    },
+    "corpus/m001_m099/m032.json": {
+      "sha256": "0277c8606aa7e4360854ce967ff3a4e43a30f4c62eacd912890d544f325b2410",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m032.json"
+    },
+    "corpus/m001_m099/m033.json": {
+      "sha256": "297ac2881c84ae99699393217a658682c749b2eeebc5e80d26b51daa90bc666a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m033.json"
+    },
+    "corpus/m001_m099/m034.json": {
+      "sha256": "a4625f2cc34c91a0d1bfd96cd4d050d06b73fd597215eb1983ff3051314ef9cd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m034.json"
+    },
+    "corpus/m001_m099/m035.json": {
+      "sha256": "6fb0a979ba4b489db59bba141b891a25bbd778f5d84184b31ca30f22d0831d3f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m035.json"
+    },
+    "corpus/m001_m099/m036.json": {
+      "sha256": "40d8c66621378584436b4a65fe32b01e7959c7863db34914c7686e4710ac97ad",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m036.json"
+    },
+    "corpus/m001_m099/m037.json": {
+      "sha256": "095796a876437386c6441496f191272212d55a0476243f9f0bb73024126f8e58",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m037.json"
+    },
+    "corpus/m001_m099/m038.json": {
+      "sha256": "35571b7b5e70b150d18cd5b6eb51531d46268deb1227f21af08cd83394964b11",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m038.json"
+    },
+    "corpus/m001_m099/m039.json": {
+      "sha256": "781743a8ab611959274d266a6418658eccdde92a390fb0ac2ab00c856d2f8e69",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m039.json"
+    },
+    "corpus/m001_m099/m040.json": {
+      "sha256": "368b8dc6955cd937de3b61e8d74e3a7d088884bbc5d4b79e0ca9c2e03c7385b9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m040.json"
+    },
+    "corpus/m001_m099/m041.json": {
+      "sha256": "a296d1c2a202feca2f104067c115872204bde73c79eb80f0b9a18551b4b2c93d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m041.json"
+    },
+    "corpus/m001_m099/m042.json": {
+      "sha256": "4384cffe56d202fa92e001c79a451313194c9be6edd834afd0c730a746532268",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m042.json"
+    },
+    "corpus/m001_m099/m043.json": {
+      "sha256": "cde285a38cdfd70b2a99aa58b8123411a9b53d97d6c6f4023dd47fb4b4cfbfb4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m043.json"
+    },
+    "corpus/m001_m099/m044.json": {
+      "sha256": "07e10dbe1c117988ba42c8cc41b4ff544993ec9100304ae0a563eff54041ce4e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m044.json"
+    },
+    "corpus/m001_m099/m045.json": {
+      "sha256": "8111d98c9e2023053054901ca10f9a0b9120791999b9197f974b76133ca1e7d1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m045.json"
+    },
+    "corpus/m001_m099/m046.json": {
+      "sha256": "ca78ebe59b93e6ac51246236cd8f35b8922b48347867efb1994634eb3c83d069",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m046.json"
+    },
+    "corpus/m001_m099/m047.json": {
+      "sha256": "068ab84ab9c60ce3124198dc01c7a47a86a6d216e0246975d56e20759c4e4556",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m047.json"
+    },
+    "corpus/m001_m099/m048.json": {
+      "sha256": "e03bce4637d0af623ed2cf4535923e52c8659b8dd63bcf5826d38b20fea0c3a1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m048.json"
+    },
+    "corpus/m001_m099/m049.json": {
+      "sha256": "64b6b909acb59dd885d0a9fc3c9a38fc02ede6d96f6572abe54c5e999868083d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m049.json"
+    },
+    "corpus/m001_m099/m050.json": {
+      "sha256": "f0e572efbddb972615d48364457d995b34a1c8a0f791692bf4756dd5d018c280",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m050.json"
+    },
+    "corpus/m001_m099/m051.json": {
+      "sha256": "66651195bafc15a2956596a96b3b9c2e6db6b7f4ae1c7e3f23c16324a3783aab",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m051.json"
+    },
+    "corpus/m001_m099/m052.json": {
+      "sha256": "1a65048b876ecd0e296f1e3f3edba138824902d88ff634166122e47982dfedda",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m052.json"
+    },
+    "corpus/m001_m099/m053.json": {
+      "sha256": "3fdab807abe6102492eda9d6578a1fb511df0e1ca0e7097c6364d2615b8dedd6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m053.json"
+    },
+    "corpus/m001_m099/m054.json": {
+      "sha256": "60866bd4de8d8eaf80e0a59ca6c9de9cbd4001f8d2c453a49acdf3bdd43a444e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m054.json"
+    },
+    "corpus/m001_m099/m055.json": {
+      "sha256": "49d47058f4af2916ac175e0dc076b912092a2782190233e4c05dc550c58f2c6e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m055.json"
+    },
+    "corpus/m001_m099/m056.json": {
+      "sha256": "b8bee237ce3045af736f42628266cf4c10cd7bd5a8c357af6bbe500505b1d7f4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m056.json"
+    },
+    "corpus/m001_m099/m057.json": {
+      "sha256": "f41555a32d82d43a6836c43669d4c074fff09bf23e4e3ab30543a73f4b8917ce",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m057.json"
+    },
+    "corpus/m001_m099/m058.json": {
+      "sha256": "5685b2f0b254f3f6fb92ad1fa5402a9ea4524b178f4716ee368e12451381651c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m058.json"
+    },
+    "corpus/m001_m099/m059.json": {
+      "sha256": "82b37bab64778f0a693eb64220da12b330c17a4b8b37751fd3738e0f5014334b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m059.json"
+    },
+    "corpus/m001_m099/m060.json": {
+      "sha256": "27da9ff80a3c8b9598d974e1d52af41784e5f50f96c229e1445a8b2d4734562a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m060.json"
+    },
+    "corpus/m001_m099/m061.json": {
+      "sha256": "074f6b6a46ed5691f4de8ff6dc2fe43ac2e0838a4126d8fa47de3af80751c9aa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m061.json"
+    },
+    "corpus/m001_m099/m062.json": {
+      "sha256": "ff0fb6909e912390553bd498982f4e6be67c6c2a98dc7f47545d19e735660404",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m062.json"
+    },
+    "corpus/m001_m099/m063.json": {
+      "sha256": "ae9eb62ba67029d6bdfacb54025ca74b844a89e6e9d6cbb48f9bbd82a106e096",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m063.json"
+    },
+    "corpus/m001_m099/m064.json": {
+      "sha256": "b44be81bcea5b73d8fd49b9d3d0fb6f6fce9c05735c9885aba1fadd84dedb36f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m064.json"
+    },
+    "corpus/m001_m099/m065.json": {
+      "sha256": "6d877d73d540e845fb088b9abbb1a91130cad764cb056ee304897ff832f9e2a9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m065.json"
+    },
+    "corpus/m001_m099/m066.json": {
+      "sha256": "bfc2797b5ed16aed825c2568cfa8b45591d3bc70a46ee25136f457e03857293d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m066.json"
+    },
+    "corpus/m001_m099/m067.json": {
+      "sha256": "523a52d0a99f413870f97b8f4b12ede3eb097fa9261a1a2042c649c6f6a68b0a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m067.json"
+    },
+    "corpus/m001_m099/m068.json": {
+      "sha256": "7860683e9cf77acc0b9b63ccb82efd626af2b2136cdefc478c788340a35294f1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m068.json"
+    },
+    "corpus/m001_m099/m069.json": {
+      "sha256": "e3ce265274b720a4a021b4f528c3b06ec194f1dc68168bae36182133135bd8c2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m069.json"
+    },
+    "corpus/m001_m099/m070.json": {
+      "sha256": "e8134ed07bdac4326c60e85d074651b1028aae18c43fe72d7c6349c214b5691f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m070.json"
+    },
+    "corpus/m001_m099/m071.json": {
+      "sha256": "af0c3296adb08aa3c9460efc4c0a75ad9e823c2a491b64871412bb4228f23b17",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m071.json"
+    },
+    "corpus/m001_m099/m072.json": {
+      "sha256": "5aa9d73971d45cbf2fb95db0c6d7594af28ba8b430a147d1c219259d99cb91e1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m072.json"
+    },
+    "corpus/m001_m099/m073.json": {
+      "sha256": "967e4b3aa9b61f675be6928c01cfd3a3f8987fb57f85ed94514173a895babdf4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m073.json"
+    },
+    "corpus/m001_m099/m074.json": {
+      "sha256": "4f7759958c9d0f6364e6d7e83f55d857ff28e61f2bd15686b9185aa03480dca8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m074.json"
+    },
+    "corpus/m001_m099/m075.json": {
+      "sha256": "ed8394a72930f8fd4f2761761f0a44badb6024f8f8185fd54eed4df1c3d2ffe0",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m075.json"
+    },
+    "corpus/m001_m099/m077.json": {
+      "sha256": "ce6cdf533501e19cd159990a903ea009c0ee93efa0e5a8d07a905339dc8584ee",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m077.json"
+    },
+    "corpus/m001_m099/m078.json": {
+      "sha256": "8455d3bd19f772166d5628c6a722c06887edcc018e1e433360a10c1c6404938b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m078.json"
+    },
+    "corpus/m001_m099/m079.json": {
+      "sha256": "5d6888d3748a4322968d91d14ba0cad7db65676e89b2994ea46f6202d40ec196",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m079.json"
+    },
+    "corpus/m001_m099/m080.json": {
+      "sha256": "33552b7c05b56e106752c493db78f8347684e9de29b5630cedc0aff99c98ebf2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m080.json"
+    },
+    "corpus/m001_m099/m081.json": {
+      "sha256": "a6a173dcf40856d7dac31c110d76e39efdf0cf126c33b1934f50967db3016b83",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m081.json"
+    },
+    "corpus/m001_m099/m082.json": {
+      "sha256": "0e44165a4ad283771cfb01f99fceb5d233458a8d1d83fdf6c794febc1ca1109d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m082.json"
+    },
+    "corpus/m001_m099/m083.json": {
+      "sha256": "f23481b33cd532720ab7050b0813333fb361f1c031b471769034800839cdb75c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m083.json"
+    },
+    "corpus/m001_m099/m084.json": {
+      "sha256": "7e9f371f216b2f04567f9af36ef134451fb944666df23490b864130616171858",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m084.json"
+    },
+    "corpus/m001_m099/m085.json": {
+      "sha256": "d564ef910889e804e40b1a601ec1a47b375517f0c99add48335c4acf6b294fc9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m085.json"
+    },
+    "corpus/m001_m099/m086.json": {
+      "sha256": "f43a45f09a6e65112cf0fcee5092aecbc518f904e45379a9594f49c44a2ae662",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m086.json"
+    },
+    "corpus/m001_m099/m087.json": {
+      "sha256": "0f83b4a25548a8012b518266866b75e5224284adc7d719df21198b19f60e4019",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m087.json"
+    },
+    "corpus/m001_m099/m088.json": {
+      "sha256": "f9c7d9cae83286a26cdb3912e675378331959ed439851803509455b05c13f433",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m088.json"
+    },
+    "corpus/m001_m099/m089.json": {
+      "sha256": "c6e52b90b1c0c26eea6fd88acfe6f116a01235641e9eeeb71f486ac0ba351b6c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m089.json"
+    },
+    "corpus/m001_m099/m090.json": {
+      "sha256": "118e88877f5112b795aa87d7fd620df949274d0a5a0bf427af1e4ceb0a0c2ee5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m090.json"
+    },
+    "corpus/m001_m099/m091.json": {
+      "sha256": "865fd9d385622d1ef067684855d995a8d7810465214f1baf1a4493970278d35f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m091.json"
+    },
+    "corpus/m001_m099/m092.json": {
+      "sha256": "ca106c817322bca7fe9ac36832f39f4b80682992a788a5adda15b82b13125c4d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m092.json"
+    },
+    "corpus/m001_m099/m093.json": {
+      "sha256": "f6a8896cf152b5e13c1264a9ad2efc83339996de795d5baa72437db1d7aa02d9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m093.json"
+    },
+    "corpus/m001_m099/m094.json": {
+      "sha256": "b3dd747206726352957b86612d3f3b8ec49f081517be145b55e091ed745c4f51",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m094.json"
+    },
+    "corpus/m001_m099/m095.json": {
+      "sha256": "71a3cfdc855557cdba7a723feb793778318cb074952e1c830154da4090763603",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m095.json"
+    },
+    "corpus/m001_m099/m096.json": {
+      "sha256": "7c957b971742b3c8edc5baa296879247cd78e35bd02d66d05305e46710063b5e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m096.json"
+    },
+    "corpus/m001_m099/m097.json": {
+      "sha256": "56065b2b5d0ff4dbfa8b5d16917c0783f09bc00312dad2162715b9ad0c1c9b87",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m097.json"
+    },
+    "corpus/m001_m099/m098.json": {
+      "sha256": "c11e857922e90f4284088cf8bf847184c09228eea452c92857cc0867c3d5aae8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m098.json"
+    },
+    "corpus/m001_m099/m099.json": {
+      "sha256": "ce368ac7b2370fa65f6da8b9134c28eb1c0e1446c15646e35363bd18c8b400ae",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m001_m099/m099.json"
+    },
+    "corpus/m100_m199/m100.json": {
+      "sha256": "058c71334df6049f25325bb5bb3e52667f62dc279a87a73333ca9f7003fc404f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m100.json"
+    },
+    "corpus/m100_m199/m101.json": {
+      "sha256": "0d526d6c2e46755647dd2bd42c7004df60efa93311461bbfcf30abf48b7752ca",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m101.json"
+    },
+    "corpus/m100_m199/m102.json": {
+      "sha256": "b00e76ded3268f72064238a13c9805ddf3c4b82d9ed007ee1ddc372058aada45",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m102.json"
+    },
+    "corpus/m100_m199/m103.json": {
+      "sha256": "525daf06c17ca5dd1c41058338d88f92678cfc69947b3fe64ced827df30c56fd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m103.json"
+    },
+    "corpus/m100_m199/m104.json": {
+      "sha256": "97e481bcd9d6233eb01d70b1223f0d445cc73e08e2ac5ee0a44381e71ae1d195",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m104.json"
+    },
+    "corpus/m100_m199/m105.json": {
+      "sha256": "33d17d44be46f313dde9dcf4fbae8c64c2e872e343e478c3e329cea2ba3bbc34",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m105.json"
+    },
+    "corpus/m100_m199/m106.json": {
+      "sha256": "019f67c4406323578fc082f79c251933089ff3e8aad285a9cda84e3ffb289c5d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m106.json"
+    },
+    "corpus/m100_m199/m107.json": {
+      "sha256": "62744ff16323e9772bdf54739389878c06658017f2bfa3cb36f74963da27ed4d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m107.json"
+    },
+    "corpus/m100_m199/m108.json": {
+      "sha256": "cc8b167a509e9e7d0500a57dada535745e8abae1d1c30a6d9324352f00275c28",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m108.json"
+    },
+    "corpus/m100_m199/m109.json": {
+      "sha256": "50224fece58e6cbfd43fe3a71e8f24084e48e578c29473c1fd220316d6c766af",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m109.json"
+    },
+    "corpus/m100_m199/m110.json": {
+      "sha256": "8357e870199f4fc37b0a068a1f32882937dedca9ea00a0a6cf2f4e6f4b76f6c1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m110.json"
+    },
+    "corpus/m100_m199/m111.json": {
+      "sha256": "05e657f04752b0d8a7ebc08493c7a8c9a3de1361775fabfbe150a47290d2aa70",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m111.json"
+    },
+    "corpus/m100_m199/m112.json": {
+      "sha256": "b265299bf0086e4725a82a555c9873bca403e91724d5cbd739f3573719349a35",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m112.json"
+    },
+    "corpus/m100_m199/m113.json": {
+      "sha256": "ba6af789383c88baf5c99d9358bd35747ff4af09fd3c119b2be8548289cfbc69",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m113.json"
+    },
+    "corpus/m100_m199/m114.json": {
+      "sha256": "89d69c6e4d3bf45407b0b1c10a8488d265a1e13678643a00bb6d2243fd9ce68c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m114.json"
+    },
+    "corpus/m100_m199/m115.json": {
+      "sha256": "e0fecf9f0e6050cc6eea7ea1ab024440a72f2f21fdab23eac25345fa610a8eca",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m115.json"
+    },
+    "corpus/m100_m199/m116.json": {
+      "sha256": "2b76153ebbfbc4f9110ae77a37a9e093b68527af576fa5c982aa88388cf772d4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m116.json"
+    },
+    "corpus/m100_m199/m117.json": {
+      "sha256": "0b9e4e2e944d9fad83b640f093a008eb9421712dd04fc3bdb7d7a4fa60270c95",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m117.json"
+    },
+    "corpus/m100_m199/m118.json": {
+      "sha256": "3b15177456a6102a6507eb40cf12823daeb9133796037c6295c6555665fdd071",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m118.json"
+    },
+    "corpus/m100_m199/m119.json": {
+      "sha256": "8ef8f27891e6536c1d44496937c5d54e3f072580897e2d1638de7d090d191832",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m119.json"
+    },
+    "corpus/m100_m199/m120.json": {
+      "sha256": "88eb3e69343b04898fe6148607178681c556cda05f861fd953d1aafd43bf92c7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m120.json"
+    },
+    "corpus/m100_m199/m121.json": {
+      "sha256": "c582bfd9830867356f7e4d24737546f128720ea952c20f55f02b7433c951b2d1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m121.json"
+    },
+    "corpus/m100_m199/m122.json": {
+      "sha256": "c76d3f56a30e624aea32e968ae40739f8d5eb7b10ce66eff259e2f3a5b8f3820",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m122.json"
+    },
+    "corpus/m100_m199/m123.json": {
+      "sha256": "20f51c8f001a0abfe57cc65105ad55a932cd187e90a7ee6e8e056b277e22d1b4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m123.json"
+    },
+    "corpus/m100_m199/m124.json": {
+      "sha256": "dd559ea3f3339cf1454f9aaef9d12ca22b407db479d4861500c9acfcc3528937",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m124.json"
+    },
+    "corpus/m100_m199/m125.json": {
+      "sha256": "d6ccff4734d08734f5cf13cc00201024997326c362ecf904ea67367c89ee6631",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m125.json"
+    },
+    "corpus/m100_m199/m126.json": {
+      "sha256": "0676bdb606f468fc3511baa4176c90e47d67f758dfdfa88da26386270aa1f41b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m126.json"
+    },
+    "corpus/m100_m199/m127.json": {
+      "sha256": "91f041f5d46aa3734851111ccd2481406676bbd6ddec182a73a9da600bbe57b8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m127.json"
+    },
+    "corpus/m100_m199/m128.json": {
+      "sha256": "d61710152e05d3b434e30289b9a66c954eddf897654298401478ebfea30b332f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m128.json"
+    },
+    "corpus/m100_m199/m129.json": {
+      "sha256": "2d95884177b0332cd74fd24a3cd162e0a17f53639573fe187b517d5676c0745c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m129.json"
+    },
+    "corpus/m100_m199/m130.json": {
+      "sha256": "19fc600cfb22608f0874ee5c99b7411f799f2ff0377a8c7aa3d2912054a5ab2f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m130.json"
+    },
+    "corpus/m100_m199/m131.json": {
+      "sha256": "8b274dd46bc5e7adb6a64fdbd8e249163f260b6735a90b168729fa31301d11c6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m131.json"
+    },
+    "corpus/m100_m199/m132.json": {
+      "sha256": "0d0c376af4b3bad11d836a3873a3129b97e64d09f5c1271a900c8830bcbdec13",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m132.json"
+    },
+    "corpus/m100_m199/m133.json": {
+      "sha256": "5f65f05117c909dea8394c2077d9ea4833a1daec9bb33533e155582e64726352",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m133.json"
+    },
+    "corpus/m100_m199/m134.json": {
+      "sha256": "fe46b00daa630410ded72483c7a6cc34ee4c8621ca49573511f467854f572997",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m134.json"
+    },
+    "corpus/m100_m199/m135.json": {
+      "sha256": "3c6b57f6e7b0dcf0bd6b2d2a61dbcde2d026be150c05f1542f10f650e167cfc6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m135.json"
+    },
+    "corpus/m100_m199/m136.json": {
+      "sha256": "fa95273f011df7ea21b84729efd68d14d53d00269d739d781bc5603d79c54a43",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m136.json"
+    },
+    "corpus/m100_m199/m137.json": {
+      "sha256": "121ddebb1af774b1edfdabcfc9c143f4cb357231914c5807e1e1494f4f308c37",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m137.json"
+    },
+    "corpus/m100_m199/m138.json": {
+      "sha256": "e9f2c9490ddbbd497244bea4f061779b6e8e1a422fd3db7485bf1362a3fda1c3",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m138.json"
+    },
+    "corpus/m100_m199/m139.json": {
+      "sha256": "86b5cdca88b9b0110b9665005b0f0b0c48f67b581125b1d33bde77016fc8d0b2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m139.json"
+    },
+    "corpus/m100_m199/m140.json": {
+      "sha256": "88d3addc0d827815b9ede6d16dfd36af28ffadd567e4c8266694a2c8df445efc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m140.json"
+    },
+    "corpus/m100_m199/m141.json": {
+      "sha256": "e21284ae90a0e7285f0e2126a9e95a3a04bfbca9d2c165645ed196f488e1fd0f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m141.json"
+    },
+    "corpus/m100_m199/m142.json": {
+      "sha256": "0e2f5d7b4d88529404971a5fd3836e8afe937057aeac4aedf9096fa3aa6cbb46",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m142.json"
+    },
+    "corpus/m100_m199/m143.json": {
+      "sha256": "cafe7951c4a02ddea918771cb758cc468ec1b9b0603ca347373caba098c1137e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m143.json"
+    },
+    "corpus/m100_m199/m144.json": {
+      "sha256": "7cfbd22b2082879412cb8a059cf6275dd724a2f32373f3581d474d75170bb81b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m144.json"
+    },
+    "corpus/m100_m199/m145.json": {
+      "sha256": "bbe5f333c234f455b6cd706360200f0bb46ed7ca9b4d2dc6e8ba0f24051f6bbf",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m145.json"
+    },
+    "corpus/m100_m199/m146.json": {
+      "sha256": "a6796c5048f2267cf3410976b5e8b1c393b9627065870ecddd79ef64cfe1401d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m146.json"
+    },
+    "corpus/m100_m199/m147.json": {
+      "sha256": "99563a8534be56f49d51e8c5a7b125768bd06bfffcb232fbe812ff1af32381b5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m147.json"
+    },
+    "corpus/m100_m199/m148.json": {
+      "sha256": "8dfcee32c61541e349c289c2b0c07f53a0056c5bd64c094af67e0c18f187cb30",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m148.json"
+    },
+    "corpus/m100_m199/m149.json": {
+      "sha256": "7fe48b5d91b5582dfa0594c5c938161d6b878b3403656517578f45f969f8793f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m149.json"
+    },
+    "corpus/m100_m199/m150.json": {
+      "sha256": "187c97af4e1459eb744cc904cd9c5accde00659e937001bb21645c2d3b7a6d07",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m150.json"
+    },
+    "corpus/m100_m199/m151.json": {
+      "sha256": "e294c0298e82c46ddbb65717a5a7c08111f60acb0617e7b8150138756be06af6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m151.json"
+    },
+    "corpus/m100_m199/m152.json": {
+      "sha256": "dd385a65a9b397544d433e066e10784220acbab9d6ea31916ee64403cbdf5485",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m152.json"
+    },
+    "corpus/m100_m199/m153.json": {
+      "sha256": "63a23123c003086216096d9a4993bcd86e97f6a34e46726ea471ef14f0f7f438",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m153.json"
+    },
+    "corpus/m100_m199/m154.json": {
+      "sha256": "bae55b6b69798b09655dfb636f3b10bedc8d749e0cb4c2ff36f6369fef97d406",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m154.json"
+    },
+    "corpus/m100_m199/m155.json": {
+      "sha256": "f8d612deca2c906dcf3d1cc74282f0266fc2a4f1a94bcb89d6ea35dd8e2ad167",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m155.json"
+    },
+    "corpus/m100_m199/m157.json": {
+      "sha256": "976016b47ef3713d7b22eefd820a915a5e687d012b009bbeb3ec7de29a77da14",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m157.json"
+    },
+    "corpus/m100_m199/m158.json": {
+      "sha256": "0bb34a0171db8080cc0e87045e49f61b835932c96022e888edcf1f1ea8f7b4f4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m158.json"
+    },
+    "corpus/m100_m199/m159.json": {
+      "sha256": "275eb72c30da23fc29f60e3655e1f146556378acd9c6884239d7329bd64fc391",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m159.json"
+    },
+    "corpus/m100_m199/m160.json": {
+      "sha256": "3e06f01a120eb25c852add09805c4439e2d6878a7ac3e81626d920eb9edbeb90",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m160.json"
+    },
+    "corpus/m100_m199/m161.json": {
+      "sha256": "aca00105ac0c3b08e0a21924e6a247b2bab7fa50906698edae740f3ea33ab5dc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m161.json"
+    },
+    "corpus/m100_m199/m162.json": {
+      "sha256": "855fd84ae42047b0f3423d80be526d03ad3c615089634a2e59ac758529f02fc7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m162.json"
+    },
+    "corpus/m100_m199/m163.json": {
+      "sha256": "eb7230a7f09cef6f6d9758dcf0e2bb5fa1c7eb0e38ec5a0a5567c3e0e5e3beff",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m163.json"
+    },
+    "corpus/m100_m199/m164.json": {
+      "sha256": "7ccba800653f840889905556a1eabeee184d1b6b446f44824a348ae0de47bebc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m164.json"
+    },
+    "corpus/m100_m199/m165.json": {
+      "sha256": "3271573707c981e76b7b6af5d754d00788284f76a2122072d44817da73c6d067",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m165.json"
+    },
+    "corpus/m100_m199/m166.json": {
+      "sha256": "a2ece5d7b4f66fc64f797fc262e332795e8f9909d9be6ab258922dfd25d2bf6b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m166.json"
+    },
+    "corpus/m100_m199/m167.json": {
+      "sha256": "bcf0f0dbeef989cf2e44efd932e76b8b699a4718607c5821b47ed73fd3d8a523",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m167.json"
+    },
+    "corpus/m100_m199/m169.json": {
+      "sha256": "b5e445f50667eafe8bef81c3297abac24597991806c3a55ea88852965de6733a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m169.json"
+    },
+    "corpus/m100_m199/m170.json": {
+      "sha256": "113c2cfedd9692d20ecc88611d190e25e19ed0c4f76ce43389a903bf1585d73e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m170.json"
+    },
+    "corpus/m100_m199/m171.json": {
+      "sha256": "8f7fba8fcb4947fab7603db9539c643136991a8f3a9a621e52e9a9941d5e83f1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m171.json"
+    },
+    "corpus/m100_m199/m172.json": {
+      "sha256": "bd0ec4cc2461736f940c1ede68caf5d805cf8ba41c3dafd5255c26a1498f98c1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m172.json"
+    },
+    "corpus/m100_m199/m173.json": {
+      "sha256": "422e20a848a580152e9eab4642c139b421404f11c51be34e22859a8c3d337b3e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m173.json"
+    },
+    "corpus/m100_m199/m174.json": {
+      "sha256": "bdd3fc372872618e64c86838eff5264f8909879ee172dd1b362c0da921e9bd07",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m174.json"
+    },
+    "corpus/m100_m199/m175.json": {
+      "sha256": "0e87add681f412685206165216c91027dde3f6e470789362be068cb82c39fa6f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m175.json"
+    },
+    "corpus/m100_m199/m176.json": {
+      "sha256": "35ab9f0758e68bea2dda31c773ba53dffaf635d3a8489e647b032a2c612e5fb9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m176.json"
+    },
+    "corpus/m100_m199/m177.json": {
+      "sha256": "d20b4b551ceff4d3b360683a69004cbab6a8a4da2d08f121fd8d3648aaa25602",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m177.json"
+    },
+    "corpus/m100_m199/m178.json": {
+      "sha256": "735da974558f29911a87a647808f36fc8604068fa6612bd13aab6c849b7b3751",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m178.json"
+    },
+    "corpus/m100_m199/m179.json": {
+      "sha256": "a20c5d46cbf58930ce0f2899b329234831021a5bd09db4f1f7fc37d90454adaa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m179.json"
+    },
+    "corpus/m100_m199/m180.json": {
+      "sha256": "4fd891754ee8987535d431ff8a647d2f54501e61d7bd8979947c496e23722987",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m180.json"
+    },
+    "corpus/m100_m199/m181.json": {
+      "sha256": "3c8392064046015293deda8f33829dedd5895dab5d938d1bec90522253e8a867",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m181.json"
+    },
+    "corpus/m100_m199/m182.json": {
+      "sha256": "7016442572b0eeb7b831ca14c367d96cf9caa5e2d0cc7e7b6908cbb65bc1e5f7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m182.json"
+    },
+    "corpus/m100_m199/m183.json": {
+      "sha256": "111875df1c5c44561af1f9988d6b1515255a311f8ccaa192e1d21d513a80a36e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m183.json"
+    },
+    "corpus/m100_m199/m184.json": {
+      "sha256": "402376f4d08a4275650a3aaa16f3d218c9c2b717a42aec3bf23f831b495e7dcd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/corpus/m100_m199/m184.json"
+    },
+    "features/P000.json": {
+      "sha256": "6f6b7ecc5d2db2d6f317cdbbc3b4e24f4dc412c891554405e9312a0b8204467a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P000.json"
+    },
+    "features/P001.json": {
+      "sha256": "0f5b2812a219bf59f6a5ea56569616c42d50a5df812584ce94ee2d9166a50a2a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P001.json"
+    },
+    "features/P002.json": {
+      "sha256": "d59bca9c9f6693c4fc731b9b8ad8f04a9bee3f382da39af71e93dd76ce42d521",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P002.json"
+    },
+    "features/P003.json": {
+      "sha256": "0cf4b709126e33eb2d05a1130740ac84091b189ce064a62be3f62b5973bc28b1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P003.json"
+    },
+    "features/P004.json": {
+      "sha256": "6602a1ea6a6dc1b1db22cfcc19e9ec112668061c1ed6a06d04a80bf1c2d153e0",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P004.json"
+    },
+    "features/P005.json": {
+      "sha256": "7f8c96acdbd31646aa4fa79d2efd7d8e121cf5f0e339a323d4eddadeb518ba07",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P005.json"
+    },
+    "features/P006.json": {
+      "sha256": "e5f855ba88fa53184690b3f2e45b9a8ce615c7c97cb173bdf8e644958d03351b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P006.json"
+    },
+    "features/P007.json": {
+      "sha256": "6485eea29383ce4fa1e20240a6992f61d37eb6851b3a697fd80ee63b59a6c36d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P007.json"
+    },
+    "features/P008.json": {
+      "sha256": "e58c3374a70f4beebe64e874f5694860bf3bedd541661a912cf8e80a3ec184f7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P008.json"
+    },
+    "features/P009.json": {
+      "sha256": "43943a4fa5ed04c58f412d5263d2acc7af093df00113a535a60f12aebbbe7bfb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P009.json"
+    },
+    "features/P010.json": {
+      "sha256": "e321c187c9b947ebaf852697bc0b60b62402ce483d1da16bf46bf274d1269836",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P010.json"
+    },
+    "features/P011.json": {
+      "sha256": "6dae190b5524e577a33fbfdb917d5062490608b1845f2813f2ebd60f459ab2f1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P011.json"
+    },
+    "features/P012.json": {
+      "sha256": "438ee83fcf17b23b55bf6f920d20edf46675d9b855b3a0953eba0fcd217e41f8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P012.json"
+    },
+    "features/P013.json": {
+      "sha256": "cd245bbcc8edbbb3a9d949653b4e870fba29651eb317dfc18ba8e11c285f85c2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P013.json"
+    },
+    "features/P014.json": {
+      "sha256": "0cacdc25c3e27280e14ead44d555e515c4dbab60d73edb7d3145d38144f18e77",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P014.json"
+    },
+    "features/P015.json": {
+      "sha256": "8bbe5e7c021e09c8fae0f9cb43f4888e8dcd502aabdb00c52858d5ef1c2726aa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P015.json"
+    },
+    "features/P016.json": {
+      "sha256": "0c31e83f1ee5bb6bdcbf0db7ee9f6e606d52f827bc937fbddbcd244bda599ec2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P016.json"
+    },
+    "features/P017.json": {
+      "sha256": "090b59d1decce5e3c0ec6adabb7ede55c29ab7f4531073ef6bc2531c2bb2fe93",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P017.json"
+    },
+    "features/P018.json": {
+      "sha256": "fea0da27617453e41e4ede31169b83ab78df6dfc692bfd92ad1f5280d86ddea1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P018.json"
+    },
+    "features/P019.json": {
+      "sha256": "faf3a4ee858be2f561efc989be357fd938e6447454326cdf3de0471c25c6bdc9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P019.json"
+    },
+    "features/P020.json": {
+      "sha256": "eb6b33802e9fb2499bad1080058e691c11aa22a69515c8858d8d25f4777023af",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P020.json"
+    },
+    "features/P021.json": {
+      "sha256": "86b77d3f97aaee0ab81a4dbfea65a5d6b23ddf8b5aa0f6bbec5faf6251235b2a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P021.json"
+    },
+    "features/P022.json": {
+      "sha256": "115a90564c68252ab0506f4957911691e0d1c4ad9aef5014cb5a1b97345e2c8c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P022.json"
+    },
+    "features/P023.json": {
+      "sha256": "44e47f55569165bc87f9cb191fb9f88c29c0316a0ed1f5640462d7eb0a91859d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P023.json"
+    },
+    "features/P024.json": {
+      "sha256": "c2a8fc62e08e3713f737fa49c317efc6a881661385ea83e5ea7302d29a2cb396",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P024.json"
+    },
+    "features/P025.json": {
+      "sha256": "ef424bb7fa14218dcc058836c8b76627fe4ce54b48b046f9d8d5b63e6aa5e327",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P025.json"
+    },
+    "features/P026.json": {
+      "sha256": "ebc2ee73b52ad66778ec9bebed879ba1e5a4c0c316657a68621ad0a00ebc1933",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P026.json"
+    },
+    "features/P027.json": {
+      "sha256": "6736f88d8a244deb7c3a5e0e287ee82099d805954123ebc4498f536ec22562a5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P027.json"
+    },
+    "features/P028.json": {
+      "sha256": "9b8193b0729b4de4fd78580a06ee1440609b7f4640cb265f993814ff5967818b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P028.json"
+    },
+    "features/P029.json": {
+      "sha256": "a80fd30291c3148f27e5ba64c75258a3aed32ce976e96a03b13a7d66824b15cf",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P029.json"
+    },
+    "features/P030.json": {
+      "sha256": "003c61fff68235569c61379cb6e651d23e3d62e90ede403f766872d1205e2dc8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P030.json"
+    },
+    "features/P031.json": {
+      "sha256": "441c012677d6b338f514ab9b6607e95f0e4d9f97640c7cdb88957c567565c9bf",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P031.json"
+    },
+    "features/P032.json": {
+      "sha256": "e961ad6b69008fbfcd7f06c8927000d65cbf2b619a9442fdbc128e60d9846f94",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P032.json"
+    },
+    "features/P033.json": {
+      "sha256": "d4b82c1563eee29f320180b7af2cf473b4071d6ebd377da8fabf8be9b3213e05",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P033.json"
+    },
+    "features/P034.json": {
+      "sha256": "fae242df4a71abccfc9ad55620b149402756a3cfd98da62c6fdfda5fbfa8f7c2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P034.json"
+    },
+    "features/P035.json": {
+      "sha256": "ecb674ed1d58a143605c67765c90c1b9302db68cac7148c27ca7af7194879295",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P035.json"
+    },
+    "features/P036.json": {
+      "sha256": "bdbb76ebaf84781488d8701dce391bc86d431033e732cea7bfc072e9bde40ae7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P036.json"
+    },
+    "features/P037.json": {
+      "sha256": "75a0596cdab339d4e3c55384927ecd19d1810095ab42286176319faac58901db",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P037.json"
+    },
+    "features/P038.json": {
+      "sha256": "1465a9c5f725beca672759d7d51e7199d4f94aff66e17b2c6bcacdd1a1015e4b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P038.json"
+    },
+    "features/P039.json": {
+      "sha256": "4c765b00d4c82a8e5febb893ca3b624ec16cfa1d29a5aed00e13bdf167afef1f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P039.json"
+    },
+    "features/P040.json": {
+      "sha256": "d6cbdd9a80ed6e0c380221f206f5af2e3bc7934425e33a235a55e7e38198089a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P040.json"
+    },
+    "features/P041.json": {
+      "sha256": "9db51b7614620dd00b82eceaf6d1850e382ab448dd889f5d3f46c87efed77028",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P041.json"
+    },
+    "features/P042.json": {
+      "sha256": "94ee0a4cd0b862e20c7c530ca18fe2625ea6c85dbf633bf342cc0d5b978fe589",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P042.json"
+    },
+    "features/P043.json": {
+      "sha256": "64a0a398759fc8846ec105ab1c7af99ec53d137dc9212848d8adbd94af8e07e8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P043.json"
+    },
+    "features/P044.json": {
+      "sha256": "78bfbbf55f786dd749832e742c3556ebe6526c088e1cc25fe4ce74843f3cffb7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P044.json"
+    },
+    "features/P045.json": {
+      "sha256": "384160e1054c3f3927b9958c91f5f93608b924db57c28e02a4bafa104299f463",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P045.json"
+    },
+    "features/P046.json": {
+      "sha256": "26045c990fe1a1cba1bbac569115f8d792fcc7b90f5835ff09f5684e958b05c2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P046.json"
+    },
+    "features/P047.json": {
+      "sha256": "fd9cb1a28572d505e5cc8cf18a4d1ecb8266a1d52e99cac98a6f853641fa4871",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P047.json"
+    },
+    "features/P048.json": {
+      "sha256": "c57bf32a22aec462bd2c01a5c0dae2292bbdcd04fe12afad741fbdaea1babcdd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P048.json"
+    },
+    "features/P049.json": {
+      "sha256": "a5aee45cc7d7e764fc3987ea7b566e69feb88ceb4b3ee9449b921d8f7dc6d53b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P049.json"
+    },
+    "features/P050.json": {
+      "sha256": "a3fdea36408b3d287b5822c0bbe95ea82117b541f3c3f159682df752b29bbd11",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P050.json"
+    },
+    "features/P051.json": {
+      "sha256": "81d10bd13bab26e8f8a87c1b22d4fd95f2bc07eb87847a9d1a6abc8a69a684db",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P051.json"
+    },
+    "features/P052.json": {
+      "sha256": "ad34bdc471852f26754fd6451ea768d7dbf092bf1e281d3b9db6518a8c4bba7e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P052.json"
+    },
+    "features/P053.json": {
+      "sha256": "b9c149861faa9fafee373e6665ecd732410ac8b2a003e3bcffb8a5fd2ee6d0d5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P053.json"
+    },
+    "features/P054.json": {
+      "sha256": "57d4473fff420dff25f1221c1599461b93c264c535cf6a2fe2e1cef9191d4b24",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P054.json"
+    },
+    "features/P055.json": {
+      "sha256": "b38ffaed93552481dffcfa50988175d44bd3791dad52bf8343568534a208fa04",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P055.json"
+    },
+    "features/P056.json": {
+      "sha256": "e0640994759c9eadbf9b3b7dbd862c03ea3ea325b26ca6c7b97d5bc4a2fb51e2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P056.json"
+    },
+    "features/P057.json": {
+      "sha256": "ea161d8698bc6ae8282139a69aaf33c3d600e1d42eb743f06a26240ffa20a5d0",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P057.json"
+    },
+    "features/P058.json": {
+      "sha256": "d5d2ab6451fa581de4a707d9e46b1798f9a054b3528d39b0122c540213dd1aa3",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P058.json"
+    },
+    "features/P059.json": {
+      "sha256": "6b1aec1ca2091dcef79b17a2b559692ca3bfd11a456fdcdfa3f31f8781b53cc0",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P059.json"
+    },
+    "features/P060.json": {
+      "sha256": "72b7a5c90ac314207c157079025e26dcccfb912bb7a100b32bfc72d413b30f2b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P060.json"
+    },
+    "features/P061.json": {
+      "sha256": "3c6aaca664f6fd0462bdd91ab5557881b750b1cb90ea39252d995d7b4483ac40",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P061.json"
+    },
+    "features/P062.json": {
+      "sha256": "ab7d67231402999a7bc1160180bdfef94f633c7875416888ab1966713dea1285",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P062.json"
+    },
+    "features/P063.json": {
+      "sha256": "698f6077ed99ab5d79b7227b13cca17d92279f9729941dc31ea2361a9ce0aafa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P063.json"
+    },
+    "features/P064.json": {
+      "sha256": "8d83d19b4911b6e4e77723b3448095f4e4941e3f759291e043cda07e8ef34172",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P064.json"
+    },
+    "features/P065.json": {
+      "sha256": "2f46fd4e6dd3e392a669ec33e2100ad6f402de38f4d2b011eee6070c0195ce68",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P065.json"
+    },
+    "features/P066.json": {
+      "sha256": "406abb0b1104e29296e52f590c87d04d7bfa91ff7ba8267658e864d9c9182e82",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P066.json"
+    },
+    "features/P067.json": {
+      "sha256": "49af9f55c5c0eff65dc59dd76a6465e36c59ba036eda48425587018e22425f3e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P067.json"
+    },
+    "features/P068.json": {
+      "sha256": "3ee7321a974003a97425f1934090038d2a5009f884763941c2b91594667b40ad",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P068.json"
+    },
+    "features/P069.json": {
+      "sha256": "31c2117f311b34c888c7914cf529b1f3fd60ee232aee48c9699514d13e840a79",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P069.json"
+    },
+    "features/P070.json": {
+      "sha256": "c3cff47dc0c56176f22457f30456ab726dfd5279a16a984c37f2dd6088e5ac68",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P070.json"
+    },
+    "features/P071.json": {
+      "sha256": "dab67c069f110e73733df0e2c4e1dd65af8ee10d0f5e995840c5cfa99c9eb9ec",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P071.json"
+    },
+    "features/P072.json": {
+      "sha256": "bc02aaea4af8cf6fdaab031babb6751f536f89ec68dcd191b81aa05db1d835d8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P072.json"
+    },
+    "features/P073.json": {
+      "sha256": "045b019e0349ad3c536043b22df9e6554dbb08331598de2124d527e0d85d77eb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P073.json"
+    },
+    "features/P074.json": {
+      "sha256": "3dc62d300a4290320b016d00eda0f5c09bb041ffe925afe1314072d33077131b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P074.json"
+    },
+    "features/P075.json": {
+      "sha256": "95226bb69a50777f14bbca7c70c405eea984ffc564d3127768a77a056d52fdf7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P075.json"
+    },
+    "features/P076.json": {
+      "sha256": "4db986d65ec33dcfd6c31c5733a90c18bc5e814b6b7053f8d4c27c5d42c0e35e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P076.json"
+    },
+    "features/P077.json": {
+      "sha256": "f14ed0d49f181d369c27ea33eb2ff8bac49048d44d19cec9b01084f79d959eef",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P077.json"
+    },
+    "features/P078.json": {
+      "sha256": "7097f2f030000f4216be5ee604a5cddb334b1241cc1f6dbe0c4e0fa9e6676a22",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P078.json"
+    },
+    "features/P079.json": {
+      "sha256": "15ffb04e44614af1597b0dde8a4896c3fadc1444ccd555a0849ce8d0374d2a33",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P079.json"
+    },
+    "features/P080.json": {
+      "sha256": "b14d21e7bdb8e06eb4d0304fc6cd604ec10250d589acd029de04d8c61ff3d3cd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P080.json"
+    },
+    "features/P081.json": {
+      "sha256": "e4ea0641236721043b685b87215c509afb7713e73a6c8f41886deeaa68baa849",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P081.json"
+    },
+    "features/P082.json": {
+      "sha256": "8d4e3cb01409bf9ad5e48e2d95c8b6227092f833001809b44d0fcac9c69782aa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P082.json"
+    },
+    "features/P083.json": {
+      "sha256": "4f6a094f48d33b138094ad889feb35ade0d31b3faa0b135c8feb6478d5ebbf91",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P083.json"
+    },
+    "features/P084.json": {
+      "sha256": "9d51016d271213ce43653fbfd2d15933e955f4c4634c4e53c8e8e30c0cbf45c2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P084.json"
+    },
+    "features/P085.json": {
+      "sha256": "4169b90ea37347183749bb980c54f0c1e7ae1d157bbb6bf699fd588503035c1d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P085.json"
+    },
+    "features/P086.json": {
+      "sha256": "08f94f74a499b49fe8de7b02f12927d675e0e24345f3a7a85628170db43915e6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P086.json"
+    },
+    "features/P087.json": {
+      "sha256": "56ee96f23e3eaaf079f406e1d25079a65f39bee2f9cd7f90bc4565853146c2a3",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P087.json"
+    },
+    "features/P088.json": {
+      "sha256": "344a84711e006c5ca1288519721bb6a48dd451da0571ec6031794fa79486ee62",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P088.json"
+    },
+    "features/P089.json": {
+      "sha256": "65c2658d9616ac0358ca5c4a490478d1cca917f4fadcc8396274c2f9d8bcfb7c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P089.json"
+    },
+    "features/P090.json": {
+      "sha256": "3569183ddae1d9898a0ebade86344c1abe103adf6679fee2927a9b2708d6d087",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P090.json"
+    },
+    "features/P091.json": {
+      "sha256": "c68c336c32a40d8598020d57c51836cb96703daabc17b8dd966719bb3f41ed7c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P091.json"
+    },
+    "features/P092.json": {
+      "sha256": "3d46c8ed689e0f8ba1bc44796d05ac06c93a15742a6f6214b4d0b4152197a949",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P092.json"
+    },
+    "features/P093.json": {
+      "sha256": "72aabc0ffef614d6770135fa1a5ae2f4faafd57842926ae4dfc9791476eb1dc5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P093.json"
+    },
+    "features/P094.json": {
+      "sha256": "d9cc71729768df5359d5c2cbe1b44279c64997bbd4ce7b7a8e1841ad6b88cb57",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P094.json"
+    },
+    "features/P095.json": {
+      "sha256": "6b4310e6c34822705bd464011afbf388779bb0aa12598b06817d75bf53ece309",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P095.json"
+    },
+    "features/P096.json": {
+      "sha256": "754af320e3aa2c830524321a0d3eafc2197e79fe1ddb5203bcefe1121cd5f667",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P096.json"
+    },
+    "features/P097.json": {
+      "sha256": "9fe9a1eb7bfebcfe37b9b9ff9fab9d5b711cdbbe69110f0b99fd35c3117507f3",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P097.json"
+    },
+    "features/P098.json": {
+      "sha256": "22018696047f683680d90215af1e6aa0e98d9ddb9240d88ff8b8df6da704d226",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P098.json"
+    },
+    "features/P099.json": {
+      "sha256": "13b57556fd720ab17546bf78e7ed8c2a584777f7a7198574508c33474dc76a3e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P099.json"
+    },
+    "features/P100.json": {
+      "sha256": "adfff0184bb8814d7b611d6be20df58bbcc92a4329ed963aafc7195f6dc8f7bc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P100.json"
+    },
+    "features/P101.json": {
+      "sha256": "6fd85c3e158bb95d520957ae2846163a85beb38558692c684a14db14e9cfb949",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P101.json"
+    },
+    "features/P102.json": {
+      "sha256": "01c9f3b69c8c282d0a94a5623a51729af4afe60b5eac10e924c9bf895a91bf6b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P102.json"
+    },
+    "features/P103.json": {
+      "sha256": "57d2f176af9cfaa04f021b39a252aa37afeb16cf35f43960721436a039783d03",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P103.json"
+    },
+    "features/P104.json": {
+      "sha256": "e1a7dc4c582af7bf8af445d9966bf9165de50a2f61f03e7655c511a38347e6a8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P104.json"
+    },
+    "features/P105.json": {
+      "sha256": "bc94e5701b40ede5e47e6503223cfbf6870f16304e91e5ddaadceb50a70068cf",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P105.json"
+    },
+    "features/P106.json": {
+      "sha256": "fd2483309228d11dfc76c8fea69003d127919123008572db0d5b54f1bf6f2966",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P106.json"
+    },
+    "features/P107.json": {
+      "sha256": "ebd061d5981bdfdc1d3675e3fca96f128b0e451746d176683ef267d4d79bb5fc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P107.json"
+    },
+    "features/P108.json": {
+      "sha256": "85c22f61aa00a109628054f31af4035b26661ac381e8d54550b59886451380cb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P108.json"
+    },
+    "features/P109.json": {
+      "sha256": "06f442c0ec51750e787bd1cda3dbfca9921f181e9eb16526ec7313946c52cdeb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P109.json"
+    },
+    "features/P110.json": {
+      "sha256": "7b3b7fd7276bedfc2ecc44281b62cf9aeb6a16974eeda5fdf9728dc4b550acbf",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P110.json"
+    },
+    "features/P111.json": {
+      "sha256": "2497803f67d97a62c68614a69b8fcf36b26c2e4b91b0daf6819bfbe653c79b81",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P111.json"
+    },
+    "features/P112.json": {
+      "sha256": "4ebbfdcf639c45247004fe8c2e3f32f7158d9c4024a60a3f6b9d6b12ec44d7e5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P112.json"
+    },
+    "features/P113.json": {
+      "sha256": "d2160602a29be87e3038ab831a6a905784ee6ffbe7034c864eb42e3de973aeaf",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P113.json"
+    },
+    "features/P114.json": {
+      "sha256": "fa4711df9040c3b936dee190fe1d16ec050668078cc71cee74b46e11c7fdc18f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P114.json"
+    },
+    "features/P115.json": {
+      "sha256": "dab1ee75835fd7db675146d0b291bc32caa08e0eba8727b1e04c9edf6039cf0f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P115.json"
+    },
+    "features/P116.json": {
+      "sha256": "ab7fe4089a90649e382fb403d69b9ec3b7c7873fbf4447080402103caf5f071c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P116.json"
+    },
+    "features/P117.json": {
+      "sha256": "8148d6af111494cf7f7c18f1fd53b9ed711281af4edd614a686846a9226435c2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P117.json"
+    },
+    "features/P118.json": {
+      "sha256": "1bdfe10a793ca27d5297a87db3dc74bb408d5ceaccd5e0c301ef2fe4c6dc0dc2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P118.json"
+    },
+    "features/P119.json": {
+      "sha256": "cd134dd45565db1a005e1f6a04fc3ccfe46c43c617b601d424164af04d1e017c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P119.json"
+    },
+    "features/P120.json": {
+      "sha256": "b1ed899db409b34ec5adedee03d0bc676691ac94fadf3017081a7fcf634fe6a6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P120.json"
+    },
+    "features/P121.json": {
+      "sha256": "3f2cac52fa5f721160d937da09cf061636d1c5e1024c73e17da6e8a0010b849d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P121.json"
+    },
+    "features/P122.json": {
+      "sha256": "d4ce67111223322a560f6206efe6d3ff858f6e1ede676cb4b2fcc9787b499c68",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P122.json"
+    },
+    "features/P123.json": {
+      "sha256": "efc16f6463949e4ec8335832495650c52ab292fe694bcfa6308bed8b661d07fc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P123.json"
+    },
+    "features/P124.json": {
+      "sha256": "0562d58ee40da91140531c5df29824d1bb4f905222feeb1cc58b085d1890d518",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P124.json"
+    },
+    "features/P125.json": {
+      "sha256": "dddc125a43043abdbc4bfa6477ce27db69fd7b14b165eea70391478b7ea8d76a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P125.json"
+    },
+    "features/P126.json": {
+      "sha256": "8c84dad90d5c01cf326ca4e39aae6f81b10752032e844e4bba4148006037ab03",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P126.json"
+    },
+    "features/P127.json": {
+      "sha256": "891f4ca8e6d8fcfb5c0da9e0a467be70bf9b1e7b521ebdc6235eb68023c43f17",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P127.json"
+    },
+    "features/P128.json": {
+      "sha256": "9b012c141f3e320eb2bf2033a321fd125372fd23acf1c834ec18fed531d36cef",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P128.json"
+    },
+    "features/P129.json": {
+      "sha256": "9b4e3b0d9c74a4a158828022250afb20f2bdb55f99ed3b4d8cd0c8bacbf59133",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P129.json"
+    },
+    "features/P130.json": {
+      "sha256": "8d77fe78864ef9f7f5627ea1aa78c592877dae2860661cb5e6ad50589e01c6af",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P130.json"
+    },
+    "features/P131.json": {
+      "sha256": "b4b2e70027f65dcfa73cb3c8014b1354b270d22bcc9ca0b8f2ae2453c1c142f4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P131.json"
+    },
+    "features/P132.json": {
+      "sha256": "8f6286335666d07b563b3d216f97619a18bcc7ef72af1c71440b9d1f3c378037",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P132.json"
+    },
+    "features/P133.json": {
+      "sha256": "a229b26a15bff9db0b8203bd814fb8334302754edb3f35f2b610b894b85305d1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P133.json"
+    },
+    "features/P134.json": {
+      "sha256": "7106a0e7afe4232727a436be20b06eccd6ef0eac8c1b0d95c678076d5fe251d9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P134.json"
+    },
+    "features/P135.json": {
+      "sha256": "00f9b9440468ad54ed52cc6be255c357ec9e8e9ae36047e062ac7aa5a725966d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P135.json"
+    },
+    "features/P136.json": {
+      "sha256": "e2ead326679de0f2ca05a13ade6b447bb5969c1faa37cda9a6cca238ee833212",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P136.json"
+    },
+    "features/P137.json": {
+      "sha256": "5960d763dd7742e9febc1c4b304e9e6497d027f7444f2e6da9136eaa9354b014",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P137.json"
+    },
+    "features/P138.json": {
+      "sha256": "d5a6a3baa55a8d4245a070f76c22e3b25a6758d6e8130c1012bf6ce694b8ab44",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P138.json"
+    },
+    "features/P139.json": {
+      "sha256": "8d1619d003e047410c18aeffc63db1ea0bb6f7b29e3d0a4c72c9ba5955f082a4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P139.json"
+    },
+    "features/P140.json": {
+      "sha256": "41574a1d8d87423367491c02b80ee2cc111a02795cc6a087f129c0c0a3946745",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P140.json"
+    },
+    "features/P141.json": {
+      "sha256": "cd167d193c7a9d297b65870c7414cd50c703cbed43f1aa2335d3d3171fa7dffb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P141.json"
+    },
+    "features/P142.json": {
+      "sha256": "72dec5e841eb0981ffdd7052a5760f878c94782f6113cf5ec01b2205a95a4a50",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P142.json"
+    },
+    "features/P143.json": {
+      "sha256": "40407555e86772e2ee99db9c85d9cc46b54dcbbc7e6c483d3c9c14487f7c024b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P143.json"
+    },
+    "features/P144.json": {
+      "sha256": "eff1865ecd072fd4d3e88be15527a2bc01a5de28e2a672cb785d381e96898d17",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P144.json"
+    },
+    "features/P145.json": {
+      "sha256": "06769d65a227c10357f28ad226f825035a791a2567a0f15739c92f87907360fa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P145.json"
+    },
+    "features/P146.json": {
+      "sha256": "81f086a9b946374240021410db350277b951563c2dc18d067e14f13e500bd736",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P146.json"
+    },
+    "features/P147.json": {
+      "sha256": "e80f45a3dcdd5e99b90e32af50bd8e46bd689f7b20ed633d64037fb01ac3ae03",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P147.json"
+    },
+    "features/P148.json": {
+      "sha256": "c1d5a8509a3ee6da10f0f3f5a6d72cf3033952fbff0311e2f3e595206aa22196",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P148.json"
+    },
+    "features/P149.json": {
+      "sha256": "ccebb4bac8ca0cf4df22821250d55a422c449796dcef082a155230587b3b5e94",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P149.json"
+    },
+    "features/P150.json": {
+      "sha256": "a020c7882eabe67ecadbccad562eabfe724a66fef65a9fe74e7b96d813ce210a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P150.json"
+    },
+    "features/P151.json": {
+      "sha256": "b614599b4e078ca26e97bf07fcd192dca6c48032703a4fecab87f21afccfdd53",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P151.json"
+    },
+    "features/P152.json": {
+      "sha256": "23a5e746528122b37d70a107f0edd87bb40e0a61e12e6344ddccd4a7c027e2f6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P152.json"
+    },
+    "features/P153.json": {
+      "sha256": "f529c0a845a275241d5a4555a99e935220e050c5da36350fcdf2240200c49dae",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P153.json"
+    },
+    "features/P154.json": {
+      "sha256": "203eea79dd0d49017b4f3046dab0cf389fda44e8c6c03d282038ec56492279ee",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P154.json"
+    },
+    "features/P155.json": {
+      "sha256": "7383d875fcf93556e27fdf0c312c710dff56996258fcbe4e6d2109515c9a304f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P155.json"
+    },
+    "features/P156.json": {
+      "sha256": "adf9fedcdc456ac54522b1333819014102cb0c4314d5ab82010759e0975c7ba2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P156.json"
+    },
+    "features/P157.json": {
+      "sha256": "0b0479401485be59b0d66cda2738d6dfc7c0450ab1e9f27d7cb02cf70091cdd0",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P157.json"
+    },
+    "features/P158.json": {
+      "sha256": "0edfa552d6ad63bc21b33438896c94617a7d2fbedb17d944b6b553dc4587dc7c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P158.json"
+    },
+    "features/P159.json": {
+      "sha256": "2041bc36c97655ccb664309ae816b32e5586515eb9cb614cd4e89b87dc14cd94",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P159.json"
+    },
+    "features/P160.json": {
+      "sha256": "b5c5e1ec85036788bd0c91247ec3c54764a21067ff04490ae5180fca60943fff",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P160.json"
+    },
+    "features/P161.json": {
+      "sha256": "7c2d1b0c36a51a903221918d21e15d4725bc9a553f67917eacaca643eff50e30",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P161.json"
+    },
+    "features/P162.json": {
+      "sha256": "d662718ea3fe88305bbf3d2a14990c5394cca3aa9aeb0f2d81d045af0e5db34f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P162.json"
+    },
+    "features/P163.json": {
+      "sha256": "2aae2627435cf06a8dcd03e7ef0a9733e3e408dc8f960f97f9d531f54752deb4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P163.json"
+    },
+    "features/P164.json": {
+      "sha256": "de99806ecc5962714386e93fcbb0f376e0ecbb75ed638ae015c1dbfb1c3b8f38",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P164.json"
+    },
+    "features/P165.json": {
+      "sha256": "bb76f111c09bb87530c08966f95660c53e0e47768677d095d044ce227ebe85eb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P165.json"
+    },
+    "features/P166.json": {
+      "sha256": "00026e32df91e6e1f790cd41aa638dda94a85ab6a8bfa8f6750671601cb54eb4",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P166.json"
+    },
+    "features/P167.json": {
+      "sha256": "ff2561a372880c294103d6a416c3f6ac363c8b32f9b59b63925aea7ed7f52c82",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P167.json"
+    },
+    "features/P168.json": {
+      "sha256": "0338d5b024a1bc977a7acd45a070aed64558797160fc400c843e733dbcc31a48",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P168.json"
+    },
+    "features/P169.json": {
+      "sha256": "26049cfb82cac4aad996df490b45b1533cca93b65cf18795cc6bfbdc7454788a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P169.json"
+    },
+    "features/P170.json": {
+      "sha256": "1c410c7330fc60bee818ecae0d58501b7c5b2457e19e8963144dec1b7a867ad1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P170.json"
+    },
+    "features/P171.json": {
+      "sha256": "c1aa671949c7c0daf5a9d33d696e6fe8b2d7ffc688263e66f3887e7065b2d57c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P171.json"
+    },
+    "features/P172.json": {
+      "sha256": "1088dc1417099c0234731ff1da2076278a0540ad0e253c65490247a03df0a1f2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P172.json"
+    },
+    "features/P173.json": {
+      "sha256": "fb26cadc77df3d17e418999b639158c16f6e2666eb34009d63bcd0f762578970",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P173.json"
+    },
+    "features/P174.json": {
+      "sha256": "bc586e26a9e001372b7e8cfc592c3c13df7ba93a788c8035e42c3d3b6d9838ae",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P174.json"
+    },
+    "features/P175.json": {
+      "sha256": "559263709765704b937538de0261dd77ad183b39a049e4dba7801bbe33d2ab91",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P175.json"
+    },
+    "features/P176.json": {
+      "sha256": "4841ceed9c9096264487f0063258c8fb6f3b3d2b36a9a68532feddbeaadf1b98",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P176.json"
+    },
+    "features/P177.json": {
+      "sha256": "12258547c99da486fe0143c73688309fd12c37966702432e51c02a43f2857e2b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P177.json"
+    },
+    "features/P178.json": {
+      "sha256": "67068b3cc40135720a47b481a92353d8aff1cc7261d37df68cc1ce1ea6cb4ac9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P178.json"
+    },
+    "features/P179.json": {
+      "sha256": "1c1207168cce3c2669ce4354f82da760f4d8fd99bbcf4ce763c8a39d5b215f3c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P179.json"
+    },
+    "features/P180.json": {
+      "sha256": "ce66afb96d46eca4074cf85e71ce449f3d5662645df643a01f126fb422926ec2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P180.json"
+    },
+    "features/P181.json": {
+      "sha256": "04b062dc4c5ce47283988d1d827385cdaa06875a09a661dca38da9a5d6eba256",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P181.json"
+    },
+    "features/P182.json": {
+      "sha256": "2e6a2f5ccf056ba1a33b0893116a764faa6c058bdf3f7cf79e08bbc2547304e0",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P182.json"
+    },
+    "features/P183.json": {
+      "sha256": "e1a9c299f70fb565cceca17c9d3fd547c8aa7b58c735f91ddcdffc665194a68a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P183.json"
+    },
+    "features/P184.json": {
+      "sha256": "3ba878468a871ec36d1e6fed695a2b7d41897d9ed50d34a2ab8c0fcf3915ac85",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P184.json"
+    },
+    "features/P185.json": {
+      "sha256": "04a47a4855b0550be8eed3d7e25f26924ac5aa7da9818a1bbb8c5f0ecdfa2115",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P185.json"
+    },
+    "features/P186.json": {
+      "sha256": "4ccad4374ac01c35e14d7577eefe4650ec152c568b0b48a367f3c97c45f0dd51",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P186.json"
+    },
+    "features/P187.json": {
+      "sha256": "73a504d6df7254ed2013d6b2421966e8ac1f142e7535df7a749cf9b4a7543288",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P187.json"
+    },
+    "features/P188.json": {
+      "sha256": "3b8c60ee13816bdeed013dcaa52994f13781848faffdbd343f222f11e8b69e83",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P188.json"
+    },
+    "features/P189.json": {
+      "sha256": "429b20328baf87d3eecc555e6038446ee49418e3ce4882f1712756a2d37c3763",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P189.json"
+    },
+    "features/P190.json": {
+      "sha256": "07e0ded2dbc068316e1c254db706ebe9365a84f377417bf4c55566dfb8b42dee",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P190.json"
+    },
+    "features/P191.json": {
+      "sha256": "f3a985709b2e32915786b1ea98754f8413f85a340e3b8cff05ffe0461ad4ae9f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P191.json"
+    },
+    "features/P192.json": {
+      "sha256": "b4a12226c2e50bc4ab2d0880e1985a7b2ccf7fa238f2ed424d04b0ac1c7df85f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P192.json"
+    },
+    "features/P193.json": {
+      "sha256": "2f0091fb93aa7afe345450f242690965417ebbc13ce9f70ceaf11a267c2967f7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P193.json"
+    },
+    "features/P194.json": {
+      "sha256": "da552ce6b74bff5b14368e690a15ac870ef680b6e25d3571b88e498a86abed3c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P194.json"
+    },
+    "features/P195.json": {
+      "sha256": "1f792d7c454c3a5595e8ed1da7a8e04125a89ff62fdaf4843336dd613b57b45a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P195.json"
+    },
+    "features/P196.json": {
+      "sha256": "3ed9baad8232e51ab801567011d88b56b86c4a15cbbb6e8a85cf994250b9fe3a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P196.json"
+    },
+    "features/P197.json": {
+      "sha256": "57f0f88b4324d93dbb6e08d99f3c83186af961451b3056ebe147680203e3ecb2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P197.json"
+    },
+    "features/P198.json": {
+      "sha256": "873714367b7bb28b9b380784d124b68a8489b1d5329ac1b19be407ee3eb10c3f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P198.json"
+    },
+    "features/P199.json": {
+      "sha256": "7ef7c2bf945fd114da1cc80d9979945528b972ade6edf5eb265fa5f43d17f8fb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P199.json"
+    },
+    "features/P200.json": {
+      "sha256": "f7f9761df68a39dfd578334e931d93f142755cf816c5af96048e88f37adbaa4c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P200.json"
+    },
+    "features/P201.json": {
+      "sha256": "33374efdf0dd89085eb682e07a5190396f0fbac6b85eae51bf2804f6725f3abc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P201.json"
+    },
+    "features/P202.json": {
+      "sha256": "b06cee30115f3c02147c4d2058b57e03b7945d1283de7c233023feb4f79122a2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P202.json"
+    },
+    "features/P203.json": {
+      "sha256": "eb1a6e1e8c11b06754992c4a74b271075bab9c4c8f565f4f2e4abf69520fecf5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P203.json"
+    },
+    "features/P204.json": {
+      "sha256": "64222d41f108ed2b793ba7d5319585a3ab1003c6491b2b85b45b0ebe1963dada",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P204.json"
+    },
+    "features/P205.json": {
+      "sha256": "9bff92860658170776a10fc074335002e3b57037a8e3cdc3458f33ef8a65ca4b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P205.json"
+    },
+    "features/P206.json": {
+      "sha256": "556856a90fcf5d181adf9cc286406727d625d19d949f671289297a30e25fc367",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P206.json"
+    },
+    "features/P207.json": {
+      "sha256": "57afde1c54ea4ea6cc55592ddaa14f6d8b9ce3fd8eb955b004230c47b701a988",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P207.json"
+    },
+    "features/P208.json": {
+      "sha256": "2e9fa740a8a4091387a4a0907204dfebb32fb3234628cf167b9b044bdec06e1f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P208.json"
+    },
+    "features/P209.json": {
+      "sha256": "97b008ec152f2f5c4eb540fb2bcd04779e3dcefdecd540e2c5161c0ff30483ee",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P209.json"
+    },
+    "features/P210.json": {
+      "sha256": "1f24b6c2ce4cf25ef036c6930d4f26dce22f2b0439a62e7cd127c51385b5f93d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P210.json"
+    },
+    "features/P211.json": {
+      "sha256": "48c2aa9428cb629776e8d3c47cdf204e79e06497b5be76380efe59778350fed8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P211.json"
+    },
+    "features/P212.json": {
+      "sha256": "1dd3f547e22a4f9e89e0e0dd0f006a25b2b429035dcd976fdc839684b987ac69",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P212.json"
+    },
+    "features/P213.json": {
+      "sha256": "4ab38240f8eee33cf9c6583cdc528322d873ecbeba4af247160260c232839818",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P213.json"
+    },
+    "features/P214.json": {
+      "sha256": "58e4aa80f7eed55f3a94eca2235aaf468e16a6abdd5c76a3aa2df3aa4266b425",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P214.json"
+    },
+    "features/P215.json": {
+      "sha256": "2747dbeb474a65283054099cd81afc04ccfc0cce235f7642e351360aaff7a9cf",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P215.json"
+    },
+    "features/P216.json": {
+      "sha256": "3c7addb8b972f70fe90050966a60bc6db10326eaab0fadc11fab45e0242b3308",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P216.json"
+    },
+    "features/P217.json": {
+      "sha256": "5508bd2e645091ac49f820bd083d1576303fc1182af219db37a729260dc1fcb3",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P217.json"
+    },
+    "features/P218.json": {
+      "sha256": "e0b7cb1eb291581988bd2efd69528177e0cd04aad2d0f2bc3177c0959ee9d501",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P218.json"
+    },
+    "features/P219.json": {
+      "sha256": "f564555c619d8bfc9bfc0ae98dc48eb40ba7bc4258c8a881f3386669aba0ef3c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P219.json"
+    },
+    "features/P221.json": {
+      "sha256": "1618ad8cf49198c8645fe19b7183ebc4370732083069bad599af3dfae8cffc68",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P221.json"
+    },
+    "features/P222.json": {
+      "sha256": "ad19248ce5718e73a6a841bd8adcadf779972c8a48cc9345f3090a1b7b15cc80",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P222.json"
+    },
+    "features/P223.json": {
+      "sha256": "aefe6d082daf34cdacb6e4a02a31b2f0bc59a5c135d64f02d7d416b355947b27",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P223.json"
+    },
+    "features/P224.json": {
+      "sha256": "0432cd13a276ee41e43c1fcad5e09214858a1e8d844414ee2d573aab14da1d87",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P224.json"
+    },
+    "features/P225.json": {
+      "sha256": "cb05b18fead5f22ad1a0004521e241f6de3d14f16ece4378478fd5a0ed247fee",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P225.json"
+    },
+    "features/P226.json": {
+      "sha256": "eebfacf78ab56a9fb75e5e94c8729fe2e87a9f24dbd9eea1f7f084f3a3e9a7c7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P226.json"
+    },
+    "features/P227.json": {
+      "sha256": "3a8e29f6b8cdb9049945d09a3de6199ae89231a25baa9574aa3548c2b283f26d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P227.json"
+    },
+    "features/P228.json": {
+      "sha256": "951a6dbb48df50750363e6073d02995570be6ce90eabb3b9ad7105638569bc25",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P228.json"
+    },
+    "features/P229.json": {
+      "sha256": "217f711f2301729c20bbbf53cd7e5029f205c955771b950fd29f61a8a7875d83",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P229.json"
+    },
+    "features/P230.json": {
+      "sha256": "3d1e79da98ab14e6266582a282767be6b595784603565658fd166d4b15133b7f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P230.json"
+    },
+    "features/P231.json": {
+      "sha256": "78b458a8f4cd2e340fb0181cebcaa7c5fd3ce4e002e0baa764e55c8cfd3972fa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P231.json"
+    },
+    "features/P232.json": {
+      "sha256": "6f8966f1739695c885f872a75fadeae5324a4a03cdd3dda1c6557db8960cc063",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P232.json"
+    },
+    "features/P233.json": {
+      "sha256": "c6f6b995cde70b4df6b860e2448e93a8c5562b94a0ea4d07b9e162989a88d79e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P233.json"
+    },
+    "features/P234.json": {
+      "sha256": "c0fc2c18ed93ecebaacbbbb89bf1c9449fb7a0c380ea5aa3c0626a1c6544dfcf",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P234.json"
+    },
+    "features/P235.json": {
+      "sha256": "8adb34a2bba6bd92252939d1d0bd731989a642fb3e667de29cf8dc3c2bcc4f37",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P235.json"
+    },
+    "features/P236.json": {
+      "sha256": "ee39889eeba7b097950acd4df03acbcc14e8f3fdbbe1624f1422c9714ce4efc2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P236.json"
+    },
+    "features/P237.json": {
+      "sha256": "475da3c70442820bb6691fb9b49a4de3675408831d8d05fd856000a0746d6197",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P237.json"
+    },
+    "features/P238.json": {
+      "sha256": "bde3d0c9b689fc4db075136ab7585d402b5ea58962861c1a711e73ff9361870d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P238.json"
+    },
+    "features/P239.json": {
+      "sha256": "7ebd2e2c9563f5f3451286b3606ea7931f051dec6d369b033230a0d10d387e63",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P239.json"
+    },
+    "features/P240.json": {
+      "sha256": "3663d363900ddc1cae298edebc610f14e9cc0a1705123376319711b70b0da2d2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P240.json"
+    },
+    "features/P241.json": {
+      "sha256": "e9698dd89bf441a66bdc188077b26aa771fd4b27e220107adb66bae0d625d717",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P241.json"
+    },
+    "features/P242.json": {
+      "sha256": "733013c2894d6073a6b530e2ee940da096846a365130f37ca2a6d6489990e770",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P242.json"
+    },
+    "features/P243.json": {
+      "sha256": "ab90041ed2d00302720b5ef1aa7f71ccdbdb26221638ea4eb49490750237aef0",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P243.json"
+    },
+    "features/P244.json": {
+      "sha256": "7525500b0d55757df135b40f2f7dcb0d4dce106b6655f0ec615d237ecd0e4920",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P244.json"
+    },
+    "features/P245.json": {
+      "sha256": "ce93a4cfac8fd25e9e567c0c5675f1f2309602b5496fe4115edb25da48787d9e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P245.json"
+    },
+    "features/P246.json": {
+      "sha256": "cbdceb0e8838bab262b2b4f385035325076b80f2d876028bee86c127461e727c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P246.json"
+    },
+    "features/P247.json": {
+      "sha256": "86229d768411de602de327df0c4b6335f99a646b315a538b20c2c00eb7f893cb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P247.json"
+    },
+    "features/P248.json": {
+      "sha256": "0fe76d62e63f0eb98b9b8c50b02e3782f80b182c42caef70b55eaccb7761be24",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P248.json"
+    },
+    "features/P249.json": {
+      "sha256": "03f14d570f537d4509621161f8729397846c0421b63aaed14848a67f13d5af2e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P249.json"
+    },
+    "features/P250.json": {
+      "sha256": "fca0768d2b6043e7e1b28a5ab7715a5f26ba9990b2445e94472ae74840b5f3dd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P250.json"
+    },
+    "features/P251.json": {
+      "sha256": "78e03d6c7f84a739956094b8bb5617a20c7953d8d2f36f35afc256e4792ec4b6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P251.json"
+    },
+    "features/P252.json": {
+      "sha256": "bae5b73282b7b26633513764c7704935e67e2e2150f1776077a86f0600e8e647",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P252.json"
+    },
+    "features/P253.json": {
+      "sha256": "ad2b4c45dc51be0596681f31b7e258161baa52a897efa9a0ef9ceb6b3e29b3ed",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P253.json"
+    },
+    "features/P254.json": {
+      "sha256": "30367cad07bbe08ba68422e0d82449f1acff41abc89c368477c1382aeb6fa5cd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P254.json"
+    },
+    "features/P255.json": {
+      "sha256": "574ac6ce9b41694ba0da8915be22be6a4621d9d9064c9b378daa4da9b1b60779",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P255.json"
+    },
+    "features/P256.json": {
+      "sha256": "5aa25c1b6e7a5d520689826ee45e58b6093fbbe48d5e8e807af75b7490c32b1f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P256.json"
+    },
+    "features/P257.json": {
+      "sha256": "69ab285e334ded3652195d1a8408b0ed791ea4fde54f54a08a0bb030d70e5bfd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P257.json"
+    },
+    "features/P258.json": {
+      "sha256": "cee3189607ea48948c4728c80f75f1f24612792ab8953a26558e7730b8d688b3",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P258.json"
+    },
+    "features/P259.json": {
+      "sha256": "37dba9c6ab23b1d1cb8a39ee768fbf4c7ceb1aa8ef96e5d173f8fadc41a25640",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P259.json"
+    },
+    "features/P260.json": {
+      "sha256": "70204bff2e5fdf023a11c8c14809b43ff42ea5bf3b33e93d0b48e1f72ca6fd00",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P260.json"
+    },
+    "features/P261.json": {
+      "sha256": "c26f888000ba5777eeeeb2f78b264e5436afe7dfcfacb7446db4993ab1c35e7d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P261.json"
+    },
+    "features/P262.json": {
+      "sha256": "55a7706cc488669693bcedc5cd140a901f62c021568018d78c5f8d380c6a41ae",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P262.json"
+    },
+    "features/P263.json": {
+      "sha256": "71ee7ad9a80e024954e0a13e69773e1c21c93e23c63421fb7a7630269af3aaf2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P263.json"
+    },
+    "features/P264.json": {
+      "sha256": "e37f939c38c1159b7e1cef374b10abe13701a9cf1e92aa8735b81abe55401ef9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P264.json"
+    },
+    "features/P265.json": {
+      "sha256": "458f6b8e9466060f5cfcecd304d01845d548917008652e487d725c450f191dd3",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P265.json"
+    },
+    "features/P266.json": {
+      "sha256": "c9fc04c41f535edb0c30f3829ab51c95917159291e4792321e205e91bb66c272",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P266.json"
+    },
+    "features/P267.json": {
+      "sha256": "3a5e1282bbafa57bf4994cc3b9dc064ae410a66bc38c5d713a0bced23972ff50",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P267.json"
+    },
+    "features/P268.json": {
+      "sha256": "34248a590a6e9508c42747cda83871240599456f6bfe78d8e98eeb5b11e3f139",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P268.json"
+    },
+    "features/P269.json": {
+      "sha256": "f73effb03e5cc8100949c43b4333834367995ce6b2b4869caec3b2fe234d8006",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P269.json"
+    },
+    "features/P270.json": {
+      "sha256": "30af2f3206acb52dbead18c48fe53ed6e70c0c858ba3dfe174eac6d0546113c7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P270.json"
+    },
+    "features/P271.json": {
+      "sha256": "71d6272a83957104b60819a4d219732220d2b3e65edbcc1cb4255597d71555f3",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P271.json"
+    },
+    "features/P272.json": {
+      "sha256": "3bda26f06a6d791745d436f3d9e543c6eee5fcfefda58d227ac561a935e12115",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P272.json"
+    },
+    "features/P273.json": {
+      "sha256": "c54a49fca95da9384d2e2fe6281150a9a02a67b574c8f36c3a1e82ea95ca287f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P273.json"
+    },
+    "features/P274.json": {
+      "sha256": "427e71ffb2ead06fd5c7ed5c3820e7459e8c762f5fd864ef994c8925a8296d4b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P274.json"
+    },
+    "features/P275.json": {
+      "sha256": "8b7304f3162895b8b76e103a788520fc11737d88b5764fc8c18ca5530fc6521a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P275.json"
+    },
+    "features/P276.json": {
+      "sha256": "9ca4ff976a57450c0fe97bc2bb80eebe700ef2b7a98073e1d316c3a1de40921b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P276.json"
+    },
+    "features/P277.json": {
+      "sha256": "d2e48dedc4f8dee80a318c96bb4fe2d65a0415207043cc03d66b50f2d34b37b8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P277.json"
+    },
+    "features/P278.json": {
+      "sha256": "745ed487e12c5ab9fe9304861768b967c6b43b672722b6db95cc8e58b2bf5d89",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P278.json"
+    },
+    "features/P279.json": {
+      "sha256": "710aea3c3db5117d7340a86401e28ae7f81116d319120583590b79650f5a183e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P279.json"
+    },
+    "features/P280.json": {
+      "sha256": "a601f53b0257993f643d291de043cddb931657cd49886da480f23801a444bca7",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P280.json"
+    },
+    "features/P281.json": {
+      "sha256": "7826f45718f744796d336f5c51b49bca9fed1e5120f84b03f2da317ef570bb28",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P281.json"
+    },
+    "features/P282.json": {
+      "sha256": "2b3a05547ed0af10a49fb83c2385b4b4eb9ce275ceb69e823f6746a6b5906b5a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P282.json"
+    },
+    "features/P283.json": {
+      "sha256": "7fa4b0c0706c9ae380a8caae676ddecba9094e95aef44b42ebd3981485ec07e8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P283.json"
+    },
+    "features/P284.json": {
+      "sha256": "8a176ad28ec0b6272fc3ce624ab4837d30a22c09665e5f221c6b9b30e5e1e037",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P284.json"
+    },
+    "features/P285.json": {
+      "sha256": "0cabd39da4859fc5ea87d828f492642e5763fd6dade130caf6ffab1452971b05",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P285.json"
+    },
+    "features/P286.json": {
+      "sha256": "323f269d57617a5cdddbb4ef77ecb020f38b1341c2774d05cb64a8167da33f10",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P286.json"
+    },
+    "features/P287.json": {
+      "sha256": "4461f25f88c7807bf200aa5e080514b2ce23edc1cec2acf9bb063e53e74755dd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P287.json"
+    },
+    "features/P288.json": {
+      "sha256": "42294f155593c91f8eecd42a8f3590e477ce45241612fdadb531468cfab57b1c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P288.json"
+    },
+    "features/P289.json": {
+      "sha256": "bb8a60ca663466d93d820bce5a004d82f95d29d647e932034710c0934506413e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P289.json"
+    },
+    "features/P290.json": {
+      "sha256": "7e9c9fb5a0d69e23107430a778f4dd12986813ccaa942e21859b5548b0724b11",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P290.json"
+    },
+    "features/P291.json": {
+      "sha256": "35fbaf333b812a488a4f92c5f02ba6217b54ae2ccfc2b11e0b921bd0fc08a983",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P291.json"
+    },
+    "features/P292.json": {
+      "sha256": "0d56b87a5a1945b988b0cecd23666b5146fdcde3bb196830ec4e05bd1eba1e37",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P292.json"
+    },
+    "features/P293.json": {
+      "sha256": "98ba9ae2f0aab7bdddc6d55e16d73e77db175047e23a82ca19b636021e168abd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P293.json"
+    },
+    "features/P294.json": {
+      "sha256": "25fe141b9492683ab28a7cce7ade9c0a5394914a7f8682090a14a72f9fda01da",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P294.json"
+    },
+    "features/P295.json": {
+      "sha256": "7a596664eb2f861cb1fb0cf787a57b91625cca386b41ce02338842617f4edad1",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P295.json"
+    },
+    "features/P296.json": {
+      "sha256": "1a45e5a1d82b8a788b54e36b101918b9b77efc3a532f589dd4aff79f36513eca",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P296.json"
+    },
+    "features/P297.json": {
+      "sha256": "f7069a366585bcfaf101efe9800f10c12a2606d0571e1c8bb320f9d0ae48129c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P297.json"
+    },
+    "features/P298.json": {
+      "sha256": "7b9e612af337b3988f4350e8302321ea9fd51cec55b215ac158559b5b62fe63b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P298.json"
+    },
+    "features/P299.json": {
+      "sha256": "dd172bc6afe83dbd90990f9360412e4e1fa0a8f607622a3afe6cd89f637e4797",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P299.json"
+    },
+    "features/P300.json": {
+      "sha256": "f294866f86fe0814964c1c5a6c0182e8fa1d943d2f154a7e9ac0de3dd474f5ca",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P300.json"
+    },
+    "features/P301.json": {
+      "sha256": "861c82295ad56d28e9bccbdc8814dbfafb77d4934e464e41565d918cde1c1b95",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P301.json"
+    },
+    "features/P302.json": {
+      "sha256": "e47d6a20b49a9fc9daabfbee69dbaf9ccea8d3ce8a658c1b0070ac712d61a014",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P302.json"
+    },
+    "features/P303.json": {
+      "sha256": "15114514e29587670ce844778fb4e1042d5af620c207800af84514b6fc3f88a8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P303.json"
+    },
+    "features/P304.json": {
+      "sha256": "5813e1eb94e8fdb5fd7285d3e77cb44368f81fa7d8946ead81f718cb687dbc76",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P304.json"
+    },
+    "features/P305.json": {
+      "sha256": "5b9a977ea9677f8c1002b7045a4948a8a1290c9317c69063ce85bbdfeb99f024",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P305.json"
+    },
+    "features/P306.json": {
+      "sha256": "a9f5072aab16b261ef6c1687a96bb428643e92ea8f42bfa1cbc97a559bc350aa",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P306.json"
+    },
+    "features/P307.json": {
+      "sha256": "9216b155f735fa4f6b6093861126ac8de24e7ab0b1e2cbe98907def02480e321",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P307.json"
+    },
+    "features/P308.json": {
+      "sha256": "bce04252aa58ef9eb16c456a05bd6ffc3888b7492f25b7517719955c2dd791ba",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P308.json"
+    },
+    "features/P309.json": {
+      "sha256": "c9ae8f24ed6d561916cc7e1eda9599f1fa0bc1038c474a45dfe47bd5b85981c8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P309.json"
+    },
+    "features/P310.json": {
+      "sha256": "d7fe61b5b1caa822852abddee86cf00235dd5012897a9b7ed8c7c46e6a621e14",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P310.json"
+    },
+    "features/P311.json": {
+      "sha256": "8cedbc33f7851cb9e5dcb8b069c7b49a3f2af91306fd6682d79795481ba7a50a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P311.json"
+    },
+    "features/P312.json": {
+      "sha256": "15636e18a5d446df066eb77293077911990220081d5bb87301b0a4fd30b208c5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P312.json"
+    },
+    "features/P313.json": {
+      "sha256": "def7cb76b5389e53c2757e68b24fe3c24cfb19e950359f2f8ff4f5c8de5acf99",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P313.json"
+    },
+    "features/P314.json": {
+      "sha256": "94d790a3dbbe7320729d4dd1504fc40844dfbefd9d4b476ef400a2fc69a9e765",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P314.json"
+    },
+    "features/P315.json": {
+      "sha256": "067d6174393d8586310343a01e786fe7a6149b2b840d650dff0c113ebdc2eeae",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P315.json"
+    },
+    "features/P316.json": {
+      "sha256": "40f1fb3a5965826effc7494bffdd9cca2e0cc31fc097778c970dd34adfbb4984",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P316.json"
+    },
+    "features/P317.json": {
+      "sha256": "2913e098487cdc8bd62cd3ffc6588072162b08cd6441486d1adafe92b45b0643",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P317.json"
+    },
+    "features/P318.json": {
+      "sha256": "4cd8ce86029c9ad1ff6779126d0df53aff7d50d449320075f24d2a794cf94117",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P318.json"
+    },
+    "features/P319.json": {
+      "sha256": "a6e2c6520ec4a9c42c644b999f12886d4b9601518bb35010ebab78f611d6f11e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P319.json"
+    },
+    "features/P320.json": {
+      "sha256": "8e205a097326403bfdb7197128f8d67a1654ef3c5d283495268279d28595ebcb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P320.json"
+    },
+    "features/P321.json": {
+      "sha256": "98006ca204f340c0e4073ba1e36f8afe9ebafe5a66720991df41ce43ce387683",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P321.json"
+    },
+    "features/P322.json": {
+      "sha256": "eb66f80950efcb05ecc3fc0d31f1ea108d76c4f6f7ac6c10768ff0f24e5e8423",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P322.json"
+    },
+    "features/P323.json": {
+      "sha256": "5e6b5ab9f338570ae2e051fff8650b76e95797c7647cee5ebbc672c10549d38c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P323.json"
+    },
+    "features/P324.json": {
+      "sha256": "11e1f2bb629ef4cb8fde1024788574da56fd2d0b198127fb77a24466afb80972",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P324.json"
+    },
+    "features/P325.json": {
+      "sha256": "2ecd5be119aa8e07cc1f470906ffc2ed64e81d0d12fa8f3c0f1265fc0505254c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P325.json"
+    },
+    "features/P326.json": {
+      "sha256": "3f8935dba7857259afc9d3349c6e565ca823000f8b6e59e892adedb8d9188787",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P326.json"
+    },
+    "features/P327.json": {
+      "sha256": "7b4341764d82a09b0a587315a803d5ce80179210928be46270719c97547ced66",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P327.json"
+    },
+    "features/P328.json": {
+      "sha256": "e808c2e505a9eb3effbccba658b5bb5974c437bb69eadca34166942c04b988ba",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P328.json"
+    },
+    "features/P329.json": {
+      "sha256": "4ca034121fb90cc0144aceeee4939dcac57fd17083c2ce372b1645ebd13e5ef6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P329.json"
+    },
+    "features/P330.json": {
+      "sha256": "38c0dd65d03fd5ab60d4f2fa8bd0029adc29c6382a92d66b98179240bbe9c261",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P330.json"
+    },
+    "features/P331.json": {
+      "sha256": "12cdcfba12d47798d2da3993326f041a331da20e468653af2f01109fd7e6554b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P331.json"
+    },
+    "features/P332.json": {
+      "sha256": "1f37547e0b087d341e317e5634fdfcb9a3bd6adb5a3a406aab189d7d8942f3e5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P332.json"
+    },
+    "features/P333.json": {
+      "sha256": "3acac813f704b82466cc062961cb6cba21d9084ab1037ac0c5ace66352618e94",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P333.json"
+    },
+    "features/P334.json": {
+      "sha256": "98bebd33a1281bdfc990dfe225c423a3fda2b94a2bfe23f2c27008737bd9c41b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P334.json"
+    },
+    "features/P335.json": {
+      "sha256": "59afad53a0007493619e0cdd6caa4fd228c44dba25ff87f8252c76e1c9a18a75",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P335.json"
+    },
+    "features/P336.json": {
+      "sha256": "d7cacf03f8ed74012221fe0c2463de2717371392605ce181e10ae66f56eac04c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P336.json"
+    },
+    "features/P337.json": {
+      "sha256": "52e8f305d76de3c1e3b016ec862dbf64db1faddc576887122f92970acc0dad96",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P337.json"
+    },
+    "features/P338.json": {
+      "sha256": "5ff8e84f6eff806e16e1bc1dc7562237b75a335ac919c7d829450efa02f72e12",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P338.json"
+    },
+    "features/P339.json": {
+      "sha256": "836f01e08d6e969d512e952e20bf0f595ad68ae4c4371b539d6faeb69b45b62b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P339.json"
+    },
+    "features/P340.json": {
+      "sha256": "b82634c79911106e63f79aa60379b10afca6b9c2c62ffa1b17fbf188af4aac2b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P340.json"
+    },
+    "features/P341.json": {
+      "sha256": "aa85066bbcc90443752ac2770ad271129d5d887eac28267adc602662cf8cb976",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P341.json"
+    },
+    "features/P342.json": {
+      "sha256": "f4c6cca63ba62647772275926f59b328abb8ab398b8a24388b61734a30b70595",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P342.json"
+    },
+    "features/P343.json": {
+      "sha256": "0c119becda7abc770d15d587ade920406477fa01300b57e217ef082414b68f21",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P343.json"
+    },
+    "features/P344.json": {
+      "sha256": "12764f547d5793dfd0b20d10889016ae9ace31e10522fb68168cc2d78cc6d60a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P344.json"
+    },
+    "features/P345.json": {
+      "sha256": "6f39daaf23ab972fe9303531b0a23649571784822b7e48adfca4fa88cfa53e5c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P345.json"
+    },
+    "features/P346.json": {
+      "sha256": "b96d0f7c76ea10ff9462a2a0442bd7a2dba795f555fee8e5722f276b25137593",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P346.json"
+    },
+    "features/P347.json": {
+      "sha256": "76d39742b8ecde90bcabcb5e314d0d3726cd3aa313fd2f9f4f556ebaae06cd1e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P347.json"
+    },
+    "features/P348.json": {
+      "sha256": "b5d35cd1234180ebfd65dec5679f776fa229786e22c28c14abe09983290775fe",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P348.json"
+    },
+    "features/P349.json": {
+      "sha256": "e8839e31616f8b53e5c40c7f29e31876617475c46b61d280c353aa6936af5adc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P349.json"
+    },
+    "features/P350.json": {
+      "sha256": "222144ebf35e7b8a3201427d64f8d0f57c2f6325de6cdf776b78a06666a878b6",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P350.json"
+    },
+    "features/P351.json": {
+      "sha256": "a6d55f87390a3639aea4bab1899bec40e9e5d71fbada14055a58c333f4346d06",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P351.json"
+    },
+    "features/P352.json": {
+      "sha256": "d266e11e0ab018a27f4edb8315c97d862ddbed46eb5129b17c61f99e4c2cab6c",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P352.json"
+    },
+    "features/P353.json": {
+      "sha256": "ff3722957c12ca495fde36cc448a15e19a067a24b7047d618608f48a4db2a57f",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P353.json"
+    },
+    "features/P354.json": {
+      "sha256": "12413b0e5b047a74d659b18c4c0e32f8c214cf79f84d7a3a11a6235c66deb245",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P354.json"
+    },
+    "features/P355.json": {
+      "sha256": "787470bff5f7af905dee3c8d527aeeadec4a437fad3f93949d8f12418901360a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P355.json"
+    },
+    "features/P356.json": {
+      "sha256": "469670fe9df3ce87e432022fca0cc0d12d06eeeedd73e3a57e897064e3eb2fbb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P356.json"
+    },
+    "features/P357.json": {
+      "sha256": "cea2345cbfe8fd3484ac9ce4545cbcc7fcaacbb2b0d3ed659ea8a9567df2f2dd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P357.json"
+    },
+    "features/P358.json": {
+      "sha256": "aa7c004afe82be700a63432a101dc2683ead069c9994f5434d060a2479155c15",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P358.json"
+    },
+    "features/P359.json": {
+      "sha256": "6b501ce37e2f0c07218cb9eeafae83414639af3dc9c53c7c335122d031b4b9bd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P359.json"
+    },
+    "features/P360.json": {
+      "sha256": "f56c7af78e6d798aca1cf4091dc32b7e73f13c537a102266f923b78a3973fdbb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P360.json"
+    },
+    "features/P361.json": {
+      "sha256": "d531561d10895336a89493d2bfff2e162b0ccc6382984d2f79d0c1c8f82d2d57",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P361.json"
+    },
+    "features/P362.json": {
+      "sha256": "d492f3d1e87cae7ac4a0b3f76c34759bae763c5041e07f585e9e25400abfd5e8",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P362.json"
+    },
+    "features/P363.json": {
+      "sha256": "b36505090d9dce7a2e2285dc5513df9d7be39030913de56354e19397570df5b0",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P363.json"
+    },
+    "features/P364.json": {
+      "sha256": "b9d8b4ac7bd0f21827ed08f04d090819c7681d54eb46504ff26d383db24ab1cc",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P364.json"
+    },
+    "features/P365.json": {
+      "sha256": "550aa6bde29aedcbe174aa68cb1a9fe8e835ea49a4de310d05b5fb595437c014",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P365.json"
+    },
+    "features/P366.json": {
+      "sha256": "ef5a232477cd085132791d997e06495ca0cefc9809890b17f5a2d78d3ed38036",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P366.json"
+    },
+    "features/P367.json": {
+      "sha256": "2e4d13132973e01541e47c305a2ac86498402c5b70dc412773efcee123fc1cc9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P367.json"
+    },
+    "features/P368.json": {
+      "sha256": "7dd08888487f48f36eafed8df4dfe5c833ec947d39e1e446ebcbbec680fbdcae",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P368.json"
+    },
+    "features/P369.json": {
+      "sha256": "f1aae0fd7ccf4471328e1f1c958d0a161cad06c0a2d68181c82d2a3e5a950aee",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P369.json"
+    },
+    "features/P370.json": {
+      "sha256": "50714fccde99c925686636327547350d2c1c9d7441b7ad6d6490a0950d53c500",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P370.json"
+    },
+    "features/P371.json": {
+      "sha256": "07e92f74ebb7de396de0e3e8d1bf776d00945274348353e7133c8ba746c6d73a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P371.json"
+    },
+    "features/P372.json": {
+      "sha256": "1ac6b3274ff06c1850891b227e44dbe028a6400c2ecc556ef1ab37ab67c06d47",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P372.json"
+    },
+    "features/P373.json": {
+      "sha256": "cbed07b508d380e7ddc3be9dd3c4ad97843bcda54f15be60a0bca4d82b163e55",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P373.json"
+    },
+    "features/P374.json": {
+      "sha256": "e6176b1ba7aa1f8ae2d7cbbc1a15bd94f9fe2cef85af9133f57a638969761e33",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P374.json"
+    },
+    "features/P375.json": {
+      "sha256": "a58b8a2335a60f8a95eda4047aac7f68db6d34909a43b57af6c0a6a5183243e2",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P375.json"
+    },
+    "features/P376.json": {
+      "sha256": "92140dc5229df3db4319a33d7f57fbc4615b5f14b75af56f808bc567b7ad1523",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P376.json"
+    },
+    "features/P377.json": {
+      "sha256": "1baf67557fa20bfe88d506d1171f5b2305e0c8b7fdd07196ae92d7919e308bfd",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P377.json"
+    },
+    "features/P378.json": {
+      "sha256": "4ce5f4355d600a5885ec5c5070f97c3221b2f200431e5385fd69b762e9789117",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P378.json"
+    },
+    "features/P379.json": {
+      "sha256": "8b374adf38d311987bb2eb56478787519d7943ea3f8b3623c736fe500e8c452a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P379.json"
+    },
+    "features/P380.json": {
+      "sha256": "064537f8274d072a97f03ad712262a5edbd23ec9b85e79fc49e71f26981055ce",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P380.json"
+    },
+    "features/P381.json": {
+      "sha256": "208aee075d381c285dd01d5d92ab905a2a59c202449aaafea251443859198d5a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P381.json"
+    },
+    "features/P382.json": {
+      "sha256": "893310ef032567cb11d1bbb61be6975c5a7e6775c13b8cf74bd84f181365778a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P382.json"
+    },
+    "features/P383.json": {
+      "sha256": "5e79511ee41f55dd9bcd4b92fd2f17e6f6a834a807094e9b541c829705dd9358",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P383.json"
+    },
+    "features/P384.json": {
+      "sha256": "881f6447819e5c0e3968ba8c2de9bd00cab048ef967abd0fe05bb2a14eeadf53",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P384.json"
+    },
+    "features/P385.json": {
+      "sha256": "332d441c4f7c8dd5c932393a2fe35be31f22ebb5474fa4bc2edc073c2da5b62d",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P385.json"
+    },
+    "features/P386.json": {
+      "sha256": "8302ec1c1063398537079c543b4b7167a8089befd16c2800cf3680054d7ad74b",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P386.json"
+    },
+    "features/P387.json": {
+      "sha256": "4d3b6aba19ff3c8ef1917a8744ceb1b2df08c0009fe0de30cc4cc5e55235d9fb",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P387.json"
+    },
+    "features/P388.json": {
+      "sha256": "179da3bb8450f1a33cf699b9e9a33e1dcd34b8aefe59e42c69b2afe020fa7e02",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P388.json"
+    },
+    "features/P389.json": {
+      "sha256": "15687f889398e7bb63128d4fa0b496539b7bf183753457e24efa2f8b20a344f5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P389.json"
+    },
+    "features/P390.json": {
+      "sha256": "0953db3afe8eade61ea01a98e6469c9125368679b5db4d11af7c599d5f080e90",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P390.json"
+    },
+    "features/P391.json": {
+      "sha256": "57beb188ad8784412cba8829bb2535919e0d9798ce1879f161b996dedf5d0545",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P391.json"
+    },
+    "features/P392.json": {
+      "sha256": "bf966507dc7705bbadc9d5ae59689faf4fd5b66730fd3677818243ccc29e2bf9",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P392.json"
+    },
+    "features/P393.json": {
+      "sha256": "5a0e9a45de4253f7e5c878706928243fe5fc216b61b5f7440a902280d1cb8ed5",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P393.json"
+    },
+    "features/P394.json": {
+      "sha256": "302792c05df41f3db72bb8f5251f6ec96c9875b1ca01b21b1dbe87dff1b9b95e",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P394.json"
+    },
+    "features/P395.json": {
+      "sha256": "e6d00cbdcef6f30e436ae825ebd65812eaced768b5f2c9cb4b22470f499f8781",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P395.json"
+    },
+    "features/P396.json": {
+      "sha256": "135d1a4144c89292a9af0683cd9a307a981e93d8648f3507b8aa73f51b450e3a",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/P396.json"
+    },
+    "features/default_features.json": {
+      "sha256": "c63ec38dc9b4c3ef4c2620f0d6c2b02931b5ef89efd828b9c8125e3fa2025995",
+      "url": "https://raw.githubusercontent.com/mayig/indus-valley-script-corpus/ad2f1e218a34b8c33c57de0d6cb8d99272765bbb/features/default_features.json"
+    },
+    "glyph_index.json": {
+      "url": "https://raw.githubusercontent.com/tejesh-raut/indus-valley-script/8dc5837469bc6694c05f9b310eee90b08399df9e/data/signs.js",
+      "sha256": "1c789802c3fb9c11371b7a848e01645f2a47164f795440912dbbf352feecea21",
+      "transformation": "numeric IDs and reference links only"
+    }
+  },
+  "retrieved_date": "2026-10-15",
+  "output_sha256": {
+    "CISI_LICENSE.txt": "3d83c5b374fbe6fc293f288edc09582835cb89eff5ee9aded1bb648b65a0a951",
+    "cisi_corpus.json": "cea2f4d24b890ac019d39e911e3819130b27b8ff532e3043f6575e2eedd6061f",
+    "cisi_features.json": "b44f82da96d4acbf6fb127ec95d59560f328770036aff397f0778fd452596ade",
+    "glyph_index.json": "ef70bf34044ea173d7d3edc4a1cae4042d8eed3e2bdbdaba600ba0dd6de222da",
+    "icit_metadata.csv": "07f674f943fc6f23c69404c400d2f5f18f4a984f004fd7c4e17ef6df042f0023"
+  }
+}
