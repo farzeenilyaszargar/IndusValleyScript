@@ -6,7 +6,7 @@ from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -43,7 +43,9 @@ def main():
             story.extend([table,Spacer(1,10)]);continue
         if line.startswith('# '):story.append(paragraph(line[2:],'PaperTitle'))
         elif line.startswith('### '):story.append(paragraph(line[4:],'PaperSubsection'))
-        elif line.startswith('## '):story.append(paragraph(line[3:],'PaperSection'))
+        elif line.startswith('## '):
+            if line=='## References':story.append(PageBreak())
+            story.append(paragraph(line[3:],'PaperSection'))
         else:story.append(paragraph(line))
         i+=1
     def footer(canvas,doc):
