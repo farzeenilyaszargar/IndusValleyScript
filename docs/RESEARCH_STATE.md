@@ -22,6 +22,8 @@ Candidate historical-language resources are now cached locally through scripts/l
 
 Thirteen correctness checks and offline numerical reproduction pass. Paper version 0.3 incorporates the allograph experiment; the research goal remains active and no decipherment is claimed.
 
+Upload status: experiment design 99d406d was pushed successfully. Two subsequent push attempts timed out connecting to github.com port 443; a separate bounded HTTPS probe also timed out. The result/resource commit 8c32783 and reviewed-paper commit f7aacf2 are preserved locally, followed by this continuation-state note. No Linux CI result is claimed for these pending commits. At the next continuation, inspect current Git state and retry `git push origin main`; do not recreate commits or force-push.
+
 ## Next substantive work
 
 1. Use the acquired candidate corpora for controlled unit/genre/short-text structural comparison; explicitly test the effect of representation and avoid interpreting a nearest curve as a language identification. Establish chronology, document grouping, and normalization before constrained alignment.
