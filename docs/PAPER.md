@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.6 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.7 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -161,6 +161,14 @@ The learned majority correspondences correctly predict 32/42 validation position
 
 The shortlist contains 29 training-derived review-priority correspondences, requiring at least three occurrences on two objects and >=90 percent agreement. Conflicting rows and unsuccessful objects remain in the output. Namespaces remain separate: no candidate mapping is treated as an independently glyph-verified equivalence, propagated to all inscriptions, or given a sound/meaning. Shared catalogue ancestry, source transcription errors, the face-ID assumption, small holdout and excluded segmentation disagreements limit independence. The result provides a reproducible path toward catalogue reconciliation needed before constrained interpretation.
 
+### 4.11 Reference-glyph screening and numerical morphology
+
+Experiment 007 screens the 29 shortlisted reference glyphs against their supplied Parpola shape descriptions. This is Codex-assisted review of standardized catalogue drawings, not blinded expert review or examination of original-object photographs. Broad shapes are compatible with the descriptions, while the 002 short/tall-stroke conflict, the rounded/angular 817/861 variants grouped under P385, and the uncertain asymmetric-animal label remain unresolved. No candidate is promoted to an independently verified equivalence or assigned a sound or semantic value.
+
+All 715 pinned reference images were acquired into private local cache. Source URLs and SHA-256 hashes are preserved. Scalar numeric descriptors encode thresholded ink bounding-box aspect, ink density, centroid, second moments and eight-connected component counts. Image assets, fonts and reconstructible pixel grids are not packaged. These features describe rendering morphology; cropping, antialiasing, stylistic choices, crossings and gaps can affect them. They are not learned linguistic or semantic embeddings.
+
+The six already screened simple-stroke examples produce component counts 1, 2, 3, 4, 1 and 3 for IDs 001, 002, 003, 004, 031 and 033, matching their described shapes. Two independent synthetic-mask tests check connectivity and translation invariance. The source-derived matches validate extraction only, not discovery of numerical values. Optional Pillow-based production can reacquire/hash-check the images; default offline reproduction validates the committed numerical snapshot's hash and arithmetic invariants rather than regenerating image features. Original-object and catalogue provenance verification remains necessary before interpretation.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate (36.1 percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -171,7 +179,7 @@ The next useful steps are independent photo verification, allograph sensitivity,
 
 ## 6. Reproducibility and research disclosure
 
-All reported experiments were executed locally. Scripts use Python's standard library for acquisition and analysis; ReportLab is optional for PDF export. Source revisions, hashes, filtering decisions, split groups, sampled null entropies, learned vectors, and test outputs are committed. Run scripts/reproduce.py --check to verify source hashes, tests and regenerated analytical outputs (exact structure and values, floating-point tolerance 1e-12). Fresh acquisition is a separate optional network step. The methods ledger distinguishes executed, revised, and pending work. The PDF is generated from this Markdown source.
+All reported experiments were executed locally. Core analytical scripts use Python's standard library; Pillow is optional for reference-image feature production and ReportLab for PDF export. Source revisions, hashes, filtering decisions, split groups, sampled null entropies, learned vectors, and test outputs are committed. Run scripts/reproduce.py --check to verify source hashes, tests, regenerated analytical outputs and the fixed numeric glyph input (exact structure and values, floating-point tolerance 1e-12). Fresh image acquisition/feature generation is a separate optional step. The methods ledger distinguishes executed, revised, and pending work. The PDF is generated from this Markdown source.
 
 Codex drafted code, literature notes, and text and executed the analyses. No specialist epigrapher has reviewed the transcription choices or semantic interpretation. This paper is an evolving research artifact, not a journal submission. Code and data: https://github.com/farzeenilyaszargar/IndusValleyScript
 

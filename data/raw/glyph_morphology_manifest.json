@@ -1,0 +1,7 @@
+{
+  "descriptor_file_sha256": "97a9351ff7615c40d1803812ead83b64c13994957874aa534e5cda8e22f0a628",
+  "producer": "scripts/glyph_morphology.py (optional Pillow dependency)",
+  "source_commit": "8dc5837469bc6694c05f9b310eee90b08399df9e",
+  "images_packaged": false,
+  "default_reproduction": "Validates the numeric input snapshot; does not regenerate pixels/features without optional source acquisition."
+}

@@ -42,6 +42,12 @@ The prediction experiment compares the same next base-sign target while adding o
 
 Twenty-nine correspondences meet the declared review-priority thresholds; their target labels also agree with the supplied Wells alias fields. Alias agreement is source consistency, not independent confirmation. Face equivalence, glyph shape and shared catalogue ancestry still require review. Candidate mappings are never automatically substituted into analytical corpora or treated as phonetic values.
 
+## Scalar reference-glyph descriptors (release 0.7)
+
+All 715 pinned JPEG references are acquired into ignored `.cache/glyph-reference`. `glyph_morphology.json` records each source URL/hash, canvas/ink bounds and scalar shape measures; raw pixels and fonts are not packaged. `glyph_morphology_manifest.json` fixes the numerical input snapshot's digest. Optional Pillow-based production recomputes features and checks cached source hashes. Default network-free reproduction checks this snapshot and arithmetic invariants; it does not claim to regenerate image features without the optional producer/images.
+
+`docs/glyph_screening.json` records Codex-assisted screening of 29 standardized references. Broad description agreement is not original-object photo review or independent epigraphic verification. The 002 conflict and 817/861 variant equivalence remain open. No sound/semantic assignment follows from the screen or descriptors.
+
 ## Limits on inferred independence
 
 Exact and reversed texts are grouped in train/validation/test splits. This prevents one obvious leakage mode but does not group every artifact family, shared mold, copied formula, or near duplicate. Site holds exclude sequences attested in the target site, using all eligible raw rows rather than only the first deduplicated record.

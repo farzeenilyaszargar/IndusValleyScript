@@ -42,6 +42,12 @@ Experiment 006 joins 85 equal-length complete uniquely labeled object pairs and 
 
 Held-out test: 31/39 correct positions, 32/39 source-ID coverage and two fully correct objects. Known-source-only log loss is 3.485 bits/position with additive 0.5 smoothing and collapsed unknown targets. Twenty-nine review-priority correspondences meet training support/purity thresholds; all 29 source Wells aliases agree, but this is shared-metadata consistency, not independent glyph verification. No namespace merge or sound/meaning propagation occurs. Four new checks bring the total to 23; local numerical reproduction passed for all 36 JSON artifacts before the descriptive alias audit addition. Paper version 0.6 reports catalogue reconciliation as a prerequisite, not decipherment; its eight rendered pages were visually reviewed.
 
+## Completed release 0.7 extension
+
+All 29 shortlisted standardized reference drawings were viewed in a contact sheet and screened against supplied descriptions. Broad agreement is recorded in docs/glyph_screening.json, explicitly as Codex-assisted/unblinded screening without original-object photos. The 002 short/tall mapping conflict, 817/861 rounded/angular variants under P385, and uncertain asymmetric animal/fish label are retained. No candidate mapping is promoted to independently verified equivalence or meaning.
+
+All 715 reference JPEGs are cached in .cache/glyph-reference (not committed). Optional Pillow producer scripts/glyph_morphology.py exports source hashes, canvas/ink bounds, aspect/density, centroid, second moments and component sizes/counts. It checks cached source hashes on reruns. data/raw/glyph_morphology_manifest.json fixes the numerical snapshot digest. Standard-library validator checks its integrity and arithmetic; main reproduction does not claim to regenerate image features. Two independent synthetic-mask tests passed; six already-viewed stroke component counts match, which validates implementation only. Core checks remain 23 plus two optional Pillow tests. Paper version 0.7 documents this morphology representation, not phonetic values.
+
 ## Next substantive work
 
 1. Constrain prospective phonetic/rebus alignments through independent lexical or archaeological anchors; controlled representation comparison is now executed and rank reversal confirms that nearest entropy alone cannot select a family. Investigate matching vocabulary/sparse-estimator controls and other language families before alignment claims.
