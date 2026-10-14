@@ -26,6 +26,8 @@ The explorer image directory at commit 8dc5837469bc6694c05f9b310eee90b08399df9e 
 
 Dense integers are assigned independently by namespace, reserving PAD, UNK, BOS, and EOS. Integer distance has no linguistic meaning. ICIT strings retain stored order; metadata does not establish whether that order is already normalized. Initial/final labels therefore denote stored positions. CISI strings are reversed according to the source's explicit sealing transcription convention. Different catalogues are not merged by matching numbers.
 
+For future language comparison we acquired pinned candidate Classical Tamil verses (Akananuru and Purananuru) and UD Vedic Sanskrit word-form data. Acquisition hashes and coverage are recorded in docs/language_resource_inventory.json; raw files remain outside tracked artifacts. The Tamil repository declares Apache 2.0 and the Vedic treebank CC BY-SA 4.0. Missing Akananuru edition links and differences between Sanskrit README counts and actual snapshot counts are documented. These later literary proxies have not been aligned to Indus signs. Corpus availability does not establish chronology, linguistic descent, or comparability of written units.
+
 ## 3. Methods and validation design
 
 ### 3.1 Descriptive statistics and permutation tests

@@ -14,8 +14,6 @@ Experiment 002 was committed before execution. An explicit-stop HMM tested 18 co
 
 The author-hosted PNAS Markov paper and supplement are available in ronojoy/indus at commit cab6c2d881307825f24d7ed28f7ad62de800ae13; abstract/rationale/corpus/missing-sign passages were inspected. That repository contains no machine-readable transcriptions. A local untracked copy is in .cache/MarkovModelIndusScript.pdf. The paper's most-probable completion approach is useful for future multi-damage restoration tests, which must be validated by masking untouched texts before use on genuinely damaged objects.
 
-## Next substantive work
-
 ## Completed release 0.3 extension
 
 Experiment 003 audits all 455 morphology vectors across 92 eligible CISI objects and exports 210 morphology-coded variants of 133 base IDs, with schemas, descriptions, integers and per-object sequences. Previous-variant history prediction targets the same next base sign as baseline, excludes target morphology, and keeps exact/reverse base copies together. All five small holds favour base bigrams; mean change -0.080 bits/token, four intervals overlap zero. No grounds for assigning distinct sounds or merging variants were established.
