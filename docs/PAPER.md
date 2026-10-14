@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.4 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.5 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -133,6 +133,24 @@ All scores are in bits; Indus H conditional is 3.892, and its matched 49-shuffle
 
 The sampled vocabulary sizes differ substantially: about 6,677 Tamil word types, 4,409 Sanskrit word types, 202 Tamil cluster types and 36 Sanskrit cluster types, versus 637 Indus sign types. Sparse word counts force low empirical conditional entropy even in frequency-preserving shuffles, illustrating estimator bias rather than low true language entropy. Sampling also produces duplicates: mean counts range from about 9 Tamil word windows to 363 Sanskrit cluster windows. Samples are not deduplicated because exact length matching is the declared design; overlap and document reuse remain limitations. The Vedic pool includes multiple citation texts and strata, not exclusively Rigvedic verse. The 49 shuffled trials have p-value resolution 0.02 and are descriptive controls, not decisive linguistic evidence. No language-family assignment, sign/word equivalence or phonetic key follows from the comparison.
 
+### 4.9 Graphic stroke-count constraints and interpretive ambiguity
+
+Experiment 005 examines described stroke counts rather than treating arbitrary sign IDs as values. We map only catalogue groups P121-P130 to one through ten short strokes, and P144/P145/P147/P150/P151 to one through five tall strokes. This represents catalogue morphology, not independently proven numeral values. Height remains distinct. The 91 complete deduplicated CISI texts contain 79 such slots; 11 tally-before-tally and three terminal cases are excluded from the following-sign test, leaving 65 events. The slot records retain object IDs, position and following-sign morphology for later epigraphic audit.
+
+Mutual information between described count and following base-sign ID is 1.619 bits, compared to a mean 1.408 under 999 count-label permutations restricted by height and coarse initial/medial position. The upper-tail p-value is 0.002, or 0.004 after correcting the two prespecified tests. Short strokes alone yield 1.535 bits vs null mean 1.296, adjusted p=0.008. Sparse followers inflate empirical mutual information, so the excess over the matched null, rather than the raw score alone, matters. Slot-level exchangeability is assumed; this does not control every object-family or archaeological dependency.
+
+The only three followers represented at least five times all admit multiple described counts:
+
+| Following sign | Events | Described count: frequency |
+|---|---|---|
+| P004 | 5 | 3: 4, 4: 1 |
+| P050 | 5 | 1: 1, 2: 1, 3: 1, 4: 2 |
+| P086 | 8 | 3: 3, 4: 1, 6: 2, 8: 2 |
+
+P004 is described as a burden-carrying person, P050 as a plain fish, and P086 as a branching tree form. These are visual descriptions, not commodity names. The observed combinations exhibit count/follower constraints under the specified null, but do not establish either unrestricted quantities or one fixed value per category. The test is motivated by competing administrative, ration and astronomical interpretations, including Mukhopadhyay's discussion of restricted number/sign combinations [10]. It does not replicate that paper's exact catalogue classes or refute a proposed reading: a verified glyph crosswalk and larger independently reviewed sample are missing.
+
+Most importantly, no independent commodity amounts, matched weights or metrological scale are available for these objects. The experiment therefore cannot calibrate a unit, prove that three strokes mean the number three, or translate a fish sign as a star, gemstone, commodity, or personal-name element. Its contribution is an auditable morphological constraint table and specific combinations to check against independent evidence.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate (36.1 percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -166,3 +184,5 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 [8] Palaniappan and Adhikari. Deep Learning the Indus Script. 2017 preprint. https://arxiv.org/abs/1702.00523
 
 [9] Nair. How Non-Linguistic Is the Indus Sign System? A Synthetic-Baseline Scorecard. 2026 preprint. https://arxiv.org/abs/2604.17828
+
+[10] Mukhopadhyay. Administrative interpretation of Indus inscriptions: archaeological and script-internal evidence. Humanities and Social Sciences Communications, 2023. https://www.nature.com/articles/s41599-023-02320-7

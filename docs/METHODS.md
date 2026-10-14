@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.4. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.5. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -47,6 +47,8 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.4. This file distingui
 | Controlled language-proxy representation comparison | results/language_representation.json; data/language_samples | 40 numeric samples, ten seeds for each of two languages/two units; exact Indus lengths and 9,221 tokens per sample; 49 matched-frequency permutations per sample. Entropy distance ranks Sanskrit nearer for words, Tamil nearer for letter-plus-mark units. No family inference |
 | Source normalization and sampling validation | scripts/test_language_compare.py | Three tests verify canonical/mark normalization including Tamil spacing marks, CoNLL-U ranges/empty-node/punctuation exclusions, exact lengths and no document crossing |
 | Licensed opaque sample packaging | data/language_samples/ATTRIBUTION.md; manifest.json | Numeric samples, source-document metadata and window offsets are committed with Tamil Apache-2.0 and Vedic CC BY-SA 4.0 attribution. Token dictionaries and original text documents stay local; metric recomputation is network-free |
+| Graphic stroke-count / follower constraint test | results/stroke_count_constraints.json | 79 catalogue-described stroke slots; 65 usable follower events. Count/follower MI exceeds height/position-preserving controls; two-test-adjusted p=0.004 overall, 0.008 short-only. All three followers with >=5 examples have multiple counts; no numerical meaning or scale established |
+| Stroke-count correctness tests | scripts/test_stroke_counts.py | Three checks establish known independent/perfect-dependence MI values, permutation preservation of count/height/position marginals and follower identities, and separate tall/short mappings excluding decorated counts |
 
 ## Revisions, errors corrected, and negative results
 
@@ -61,6 +63,7 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.4. This file distingui
 - Experiment 002 was designed and committed before its execution, on an already explored corpus. Tested 2/4/8 HMM states, seeds 17/29 and 5/10/20 EM checkpoints. Validation selects the largest tested state count; the experiment does not establish an optimal number of states. All tested configurations and the selected model are preserved, including the worse-than-bigram result.
 - Near-copy confidence intervals resample whole similarity components. Transitive one-substitution groups are a leakage sensitivity test, not a replacement for archaeological family annotation. Different-length neighbours remain a resource gap.
 - Experiment 004 changes its nearest-proxy ranking when only representation changes: word distances favour Sanskrit, letter-plus-mark distances favour Tamil. Vocabulary/sparse-estimator and duplicate-window effects remain visible. This is a failed family-identification criterion, not positive evidence for either candidate.
+- Experiment 005 records morphological counts only. Dependency significance is conditional on slot-exchangeability and specified height/position strata, not archaeological independence. It neither calibrates weights nor establishes tax/ration/star/name semantics. Repeated or related artifact contexts may affect slot exchangeability; independent metrological fields are absent.
 
 ## Pending methods and resource gaps
 

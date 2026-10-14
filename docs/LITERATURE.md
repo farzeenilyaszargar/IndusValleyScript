@@ -24,6 +24,10 @@ Reviewed 15 October 2026. These are methodological notes, not endorsements of pr
 - [Universal Dependencies CoNLL-U format](https://universaldependencies.org/format.html): inspected the token/word/empty-node conventions. Integer-ID rows supply syntactic word forms; multiword ranges and decimal empty nodes are different representations. Our extraction deliberately selects integer-ID non-punctuation FORM fields.
 - [Unicode Text Segmentation, UAX #29](https://www.unicode.org/reports/tr29/): consulted the distinction between Unicode codepoints and grapheme segmentation. Our experiment uses a declared simpler letter-plus-mark scheme, not a claim of full UAX #29 conformance or phonetic syllabification. These are format/representation references, not decipherment evidence.
 
+## Administrative interpretation reviewed for release 0.5
+
+- Mukhopadhyay, [administrative interpretation of Indus inscriptions (2023)](https://www.nature.com/articles/s41599-023-02320-7): inspected the numerical notation, transaction-specific quantity and tax/license-rate argument passages. The author argues that restricted number/sign combinations and sealing contexts favour regulatory uses over individual-transaction quantities. This is a published interpretation, not an established translation. We test graphic-count/follower dependencies in a small annotated corpus; we do not reproduce the exact proposed sign classes or validate commodity meanings. Our count table lacks independent amounts/weights, and some frequently sampled followers admit several counts.
+
 ## Foundational catalogue access and limits
 
 Mahadevan's 1977 concordance; Parpola and collaborators' CISI volumes; Wells's inventories and ICIT documentation. They are foundational sources behind the digitizations, but a repository's attribution does not establish photographic verification of each entry. Catalogue identity and crosswalks require epigraphic review.

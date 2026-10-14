@@ -30,13 +30,19 @@ Experiment 004 creates 40 matched-length numeric samples across Tamil/Sanskrit a
 
 Opaque samples are committed under attributed Tamil Apache-2.0 and Vedic CC BY-SA 4.0 terms. Scripts can regenerate samples from hash-verified cached sources; normal reproduction recomputes results from numeric samples without network. Original candidate documents and dictionaries are not packaged. Three new independent parsing/normalization/windowing checks bring the total to 16. Local reproduction and Linux CI (run 38627526061, result commit 61833d1) pass. The seven-page paper version 0.4 was rendered and visually reviewed; the full decipherment goal remains active.
 
+## Completed release 0.5 extension
+
+Experiment 005 was committed and pushed before execution. A conservative catalogue mapping assigns described visible stroke counts, keeping short/tall height distinct. Of 79 stroke slots in 91 clean distinct CISI texts, 65 have eligible non-tally followers; exclusions are 11 tally-before-tally and three terminal cases. Count/follower MI is 1.619 bits vs stratified-null mean 1.408, adjusted p=0.004. Short-only: 1.535 vs 1.296, adjusted p=0.008. The null shuffles count labels within height and initial/medial strata (999 trials). These conditional exploratory results assume slot exchangeability, not full archaeological independence.
+
+All three followers with >=5 examples admit multiple counts: P004 [3,4], P050 [1,2,3,4], P086 [3,4,6,8]. No numerical values, metrological scale, commodity labels or linguistic readings are established. Source object IDs and follower morphology are retained for audit. Three new checks bring the total to 19. Methods and paper version 0.5 incorporate both constraints and independent-quantity evidence gaps. The administrative paper's relevant numerical/rate passages were read; exact published glyph classes are not replicated.
+
 ## Next substantive work
 
 1. Constrain prospective phonetic/rebus alignments through independent lexical or archaeological anchors; controlled representation comparison is now executed and rank reversal confirms that nearest entropy alone cannot select a family. Investigate matching vocabulary/sparse-estimator controls and other language families before alignment claims.
 2. Extend artifact-type controls and unequal-length/verified-family leakage audits; one-substitution component holdout is executed.
 3. Expand annotated graphic variant data and blind epigraphic review; the initial previous-variant prediction experiment is executed and gives no gain. Preserve morphology and uncertainty.
 4. Expand hidden-state grammar size/families and inspect train-only posterior roles; compact HMMs tested so far are worse than bigrams.
-5. Expand metrology/number-like evidence with independently annotated context, and obtain primary catalogue/photo verification.
+5. Expand graphic count/follower evidence beyond this small selected subset; obtain independently measured quantities, metrological contexts and verified glyph crosswalks before any numerical decoding. Current stroke-count experiment has no such external calibration.
 
 Do not equate stored-order initial/final positions with linguistic prefixes/suffixes. Do not treat a sign's integer ID as its value. `xlits.csv` is contaminated with proposed readings and conflations. Main sequence scoring maps novel IDs to UNK; mask accuracy requires exact known IDs. Current shuffled and morphology results are exploratory.
 

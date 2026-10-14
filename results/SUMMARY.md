@@ -14,5 +14,6 @@
 - Near-copy component holdout: unigram 6.527, bigram 5.606 bits/token; grouped gain 0.922 with 95% interval [0.755, 1.077].
 - Allograph audit: 210 morphology-coded variants of 133 base IDs in 92 clean annotated objects. Previous-variant histories did not improve next-base-sign prediction in five small holdouts.
 - Language-proxy rank reversal: conditional-entropy distance selects Sanskrit with word units and Tamil with letter-plus-mark units under matched lengths/token totals. This method cannot justify a family identification. Opaque derived samples and attribution are packaged for offline reproduction.
+- Described stroke counts depend on followers under height/position-preserving controls (two-test-adjusted p=0.004/0.008). All three followers with at least five events admit multiple counts. Graphic counts are not proven numerical values; no metrological scale or sign meaning is established.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
