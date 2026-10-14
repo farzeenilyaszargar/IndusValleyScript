@@ -1,0 +1,11 @@
+# Experiment 005: stroke-count / following-sign dependence
+
+Recorded before execution, 15 October 2026, on an already explored corpus. Published motivation: Mukhopadhyay's [2023 administrative interpretation](https://www.nature.com/articles/s41599-023-02320-7) discusses restricted numeral/sign combinations; Parpola's astronomical and Rao's ration interpretations remain alternatives. The present test does not adopt any proposed translations.
+
+Use the 91 complete deduplicated CISI sequences in source-supported reading order. Map only simple catalogue stroke groups to **described visible stroke counts**: P121-P130 -> 1-10 short strokes; P144/P145/P147/P150/P151 -> 1/2/3/4/5 tall strokes. Height stays distinct. This is a graphic count, not a proven numerical value. Exclude tally-before-tally and final tallies from the main following-sign association; report excluded cases.
+
+For every remaining tally slot, retain object ID, position, height, described count, following base-sign ID and its morphology. Report follower count diversity and dominant-count fraction for all followers; mark those occurring at least five times for descriptive interpretation. Compare observed mutual information between described stroke count and follower ID to 999 permutations of count labels across slots, restricted by height and coarse initial/medial position. This preserves observed follower contexts and count marginals within strata. Repeat with short strokes only, preserving position. These tests concern dependencies, not decoded values.
+
+Also report quantity-like runs, count distributions, and examples showing when a following sign admits several counts. The two prespecified association tests receive Bonferroni correction. No general commodity, star, name, tax, weight or unit label may be assigned from this result alone. A dependence may fit fixed category/rate labels, formulae, restricted quantities or language structure. Absence of dependence in a small selected subset is not evidence for free quantitative bookkeeping.
+
+Original inscriptions and metadata lack independent measured quantities/weights for the sampled objects. No metrological scale calibration or number-system decipherment is possible from the available fields; preserve that evidence gap explicitly.
