@@ -1,0 +1,10 @@
+{
+  "scope": "sign tokens only, EOS excluded; length known to slot model",
+  "test_texts": 217,
+  "unigram_bits": 7.085442302440385,
+  "independent_slot_bits": 6.828929449916098,
+  "bigram_bits": 6.11069357326639,
+  "slot_strength": 100,
+  "bigram_strength": 20,
+  "interpretation": "Slot positions alone can predict signs without encoding spoken language."
+}

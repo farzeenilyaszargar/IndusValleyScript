@@ -1,0 +1,18 @@
+{
+  "Harappa": {
+    "train": 1397,
+    "test": 757,
+    "unigram_bits": 6.462822849389312,
+    "bigram_bits": 5.665118043297797,
+    "strength": 20,
+    "selection": "fixed, no target-site tuning"
+  },
+  "Mohenjo-daro": {
+    "train": 1047,
+    "test": 1105,
+    "unigram_bits": 6.5528531620129415,
+    "bigram_bits": 5.64564691538868,
+    "strength": 20,
+    "selection": "fixed, no target-site tuning"
+  }
+}

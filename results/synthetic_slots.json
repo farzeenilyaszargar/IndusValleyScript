@@ -1,0 +1,43 @@
+{
+  "generation": "Matched length list; independent role-specific draws from seed-42 training counts",
+  "seed": 20261015,
+  "observed": {
+    "texts": 2156,
+    "tokens": 9221,
+    "signs": 637,
+    "mean_length": 4.2769016697588125,
+    "median_length": 4.0,
+    "max_length": 13,
+    "unigram_entropy_bits": 7.0305978385415715,
+    "conditional_entropy_bits": 3.892299476310572,
+    "hapax_fraction": 0.36106750392464676,
+    "top10_token_fraction": 0.32133174276108883,
+    "repeated_subsequences_in_distinct_texts": {
+      "2": 901,
+      "3": 563,
+      "4": 197,
+      "5": 47,
+      "6": 15
+    }
+  },
+  "synthetic": {
+    "texts": 2156,
+    "tokens": 9221,
+    "signs": 512,
+    "mean_length": 4.2769016697588125,
+    "median_length": 4.0,
+    "max_length": 13,
+    "unigram_entropy_bits": 6.970321533264754,
+    "conditional_entropy_bits": 5.109324238170497,
+    "hapax_fraction": 0.189453125,
+    "top10_token_fraction": 0.32425984166576294,
+    "repeated_subsequences_in_distinct_texts": {
+      "2": 1046,
+      "3": 97,
+      "4": 2,
+      "5": 0,
+      "6": 0
+    }
+  },
+  "limitation": "Synthetic sample retains duplicate generated records; descriptive comparison only, not a calibrated classification."
+}

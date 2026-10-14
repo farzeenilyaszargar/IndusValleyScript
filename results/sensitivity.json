@@ -1,0 +1,59 @@
+{
+  "length_at_least_3": {
+    "texts": 1699,
+    "tokens": 8416,
+    "signs": 574,
+    "mean_length": 4.953502060035315,
+    "median_length": 5,
+    "max_length": 13,
+    "unigram_entropy_bits": 6.900987895736879,
+    "conditional_entropy_bits": 3.802181639205681,
+    "hapax_fraction": 0.3623693379790941,
+    "top10_token_fraction": 0.33424429657794674,
+    "repeated_subsequences_in_distinct_texts": {
+      "2": 847,
+      "3": 563,
+      "4": 197,
+      "5": 47,
+      "6": 15
+    }
+  },
+  "metadata_RL_only": {
+    "texts": 1837,
+    "tokens": 8474,
+    "signs": 576,
+    "mean_length": 4.61295590636908,
+    "median_length": 4,
+    "max_length": 13,
+    "unigram_entropy_bits": 6.91728326089335,
+    "conditional_entropy_bits": 3.853735869690994,
+    "hapax_fraction": 0.3732638888888889,
+    "top10_token_fraction": 0.3292423884824168,
+    "repeated_subsequences_in_distinct_texts": {
+      "2": 856,
+      "3": 547,
+      "4": 193,
+      "5": 45,
+      "6": 14
+    }
+  },
+  "eligible_with_duplicates": {
+    "texts": 3591,
+    "tokens": 13183,
+    "signs": 637,
+    "mean_length": 3.6711222500696183,
+    "median_length": 3,
+    "max_length": 13,
+    "unigram_entropy_bits": 6.8824357077772955,
+    "conditional_entropy_bits": 3.666157039215916,
+    "hapax_fraction": 0.3328100470957614,
+    "top10_token_fraction": 0.35204429947659865,
+    "repeated_subsequences_in_distinct_texts": {
+      "2": 1055,
+      "3": 772,
+      "4": 376,
+      "5": 141,
+      "6": 60
+    }
+  }
+}

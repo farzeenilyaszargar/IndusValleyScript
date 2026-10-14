@@ -1,0 +1,4581 @@
+{
+  "001": {
+    "count": 103,
+    "positions": {
+      "medial": 87,
+      "initial": 9,
+      "final": 6,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "002": {
+    "count": 383,
+    "positions": {
+      "medial": 365,
+      "final": 6,
+      "initial": 11,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "003": {
+    "count": 103,
+    "positions": {
+      "medial": 56,
+      "final": 41,
+      "initial": 5,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "004": {
+    "count": 48,
+    "positions": {
+      "medial": 33,
+      "final": 14,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "005": {
+    "count": 24,
+    "positions": {
+      "medial": 14,
+      "final": 8,
+      "initial": 1,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "006": {
+    "count": 3,
+    "positions": {
+      "singleton": 1,
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "007": {
+    "count": 3,
+    "positions": {
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "012": {
+    "count": 3,
+    "positions": {
+      "final": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "013": {
+    "count": 19,
+    "positions": {
+      "medial": 15,
+      "final": 3,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "014": {
+    "count": 5,
+    "positions": {
+      "medial": 3,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "015": {
+    "count": 4,
+    "positions": {
+      "initial": 1,
+      "final": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "016": {
+    "count": 24,
+    "positions": {
+      "medial": 14,
+      "final": 8,
+      "initial": 1,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "017": {
+    "count": 39,
+    "positions": {
+      "medial": 32,
+      "final": 7
+    },
+    "role": "medial"
+  },
+  "018": {
+    "count": 4,
+    "positions": {
+      "final": 3,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "019": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "020": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "025": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "026": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "027": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "028": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "029": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "031": {
+    "count": 113,
+    "positions": {
+      "medial": 59,
+      "initial": 19,
+      "final": 34,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "032": {
+    "count": 191,
+    "positions": {
+      "medial": 125,
+      "final": 51,
+      "initial": 14,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "033": {
+    "count": 126,
+    "positions": {
+      "medial": 87,
+      "final": 26,
+      "initial": 12,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "034": {
+    "count": 12,
+    "positions": {
+      "final": 5,
+      "initial": 5,
+      "medial": 2
+    },
+    "role": "flexible"
+  },
+  "035": {
+    "count": 13,
+    "positions": {
+      "medial": 8,
+      "final": 2,
+      "initial": 2,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "036": {
+    "count": 3,
+    "positions": {
+      "initial": 1,
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "037": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "041": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "042": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "045": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "046": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "048": {
+    "count": 5,
+    "positions": {
+      "medial": 5
+    },
+    "role": "rare"
+  },
+  "049": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "050": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "051": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "055": {
+    "count": 27,
+    "positions": {
+      "medial": 19,
+      "final": 7,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "056": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "058": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "059": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "060": {
+    "count": 135,
+    "positions": {
+      "medial": 132,
+      "final": 2,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "061": {
+    "count": 36,
+    "positions": {
+      "medial": 29,
+      "final": 7
+    },
+    "role": "medial"
+  },
+  "062": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "063": {
+    "count": 5,
+    "positions": {
+      "final": 1,
+      "medial": 4
+    },
+    "role": "rare"
+  },
+  "064": {
+    "count": 7,
+    "positions": {
+      "initial": 5,
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "065": {
+    "count": 8,
+    "positions": {
+      "medial": 7,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "066": {
+    "count": 7,
+    "positions": {
+      "final": 3,
+      "medial": 3,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "067": {
+    "count": 4,
+    "positions": {
+      "medial": 3,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "069": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "070": {
+    "count": 25,
+    "positions": {
+      "medial": 22,
+      "final": 3
+    },
+    "role": "medial"
+  },
+  "071": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "072": {
+    "count": 8,
+    "positions": {
+      "medial": 3,
+      "final": 5
+    },
+    "role": "rare"
+  },
+  "074": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "081": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "082": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "083": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "090": {
+    "count": 70,
+    "positions": {
+      "initial": 51,
+      "final": 6,
+      "medial": 13
+    },
+    "role": "initial"
+  },
+  "091": {
+    "count": 6,
+    "positions": {
+      "final": 6
+    },
+    "role": "rare"
+  },
+  "092": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "093": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "095": {
+    "count": 8,
+    "positions": {
+      "medial": 5,
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "096": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "097": {
+    "count": 8,
+    "positions": {
+      "medial": 4,
+      "final": 4
+    },
+    "role": "rare"
+  },
+  "098": {
+    "count": 4,
+    "positions": {
+      "singleton": 1,
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "100": {
+    "count": 62,
+    "positions": {
+      "medial": 58,
+      "initial": 2,
+      "final": 2
+    },
+    "role": "medial"
+  },
+  "101": {
+    "count": 7,
+    "positions": {
+      "final": 2,
+      "medial": 5
+    },
+    "role": "rare"
+  },
+  "102": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "103": {
+    "count": 4,
+    "positions": {
+      "medial": 2,
+      "final": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "104": {
+    "count": 12,
+    "positions": {
+      "initial": 3,
+      "medial": 3,
+      "final": 6
+    },
+    "role": "flexible"
+  },
+  "105": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "110": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "111": {
+    "count": 6,
+    "positions": {
+      "initial": 3,
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "112": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "116": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "117": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "118": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "119": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "121": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "122": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "125": {
+    "count": 40,
+    "positions": {
+      "medial": 25,
+      "final": 12,
+      "initial": 3
+    },
+    "role": "flexible"
+  },
+  "127": {
+    "count": 3,
+    "positions": {
+      "initial": 1,
+      "final": 1,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "128": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "129": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "130": {
+    "count": 9,
+    "positions": {
+      "medial": 6,
+      "initial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "131": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "132": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "133": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "134": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "136": {
+    "count": 5,
+    "positions": {
+      "initial": 2,
+      "medial": 1,
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "137": {
+    "count": 5,
+    "positions": {
+      "initial": 3,
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "138": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "139": {
+    "count": 3,
+    "positions": {
+      "initial": 1,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "140": {
+    "count": 55,
+    "positions": {
+      "final": 24,
+      "medial": 28,
+      "initial": 3
+    },
+    "role": "flexible"
+  },
+  "141": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "142": {
+    "count": 31,
+    "positions": {
+      "medial": 21,
+      "final": 9,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "143": {
+    "count": 3,
+    "positions": {
+      "initial": 1,
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "144": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "145": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "146": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "147": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "150": {
+    "count": 5,
+    "positions": {
+      "medial": 5
+    },
+    "role": "rare"
+  },
+  "151": {
+    "count": 51,
+    "positions": {
+      "initial": 42,
+      "singleton": 1,
+      "medial": 7,
+      "final": 1
+    },
+    "role": "initial"
+  },
+  "153": {
+    "count": 5,
+    "positions": {
+      "initial": 4,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "154": {
+    "count": 25,
+    "positions": {
+      "medial": 4,
+      "initial": 21
+    },
+    "role": "initial"
+  },
+  "155": {
+    "count": 6,
+    "positions": {
+      "initial": 3,
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "156": {
+    "count": 32,
+    "positions": {
+      "initial": 24,
+      "medial": 6,
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "initial"
+  },
+  "157": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "158": {
+    "count": 19,
+    "positions": {
+      "initial": 9,
+      "medial": 9,
+      "final": 1
+    },
+    "role": "flexible"
+  },
+  "159": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "160": {
+    "count": 3,
+    "positions": {
+      "initial": 1,
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "161": {
+    "count": 9,
+    "positions": {
+      "initial": 8,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "165": {
+    "count": 13,
+    "positions": {
+      "medial": 5,
+      "initial": 4,
+      "final": 4
+    },
+    "role": "flexible"
+  },
+  "166": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "167": {
+    "count": 6,
+    "positions": {
+      "initial": 4,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "168": {
+    "count": 3,
+    "positions": {
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "169": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "171": {
+    "count": 13,
+    "positions": {
+      "final": 7,
+      "medial": 6
+    },
+    "role": "flexible"
+  },
+  "172": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "173": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "175": {
+    "count": 12,
+    "positions": {
+      "medial": 7,
+      "final": 5
+    },
+    "role": "flexible"
+  },
+  "176": {
+    "count": 66,
+    "positions": {
+      "medial": 50,
+      "final": 15,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "177": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "178": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "179": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "190": {
+    "count": 8,
+    "positions": {
+      "final": 4,
+      "initial": 1,
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "191": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "192": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "193": {
+    "count": 3,
+    "positions": {
+      "final": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "195": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "200": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "201": {
+    "count": 4,
+    "positions": {
+      "final": 4
+    },
+    "role": "rare"
+  },
+  "202": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "203": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "204": {
+    "count": 4,
+    "positions": {
+      "medial": 3,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "205": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "207": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "208": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "215": {
+    "count": 6,
+    "positions": {
+      "initial": 2,
+      "final": 2,
+      "medial": 1,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "216": {
+    "count": 3,
+    "positions": {
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "219": {
+    "count": 4,
+    "positions": {
+      "final": 3,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "220": {
+    "count": 178,
+    "positions": {
+      "medial": 144,
+      "initial": 12,
+      "final": 22
+    },
+    "role": "medial"
+  },
+  "221": {
+    "count": 5,
+    "positions": {
+      "final": 3,
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "222": {
+    "count": 6,
+    "positions": {
+      "medial": 5,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "223": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "224": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "225": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "226": {
+    "count": 23,
+    "positions": {
+      "initial": 14,
+      "final": 3,
+      "medial": 5,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "228": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "229": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "230": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "231": {
+    "count": 45,
+    "positions": {
+      "medial": 35,
+      "final": 9,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "232": {
+    "count": 7,
+    "positions": {
+      "medial": 3,
+      "initial": 3,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "233": {
+    "count": 102,
+    "positions": {
+      "medial": 83,
+      "final": 16,
+      "initial": 3
+    },
+    "role": "medial"
+  },
+  "234": {
+    "count": 4,
+    "positions": {
+      "medial": 1,
+      "initial": 2,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "235": {
+    "count": 111,
+    "positions": {
+      "final": 36,
+      "medial": 73,
+      "singleton": 1,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "236": {
+    "count": 16,
+    "positions": {
+      "medial": 8,
+      "final": 2,
+      "initial": 5,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "237": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "240": {
+    "count": 151,
+    "positions": {
+      "medial": 119,
+      "final": 30,
+      "initial": 2
+    },
+    "role": "medial"
+  },
+  "241": {
+    "count": 7,
+    "positions": {
+      "initial": 6,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "242": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "243": {
+    "count": 8,
+    "positions": {
+      "medial": 5,
+      "initial": 1,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "244": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "250": {
+    "count": 8,
+    "positions": {
+      "final": 2,
+      "initial": 3,
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "252": {
+    "count": 5,
+    "positions": {
+      "medial": 4,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "253": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "255": {
+    "count": 53,
+    "positions": {
+      "initial": 3,
+      "medial": 35,
+      "final": 15
+    },
+    "role": "medial"
+  },
+  "256": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "257": {
+    "count": 5,
+    "positions": {
+      "medial": 3,
+      "final": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "260": {
+    "count": 6,
+    "positions": {
+      "medial": 2,
+      "final": 4
+    },
+    "role": "rare"
+  },
+  "261": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "263": {
+    "count": 5,
+    "positions": {
+      "final": 5
+    },
+    "role": "rare"
+  },
+  "264": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "266": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "267": {
+    "count": 4,
+    "positions": {
+      "medial": 3,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "268": {
+    "count": 3,
+    "positions": {
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "269": {
+    "count": 6,
+    "positions": {
+      "medial": 5,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "272": {
+    "count": 4,
+    "positions": {
+      "final": 3,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "277": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "278": {
+    "count": 3,
+    "positions": {
+      "final": 1,
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "279": {
+    "count": 4,
+    "positions": {
+      "final": 3,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "280": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "281": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "285": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "286": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "287": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "290": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "291": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "292": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "294": {
+    "count": 2,
+    "positions": {
+      "initial": 2
+    },
+    "role": "rare"
+  },
+  "295": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "297": {
+    "count": 11,
+    "positions": {
+      "medial": 10,
+      "final": 1
+    },
+    "role": "medial"
+  },
+  "298": {
+    "count": 7,
+    "positions": {
+      "medial": 3,
+      "initial": 4
+    },
+    "role": "rare"
+  },
+  "299": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "301": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "302": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "304": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "305": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "306": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "307": {
+    "count": 2,
+    "positions": {
+      "initial": 2
+    },
+    "role": "rare"
+  },
+  "308": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "309": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "310": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "311": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "315": {
+    "count": 6,
+    "positions": {
+      "final": 2,
+      "medial": 4
+    },
+    "role": "rare"
+  },
+  "316": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "317": {
+    "count": 5,
+    "positions": {
+      "initial": 2,
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "318": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "319": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "320": {
+    "count": 5,
+    "positions": {
+      "medial": 3,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "321": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "322": {
+    "count": 3,
+    "positions": {
+      "medial": 1,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "323": {
+    "count": 3,
+    "positions": {
+      "initial": 1,
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "324": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "325": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "326": {
+    "count": 3,
+    "positions": {
+      "final": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "327": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "328": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "330": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "335": {
+    "count": 10,
+    "positions": {
+      "medial": 9,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "336": {
+    "count": 8,
+    "positions": {
+      "medial": 8
+    },
+    "role": "rare"
+  },
+  "337": {
+    "count": 8,
+    "positions": {
+      "medial": 7,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "338": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "340": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "343": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "344": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "345": {
+    "count": 3,
+    "positions": {
+      "final": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "346": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "347": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "350": {
+    "count": 21,
+    "positions": {
+      "medial": 18,
+      "final": 3
+    },
+    "role": "medial"
+  },
+  "351": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "352": {
+    "count": 4,
+    "positions": {
+      "medial": 2,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "354": {
+    "count": 4,
+    "positions": {
+      "final": 1,
+      "medial": 2,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "360": {
+    "count": 7,
+    "positions": {
+      "initial": 1,
+      "final": 3,
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "361": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "362": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "363": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "365": {
+    "count": 9,
+    "positions": {
+      "medial": 7,
+      "initial": 2
+    },
+    "role": "rare"
+  },
+  "367": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "368": {
+    "count": 61,
+    "positions": {
+      "medial": 40,
+      "initial": 18,
+      "final": 3
+    },
+    "role": "medial"
+  },
+  "370": {
+    "count": 3,
+    "positions": {
+      "final": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "371": {
+    "count": 8,
+    "positions": {
+      "medial": 3,
+      "final": 5
+    },
+    "role": "rare"
+  },
+  "372": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "373": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "374": {
+    "count": 7,
+    "positions": {
+      "medial": 4,
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "375": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "376": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "380": {
+    "count": 4,
+    "positions": {
+      "medial": 1,
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "381": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "382": {
+    "count": 12,
+    "positions": {
+      "final": 4,
+      "medial": 6,
+      "initial": 2
+    },
+    "role": "flexible"
+  },
+  "383": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "384": {
+    "count": 13,
+    "positions": {
+      "medial": 11,
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "medial"
+  },
+  "385": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "386": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "387": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "388": {
+    "count": 29,
+    "positions": {
+      "medial": 20,
+      "final": 8,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "389": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "390": {
+    "count": 135,
+    "positions": {
+      "medial": 66,
+      "initial": 62,
+      "final": 6,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "391": {
+    "count": 5,
+    "positions": {
+      "final": 2,
+      "initial": 3
+    },
+    "role": "rare"
+  },
+  "392": {
+    "count": 4,
+    "positions": {
+      "final": 1,
+      "medial": 1,
+      "initial": 2
+    },
+    "role": "rare"
+  },
+  "393": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "394": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "400": {
+    "count": 165,
+    "positions": {
+      "initial": 147,
+      "medial": 17,
+      "final": 1
+    },
+    "role": "initial"
+  },
+  "401": {
+    "count": 5,
+    "positions": {
+      "medial": 1,
+      "initial": 4
+    },
+    "role": "rare"
+  },
+  "402": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "403": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "405": {
+    "count": 40,
+    "positions": {
+      "initial": 21,
+      "medial": 19
+    },
+    "role": "flexible"
+  },
+  "406": {
+    "count": 7,
+    "positions": {
+      "medial": 4,
+      "initial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "407": {
+    "count": 41,
+    "positions": {
+      "initial": 26,
+      "medial": 15
+    },
+    "role": "flexible"
+  },
+  "408": {
+    "count": 4,
+    "positions": {
+      "initial": 1,
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "409": {
+    "count": 3,
+    "positions": {
+      "initial": 3
+    },
+    "role": "rare"
+  },
+  "410": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "411": {
+    "count": 5,
+    "positions": {
+      "initial": 2,
+      "medial": 1,
+      "final": 1,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "412": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "413": {
+    "count": 11,
+    "positions": {
+      "final": 6,
+      "medial": 3,
+      "initial": 1,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "415": {
+    "count": 73,
+    "positions": {
+      "medial": 52,
+      "final": 16,
+      "singleton": 1,
+      "initial": 4
+    },
+    "role": "medial"
+  },
+  "416": {
+    "count": 23,
+    "positions": {
+      "final": 11,
+      "medial": 5,
+      "singleton": 1,
+      "initial": 6
+    },
+    "role": "flexible"
+  },
+  "417": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "420": {
+    "count": 3,
+    "positions": {
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "421": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "422": {
+    "count": 3,
+    "positions": {
+      "initial": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "423": {
+    "count": 3,
+    "positions": {
+      "initial": 3
+    },
+    "role": "rare"
+  },
+  "424": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "426": {
+    "count": 5,
+    "positions": {
+      "initial": 4,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "428": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "429": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "430": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "435": {
+    "count": 28,
+    "positions": {
+      "medial": 24,
+      "initial": 2,
+      "final": 2
+    },
+    "role": "medial"
+  },
+  "436": {
+    "count": 3,
+    "positions": {
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "440": {
+    "count": 26,
+    "positions": {
+      "final": 6,
+      "medial": 18,
+      "singleton": 1,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "441": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "442": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "443": {
+    "count": 3,
+    "positions": {
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "445": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "450": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "451": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "452": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "454": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "455": {
+    "count": 25,
+    "positions": {
+      "medial": 18,
+      "singleton": 1,
+      "initial": 2,
+      "final": 4
+    },
+    "role": "medial"
+  },
+  "456": {
+    "count": 3,
+    "positions": {
+      "final": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "457": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "458": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "460": {
+    "count": 18,
+    "positions": {
+      "medial": 17,
+      "final": 1
+    },
+    "role": "medial"
+  },
+  "461": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "462": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "463": {
+    "count": 11,
+    "positions": {
+      "medial": 10,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "465": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "467": {
+    "count": 7,
+    "positions": {
+      "medial": 3,
+      "final": 4
+    },
+    "role": "rare"
+  },
+  "468": {
+    "count": 4,
+    "positions": {
+      "medial": 2,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "469": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "470": {
+    "count": 3,
+    "positions": {
+      "final": 2,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "471": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "472": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "474": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "475": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "479": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "480": {
+    "count": 14,
+    "positions": {
+      "medial": 8,
+      "final": 5,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "481": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "482": {
+    "count": 12,
+    "positions": {
+      "medial": 9,
+      "final": 2,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "483": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "484": {
+    "count": 9,
+    "positions": {
+      "medial": 6,
+      "final": 2,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "490": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "491": {
+    "count": 8,
+    "positions": {
+      "final": 6,
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "493": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "494": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "495": {
+    "count": 15,
+    "positions": {
+      "medial": 7,
+      "final": 8
+    },
+    "role": "flexible"
+  },
+  "500": {
+    "count": 7,
+    "positions": {
+      "medial": 7
+    },
+    "role": "rare"
+  },
+  "501": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "502": {
+    "count": 4,
+    "positions": {
+      "medial": 2,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "503": {
+    "count": 29,
+    "positions": {
+      "final": 15,
+      "medial": 13,
+      "initial": 1
+    },
+    "role": "flexible"
+  },
+  "504": {
+    "count": 6,
+    "positions": {
+      "medial": 4,
+      "initial": 2
+    },
+    "role": "rare"
+  },
+  "505": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "506": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "510": {
+    "count": 9,
+    "positions": {
+      "final": 6,
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "511": {
+    "count": 7,
+    "positions": {
+      "final": 2,
+      "medial": 2,
+      "initial": 3
+    },
+    "role": "rare"
+  },
+  "514": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "515": {
+    "count": 3,
+    "positions": {
+      "initial": 1,
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "516": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "518": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "519": {
+    "count": 5,
+    "positions": {
+      "final": 2,
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "520": {
+    "count": 127,
+    "positions": {
+      "initial": 107,
+      "medial": 19,
+      "final": 1
+    },
+    "role": "initial"
+  },
+  "521": {
+    "count": 4,
+    "positions": {
+      "final": 1,
+      "medial": 2,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "525": {
+    "count": 5,
+    "positions": {
+      "medial": 4,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "526": {
+    "count": 6,
+    "positions": {
+      "initial": 6
+    },
+    "role": "rare"
+  },
+  "527": {
+    "count": 33,
+    "positions": {
+      "initial": 27,
+      "medial": 4,
+      "final": 2
+    },
+    "role": "initial"
+  },
+  "528": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "530": {
+    "count": 9,
+    "positions": {
+      "medial": 6,
+      "final": 2,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "531": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "533": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "534": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "540": {
+    "count": 12,
+    "positions": {
+      "initial": 1,
+      "final": 4,
+      "medial": 6,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "541": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "542": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "544": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "545": {
+    "count": 7,
+    "positions": {
+      "final": 7
+    },
+    "role": "rare"
+  },
+  "547": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "550": {
+    "count": 55,
+    "positions": {
+      "medial": 27,
+      "final": 22,
+      "initial": 5,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "552": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "554": {
+    "count": 7,
+    "positions": {
+      "medial": 5,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "555": {
+    "count": 13,
+    "positions": {
+      "medial": 11,
+      "initial": 1,
+      "final": 1
+    },
+    "role": "medial"
+  },
+  "556": {
+    "count": 7,
+    "positions": {
+      "final": 5,
+      "initial": 1,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "560": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "561": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "563": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "564": {
+    "count": 5,
+    "positions": {
+      "medial": 3,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "565": {
+    "count": 8,
+    "positions": {
+      "initial": 5,
+      "medial": 2,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "571": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "572": {
+    "count": 4,
+    "positions": {
+      "medial": 3,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "575": {
+    "count": 36,
+    "positions": {
+      "final": 15,
+      "medial": 19,
+      "singleton": 1,
+      "initial": 1
+    },
+    "role": "flexible"
+  },
+  "576": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "577": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "578": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "579": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "585": {
+    "count": 22,
+    "positions": {
+      "medial": 20,
+      "initial": 2
+    },
+    "role": "medial"
+  },
+  "586": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "590": {
+    "count": 94,
+    "positions": {
+      "medial": 64,
+      "final": 20,
+      "initial": 10
+    },
+    "role": "medial"
+  },
+  "592": {
+    "count": 4,
+    "positions": {
+      "initial": 1,
+      "medial": 2,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "595": {
+    "count": 26,
+    "positions": {
+      "medial": 15,
+      "initial": 8,
+      "final": 3
+    },
+    "role": "flexible"
+  },
+  "596": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "597": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "600": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "603": {
+    "count": 4,
+    "positions": {
+      "final": 3,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "604": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "605": {
+    "count": 6,
+    "positions": {
+      "medial": 4,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "606": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "610": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "611": {
+    "count": 4,
+    "positions": {
+      "medial": 4
+    },
+    "role": "rare"
+  },
+  "615": {
+    "count": 22,
+    "positions": {
+      "medial": 15,
+      "final": 5,
+      "initial": 2
+    },
+    "role": "medial"
+  },
+  "617": {
+    "count": 38,
+    "positions": {
+      "initial": 23,
+      "medial": 7,
+      "final": 8
+    },
+    "role": "flexible"
+  },
+  "620": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "621": {
+    "count": 16,
+    "positions": {
+      "initial": 11,
+      "medial": 2,
+      "final": 3
+    },
+    "role": "initial"
+  },
+  "625": {
+    "count": 4,
+    "positions": {
+      "medial": 2,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "626": {
+    "count": 3,
+    "positions": {
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "627": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "628": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "629": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "630": {
+    "count": 14,
+    "positions": {
+      "medial": 9,
+      "final": 5
+    },
+    "role": "flexible"
+  },
+  "631": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "632": {
+    "count": 10,
+    "positions": {
+      "medial": 7,
+      "final": 3
+    },
+    "role": "medial"
+  },
+  "634": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "635": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "636": {
+    "count": 5,
+    "positions": {
+      "medial": 5
+    },
+    "role": "rare"
+  },
+  "637": {
+    "count": 4,
+    "positions": {
+      "final": 2,
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "639": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "640": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "641": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "642": {
+    "count": 4,
+    "positions": {
+      "medial": 4
+    },
+    "role": "rare"
+  },
+  "643": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "645": {
+    "count": 11,
+    "positions": {
+      "medial": 8,
+      "initial": 1,
+      "final": 2
+    },
+    "role": "medial"
+  },
+  "646": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "647": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "678": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "679": {
+    "count": 11,
+    "positions": {
+      "initial": 9,
+      "final": 1,
+      "singleton": 1
+    },
+    "role": "initial"
+  },
+  "680": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "681": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "683": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "684": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "685": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "686": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "687": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "688": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "689": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "690": {
+    "count": 39,
+    "positions": {
+      "final": 7,
+      "medial": 28,
+      "initial": 4
+    },
+    "role": "medial"
+  },
+  "692": {
+    "count": 36,
+    "positions": {
+      "final": 28,
+      "medial": 5,
+      "initial": 2,
+      "singleton": 1
+    },
+    "role": "final"
+  },
+  "693": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "694": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "697": {
+    "count": 7,
+    "positions": {
+      "initial": 4,
+      "final": 1,
+      "medial": 1,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "698": {
+    "count": 3,
+    "positions": {
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "700": {
+    "count": 40,
+    "positions": {
+      "medial": 11,
+      "initial": 18,
+      "final": 10,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "702": {
+    "count": 4,
+    "positions": {
+      "medial": 3,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "703": {
+    "count": 6,
+    "positions": {
+      "medial": 3,
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "704": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "705": {
+    "count": 86,
+    "positions": {
+      "final": 17,
+      "medial": 66,
+      "initial": 2,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "706": {
+    "count": 43,
+    "positions": {
+      "medial": 30,
+      "final": 10,
+      "initial": 2,
+      "singleton": 1
+    },
+    "role": "medial"
+  },
+  "707": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "710": {
+    "count": 3,
+    "positions": {
+      "initial": 1,
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "711": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "712": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "716": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "717": {
+    "count": 25,
+    "positions": {
+      "initial": 1,
+      "medial": 14,
+      "final": 10
+    },
+    "role": "flexible"
+  },
+  "718": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "720": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "721": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "722": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "727": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "729": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "731": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "732": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "734": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "736": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "740": {
+    "count": 753,
+    "positions": {
+      "initial": 553,
+      "medial": 195,
+      "final": 4,
+      "singleton": 1
+    },
+    "role": "initial"
+  },
+  "741": {
+    "count": 120,
+    "positions": {
+      "final": 14,
+      "medial": 104,
+      "initial": 2
+    },
+    "role": "medial"
+  },
+  "742": {
+    "count": 23,
+    "positions": {
+      "medial": 19,
+      "final": 2,
+      "singleton": 1,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "743": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "744": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "745": {
+    "count": 12,
+    "positions": {
+      "medial": 8,
+      "final": 4
+    },
+    "role": "medial"
+  },
+  "746": {
+    "count": 4,
+    "positions": {
+      "medial": 2,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "747": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "748": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "749": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "750": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "751": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "752": {
+    "count": 15,
+    "positions": {
+      "medial": 14,
+      "final": 1
+    },
+    "role": "medial"
+  },
+  "759": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "760": {
+    "count": 64,
+    "positions": {
+      "medial": 63,
+      "final": 1
+    },
+    "role": "medial"
+  },
+  "761": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "762": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "765": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "767": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "768": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "770": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "772": {
+    "count": 5,
+    "positions": {
+      "medial": 5
+    },
+    "role": "rare"
+  },
+  "773": {
+    "count": 8,
+    "positions": {
+      "final": 1,
+      "medial": 7
+    },
+    "role": "rare"
+  },
+  "775": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "776": {
+    "count": 6,
+    "positions": {
+      "medial": 3,
+      "initial": 2,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "777": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "778": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "780": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "781": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "782": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "783": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "786": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "790": {
+    "count": 26,
+    "positions": {
+      "medial": 13,
+      "final": 5,
+      "initial": 8
+    },
+    "role": "flexible"
+  },
+  "791": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "792": {
+    "count": 5,
+    "positions": {
+      "medial": 3,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "793": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "794": {
+    "count": 6,
+    "positions": {
+      "medial": 4,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "795": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "797": {
+    "count": 3,
+    "positions": {
+      "medial": 1,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "798": {
+    "count": 72,
+    "positions": {
+      "initial": 1,
+      "final": 15,
+      "medial": 56
+    },
+    "role": "medial"
+  },
+  "799": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "803": {
+    "count": 75,
+    "positions": {
+      "final": 29,
+      "medial": 46
+    },
+    "role": "flexible"
+  },
+  "804": {
+    "count": 4,
+    "positions": {
+      "medial": 1,
+      "final": 1,
+      "initial": 2
+    },
+    "role": "rare"
+  },
+  "805": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "806": {
+    "count": 62,
+    "positions": {
+      "medial": 40,
+      "initial": 1,
+      "final": 21
+    },
+    "role": "flexible"
+  },
+  "807": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "808": {
+    "count": 4,
+    "positions": {
+      "initial": 1,
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "810": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "812": {
+    "count": 6,
+    "positions": {
+      "medial": 5,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "813": {
+    "count": 2,
+    "positions": {
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "814": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "815": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "817": {
+    "count": 98,
+    "positions": {
+      "final": 86,
+      "medial": 9,
+      "initial": 3
+    },
+    "role": "final"
+  },
+  "818": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "820": {
+    "count": 129,
+    "positions": {
+      "final": 94,
+      "medial": 25,
+      "initial": 10
+    },
+    "role": "final"
+  },
+  "821": {
+    "count": 9,
+    "positions": {
+      "medial": 4,
+      "initial": 1,
+      "final": 4
+    },
+    "role": "rare"
+  },
+  "822": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "824": {
+    "count": 8,
+    "positions": {
+      "final": 6,
+      "initial": 2
+    },
+    "role": "rare"
+  },
+  "825": {
+    "count": 5,
+    "positions": {
+      "final": 1,
+      "medial": 4
+    },
+    "role": "rare"
+  },
+  "826": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "827": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "829": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "830": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "831": {
+    "count": 12,
+    "positions": {
+      "medial": 5,
+      "final": 7
+    },
+    "role": "flexible"
+  },
+  "832": {
+    "count": 19,
+    "positions": {
+      "final": 6,
+      "medial": 7,
+      "initial": 6
+    },
+    "role": "flexible"
+  },
+  "833": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "838": {
+    "count": 8,
+    "positions": {
+      "medial": 6,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "840": {
+    "count": 47,
+    "positions": {
+      "final": 11,
+      "medial": 34,
+      "singleton": 1,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "841": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "842": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "843": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "844": {
+    "count": 9,
+    "positions": {
+      "medial": 6,
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "845": {
+    "count": 14,
+    "positions": {
+      "medial": 13,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "849": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "850": {
+    "count": 20,
+    "positions": {
+      "medial": 11,
+      "initial": 3,
+      "final": 5,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "851": {
+    "count": 2,
+    "positions": {
+      "final": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "852": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "853": {
+    "count": 8,
+    "positions": {
+      "final": 7,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "854": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "855": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "857": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "861": {
+    "count": 115,
+    "positions": {
+      "medial": 31,
+      "final": 79,
+      "initial": 5
+    },
+    "role": "final"
+  },
+  "862": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "863": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "864": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "865": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "866": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "868": {
+    "count": 2,
+    "positions": {
+      "initial": 2
+    },
+    "role": "rare"
+  },
+  "869": {
+    "count": 3,
+    "positions": {
+      "initial": 3
+    },
+    "role": "rare"
+  },
+  "871": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "875": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "877": {
+    "count": 14,
+    "positions": {
+      "medial": 6,
+      "initial": 2,
+      "final": 6
+    },
+    "role": "flexible"
+  },
+  "878": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "879": {
+    "count": 3,
+    "positions": {
+      "medial": 2,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "880": {
+    "count": 5,
+    "positions": {
+      "final": 3,
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "890": {
+    "count": 3,
+    "positions": {
+      "medial": 3
+    },
+    "role": "rare"
+  },
+  "891": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "892": {
+    "count": 35,
+    "positions": {
+      "final": 11,
+      "medial": 15,
+      "initial": 8,
+      "singleton": 1
+    },
+    "role": "flexible"
+  },
+  "893": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "894": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "896": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "897": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "898": {
+    "count": 3,
+    "positions": {
+      "final": 1,
+      "singleton": 1,
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "899": {
+    "count": 2,
+    "positions": {
+      "initial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "900": {
+    "count": 46,
+    "positions": {
+      "medial": 38,
+      "final": 7,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "901": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "902": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "903": {
+    "count": 4,
+    "positions": {
+      "final": 2,
+      "medial": 2
+    },
+    "role": "rare"
+  },
+  "904": {
+    "count": 27,
+    "positions": {
+      "final": 5,
+      "medial": 21,
+      "initial": 1
+    },
+    "role": "medial"
+  },
+  "905": {
+    "count": 5,
+    "positions": {
+      "final": 5
+    },
+    "role": "rare"
+  },
+  "906": {
+    "count": 8,
+    "positions": {
+      "final": 4,
+      "medial": 4
+    },
+    "role": "rare"
+  },
+  "907": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "908": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "909": {
+    "count": 3,
+    "positions": {
+      "singleton": 1,
+      "medial": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "910": {
+    "count": 2,
+    "positions": {
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "912": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "913": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "914": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "919": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "920": {
+    "count": 79,
+    "positions": {
+      "final": 54,
+      "medial": 21,
+      "initial": 4
+    },
+    "role": "final"
+  },
+  "921": {
+    "count": 11,
+    "positions": {
+      "medial": 7,
+      "initial": 1,
+      "final": 3
+    },
+    "role": "flexible"
+  },
+  "922": {
+    "count": 3,
+    "positions": {
+      "final": 3
+    },
+    "role": "rare"
+  },
+  "923": {
+    "count": 16,
+    "positions": {
+      "medial": 16
+    },
+    "role": "medial"
+  },
+  "924": {
+    "count": 6,
+    "positions": {
+      "medial": 3,
+      "initial": 1,
+      "final": 2
+    },
+    "role": "rare"
+  },
+  "926": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "927": {
+    "count": 6,
+    "positions": {
+      "medial": 5,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "930": {
+    "count": 2,
+    "positions": {
+      "singleton": 1,
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "932": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "933": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "940": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "942": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "943": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "944": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  },
+  "945": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "946": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "950": {
+    "count": 2,
+    "positions": {
+      "medial": 1,
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "951": {
+    "count": 1,
+    "positions": {
+      "initial": 1
+    },
+    "role": "rare"
+  },
+  "956": {
+    "count": 1,
+    "positions": {
+      "final": 1
+    },
+    "role": "rare"
+  },
+  "957": {
+    "count": 1,
+    "positions": {
+      "singleton": 1
+    },
+    "role": "rare"
+  },
+  "958": {
+    "count": 1,
+    "positions": {
+      "medial": 1
+    },
+    "role": "rare"
+  }
+}

@@ -1,0 +1,7901 @@
+{
+  "method": "training-only positional classes and empirical finite template grammar",
+  "thresholds": {
+    "min_count": 10,
+    "dominant_position_fraction": 0.65
+  },
+  "roles": {
+    "226": "flexible",
+    "032": "medial",
+    "002": "medial",
+    "390": "flexible",
+    "692": "final",
+    "151": "initial",
+    "097": "rare",
+    "700": "flexible",
+    "034": "flexible",
+    "400": "initial",
+    "368": "medial",
+    "741": "medial",
+    "740": "initial",
+    "455": "medial",
+    "240": "medial",
+    "235": "medial",
+    "158": "flexible",
+    "838": "rare",
+    "470": "rare",
+    "338": "rare",
+    "605": "rare",
+    "176": "medial",
+    "001": "medial",
+    "820": "final",
+    "405": "flexible",
+    "900": "medial",
+    "003": "flexible",
+    "070": "medial",
+    "233": "medial",
+    "004": "medial",
+    "013": "medial",
+    "817": "final",
+    "061": "medial",
+    "299": "rare",
+    "350": "medial",
+    "125": "flexible",
+    "621": "initial",
+    "590": "medial",
+    "617": "flexible",
+    "142": "medial",
+    "597": "rare",
+    "905": "rare",
+    "384": "medial",
+    "031": "flexible",
+    "950": "rare",
+    "257": "rare",
+    "840": "medial",
+    "520": "initial",
+    "033": "medial",
+    "705": "medial",
+    "869": "rare",
+    "575": "flexible",
+    "717": "flexible",
+    "521": "rare",
+    "697": "rare",
+    "722": "rare",
+    "615": "medial",
+    "495": "flexible",
+    "825": "rare",
+    "231": "medial",
+    "798": "medial",
+    "821": "rare",
+    "645": "medial",
+    "850": "flexible",
+    "388": "medial",
+    "611": "rare",
+    "808": "rare",
+    "347": "rare",
+    "806": "flexible",
+    "468": "rare",
+    "752": "medial",
+    "256": "rare",
+    "832": "flexible",
+    "803": "flexible",
+    "220": "medial",
+    "407": "flexible",
+    "071": "rare",
+    "060": "medial",
+    "415": "medial",
+    "790": "flexible",
+    "100": "medial",
+    "101": "rare",
+    "773": "rare",
+    "154": "initial",
+    "017": "medial",
+    "130": "rare",
+    "035": "flexible",
+    "171": "flexible",
+    "055": "medial",
+    "892": "flexible",
+    "232": "rare",
+    "519": "rare",
+    "161": "rare",
+    "845": "medial",
+    "765": "rare",
+    "920": "final",
+    "156": "initial",
+    "595": "flexible",
+    "760": "medial",
+    "706": "medial",
+    "635": "rare",
+    "320": "rare",
+    "137": "rare",
+    "413": "flexible",
+    "561": "rare",
+    "092": "rare",
+    "625": "rare",
+    "527": "initial",
+    "550": "flexible",
+    "337": "rare",
+    "484": "rare",
+    "891": "rare",
+    "064": "rare",
+    "745": "medial",
+    "924": "rare",
+    "104": "flexible",
+    "090": "initial",
+    "585": "medial",
+    "861": "final",
+    "603": "rare",
+    "435": "medial",
+    "690": "medial",
+    "630": "flexible",
+    "646": "rare",
+    "604": "rare",
+    "365": "rare",
+    "482": "medial",
+    "824": "rare",
+    "242": "rare",
+    "191": "rare",
+    "526": "rare",
+    "554": "rare",
+    "880": "rare",
+    "307": "rare",
+    "132": "rare",
+    "426": "rare",
+    "344": "rare",
+    "545": "rare",
+    "065": "rare",
+    "082": "rare",
+    "742": "medial",
+    "750": "rare",
+    "686": "rare",
+    "793": "rare",
+    "805": "rare",
+    "533": "rare",
+    "903": "rare",
+    "681": "rare",
+    "103": "rare",
+    "066": "rare",
+    "480": "flexible",
+    "165": "flexible",
+    "694": "rare",
+    "463": "medial",
+    "354": "rare",
+    "029": "rare",
+    "904": "medial",
+    "007": "rare",
+    "503": "flexible",
+    "305": "rare",
+    "392": "rare",
+    "263": "rare",
+    "335": "medial",
+    "072": "rare",
+    "921": "flexible",
+    "255": "medial",
+    "346": "rare",
+    "510": "rare",
+    "294": "rare",
+    "167": "rare",
+    "704": "rare",
+    "269": "rare",
+    "810": "rare",
+    "555": "medial",
+    "401": "rare",
+    "327": "rare",
+    "443": "rare",
+    "190": "rare",
+    "420": "rare",
+    "221": "rare",
+    "610": "rare",
+    "005": "flexible",
+    "501": "rare",
+    "020": "rare",
+    "422": "rare",
+    "175": "flexible",
+    "500": "rare",
+    "862": "rare",
+    "923": "medial",
+    "317": "rare",
+    "890": "rare",
+    "776": "rare",
+    "297": "medial",
+    "049": "rare",
+    "408": "rare",
+    "095": "rare",
+    "140": "flexible",
+    "382": "flexible",
+    "456": "rare",
+    "416": "flexible",
+    "491": "rare",
+    "440": "medial",
+    "360": "rare",
+    "268": "rare",
+    "252": "rare",
+    "326": "rare",
+    "504": "rare",
+    "036": "rare",
+    "374": "rare",
+    "228": "rare",
+    "091": "rare",
+    "177": "rare",
+    "843": "rare",
+    "780": "rare",
+    "336": "rare",
+    "371": "rare",
+    "243": "rare",
+    "169": "rare",
+    "794": "rare",
+    "734": "rare",
+    "525": "rare",
+    "016": "flexible",
+    "540": "flexible",
+    "323": "rare",
+    "111": "rare",
+    "250": "rare",
+    "853": "rare",
+    "391": "rare",
+    "877": "flexible",
+    "474": "rare",
+    "225": "rare",
+    "641": "rare",
+    "475": "rare",
+    "012": "rare",
+    "028": "rare",
+    "565": "rare",
+    "048": "rare",
+    "387": "rare",
+    "831": "flexible",
+    "098": "rare",
+    "204": "rare",
+    "215": "rare",
+    "306": "rare",
+    "813": "rare",
+    "786": "rare",
+    "679": "initial",
+    "812": "rare",
+    "236": "flexible",
+    "361": "rare",
+    "783": "rare",
+    "844": "rare",
+    "139": "rare",
+    "441": "rare",
+    "160": "rare",
+    "315": "rare",
+    "871": "rare",
+    "629": "rare",
+    "279": "rare",
+    "552": "rare",
+    "531": "rare",
+    "067": "rare",
+    "703": "rare",
+    "018": "rare",
+    "897": "rare",
+    "351": "rare",
+    "272": "rare",
+    "202": "rare",
+    "155": "rare",
+    "281": "rare",
+    "515": "rare",
+    "059": "rare",
+    "943": "rare",
+    "791": "rare",
+    "460": "medial",
+    "201": "rare",
+    "423": "rare",
+    "511": "rare",
+    "626": "rare",
+    "556": "rare",
+    "352": "rare",
+    "744": "rare",
+    "896": "rare",
+    "933": "rare",
+    "436": "rare",
+    "318": "rare",
+    "927": "rare",
+    "136": "rare",
+    "267": "rare",
+    "150": "rare",
+    "768": "rare",
+    "804": "rare",
+    "121": "rare",
+    "308": "rare",
+    "534": "rare",
+    "636": "rare",
+    "145": "rare",
+    "592": "rare",
+    "632": "medial",
+    "711": "rare",
+    "643": "rare",
+    "914": "rare",
+    "050": "rare",
+    "421": "rare",
+    "134": "rare",
+    "219": "rare",
+    "465": "rare",
+    "159": "rare",
+    "325": "rare",
+    "127": "rare",
+    "381": "rare",
+    "292": "rare",
+    "901": "rare",
+    "620": "rare",
+    "363": "rare",
+    "792": "rare",
+    "102": "rare",
+    "749": "rare",
+    "367": "rare",
+    "216": "rare",
+    "687": "rare",
+    "759": "rare",
+    "731": "rare",
+    "122": "rare",
+    "868": "rare",
+    "229": "rare",
+    "112": "rare",
+    "693": "rare",
+    "767": "rare",
+    "922": "rare",
+    "746": "rare",
+    "383": "rare",
+    "412": "rare",
+    "564": "rare",
+    "490": "rare",
+    "472": "rare",
+    "063": "rare",
+    "702": "rare",
+    "051": "rare",
+    "797": "rare",
+    "688": "rare",
+    "324": "rare",
+    "153": "rare",
+    "710": "rare",
+    "600": "rare",
+    "894": "rare",
+    "370": "rare",
+    "506": "rare",
+    "105": "rare",
+    "394": "rare",
+    "698": "rare",
+    "042": "rare",
+    "777": "rare",
+    "046": "rare",
+    "720": "rare",
+    "483": "rare",
+    "770": "rare",
+    "301": "rare",
+    "402": "rare",
+    "578": "rare",
+    "481": "rare",
+    "829": "rare",
+    "467": "rare",
+    "129": "rare",
+    "310": "rare",
+    "128": "rare",
+    "857": "rare",
+    "906": "rare",
+    "362": "rare",
+    "302": "rare",
+    "596": "rare",
+    "406": "rare",
+    "321": "rare",
+    "898": "rare",
+    "081": "rare",
+    "913": "rare",
+    "849": "rare",
+    "244": "rare",
+    "277": "rare",
+    "260": "rare",
+    "544": "rare",
+    "946": "rare",
+    "143": "rare",
+    "096": "rare",
+    "627": "rare",
+    "647": "rare",
+    "781": "rare",
+    "208": "rare",
+    "842": "rare",
+    "025": "rare",
+    "234": "rare",
+    "748": "rare",
+    "530": "rare",
+    "316": "rare",
+    "762": "rare",
+    "772": "rare",
+    "572": "rare",
+    "684": "rare",
+    "827": "rare",
+    "814": "rare",
+    "560": "rare",
+    "006": "rare",
+    "727": "rare",
+    "298": "rare",
+    "461": "rare",
+    "045": "rare",
+    "910": "rare",
+    "547": "rare",
+    "083": "rare",
+    "290": "rare",
+    "345": "rare",
+    "093": "rare",
+    "637": "rare",
+    "117": "rare",
+    "956": "rare",
+    "563": "rare",
+    "062": "rare",
+    "241": "rare",
+    "732": "rare",
+    "909": "rare",
+    "203": "rare",
+    "193": "rare",
+    "912": "rare",
+    "015": "rare",
+    "718": "rare",
+    "815": "rare",
+    "319": "rare",
+    "026": "rare",
+    "041": "rare",
+    "118": "rare",
+    "452": "rare",
+    "386": "rare",
+    "166": "rare",
+    "138": "rare",
+    "429": "rare",
+    "451": "rare",
+    "205": "rare",
+    "253": "rare",
+    "878": "rare",
+    "494": "rare",
+    "179": "rare",
+    "919": "rare",
+    "639": "rare",
+    "304": "rare",
+    "428": "rare",
+    "409": "rare",
+    "450": "rare",
+    "222": "rare",
+    "864": "rare",
+    "775": "rare",
+    "516": "rare",
+    "014": "rare",
+    "841": "rare",
+    "322": "rare",
+    "944": "rare",
+    "285": "rare",
+    "899": "rare",
+    "380": "rare",
+    "403": "rare",
+    "502": "rare",
+    "854": "rare",
+    "634": "rare",
+    "940": "rare",
+    "146": "rare",
+    "642": "rare",
+    "930": "rare",
+    "879": "rare",
+    "287": "rare",
+    "173": "rare",
+    "826": "rare",
+    "576": "rare",
+    "707": "rare",
+    "291": "rare",
+    "893": "rare",
+    "908": "rare",
+    "833": "rare",
+    "528": "rare",
+    "518": "rare",
+    "264": "rare",
+    "295": "rare",
+    "343": "rare",
+    "385": "rare",
+    "309": "rare",
+    "330": "rare",
+    "286": "rare",
+    "224": "rare",
+    "958": "rare",
+    "278": "rare",
+    "411": "rare",
+    "147": "rare",
+    "027": "rare",
+    "586": "rare",
+    "375": "rare",
+    "037": "rare",
+    "223": "rare",
+    "640": "rare",
+    "116": "rare",
+    "902": "rare",
+    "822": "rare",
+    "110": "rare",
+    "799": "rare",
+    "795": "rare",
+    "863": "rare",
+    "866": "rare",
+    "680": "rare",
+    "069": "rare",
+    "311": "rare",
+    "865": "rare",
+    "579": "rare",
+    "019": "rare",
+    "469": "rare",
+    "168": "rare",
+    "058": "rare",
+    "131": "rare",
+    "505": "rare",
+    "852": "rare",
+    "119": "rare",
+    "712": "rare",
+    "462": "rare",
+    "942": "rare",
+    "056": "rare",
+    "818": "rare",
+    "493": "rare",
+    "778": "rare",
+    "932": "rare",
+    "074": "rare",
+    "851": "rare",
+    "417": "rare",
+    "207": "rare",
+    "424": "rare",
+    "907": "rare",
+    "945": "rare",
+    "328": "rare",
+    "471": "rare",
+    "445": "rare",
+    "144": "rare",
+    "479": "rare",
+    "631": "rare",
+    "571": "rare",
+    "729": "rare",
+    "926": "rare",
+    "747": "rare",
+    "195": "rare",
+    "875": "rare",
+    "393": "rare",
+    "200": "rare",
+    "751": "rare",
+    "410": "rare",
+    "458": "rare",
+    "761": "rare",
+    "736": "rare",
+    "721": "rare",
+    "373": "rare",
+    "716": "rare",
+    "689": "rare",
+    "683": "rare",
+    "606": "rare",
+    "951": "rare",
+    "542": "rare",
+    "178": "rare",
+    "442": "rare",
+    "133": "rare",
+    "457": "rare",
+    "266": "rare",
+    "628": "rare",
+    "807": "rare",
+    "855": "rare",
+    "261": "rare",
+    "743": "rare",
+    "685": "rare",
+    "541": "rare",
+    "430": "rare",
+    "389": "rare",
+    "957": "rare",
+    "141": "rare",
+    "230": "rare",
+    "237": "rare",
+    "782": "rare",
+    "340": "rare",
+    "678": "rare",
+    "372": "rare",
+    "577": "rare",
+    "157": "rare",
+    "172": "rare",
+    "376": "rare",
+    "830": "rare",
+    "454": "rare",
+    "280": "rare",
+    "192": "rare",
+    "514": "rare"
+  },
+  "role_counts": {
+    "flexible": 41,
+    "medial": 53,
+    "final": 5,
+    "initial": 10,
+    "rare": 480
+  },
+  "templates": [
+    {
+      "roles": [
+        "rare"
+      ],
+      "train_count": 48
+    },
+    {
+      "roles": [
+        "initial",
+        "rare"
+      ],
+      "train_count": 44
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 39
+    },
+    {
+      "roles": [
+        "initial",
+        "medial"
+      ],
+      "train_count": 32
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 30
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 30
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 23
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare"
+      ],
+      "train_count": 22
+    },
+    {
+      "roles": [
+        "rare",
+        "medial"
+      ],
+      "train_count": 21
+    },
+    {
+      "roles": [
+        "medial",
+        "rare"
+      ],
+      "train_count": 20
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible"
+      ],
+      "train_count": 20
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 19
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare"
+      ],
+      "train_count": 18
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 17
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial"
+      ],
+      "train_count": 17
+    },
+    {
+      "roles": [
+        "flexible"
+      ],
+      "train_count": 17
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible"
+      ],
+      "train_count": 16
+    },
+    {
+      "roles": [
+        "rare",
+        "rare"
+      ],
+      "train_count": 16
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 16
+    },
+    {
+      "roles": [
+        "medial"
+      ],
+      "train_count": 16
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 16
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 15
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 15
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible"
+      ],
+      "train_count": 14
+    },
+    {
+      "roles": [
+        "medial",
+        "medial"
+      ],
+      "train_count": 13
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 13
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 13
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 13
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 12
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 12
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 12
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 11
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 11
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 10
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial"
+      ],
+      "train_count": 10
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 10
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 10
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 9
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 9
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 8
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 7
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 7
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 7
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 7
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 6
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "medial",
+        "final"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 5
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "rare"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 4
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "rare",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "rare",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "final",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "flexible",
+        "initial"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "final",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "final",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "final",
+        "rare"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "medial",
+        "initial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "medial",
+        "final",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 3
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "final",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "initial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "initial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "initial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "final",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "final",
+        "rare",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 2
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "flexible",
+        "medial",
+        "flexible",
+        "final",
+        "medial",
+        "rare",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "rare",
+        "initial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "final",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "final",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "rare",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare",
+        "initial",
+        "rare",
+        "flexible",
+        "medial",
+        "rare",
+        "medial",
+        "final",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "final",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "final",
+        "rare",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "initial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "initial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "initial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "initial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "rare",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "initial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "flexible",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "flexible",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "final",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "rare",
+        "rare",
+        "medial",
+        "medial",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "rare",
+        "final",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "final",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "final",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "initial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "final",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "initial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "flexible",
+        "medial",
+        "initial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "final",
+        "rare",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "rare",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "flexible",
+        "medial",
+        "final",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "medial",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "final",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "rare",
+        "initial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "final",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "initial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "rare",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "rare",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "final",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "flexible",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "rare",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "final",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "medial",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "final",
+        "rare",
+        "medial",
+        "rare",
+        "rare",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "rare",
+        "rare",
+        "rare",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "initial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "initial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "final",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "rare",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "final",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "initial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "initial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "flexible",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "rare",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "initial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "initial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "final",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "rare",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "final",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "flexible",
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "initial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "initial",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "medial",
+        "flexible",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "medial",
+        "medial",
+        "rare",
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "initial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "rare",
+        "rare",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "flexible",
+        "initial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "rare",
+        "initial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "rare",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "flexible",
+        "medial",
+        "final",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "flexible",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "final",
+        "rare",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "flexible",
+        "initial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "rare",
+        "medial",
+        "initial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible",
+        "flexible",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "rare",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "initial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "final",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "final",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "final",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "flexible",
+        "initial",
+        "rare",
+        "medial",
+        "rare",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "flexible",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "final",
+        "rare",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "final",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "final",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "initial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "flexible",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "initial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "final",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "rare",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "flexible",
+        "initial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "initial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "rare",
+        "medial",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "final",
+        "flexible",
+        "medial",
+        "medial",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "initial",
+        "initial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "rare",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "initial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "final",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "initial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "initial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "rare",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "rare",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "initial",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "rare",
+        "flexible",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "rare",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "rare",
+        "flexible",
+        "rare",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "initial",
+        "flexible",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "flexible",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "rare",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "rare",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "initial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "final",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "initial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "final",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible",
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "final",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "rare",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "medial",
+        "final",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "rare",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "final",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "flexible",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "initial",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "flexible",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "initial",
+        "medial",
+        "medial",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "medial",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "final",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "final",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "flexible",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare",
+        "final",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "initial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "rare",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "medial",
+        "medial",
+        "flexible",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "initial",
+        "medial",
+        "rare",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "flexible",
+        "medial",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "medial",
+        "flexible",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "medial",
+        "medial",
+        "flexible",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "rare",
+        "rare",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "medial",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "rare",
+        "flexible",
+        "flexible",
+        "flexible",
+        "medial",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "medial",
+        "rare",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "final",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "final",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "flexible",
+        "medial",
+        "medial",
+        "medial",
+        "initial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "rare",
+        "flexible",
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "initial",
+        "rare",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "flexible",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "medial",
+        "flexible",
+        "medial",
+        "medial",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "flexible",
+        "flexible",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "rare",
+        "medial",
+        "rare",
+        "rare",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "initial",
+        "medial",
+        "flexible",
+        "rare",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "medial",
+        "initial",
+        "rare"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "medial",
+        "rare",
+        "flexible"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "rare",
+        "medial",
+        "medial"
+      ],
+      "train_count": 1
+    },
+    {
+      "roles": [
+        "flexible",
+        "final",
+        "flexible",
+        "medial",
+        "final"
+      ],
+      "train_count": 1
+    }
+  ],
+  "test_texts": 217,
+  "test_exact_template_coverage": 0.6682027649769585,
+  "shuffled_test_template_coverage": 0.3225806451612903,
+  "limitation": "No semantic or phonetic interpretation; rare/flexible classes are broad."
+}

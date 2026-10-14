@@ -1,0 +1,389 @@
+{
+  "experiment": "Ten bijective abstract syllable-label substitutions",
+  "keys": [
+    {
+      "seed": 0,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV329"
+        ],
+        [
+          "002",
+          "CV005"
+        ],
+        [
+          "003",
+          "CV286"
+        ],
+        [
+          "004",
+          "CV595"
+        ],
+        [
+          "005",
+          "CV017"
+        ],
+        [
+          "006",
+          "CV185"
+        ],
+        [
+          "007",
+          "CV402"
+        ],
+        [
+          "012",
+          "CV221"
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV477"
+        ],
+        [
+          "002",
+          "CV421"
+        ],
+        [
+          "003",
+          "CV178"
+        ],
+        [
+          "004",
+          "CV576"
+        ],
+        [
+          "005",
+          "CV387"
+        ],
+        [
+          "006",
+          "CV183"
+        ],
+        [
+          "007",
+          "CV606"
+        ],
+        [
+          "012",
+          "CV212"
+        ]
+      ]
+    },
+    {
+      "seed": 2,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV256"
+        ],
+        [
+          "002",
+          "CV291"
+        ],
+        [
+          "003",
+          "CV486"
+        ],
+        [
+          "004",
+          "CV233"
+        ],
+        [
+          "005",
+          "CV560"
+        ],
+        [
+          "006",
+          "CV289"
+        ],
+        [
+          "007",
+          "CV096"
+        ],
+        [
+          "012",
+          "CV434"
+        ]
+      ]
+    },
+    {
+      "seed": 3,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV012"
+        ],
+        [
+          "002",
+          "CV070"
+        ],
+        [
+          "003",
+          "CV343"
+        ],
+        [
+          "004",
+          "CV505"
+        ],
+        [
+          "005",
+          "CV592"
+        ],
+        [
+          "006",
+          "CV482"
+        ],
+        [
+          "007",
+          "CV451"
+        ],
+        [
+          "012",
+          "CV625"
+        ]
+      ]
+    },
+    {
+      "seed": 4,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV566"
+        ],
+        [
+          "002",
+          "CV230"
+        ],
+        [
+          "003",
+          "CV605"
+        ],
+        [
+          "004",
+          "CV197"
+        ],
+        [
+          "005",
+          "CV246"
+        ],
+        [
+          "006",
+          "CV555"
+        ],
+        [
+          "007",
+          "CV121"
+        ],
+        [
+          "012",
+          "CV467"
+        ]
+      ]
+    },
+    {
+      "seed": 5,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV065"
+        ],
+        [
+          "002",
+          "CV470"
+        ],
+        [
+          "003",
+          "CV465"
+        ],
+        [
+          "004",
+          "CV457"
+        ],
+        [
+          "005",
+          "CV130"
+        ],
+        [
+          "006",
+          "CV520"
+        ],
+        [
+          "007",
+          "CV204"
+        ],
+        [
+          "012",
+          "CV320"
+        ]
+      ]
+    },
+    {
+      "seed": 6,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV483"
+        ],
+        [
+          "002",
+          "CV170"
+        ],
+        [
+          "003",
+          "CV024"
+        ],
+        [
+          "004",
+          "CV441"
+        ],
+        [
+          "005",
+          "CV394"
+        ],
+        [
+          "006",
+          "CV554"
+        ],
+        [
+          "007",
+          "CV526"
+        ],
+        [
+          "012",
+          "CV218"
+        ]
+      ]
+    },
+    {
+      "seed": 7,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV341"
+        ],
+        [
+          "002",
+          "CV003"
+        ],
+        [
+          "003",
+          "CV420"
+        ],
+        [
+          "004",
+          "CV158"
+        ],
+        [
+          "005",
+          "CV326"
+        ],
+        [
+          "006",
+          "CV556"
+        ],
+        [
+          "007",
+          "CV580"
+        ],
+        [
+          "012",
+          "CV094"
+        ]
+      ]
+    },
+    {
+      "seed": 8,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV469"
+        ],
+        [
+          "002",
+          "CV024"
+        ],
+        [
+          "003",
+          "CV262"
+        ],
+        [
+          "004",
+          "CV325"
+        ],
+        [
+          "005",
+          "CV357"
+        ],
+        [
+          "006",
+          "CV261"
+        ],
+        [
+          "007",
+          "CV168"
+        ],
+        [
+          "012",
+          "CV146"
+        ]
+      ]
+    },
+    {
+      "seed": 9,
+      "conditional_entropy_bits": 3.892299476310572,
+      "example_relabeling": [
+        [
+          "001",
+          "CV337"
+        ],
+        [
+          "002",
+          "CV539"
+        ],
+        [
+          "003",
+          "CV110"
+        ],
+        [
+          "004",
+          "CV262"
+        ],
+        [
+          "005",
+          "CV049"
+        ],
+        [
+          "006",
+          "CV519"
+        ],
+        [
+          "007",
+          "CV211"
+        ],
+        [
+          "012",
+          "CV352"
+        ]
+      ]
+    }
+  ],
+  "original_entropy_bits": 3.892299476310572,
+  "possible_bijective_labelings_log10": 1511.39244989067,
+  "conclusion": "Frequency/entropy/adjacency structure cannot select among renamed phonetic or semantic values.",
+  "limitation": "CV labels are abstract unique tokens, not historically plausible syllables; this is an invariance demonstration."
+}
