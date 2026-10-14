@@ -33,8 +33,8 @@ def main():
         actual=hashlib.sha256((ROOT/'data/raw'/name).read_bytes()).hexdigest()
         if actual!=expected:raise ValueError(f'Source snapshot hash mismatch: {name}')
     before=artifacts()
-    for name in ('test_pipeline.py','test_latent.py','normalize.py','analyze.py','extended.py',
-                 'latent_grammar.py','near_copy.py','catalogue.py','report.py'):
+    for name in ('test_pipeline.py','test_latent.py','test_allographs.py','normalize.py','analyze.py','extended.py',
+                 'latent_grammar.py','near_copy.py','allographs.py','catalogue.py','report.py'):
         subprocess.run([sys.executable,str(ROOT/'scripts'/name)],check=True,cwd=ROOT)
     after=artifacts()
     if args.check:equivalent(before,after)

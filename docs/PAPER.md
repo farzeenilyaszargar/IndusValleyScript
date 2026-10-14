@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.2 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.3 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -107,6 +107,14 @@ Validation selects 8 states, initialization seed 29, and 20 EM iterations. Its t
 In the original seed-42 split, 57 of 169 test texts of length at least three (33.7 percent) have a one-sign neighbour in training. The new graph has 1,713 connected components; the largest contains 74 canonical sequences. Component splitting produces 1,690 training, 235 validation, and 231 test texts.
 
 On this new holdout, unigram loss is 6.527 and bigram loss 5.606 bits/token. Improvement is 0.922, with component-bootstrap interval [0.755, 1.077]. Prediction gains therefore survive this conservative similarity grouping. The change from the earlier score is not a causal measurement of leakage, since holdout size and composition differ. The comparison does not remove relationships between unequal-length texts or establish actual archaeological independence.
+
+### 4.7 Annotated allograph history: no observed predictive gain
+
+Experiment 003 validates the custom feature vectors of all 92 eligible CISI objects against the source schemas. These objects contain 455 sign occurrences, 133 base IDs, and 210 distinct base-ID/custom-morphology combinations. Default damage, line and uncertainty values are excluded from variant identity. The full variant inventory, integer encodings, descriptions, custom schemas and object references are exported separately; variants are not assumed to be independent graphemes.
+
+Both prediction models target the same next base sign. The alternative uses only the preceding sign's morphology and interpolates to a base bigram when a variant history is sparse or unseen. It never uses the target's own morphology to predict that target. Base and variant strengths are validation-selected from 1/5/20/100, with exact/reversed base duplicates sharing partitions. Eligible object occurrences are retained, unlike the earlier deduplicated CISI summary.
+
+Across five small holdouts of ten canonical groups, variant-history improvements range from -0.154 to -0.046 bits/token, averaging -0.080. All five point estimates favour base bigrams, while four confidence intervals overlap zero. This supplies no positive predictive support for this representation. It does not prove the variants have identical meanings or sounds: variant histories are sparse, and the sample is geographically narrow. The five holdouts overlap, so they are not five independent negative discoveries. Sound assignments or sign merging would require independent epigraphic and linguistic evidence.
 
 ## 5. Limitations and implications for decipherment
 

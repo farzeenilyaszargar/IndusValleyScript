@@ -1,0 +1,84 @@
+{
+  "Tamil": {
+    "repository": "indic-corpora/sentamizh-corpus",
+    "commit": "e833395c0535915e82156ac9d912836cabec9a29",
+    "license_note": "Repository declares Apache 2.0; Tamil text derived from Project Madurai editions",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/indic-corpora/sentamizh-corpus/e833395c0535915e82156ac9d912836cabec9a29/data/processed/Akananuru_All.json",
+        "sha256": "e4e7dcaf2d37e214d9e1213fd360a081ce52612930fa020d5afd9c9514ef995f",
+        "bytes": 1184219,
+        "records": 400,
+        "nonempty_original_texts": 400,
+        "unicode_codepoints": 246565,
+        "upstream_period_labels": [
+          "300 BCE – 300 CE"
+        ],
+        "whitelisted_text_field": "classical_tamil; translations/interpretive annotations excluded",
+        "original_edition_links": [
+          null
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/indic-corpora/sentamizh-corpus/e833395c0535915e82156ac9d912836cabec9a29/data/processed/Purananuru_All.json",
+        "sha256": "db07ae48542b887eb84cb1c74c4be3c0a00076b63fee3f4a93a0801f774d27d1",
+        "bytes": 902459,
+        "records": 388,
+        "nonempty_original_texts": 388,
+        "unicode_codepoints": 164576,
+        "upstream_period_labels": [
+          "300 BCE – 300 CE"
+        ],
+        "whitelisted_text_field": "classical_tamil; translations/interpretive annotations excluded",
+        "original_edition_links": [
+          "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0494.txt",
+          "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0531.txt"
+        ]
+      },
+      {
+        "url": "https://raw.githubusercontent.com/indic-corpora/sentamizh-corpus/e833395c0535915e82156ac9d912836cabec9a29/LICENSE",
+        "sha256": "c6f48ba0f034956fe4149464bfbc43c48b22f110452952d7610bec3d6b8b5364",
+        "bytes": 11327
+      }
+    ]
+  },
+  "Vedic_Sanskrit": {
+    "repository": "UniversalDependencies/UD_Sanskrit-Vedic",
+    "commit": "09c59eed987f28c2fd3a9972b4b5437439f46832",
+    "license_note": "CC BY-SA 4.0; authors credited in upstream README",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Sanskrit-Vedic/09c59eed987f28c2fd3a9972b4b5437439f46832/sa_vedic-ud-train.conllu",
+        "sha256": "05829c606047956b25aa6ebbd1fd2b11255ed04840fb90c3661f102b556c791d",
+        "bytes": 23873734,
+        "sentence_blocks": 21477,
+        "syntactic_word_forms": 161959,
+        "unicode_codepoints_in_word_forms": 915976,
+        "representation": "CoNLL-U FORM column; excludes multiword-range and empty-node IDs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Sanskrit-Vedic/09c59eed987f28c2fd3a9972b4b5437439f46832/sa_vedic-ud-dev.conllu",
+        "sha256": "f103e93cea236173afe93652c1ed251bc1dd2716c230ab95eab31a8090527871",
+        "bytes": 3484944,
+        "sentence_blocks": 2996,
+        "syntactic_word_forms": 23862,
+        "unicode_codepoints_in_word_forms": 133091,
+        "representation": "CoNLL-U FORM column; excludes multiword-range and empty-node IDs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Sanskrit-Vedic/09c59eed987f28c2fd3a9972b4b5437439f46832/sa_vedic-ud-test.conllu",
+        "sha256": "242546c3d6709c7c30d9c443039eb1483bc6d8f45b4873f821b60c19756cce43",
+        "bytes": 3035277,
+        "sentence_blocks": 2709,
+        "syntactic_word_forms": 20619,
+        "unicode_codepoints_in_word_forms": 116004,
+        "representation": "CoNLL-U FORM column; excludes multiword-range and empty-node IDs"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/UniversalDependencies/UD_Sanskrit-Vedic/09c59eed987f28c2fd3a9972b4b5437439f46832/LICENSE.txt",
+        "sha256": "899b1804a12ebc090b96339614eede1b64b686721b650a71430b55b5235f7f79",
+        "bytes": 202
+      }
+    ]
+  }
+}

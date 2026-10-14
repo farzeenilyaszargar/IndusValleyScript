@@ -10,6 +10,7 @@ def main():
     d=read('descriptive')['ICIT'];models=read('sequence_models');null=read('entropy_nulls')
     g=read('grammar');fish=read('numeral_fish');slot=read('slot_control');site=read('site_transfer')
     latent=read('latent_grammar');near=read('near_copy')
+    allograph=read('allograph_history')
     mean=lambda order:S.mean(r[f'order_{order}']['test_bits_per_token_including_EOS'] for r in models)
     audit=json.loads((ROOT/'data/processed/audit.json').read_text())
     rows='\n'.join(f'| {r["seed"]} | {r["order_1"]["test_bits_per_token_including_EOS"]:.3f} | '
@@ -25,7 +26,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.2 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.3 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -127,6 +128,14 @@ In the original seed-42 split, {near['original_test_with_train_neighbour']} of {
 
 On this new holdout, unigram loss is {near['scores']['1']['test_bits']:.3f} and bigram loss {near['scores']['2']['test_bits']:.3f} bits/token. Improvement is {near['bigram_improvement']['improvement_bits']:.3f}, with component-bootstrap interval [{near['bigram_improvement']['bootstrap95'][0]:.3f}, {near['bigram_improvement']['bootstrap95'][1]:.3f}]. Prediction gains therefore survive this conservative similarity grouping. The change from the earlier score is not a causal measurement of leakage, since holdout size and composition differ. The comparison does not remove relationships between unequal-length texts or establish actual archaeological independence.
 
+### 4.7 Annotated allograph history: no observed predictive gain
+
+Experiment 003 validates the custom feature vectors of all {allograph['eligible_objects']} eligible CISI objects against the source schemas. These objects contain {allograph['sign_tokens']} sign occurrences, {allograph['base_ids']} base IDs, and {allograph['variant_ids']} distinct base-ID/custom-morphology combinations. Default damage, line and uncertainty values are excluded from variant identity. The full variant inventory, integer encodings, descriptions, custom schemas and object references are exported separately; variants are not assumed to be independent graphemes.
+
+Both prediction models target the same next base sign. The alternative uses only the preceding sign's morphology and interpolates to a base bigram when a variant history is sparse or unseen. It never uses the target's own morphology to predict that target. Base and variant strengths are validation-selected from 1/5/20/100, with exact/reversed base duplicates sharing partitions. Eligible object occurrences are retained, unlike the earlier deduplicated CISI summary.
+
+Across five small holdouts of ten canonical groups, variant-history improvements range from {min(r['variant_improvement']['improvement_bits'] for r in allograph['runs']):.3f} to {max(r['variant_improvement']['improvement_bits'] for r in allograph['runs']):.3f} bits/token, averaging {S.mean(r['variant_improvement']['improvement_bits'] for r in allograph['runs']):.3f}. All five point estimates favour base bigrams, while four confidence intervals overlap zero. This supplies no positive predictive support for this representation. It does not prove the variants have identical meanings or sounds: variant histories are sparse, and the sample is geographically narrow. The five holdouts overlap, so they are not five independent negative discoveries. Sound assignments or sign merging would require independent epigraphic and linguistic evidence.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -176,6 +185,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Ten abstract substitutions preserve entropy: no phonetic or semantic key identified.
 - Validation-selected HMM: {latent['hmm_test_bits']:.3f} vs bigram {latent['bigram_test_bits']:.3f} bits/token; the tested HMM is worse.
 - Near-copy component holdout: unigram {near['scores']['1']['test_bits']:.3f}, bigram {near['scores']['2']['test_bits']:.3f} bits/token; grouped gain {near['bigram_improvement']['improvement_bits']:.3f} with 95% interval [{near['bigram_improvement']['bootstrap95'][0]:.3f}, {near['bigram_improvement']['bootstrap95'][1]:.3f}].
+- Allograph audit: {allograph['variant_ids']} morphology-coded variants of {allograph['base_ids']} base IDs in {allograph['eligible_objects']} clean annotated objects. Previous-variant histories did not improve next-base-sign prediction in five small holdouts.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''

@@ -12,5 +12,6 @@
 - Ten abstract substitutions preserve entropy: no phonetic or semantic key identified.
 - Validation-selected HMM: 5.919 vs bigram 5.461 bits/token; the tested HMM is worse.
 - Near-copy component holdout: unigram 6.527, bigram 5.606 bits/token; grouped gain 0.922 with 95% interval [0.755, 1.077].
+- Allograph audit: 210 morphology-coded variants of 133 base IDs in 92 clean annotated objects. Previous-variant histories did not improve next-base-sign prediction in five small holdouts.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

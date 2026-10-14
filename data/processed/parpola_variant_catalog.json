@@ -1,0 +1,5301 @@
+{
+  "reserved": {
+    "PAD": 0,
+    "UNK": 1,
+    "BOS": 2,
+    "EOS": 3
+  },
+  "definition": "base ID plus custom feature vector; not confirmed independent graphemes",
+  "variants": [
+    {
+      "variant_key": "P001:0,1",
+      "integer_token": 4,
+      "count": 1,
+      "object_ids": [
+        "M-160A"
+      ],
+      "base_sign": "P001",
+      "description": "Person carrying two burdens, ",
+      "custom_values": [
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "burden_shape": "integer",
+          "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+        },
+        {
+          "ropes": "integer",
+          "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P003:0,0,0,0",
+      "integer_token": 5,
+      "count": 1,
+      "object_ids": [
+        "M-101A"
+      ],
+      "base_sign": "P003",
+      "description": "Person carrying two burdens, triangle or diamond for a head",
+      "custom_values": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "burden_shape": "integer",
+          "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = triangle, 3 = indeterminate, 4 = none"
+        },
+        {
+          "ropes": "integer",
+          "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes, 2 = N/A"
+        },
+        {
+          "yoke": "integer",
+          "description": "Are there both arms and a yoke support? 0 = no, 1 = yes, 2 = arms look like the yoke"
+        },
+        {
+          "head_shape": "integer",
+          "description": "What shape is the head? 0 = triangle, 1 = diamond, 2 = caret"
+        }
+      ]
+    },
+    {
+      "variant_key": "P004:0,0,0",
+      "integer_token": 6,
+      "count": 1,
+      "object_ids": [
+        "M-102A"
+      ],
+      "base_sign": "P004",
+      "description": "Person carrying two burdens, jar handles for a head",
+      "custom_values": [
+        0,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "burden_shape": "integer",
+          "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+        },
+        {
+          "ropes": "integer",
+          "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        },
+        {
+          "yoke": "integer",
+          "description": "Are there both arms and a yoke support? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P004:0,0,1",
+      "integer_token": 7,
+      "count": 4,
+      "object_ids": [
+        "M-80A",
+        "M-93A",
+        "M-96A",
+        "M-97A"
+      ],
+      "base_sign": "P004",
+      "description": "Person carrying two burdens, jar handles for a head",
+      "custom_values": [
+        0,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "burden_shape": "integer",
+          "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+        },
+        {
+          "ropes": "integer",
+          "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        },
+        {
+          "yoke": "integer",
+          "description": "Are there both arms and a yoke support? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P004:0,1,1",
+      "integer_token": 8,
+      "count": 1,
+      "object_ids": [
+        "M-132A"
+      ],
+      "base_sign": "P004",
+      "description": "Person carrying two burdens, jar handles for a head",
+      "custom_values": [
+        0,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "burden_shape": "integer",
+          "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+        },
+        {
+          "ropes": "integer",
+          "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes"
+        },
+        {
+          "yoke": "integer",
+          "description": "Are there both arms and a yoke support? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P007:1",
+      "integer_token": 9,
+      "count": 1,
+      "object_ids": [
+        "M-35A"
+      ],
+      "base_sign": "P007",
+      "description": "Person with flag for a head",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "wand": "integer",
+          "description": "Is the person also holding a wand? 1 = yes, 0 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P009:0",
+      "integer_token": 10,
+      "count": 2,
+      "object_ids": [
+        "M-144A",
+        "M-91A"
+      ],
+      "base_sign": "P009",
+      "description": "Person with three heads",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "heads_on_arms": "integer",
+          "description": "Do the heads come off the arms? 1 = yes, 0 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P009:1",
+      "integer_token": 11,
+      "count": 2,
+      "object_ids": [
+        "M-120A",
+        "M-7A"
+      ],
+      "base_sign": "P009",
+      "description": "Person with three heads",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "heads_on_arms": "integer",
+          "description": "Do the heads come off the arms? 1 = yes, 0 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P010:0,0",
+      "integer_token": 12,
+      "count": 1,
+      "object_ids": [
+        "M-184A"
+      ],
+      "base_sign": "P010",
+      "description": "Person with three heads, bracketed by right parentheses",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "heads_on_arms": "integer",
+          "description": "Do the heads come off the arms? 1 = yes, 0 = no"
+        },
+        {
+          "paren_style": "integer",
+          "description": "Style of the right parentheses. 0 = normal, 1 = extra wavy bit on bottom"
+        }
+      ]
+    },
+    {
+      "variant_key": "P011:0",
+      "integer_token": 13,
+      "count": 3,
+      "object_ids": [
+        "M-142A",
+        "M-7A",
+        "M-8A"
+      ],
+      "base_sign": "P011",
+      "description": "Person with round breasts and one raised arm",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "raised_arm": "integer",
+          "description": "Which arm is raised? 0 = left, 1 = right"
+        }
+      ]
+    },
+    {
+      "variant_key": "P011:1",
+      "integer_token": 14,
+      "count": 1,
+      "object_ids": [
+        "M-115A"
+      ],
+      "base_sign": "P011",
+      "description": "Person with round breasts and one raised arm",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "raised_arm": "integer",
+          "description": "Which arm is raised? 0 = left, 1 = right"
+        }
+      ]
+    },
+    {
+      "variant_key": "P013:",
+      "integer_token": 15,
+      "count": 3,
+      "object_ids": [
+        "M-104A",
+        "M-184A",
+        "M-26A"
+      ],
+      "base_sign": "P013",
+      "description": "Person with two arms and two legs, ",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P014:",
+      "integer_token": 16,
+      "count": 1,
+      "object_ids": [
+        "M-123A"
+      ],
+      "base_sign": "P014",
+      "description": "Person with two arms and two legs, small vertical stroke between legs",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P022:6",
+      "integer_token": 17,
+      "count": 1,
+      "object_ids": [
+        "M-142A"
+      ],
+      "base_sign": "P022",
+      "description": "Person with pitchfork head across waist",
+      "custom_values": [
+        6
+      ],
+      "schema": [
+        {
+          "tines": "integer",
+          "description": "Number of tines on pitchfork"
+        }
+      ]
+    },
+    {
+      "variant_key": "P026:5",
+      "integer_token": 18,
+      "count": 1,
+      "object_ids": [
+        "M-16A"
+      ],
+      "base_sign": "P026",
+      "description": "Person with pitchfork",
+      "custom_values": [
+        5
+      ],
+      "schema": [
+        {
+          "tines": "integer",
+          "description": "Number of tines on the pitchfork"
+        }
+      ]
+    },
+    {
+      "variant_key": "P031:",
+      "integer_token": 19,
+      "count": 2,
+      "object_ids": [
+        "M-145A",
+        "M-164A"
+      ],
+      "base_sign": "P031",
+      "description": "Person with staff",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P035:1,1",
+      "integer_token": 20,
+      "count": 1,
+      "object_ids": [
+        "M-13A"
+      ],
+      "base_sign": "P035",
+      "description": "Person with bow and arrow",
+      "custom_values": [
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "roundedness": "integer",
+          "description": "How round is the bow? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        },
+        {
+          "facing": "integer",
+          "description": "Is the box on the right? 0 = yes, 1 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P038:1",
+      "integer_token": 21,
+      "count": 1,
+      "object_ids": [
+        "M-99A"
+      ],
+      "base_sign": "P038",
+      "description": "Person with diamond connected to the right",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "connection": "integer",
+          "description": "Does the person have a stick as well? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P040:1,1",
+      "integer_token": 22,
+      "count": 1,
+      "object_ids": [
+        "M-95A"
+      ],
+      "base_sign": "P040",
+      "description": "Person with U",
+      "custom_values": [
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "facing": "integer",
+          "description": "Is the U on the right? (1 = yes, 0 = no)"
+        },
+        {
+          "legs": "integer",
+          "description": "Are the legs single straight lines (and not articulated)? 0 = no, 1 = yes, 2 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P043:1",
+      "integer_token": 23,
+      "count": 1,
+      "object_ids": [
+        "M-78A"
+      ],
+      "base_sign": "P043",
+      "description": "Deer facing to the right (see also P303)",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "head_shape": "integer",
+          "description": "What shape is the head? 0 = realistic with round ears, 1 = realistic with line ears, 2 = inverted triangle, 3 = no head on neck, 4 = caret on neck, 5 = triangles on left side, 6 = triangles on both sides, 7 = plus sign"
+        }
+      ]
+    },
+    {
+      "variant_key": "P043:7",
+      "integer_token": 24,
+      "count": 1,
+      "object_ids": [
+        "M-93A"
+      ],
+      "base_sign": "P043",
+      "description": "Deer facing to the right (see also P303)",
+      "custom_values": [
+        7
+      ],
+      "schema": [
+        {
+          "head_shape": "integer",
+          "description": "What shape is the head? 0 = realistic with round ears, 1 = realistic with line ears, 2 = inverted triangle, 3 = no head on neck, 4 = caret on neck, 5 = triangles on left side, 6 = triangles on both sides, 7 = plus sign"
+        }
+      ]
+    },
+    {
+      "variant_key": "P044:",
+      "integer_token": 25,
+      "count": 1,
+      "object_ids": [
+        "M-120A"
+      ],
+      "base_sign": "P044",
+      "description": "Deer facing to the left",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P048:3",
+      "integer_token": 26,
+      "count": 1,
+      "object_ids": [
+        "M-160A"
+      ],
+      "base_sign": "P048",
+      "description": "Fish with no arms, caret hat, diagonal hatching throughout",
+      "custom_values": [
+        3
+      ],
+      "schema": [
+        {
+          "hatch_count": "integer",
+          "description": "How many diagonal hatches are there?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P050:",
+      "integer_token": 27,
+      "count": 13,
+      "object_ids": [
+        "M-104A",
+        "M-108A",
+        "M-140A",
+        "M-147A",
+        "M-151A",
+        "M-172A",
+        "M-37A",
+        "M-46A",
+        "M-64A",
+        "M-65A",
+        "M-75A",
+        "M-91A",
+        "M-94A"
+      ],
+      "base_sign": "P050",
+      "description": "Fish with no other decoration",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P051:",
+      "integer_token": 28,
+      "count": 2,
+      "object_ids": [
+        "M-147A",
+        "M-62A"
+      ],
+      "base_sign": "P051",
+      "description": "Fish with four small vertical strokes around the four corners",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P053:",
+      "integer_token": 29,
+      "count": 1,
+      "object_ids": [
+        "M-82A"
+      ],
+      "base_sign": "P053",
+      "description": "Simple fish inside parentheses, with a small tooth coming off the top right or the right paren",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P054:",
+      "integer_token": 30,
+      "count": 1,
+      "object_ids": [
+        "M-107A"
+      ],
+      "base_sign": "P054",
+      "description": "Simple fish and bird inside parentheses",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P056:0",
+      "integer_token": 31,
+      "count": 1,
+      "object_ids": [
+        "M-43A"
+      ],
+      "base_sign": "P056",
+      "description": "Fish with a small vertical stroke in the body",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "dot_or_stroke": "integer",
+          "description": "Is the marking a dot or a proper vertical line? 0 = dot, 1 = line"
+        }
+      ]
+    },
+    {
+      "variant_key": "P056:1",
+      "integer_token": 32,
+      "count": 2,
+      "object_ids": [
+        "M-35A",
+        "M-86A"
+      ],
+      "base_sign": "P056",
+      "description": "Fish with a small vertical stroke in the body",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "dot_or_stroke": "integer",
+          "description": "Is the marking a dot or a proper vertical line? 0 = dot, 1 = line"
+        }
+      ]
+    },
+    {
+      "variant_key": "P058:0",
+      "integer_token": 33,
+      "count": 3,
+      "object_ids": [
+        "M-121A",
+        "M-129A",
+        "M-157A"
+      ],
+      "base_sign": "P058",
+      "description": "Fish with a horizontal line through body",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "angle": "integer",
+          "description": "Is the horizontal line at an angle? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P058:1",
+      "integer_token": 34,
+      "count": 4,
+      "object_ids": [
+        "M-107A",
+        "M-183A",
+        "M-35A",
+        "M-85A"
+      ],
+      "base_sign": "P058",
+      "description": "Fish with a horizontal line through body",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "angle": "integer",
+          "description": "Is the horizontal line at an angle? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P060:",
+      "integer_token": 35,
+      "count": 5,
+      "object_ids": [
+        "M-104A",
+        "M-129A",
+        "M-30A",
+        "M-46A",
+        "M-89A"
+      ],
+      "base_sign": "P060",
+      "description": "Fish with a caret shaped hat",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P061:",
+      "integer_token": 36,
+      "count": 1,
+      "object_ids": [
+        "M-139A"
+      ],
+      "base_sign": "P061",
+      "description": "Fish with a caret shaped hat, caged by four small vertical strokes",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P062:1,0",
+      "integer_token": 37,
+      "count": 6,
+      "object_ids": [
+        "M-144A",
+        "M-30A",
+        "M-42A",
+        "M-46A",
+        "M-81A",
+        "M-93A"
+      ],
+      "base_sign": "P062",
+      "description": "Fish with extra whiskers on cheeks",
+      "custom_values": [
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "whisker_pairs": "integer",
+          "description": "Number of whisker pairs on cheeks"
+        },
+        {
+          "horizontal_decoration": "integer",
+          "description": "Number of horizontal lines on body"
+        }
+      ]
+    },
+    {
+      "variant_key": "P062:2,0",
+      "integer_token": 38,
+      "count": 2,
+      "object_ids": [
+        "M-129A",
+        "M-7A"
+      ],
+      "base_sign": "P062",
+      "description": "Fish with extra whiskers on cheeks",
+      "custom_values": [
+        2,
+        0
+      ],
+      "schema": [
+        {
+          "whisker_pairs": "integer",
+          "description": "Number of whisker pairs on cheeks"
+        },
+        {
+          "horizontal_decoration": "integer",
+          "description": "Number of horizontal lines on body"
+        }
+      ]
+    },
+    {
+      "variant_key": "P065:",
+      "integer_token": 39,
+      "count": 1,
+      "object_ids": [
+        "M-6A"
+      ],
+      "base_sign": "P065",
+      "description": "Fish with bird wings and a three feather tail",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P070:",
+      "integer_token": 40,
+      "count": 1,
+      "object_ids": [
+        "M-85A"
+      ],
+      "base_sign": "P070",
+      "description": "Upward-pointing bird with wings",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P071:",
+      "integer_token": 41,
+      "count": 1,
+      "object_ids": [
+        "M-107A"
+      ],
+      "base_sign": "P071",
+      "description": "Leftward-pointing bird with vertical tail",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P073:0,1",
+      "integer_token": 42,
+      "count": 1,
+      "object_ids": [
+        "M-146A"
+      ],
+      "base_sign": "P073",
+      "description": "Unknown asymmetric animal? Perhaps a fish with asymmetric fins and legs?",
+      "custom_values": [
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "ul_hatches": "integer",
+          "description": "How many horizontal hatches are in the upper left wing?"
+        },
+        {
+          "mirror": "integer",
+          "description": "Is the 'foot' pointed to the left? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P073:1,1",
+      "integer_token": 43,
+      "count": 2,
+      "object_ids": [
+        "M-91A",
+        "M-97A"
+      ],
+      "base_sign": "P073",
+      "description": "Unknown asymmetric animal? Perhaps a fish with asymmetric fins and legs?",
+      "custom_values": [
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "ul_hatches": "integer",
+          "description": "How many horizontal hatches are in the upper left wing?"
+        },
+        {
+          "mirror": "integer",
+          "description": "Is the 'foot' pointed to the left? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P073:2,1",
+      "integer_token": 44,
+      "count": 1,
+      "object_ids": [
+        "M-1A"
+      ],
+      "base_sign": "P073",
+      "description": "Unknown asymmetric animal? Perhaps a fish with asymmetric fins and legs?",
+      "custom_values": [
+        2,
+        1
+      ],
+      "schema": [
+        {
+          "ul_hatches": "integer",
+          "description": "How many horizontal hatches are in the upper left wing?"
+        },
+        {
+          "mirror": "integer",
+          "description": "Is the 'foot' pointed to the left? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P075:1,0,0",
+      "integer_token": 45,
+      "count": 2,
+      "object_ids": [
+        "M-157A",
+        "M-92A"
+      ],
+      "base_sign": "P075",
+      "description": "Leaf with 'pincers' coming off the right, possibly with small stroke legs off top and bottom of leaf",
+      "custom_values": [
+        1,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "direction": "integer",
+          "description": "Are the pincers on the right? 0 = no, 1 = yes"
+        },
+        {
+          "legs": "integer",
+          "description": "How many legs come off top and bottom?"
+        },
+        {
+          "leaf_size": "integer",
+          "description": "How large is the leaf? 0 = small, 1 = large"
+        }
+      ]
+    },
+    {
+      "variant_key": "P075:1,0,1",
+      "integer_token": 46,
+      "count": 2,
+      "object_ids": [
+        "M-108A",
+        "M-121A"
+      ],
+      "base_sign": "P075",
+      "description": "Leaf with 'pincers' coming off the right, possibly with small stroke legs off top and bottom of leaf",
+      "custom_values": [
+        1,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "direction": "integer",
+          "description": "Are the pincers on the right? 0 = no, 1 = yes"
+        },
+        {
+          "legs": "integer",
+          "description": "How many legs come off top and bottom?"
+        },
+        {
+          "leaf_size": "integer",
+          "description": "How large is the leaf? 0 = small, 1 = large"
+        }
+      ]
+    },
+    {
+      "variant_key": "P076:1,0,8",
+      "integer_token": 47,
+      "count": 1,
+      "object_ids": [
+        "M-115A"
+      ],
+      "base_sign": "P076",
+      "description": "Squashed spider, with right two legs slightly more away from the body",
+      "custom_values": [
+        1,
+        0,
+        8
+      ],
+      "schema": [
+        {
+          "curvy": "integer",
+          "description": "Are the right two legs curvy? 0 = curvy, 1 = straight"
+        },
+        {
+          "decoration": "integer",
+          "description": "Is there a small marking in the body? 0 = no, 1 = yes"
+        },
+        {
+          "legs": "integer",
+          "description": "How many legs are there (including the right two)?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P082:0,0,0",
+      "integer_token": 48,
+      "count": 1,
+      "object_ids": [
+        "M-143A"
+      ],
+      "base_sign": "P082",
+      "description": "Two stacked leaves, two inverted caret legs on each leaf, and wings pointing away from each other on each leaf",
+      "custom_values": [
+        0,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "decoration": "integer",
+          "description": "What is the decoration in each leaf? 0 = none, 1 = hatching, 2 = dot"
+        },
+        {
+          "direction": "integer",
+          "description": "What side do the caret legs appear on? 0 = left, 1 = right"
+        },
+        {
+          "wing_shape": "integer",
+          "description": "What shape is each wings? 0 = two curved lines, 1 = horn shaped, 2 = connected horns (wings connected to each other)"
+        }
+      ]
+    },
+    {
+      "variant_key": "P082:0,0,1",
+      "integer_token": 49,
+      "count": 1,
+      "object_ids": [
+        "M-82A"
+      ],
+      "base_sign": "P082",
+      "description": "Two stacked leaves, two inverted caret legs on each leaf, and wings pointing away from each other on each leaf",
+      "custom_values": [
+        0,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "decoration": "integer",
+          "description": "What is the decoration in each leaf? 0 = none, 1 = hatching, 2 = dot"
+        },
+        {
+          "direction": "integer",
+          "description": "What side do the caret legs appear on? 0 = left, 1 = right"
+        },
+        {
+          "wing_shape": "integer",
+          "description": "What shape is each wings? 0 = two curved lines, 1 = horn shaped, 2 = connected horns (wings connected to each other)"
+        }
+      ]
+    },
+    {
+      "variant_key": "P086:2,2,1,0",
+      "integer_token": 50,
+      "count": 1,
+      "object_ids": [
+        "M-115A"
+      ],
+      "base_sign": "P086",
+      "description": "Simple tree with branches at the top",
+      "custom_values": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "branch_factor": "integer",
+          "description": "How many branches stem from a single branching point?"
+        },
+        {
+          "branch_count": "integer",
+          "description": "How many times does the tree branch?"
+        },
+        {
+          "branch_direction": "integer",
+          "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+        },
+        {
+          "final_branch_shape": "integer",
+          "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch"
+        }
+      ]
+    },
+    {
+      "variant_key": "P086:2,3,2,0",
+      "integer_token": 51,
+      "count": 2,
+      "object_ids": [
+        "M-34A",
+        "M-35A"
+      ],
+      "base_sign": "P086",
+      "description": "Simple tree with branches at the top",
+      "custom_values": [
+        2,
+        3,
+        2,
+        0
+      ],
+      "schema": [
+        {
+          "branch_factor": "integer",
+          "description": "How many branches stem from a single branching point?"
+        },
+        {
+          "branch_count": "integer",
+          "description": "How many times does the tree branch?"
+        },
+        {
+          "branch_direction": "integer",
+          "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+        },
+        {
+          "final_branch_shape": "integer",
+          "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch"
+        }
+      ]
+    },
+    {
+      "variant_key": "P086:2,3,2,1",
+      "integer_token": 52,
+      "count": 1,
+      "object_ids": [
+        "M-172A"
+      ],
+      "base_sign": "P086",
+      "description": "Simple tree with branches at the top",
+      "custom_values": [
+        2,
+        3,
+        2,
+        1
+      ],
+      "schema": [
+        {
+          "branch_factor": "integer",
+          "description": "How many branches stem from a single branching point?"
+        },
+        {
+          "branch_count": "integer",
+          "description": "How many times does the tree branch?"
+        },
+        {
+          "branch_direction": "integer",
+          "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+        },
+        {
+          "final_branch_shape": "integer",
+          "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch"
+        }
+      ]
+    },
+    {
+      "variant_key": "P086:2,4,2,1",
+      "integer_token": 53,
+      "count": 1,
+      "object_ids": [
+        "M-7A"
+      ],
+      "base_sign": "P086",
+      "description": "Simple tree with branches at the top",
+      "custom_values": [
+        2,
+        4,
+        2,
+        1
+      ],
+      "schema": [
+        {
+          "branch_factor": "integer",
+          "description": "How many branches stem from a single branching point?"
+        },
+        {
+          "branch_count": "integer",
+          "description": "How many times does the tree branch?"
+        },
+        {
+          "branch_direction": "integer",
+          "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+        },
+        {
+          "final_branch_shape": "integer",
+          "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch"
+        }
+      ]
+    },
+    {
+      "variant_key": "P086:3,1,0,0",
+      "integer_token": 54,
+      "count": 14,
+      "object_ids": [
+        "M-101A",
+        "M-103A",
+        "M-131A",
+        "M-158A",
+        "M-177A",
+        "M-178A",
+        "M-179A",
+        "M-32A",
+        "M-77A",
+        "M-82A",
+        "M-83A",
+        "M-94A",
+        "M-95A"
+      ],
+      "base_sign": "P086",
+      "description": "Simple tree with branches at the top",
+      "custom_values": [
+        3,
+        1,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "branch_factor": "integer",
+          "description": "How many branches stem from a single branching point?"
+        },
+        {
+          "branch_count": "integer",
+          "description": "How many times does the tree branch?"
+        },
+        {
+          "branch_direction": "integer",
+          "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+        },
+        {
+          "final_branch_shape": "integer",
+          "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch"
+        }
+      ]
+    },
+    {
+      "variant_key": "P091:3,0,0",
+      "integer_token": 55,
+      "count": 2,
+      "object_ids": [
+        "M-21A",
+        "M-92A"
+      ],
+      "base_sign": "P091",
+      "description": "Horizontal line with multiple lines out the top, lines or U out the bottom",
+      "custom_values": [
+        3,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "top_lines": "integer",
+          "description": "How many lines come off the top?"
+        },
+        {
+          "top_style": "integer",
+          "description": "Are the top lines purely vertical? yes = 0, no = 1"
+        },
+        {
+          "bottom_style": "integer",
+          "description": "What shape is the bottom? U = 0, two lines = 1, oval = 2"
+        }
+      ]
+    },
+    {
+      "variant_key": "P092:5",
+      "integer_token": 56,
+      "count": 2,
+      "object_ids": [
+        "M-144A",
+        "M-37A"
+      ],
+      "base_sign": "P092",
+      "description": "Pitchfork with tines",
+      "custom_values": [
+        5
+      ],
+      "schema": [
+        {
+          "tines": "integer",
+          "description": "How many tines come off the top?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P094:",
+      "integer_token": 57,
+      "count": 1,
+      "object_ids": [
+        "M-3A"
+      ],
+      "base_sign": "P094",
+      "description": "Pitckfork with two vertical tines on ends, one triangular tine in the middle",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P095:5",
+      "integer_token": 58,
+      "count": 3,
+      "object_ids": [
+        "M-114A",
+        "M-182A",
+        "M-91A"
+      ],
+      "base_sign": "P095",
+      "description": "Pitckfork with two stacked heads",
+      "custom_values": [
+        5
+      ],
+      "schema": [
+        {
+          "tine_count": "integer",
+          "description": "Number of tines on the pitchforks"
+        }
+      ]
+    },
+    {
+      "variant_key": "P096:5,3,0",
+      "integer_token": 59,
+      "count": 1,
+      "object_ids": [
+        "M-152A"
+      ],
+      "base_sign": "P096",
+      "description": "U where one arm has a double headed pitchfork, the other is a tree symbol",
+      "custom_values": [
+        5,
+        3,
+        0
+      ],
+      "schema": [
+        {
+          "pitchfork_tines": "integer",
+          "description": "Number of tines on the pitchforks"
+        },
+        {
+          "tree_branches": "integer",
+          "description": "How many branches in the tree"
+        },
+        {
+          "branching shape": "integer",
+          "description": "What shape are the branches? 0 = bifurcating, 1 = off to one side, 2 = off to one side with closing horizontal line at top"
+        }
+      ]
+    },
+    {
+      "variant_key": "P098:5,1,0",
+      "integer_token": 60,
+      "count": 1,
+      "object_ids": [
+        "M-123A"
+      ],
+      "base_sign": "P098",
+      "description": "Vertical line with small horizontal lines coming off one side across the entire height",
+      "custom_values": [
+        5,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "tines": "integer",
+          "description": "Number of tines coming off the vertical line"
+        },
+        {
+          "direction": "integer",
+          "description": "Direction of the tines. 0 is left, 1 is right"
+        },
+        {
+          "stroke_angle": "integer",
+          "description": "Angle of the tines. 0 = straight, 1 = angled"
+        }
+      ]
+    },
+    {
+      "variant_key": "P098:8,1,1",
+      "integer_token": 61,
+      "count": 1,
+      "object_ids": [
+        "M-145A"
+      ],
+      "base_sign": "P098",
+      "description": "Vertical line with small horizontal lines coming off one side across the entire height",
+      "custom_values": [
+        8,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "tines": "integer",
+          "description": "Number of tines coming off the vertical line"
+        },
+        {
+          "direction": "integer",
+          "description": "Direction of the tines. 0 is left, 1 is right"
+        },
+        {
+          "stroke_angle": "integer",
+          "description": "Angle of the tines. 0 = straight, 1 = angled"
+        }
+      ]
+    },
+    {
+      "variant_key": "P099:5,1",
+      "integer_token": 62,
+      "count": 1,
+      "object_ids": [
+        "M-108A"
+      ],
+      "base_sign": "P099",
+      "description": "Vertical line with small horizontal lines crossing it across the entire height",
+      "custom_values": [
+        5,
+        1
+      ],
+      "schema": [
+        {
+          "tines": "integer",
+          "description": "Number of tines coming off the vertical line"
+        },
+        {
+          "extent": "integer",
+          "description": "Do the tines run the full height of the vertical line? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P103:",
+      "integer_token": 63,
+      "count": 1,
+      "object_ids": [
+        "M-34A"
+      ],
+      "base_sign": "P103",
+      "description": "Plant curving left, small leaf at top, larger leaf at middle forming two leaves on either side of stem",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P108:0,0,0",
+      "integer_token": 64,
+      "count": 1,
+      "object_ids": [
+        "M-34A"
+      ],
+      "base_sign": "P108",
+      "description": "The 'garlic' motif. Vertical stroke, broken by a circle with a dot in it",
+      "custom_values": [
+        0,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "roundedness": "integer",
+          "description": "How round is the central circle? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        },
+        {
+          "circle_position": "integer",
+          "description": "Where is the circle located? 0 = top, 1 = middle, 2 = bottom, 3 = indeterminate"
+        },
+        {
+          "circle_decoration": "integer",
+          "description": "How is the circle decorated? 0 = dot, 1 = hatches, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P108:0,1,0",
+      "integer_token": 65,
+      "count": 1,
+      "object_ids": [
+        "M-1A"
+      ],
+      "base_sign": "P108",
+      "description": "The 'garlic' motif. Vertical stroke, broken by a circle with a dot in it",
+      "custom_values": [
+        0,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "roundedness": "integer",
+          "description": "How round is the central circle? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        },
+        {
+          "circle_position": "integer",
+          "description": "Where is the circle located? 0 = top, 1 = middle, 2 = bottom, 3 = indeterminate"
+        },
+        {
+          "circle_decoration": "integer",
+          "description": "How is the circle decorated? 0 = dot, 1 = hatches, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P110:",
+      "integer_token": 66,
+      "count": 1,
+      "object_ids": [
+        "M-173A"
+      ],
+      "base_sign": "P110",
+      "description": "Upside-down heart symbol with horizontal hatching, with vertical stroke coming from bottom of heart. Heart has two small decorations coming off the top center",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P114:0",
+      "integer_token": 67,
+      "count": 1,
+      "object_ids": [
+        "M-123A"
+      ],
+      "base_sign": "P114",
+      "description": "A single vertical line, with two person arms; head may be circle or continuation of line",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "head": "integer",
+          "description": "What shape is the head? 0 = circle, 1 = continuation of line"
+        }
+      ]
+    },
+    {
+      "variant_key": "P117:2",
+      "integer_token": 68,
+      "count": 1,
+      "object_ids": [
+        "M-172A"
+      ],
+      "base_sign": "P117",
+      "description": "Flowering plant with three stems that meet at the bottom",
+      "custom_values": [
+        2
+      ],
+      "schema": [
+        {
+          "flower": "integer",
+          "description": "What shape is the flower? 0 = leaf, 1 = circle with low arms, 2 = triple horizontal bars, 3 = circle with double caret arms, 4 = circle with horn shaped leaves"
+        }
+      ]
+    },
+    {
+      "variant_key": "P120:0,1",
+      "integer_token": 69,
+      "count": 3,
+      "object_ids": [
+        "M-113A",
+        "M-26A",
+        "M-64A"
+      ],
+      "base_sign": "P120",
+      "description": "A single small vertical line, then another vertical line with the bottom half slanting under the first line (like a Japanese 'ri' character).",
+      "custom_values": [
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the right line rounded? 0 = rounded, 1 = angled, 2 = straight, 3 = mixed or indeterminate"
+        },
+        {
+          "height": "integer",
+          "description": "0 = full height, 1 = partial-height"
+        }
+      ]
+    },
+    {
+      "variant_key": "P120:2,0",
+      "integer_token": 70,
+      "count": 3,
+      "object_ids": [
+        "M-183A",
+        "M-63A",
+        "M-80A"
+      ],
+      "base_sign": "P120",
+      "description": "A single small vertical line, then another vertical line with the bottom half slanting under the first line (like a Japanese 'ri' character).",
+      "custom_values": [
+        2,
+        0
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the right line rounded? 0 = rounded, 1 = angled, 2 = straight, 3 = mixed or indeterminate"
+        },
+        {
+          "height": "integer",
+          "description": "0 = full height, 1 = partial-height"
+        }
+      ]
+    },
+    {
+      "variant_key": "P120:2,1",
+      "integer_token": 71,
+      "count": 3,
+      "object_ids": [
+        "M-146A",
+        "M-158A",
+        "M-59A"
+      ],
+      "base_sign": "P120",
+      "description": "A single small vertical line, then another vertical line with the bottom half slanting under the first line (like a Japanese 'ri' character).",
+      "custom_values": [
+        2,
+        1
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the right line rounded? 0 = rounded, 1 = angled, 2 = straight, 3 = mixed or indeterminate"
+        },
+        {
+          "height": "integer",
+          "description": "0 = full height, 1 = partial-height"
+        }
+      ]
+    },
+    {
+      "variant_key": "P121:0",
+      "integer_token": 72,
+      "count": 3,
+      "object_ids": [
+        "M-157A",
+        "M-172A",
+        "M-65A"
+      ],
+      "base_sign": "P121",
+      "description": "Simple, half-height vertical stroke",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        }
+      ]
+    },
+    {
+      "variant_key": "P121:1",
+      "integer_token": 73,
+      "count": 2,
+      "object_ids": [
+        "M-1A",
+        "M-21A"
+      ],
+      "base_sign": "P121",
+      "description": "Simple, half-height vertical stroke",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        }
+      ]
+    },
+    {
+      "variant_key": "P122:0",
+      "integer_token": 74,
+      "count": 33,
+      "object_ids": [
+        "M-101A",
+        "M-103A",
+        "M-107A",
+        "M-114A",
+        "M-115A",
+        "M-142A",
+        "M-143A",
+        "M-144A",
+        "M-147A",
+        "M-152A",
+        "M-160A",
+        "M-164A",
+        "M-177A",
+        "M-181A",
+        "M-21A",
+        "M-32A",
+        "M-34A",
+        "M-35A",
+        "M-42A",
+        "M-43A",
+        "M-46A",
+        "M-58A",
+        "M-75A",
+        "M-77A",
+        "M-7A",
+        "M-81A",
+        "M-82A",
+        "M-86A",
+        "M-90A",
+        "M-91A",
+        "M-92A",
+        "M-95A",
+        "M-99A"
+      ],
+      "base_sign": "P122",
+      "description": "Two adjacent half-height simple vertical strokes",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        }
+      ]
+    },
+    {
+      "variant_key": "P122:1",
+      "integer_token": 75,
+      "count": 1,
+      "object_ids": [
+        "M-62A"
+      ],
+      "base_sign": "P122",
+      "description": "Two adjacent half-height simple vertical strokes",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        }
+      ]
+    },
+    {
+      "variant_key": "P123:1",
+      "integer_token": 76,
+      "count": 4,
+      "object_ids": [
+        "M-102A",
+        "M-162A",
+        "M-59A",
+        "M-94A"
+      ],
+      "base_sign": "P123",
+      "description": "Three adjacent half-height simple vertical strokes",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        }
+      ]
+    },
+    {
+      "variant_key": "P123:2",
+      "integer_token": 77,
+      "count": 7,
+      "object_ids": [
+        "M-132A",
+        "M-177A",
+        "M-179A",
+        "M-32A",
+        "M-80A",
+        "M-93A",
+        "M-95A"
+      ],
+      "base_sign": "P123",
+      "description": "Three adjacent half-height simple vertical strokes",
+      "custom_values": [
+        2
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        }
+      ]
+    },
+    {
+      "variant_key": "P124:1,0",
+      "integer_token": 78,
+      "count": 1,
+      "object_ids": [
+        "M-64A"
+      ],
+      "base_sign": "P124",
+      "description": "Four adjacent half-height simple vertical strokes",
+      "custom_values": [
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+          "linear": "integer",
+          "description": "Are the strokes in a straight line? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P124:1,1",
+      "integer_token": 79,
+      "count": 2,
+      "object_ids": [
+        "M-75A",
+        "M-96A"
+      ],
+      "base_sign": "P124",
+      "description": "Four adjacent half-height simple vertical strokes",
+      "custom_values": [
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+          "linear": "integer",
+          "description": "Are the strokes in a straight line? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P124:2,1",
+      "integer_token": 80,
+      "count": 1,
+      "object_ids": [
+        "M-103A"
+      ],
+      "base_sign": "P124",
+      "description": "Four adjacent half-height simple vertical strokes",
+      "custom_values": [
+        2,
+        1
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+          "linear": "integer",
+          "description": "Are the strokes in a straight line? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P126:0,0",
+      "integer_token": 81,
+      "count": 2,
+      "object_ids": [
+        "M-158A",
+        "M-178A"
+      ],
+      "base_sign": "P126",
+      "description": "Six short vertical strokes",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+          "linear": "integer",
+          "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P127:0,0",
+      "integer_token": 82,
+      "count": 2,
+      "object_ids": [
+        "M-30A",
+        "M-98A"
+      ],
+      "base_sign": "P127",
+      "description": "Seven short vertical strokes",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+          "linear": "integer",
+          "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P128:0,0",
+      "integer_token": 83,
+      "count": 2,
+      "object_ids": [
+        "M-172A",
+        "M-83A"
+      ],
+      "base_sign": "P128",
+      "description": "Eight short vertical strokes",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+          "linear": "integer",
+          "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P136:0,0",
+      "integer_token": 84,
+      "count": 1,
+      "object_ids": [
+        "M-159A"
+      ],
+      "base_sign": "P136",
+      "description": "Seven short vertical strokes, bracketed by parentheses",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "vertical_position": "integer",
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom"
+        },
+        {
+          "linear": "integer",
+          "description": "Are the strokes in a line? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P139:",
+      "integer_token": 85,
+      "count": 2,
+      "object_ids": [
+        "M-45A",
+        "M-90A"
+      ],
+      "base_sign": "P139",
+      "description": "Two small vertical strokes over one small vertical stroke",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P142:",
+      "integer_token": 86,
+      "count": 2,
+      "object_ids": [
+        "M-18A",
+        "M-43A"
+      ],
+      "base_sign": "P142",
+      "description": "Four small vertical strokes above the same, above the same",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P144:",
+      "integer_token": 87,
+      "count": 5,
+      "object_ids": [
+        "M-135A",
+        "M-160A",
+        "M-65A",
+        "M-90A",
+        "M-9A"
+      ],
+      "base_sign": "P144",
+      "description": "One full-height vertical stroke",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P145:",
+      "integer_token": 88,
+      "count": 10,
+      "object_ids": [
+        "M-113A",
+        "M-134A",
+        "M-140A",
+        "M-143A",
+        "M-21A",
+        "M-3A",
+        "M-45A",
+        "M-78A",
+        "M-89A",
+        "M-91A"
+      ],
+      "base_sign": "P145",
+      "description": "Two adjacent full-height vertical strokes",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P147:",
+      "integer_token": 89,
+      "count": 5,
+      "object_ids": [
+        "M-122A",
+        "M-135A",
+        "M-139A",
+        "M-64A",
+        "M-86A"
+      ],
+      "base_sign": "P147",
+      "description": "Three adjacent full-height vertical strokes",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P151:",
+      "integer_token": 90,
+      "count": 1,
+      "object_ids": [
+        "M-16A"
+      ],
+      "base_sign": "P151",
+      "description": "Five adjacent simple tall vertical strokes",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P154:0",
+      "integer_token": 91,
+      "count": 5,
+      "object_ids": [
+        "M-102A",
+        "M-121A",
+        "M-157A",
+        "M-7A"
+      ],
+      "base_sign": "P154",
+      "description": "Right parenthesis (perhaps with a backward curve at the bottom)",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "backward_curve": "integer",
+          "description": "Is there a backward curve at the bottom of the stroke? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P156:1",
+      "integer_token": 92,
+      "count": 1,
+      "object_ids": [
+        "M-113A"
+      ],
+      "base_sign": "P156",
+      "description": "Right parenthesis with small, slightly inward-and-downward horizontal line from middle",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "line_location": "integer",
+          "description": "Where is the small line? 0 = top third of paren, 1 = middle third, 2 = bottom third"
+        }
+      ]
+    },
+    {
+      "variant_key": "P160:",
+      "integer_token": 93,
+      "count": 3,
+      "object_ids": [
+        "M-146A",
+        "M-173A",
+        "M-59A"
+      ],
+      "base_sign": "P160",
+      "description": "Right parenthesis with small leaf at middle",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P166:1",
+      "integer_token": 94,
+      "count": 1,
+      "object_ids": [
+        "M-159A"
+      ],
+      "base_sign": "P166",
+      "description": "Left parenthesis with small semicircle against the very middle, diagonal line extending past the paren from the bottom of the semicircle",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "paren_style": "integer",
+          "description": "What shape is the paren? 0 = round, 1 = angular"
+        }
+      ]
+    },
+    {
+      "variant_key": "P170:",
+      "integer_token": 95,
+      "count": 1,
+      "object_ids": [
+        "M-143A"
+      ],
+      "base_sign": "P170",
+      "description": "Left parenthesis with small semicircle against the very middle, caret extending from top of semicircle",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P175:",
+      "integer_token": 96,
+      "count": 1,
+      "object_ids": [
+        "M-7A"
+      ],
+      "base_sign": "P175",
+      "description": "Right parenthesis drawn in outline",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P180:3,0",
+      "integer_token": 97,
+      "count": 1,
+      "object_ids": [
+        "M-83A"
+      ],
+      "base_sign": "P180",
+      "description": "Leaf, small perpendicular strokes radiating from the top. Surrounded by a capital Gamma",
+      "custom_values": [
+        3,
+        0
+      ],
+      "schema": [
+        {
+          "strokes": "integer",
+          "description": "Number of strokes coming off the half-leaf"
+        },
+        {
+          "leaf_shape": "integer",
+          "description": "What shape is the leaf? 0 = complete, 1 = right-half only"
+        }
+      ]
+    },
+    {
+      "variant_key": "P188:0,0",
+      "integer_token": 98,
+      "count": 1,
+      "object_ids": [
+        "M-97A"
+      ],
+      "base_sign": "P188",
+      "description": "Vertical line with diagonal going down from top right, diagonal going up from bottom left",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "facing": "integer",
+          "description": "Does the top diagonal go left? (0 = no, 1 = yes)"
+        },
+        {
+          "tilt": "integer",
+          "description": "Is the central line purely vertical or tilted? 0 = vertical, 1 = titled"
+        }
+      ]
+    },
+    {
+      "variant_key": "P193:0,0",
+      "integer_token": 99,
+      "count": 1,
+      "object_ids": [
+        "M-181A"
+      ],
+      "base_sign": "P193",
+      "description": "Person sitting with bent knees, no small tangent lines coming off the back",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "facing": "integer",
+          "description": "Which way is the person facing? 0 = left, 1 = right"
+        },
+        {
+          "head_shape": "integer",
+          "description": "What shape is the head? 0 = leaf, 1 = diamond, 2 = upside down U, 3 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P194:4,0,0",
+      "integer_token": 100,
+      "count": 1,
+      "object_ids": [
+        "M-34A"
+      ],
+      "base_sign": "P194",
+      "description": "Person sitting with bent knees, four small tangent lines coming off the back",
+      "custom_values": [
+        4,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "tangents": "integer",
+          "description": "How many tangent lines are coming off the back of the person?"
+        },
+        {
+          "facing": "integer",
+          "description": "Which way is the person facing? 0 = left, 1 = right"
+        },
+        {
+          "head_shape": "integer",
+          "description": "What shape is the head? 0 = leaf, 1 = diamond, 2 = upside down U, 3 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P194:4,1,0",
+      "integer_token": 101,
+      "count": 1,
+      "object_ids": [
+        "M-115A"
+      ],
+      "base_sign": "P194",
+      "description": "Person sitting with bent knees, four small tangent lines coming off the back",
+      "custom_values": [
+        4,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "tangents": "integer",
+          "description": "How many tangent lines are coming off the back of the person?"
+        },
+        {
+          "facing": "integer",
+          "description": "Which way is the person facing? 0 = left, 1 = right"
+        },
+        {
+          "head_shape": "integer",
+          "description": "What shape is the head? 0 = leaf, 1 = diamond, 2 = upside down U, 3 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P201:0",
+      "integer_token": 102,
+      "count": 2,
+      "object_ids": [
+        "M-46A",
+        "M-6A"
+      ],
+      "base_sign": "P201",
+      "description": "Vertical stroke with a small slightly downward horizontal stroke at the left middle",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "angle": "integer",
+          "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+        }
+      ]
+    },
+    {
+      "variant_key": "P201:1",
+      "integer_token": 103,
+      "count": 3,
+      "object_ids": [
+        "M-108A",
+        "M-140A",
+        "M-151A"
+      ],
+      "base_sign": "P201",
+      "description": "Vertical stroke with a small slightly downward horizontal stroke at the left middle",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "angle": "integer",
+          "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+        }
+      ]
+    },
+    {
+      "variant_key": "P202:0,2",
+      "integer_token": 104,
+      "count": 2,
+      "object_ids": [
+        "M-123A",
+        "M-59A"
+      ],
+      "base_sign": "P202",
+      "description": "Vertical stroke with a triangular wing attached near the middle",
+      "custom_values": [
+        0,
+        2
+      ],
+      "schema": [
+        {
+          "angle": "integer",
+          "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+        },
+        {
+          "hatches": "integer",
+          "description": "How many vertical hatches are in the wing?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P202:0,3",
+      "integer_token": 105,
+      "count": 2,
+      "object_ids": [
+        "M-13A",
+        "M-1A"
+      ],
+      "base_sign": "P202",
+      "description": "Vertical stroke with a triangular wing attached near the middle",
+      "custom_values": [
+        0,
+        3
+      ],
+      "schema": [
+        {
+          "angle": "integer",
+          "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+        },
+        {
+          "hatches": "integer",
+          "description": "How many vertical hatches are in the wing?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P202:1,2",
+      "integer_token": 106,
+      "count": 2,
+      "object_ids": [
+        "M-80A",
+        "M-99A"
+      ],
+      "base_sign": "P202",
+      "description": "Vertical stroke with a triangular wing attached near the middle",
+      "custom_values": [
+        1,
+        2
+      ],
+      "schema": [
+        {
+          "angle": "integer",
+          "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+        },
+        {
+          "hatches": "integer",
+          "description": "How many vertical hatches are in the wing?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P204:0,1",
+      "integer_token": 107,
+      "count": 1,
+      "object_ids": [
+        "M-164A"
+      ],
+      "base_sign": "P204",
+      "description": "Simple lambda but reversed horizontally, and the leg may not be quite connected to the long stem",
+      "custom_values": [
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "connected": "integer",
+          "description": "Is the leg connected to the long stem? (0 = no, 1 = yes)"
+        },
+        {
+          "facing": "integer",
+          "description": "Is the leg of the lambda facing left or right? (0 = left, 1 = right)"
+        }
+      ]
+    },
+    {
+      "variant_key": "P205:2,4,1,0,0",
+      "integer_token": 108,
+      "count": 1,
+      "object_ids": [
+        "M-181A"
+      ],
+      "base_sign": "P205",
+      "description": "Prismed light rays, with opposite slanting on top vs bottom, more rays on bottom",
+      "custom_values": [
+        2,
+        4,
+        1,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "top_ray_count": "integer",
+          "description": "How many rays are in the top half?"
+        },
+        {
+          "bottom_ray_count": "integer",
+          "description": "How many rays are in the bottom half?"
+        },
+        {
+          "connected_top": "integer",
+          "description": "Is there a horizontal connector at the top? 1 for yes, 0 for no"
+        },
+        {
+          "branching_rays": "integer",
+          "description": "Conjoined int representing which rays bifurcate between top and bottom. E.g., 13 means the first and third rays bifurcate. 0 means no bifurcation."
+        },
+        {
+          "decoration": "integer",
+          "description": "Decoration. 0 = none, 1 = fancy (as in M-9)"
+        }
+      ]
+    },
+    {
+      "variant_key": "P205:2,4,1,4,0",
+      "integer_token": 109,
+      "count": 1,
+      "object_ids": [
+        "M-115A"
+      ],
+      "base_sign": "P205",
+      "description": "Prismed light rays, with opposite slanting on top vs bottom, more rays on bottom",
+      "custom_values": [
+        2,
+        4,
+        1,
+        4,
+        0
+      ],
+      "schema": [
+        {
+          "top_ray_count": "integer",
+          "description": "How many rays are in the top half?"
+        },
+        {
+          "bottom_ray_count": "integer",
+          "description": "How many rays are in the bottom half?"
+        },
+        {
+          "connected_top": "integer",
+          "description": "Is there a horizontal connector at the top? 1 for yes, 0 for no"
+        },
+        {
+          "branching_rays": "integer",
+          "description": "Conjoined int representing which rays bifurcate between top and bottom. E.g., 13 means the first and third rays bifurcate. 0 means no bifurcation."
+        },
+        {
+          "decoration": "integer",
+          "description": "Decoration. 0 = none, 1 = fancy (as in M-9)"
+        }
+      ]
+    },
+    {
+      "variant_key": "P205:3,3,1,0,1",
+      "integer_token": 110,
+      "count": 1,
+      "object_ids": [
+        "M-9A"
+      ],
+      "base_sign": "P205",
+      "description": "Prismed light rays, with opposite slanting on top vs bottom, more rays on bottom",
+      "custom_values": [
+        3,
+        3,
+        1,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "top_ray_count": "integer",
+          "description": "How many rays are in the top half?"
+        },
+        {
+          "bottom_ray_count": "integer",
+          "description": "How many rays are in the bottom half?"
+        },
+        {
+          "connected_top": "integer",
+          "description": "Is there a horizontal connector at the top? 1 for yes, 0 for no"
+        },
+        {
+          "branching_rays": "integer",
+          "description": "Conjoined int representing which rays bifurcate between top and bottom. E.g., 13 means the first and third rays bifurcate. 0 means no bifurcation."
+        },
+        {
+          "decoration": "integer",
+          "description": "Decoration. 0 = none, 1 = fancy (as in M-9)"
+        }
+      ]
+    },
+    {
+      "variant_key": "P205:3,4,1,1,0",
+      "integer_token": 111,
+      "count": 3,
+      "object_ids": [
+        "M-114A",
+        "M-183A",
+        "M-45A"
+      ],
+      "base_sign": "P205",
+      "description": "Prismed light rays, with opposite slanting on top vs bottom, more rays on bottom",
+      "custom_values": [
+        3,
+        4,
+        1,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "top_ray_count": "integer",
+          "description": "How many rays are in the top half?"
+        },
+        {
+          "bottom_ray_count": "integer",
+          "description": "How many rays are in the bottom half?"
+        },
+        {
+          "connected_top": "integer",
+          "description": "Is there a horizontal connector at the top? 1 for yes, 0 for no"
+        },
+        {
+          "branching_rays": "integer",
+          "description": "Conjoined int representing which rays bifurcate between top and bottom. E.g., 13 means the first and third rays bifurcate. 0 means no bifurcation."
+        },
+        {
+          "decoration": "integer",
+          "description": "Decoration. 0 = none, 1 = fancy (as in M-9)"
+        }
+      ]
+    },
+    {
+      "variant_key": "P205:3,5,1,13,0",
+      "integer_token": 112,
+      "count": 1,
+      "object_ids": [
+        "M-13A"
+      ],
+      "base_sign": "P205",
+      "description": "Prismed light rays, with opposite slanting on top vs bottom, more rays on bottom",
+      "custom_values": [
+        3,
+        5,
+        1,
+        13,
+        0
+      ],
+      "schema": [
+        {
+          "top_ray_count": "integer",
+          "description": "How many rays are in the top half?"
+        },
+        {
+          "bottom_ray_count": "integer",
+          "description": "How many rays are in the bottom half?"
+        },
+        {
+          "connected_top": "integer",
+          "description": "Is there a horizontal connector at the top? 1 for yes, 0 for no"
+        },
+        {
+          "branching_rays": "integer",
+          "description": "Conjoined int representing which rays bifurcate between top and bottom. E.g., 13 means the first and third rays bifurcate. 0 means no bifurcation."
+        },
+        {
+          "decoration": "integer",
+          "description": "Decoration. 0 = none, 1 = fancy (as in M-9)"
+        }
+      ]
+    },
+    {
+      "variant_key": "P207:0,1",
+      "integer_token": 113,
+      "count": 1,
+      "object_ids": [
+        "M-181A"
+      ],
+      "base_sign": "P207",
+      "description": "Tall triangle with no decoration, either isocolese or more horn-shaped",
+      "custom_values": [
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "shape": "integer",
+          "description": "What shape is the triangle? 0 = isocolese, 1 = horn-shaped"
+        },
+        {
+          "decoration": "integer",
+          "description": "What decoration is in the triangle? 0 = nothing, 1 = tree"
+        }
+      ]
+    },
+    {
+      "variant_key": "P210:4",
+      "integer_token": 114,
+      "count": 1,
+      "object_ids": [
+        "M-30A"
+      ],
+      "base_sign": "P210",
+      "description": "Tall isoceles triangle with horizontal stripes",
+      "custom_values": [
+        4
+      ],
+      "schema": [
+        {
+          "stripes": "integer",
+          "description": "How many stripes are there?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P210:6",
+      "integer_token": 115,
+      "count": 1,
+      "object_ids": [
+        "M-101A"
+      ],
+      "base_sign": "P210",
+      "description": "Tall isoceles triangle with horizontal stripes",
+      "custom_values": [
+        6
+      ],
+      "schema": [
+        {
+          "stripes": "integer",
+          "description": "How many stripes are there?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P210:7",
+      "integer_token": 116,
+      "count": 1,
+      "object_ids": [
+        "M-58A"
+      ],
+      "base_sign": "P210",
+      "description": "Tall isoceles triangle with horizontal stripes",
+      "custom_values": [
+        7
+      ],
+      "schema": [
+        {
+          "stripes": "integer",
+          "description": "How many stripes are there?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P215:0,0",
+      "integer_token": 117,
+      "count": 2,
+      "object_ids": [
+        "M-58A",
+        "M-92A"
+      ],
+      "base_sign": "P215",
+      "description": "Three tall, thin isoceles triangles",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "overlap": "integer",
+          "description": "Do the side triangles obscure the central triangle? 0 = no, 1 = yes"
+        },
+        {
+          "diagonal": "integer",
+          "description": "Is the entire thing written at a diagonal? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P217:0",
+      "integer_token": 118,
+      "count": 11,
+      "object_ids": [
+        "M-122A",
+        "M-129A",
+        "M-135A",
+        "M-147A",
+        "M-181A",
+        "M-37A",
+        "M-64A",
+        "M-65A",
+        "M-75A",
+        "M-85A",
+        "M-86A"
+      ],
+      "base_sign": "P217",
+      "description": "Isocolese triangle on top of vertical line (arrow? spear?)",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "tip_shape": "integer",
+          "description": "What shape is the tip? 0 = triangle, 1 = caret"
+        }
+      ]
+    },
+    {
+      "variant_key": "P217:1",
+      "integer_token": 119,
+      "count": 2,
+      "object_ids": [
+        "M-183A",
+        "M-81A"
+      ],
+      "base_sign": "P217",
+      "description": "Isocolese triangle on top of vertical line (arrow? spear?)",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "tip_shape": "integer",
+          "description": "What shape is the tip? 0 = triangle, 1 = caret"
+        }
+      ]
+    },
+    {
+      "variant_key": "P221:0",
+      "integer_token": 120,
+      "count": 1,
+      "object_ids": [
+        "M-140A"
+      ],
+      "base_sign": "P221",
+      "description": "Three triangles, one large isocoles pointing right on left, two small on right, all linked at the point of the left triangle",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "small_triangle_orientation": "integer",
+          "description": "How are the small right-hand triangles oriented? 0 = same as large triangle, 1 = pointed up&left and down&left"
+        }
+      ]
+    },
+    {
+      "variant_key": "P221:1",
+      "integer_token": 121,
+      "count": 1,
+      "object_ids": [
+        "M-147A"
+      ],
+      "base_sign": "P221",
+      "description": "Three triangles, one large isocoles pointing right on left, two small on right, all linked at the point of the left triangle",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "small_triangle_orientation": "integer",
+          "description": "How are the small right-hand triangles oriented? 0 = same as large triangle, 1 = pointed up&left and down&left"
+        }
+      ]
+    },
+    {
+      "variant_key": "P226:",
+      "integer_token": 122,
+      "count": 3,
+      "object_ids": [
+        "M-102A",
+        "M-132A",
+        "M-78A"
+      ],
+      "base_sign": "P226",
+      "description": "Bowtie with another left-pointing triangle attached on the right, hatching throughout",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P228:1,0",
+      "integer_token": 123,
+      "count": 1,
+      "object_ids": [
+        "M-26A"
+      ],
+      "base_sign": "P228",
+      "description": "X with left points connected by vertical line, with another such X underneath, and a vertical bar connecting the cross-point of the two X's",
+      "custom_values": [
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "separation": "integer",
+          "description": "Separation distance of the top and bottom X's. 0 = not separated, 1 = separated"
+        },
+        {
+          "center_line_length": "integer",
+          "description": "Is the center line extended past the X cross points? 0 = not extended, 1 = extended"
+        }
+      ]
+    },
+    {
+      "variant_key": "P230:0,0,0,1",
+      "integer_token": 124,
+      "count": 3,
+      "object_ids": [
+        "M-43A",
+        "M-46A",
+        "M-91A"
+      ],
+      "base_sign": "P230",
+      "description": "The 'pincer' motif. Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
+      "custom_values": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "rounded-lhs": "integer",
+          "description": "0 = rounded, 1 = angular"
+        },
+        {
+          "lower-right-tangent": "integer",
+          "description": "Is there a lower right tangent? 0 = no, 1 = yes"
+        },
+        {
+          "decoration": "integer",
+          "description": "What is the decoration inside the parts? 0 = none, 1 = vertical lines"
+        },
+        {
+          "pincer_angle": "integer",
+          "description": "Angle of the pincer. 0 = vertical, 1 = outward, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P230:1,0,0,0",
+      "integer_token": 125,
+      "count": 1,
+      "object_ids": [
+        "M-162A"
+      ],
+      "base_sign": "P230",
+      "description": "The 'pincer' motif. Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
+      "custom_values": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "rounded-lhs": "integer",
+          "description": "0 = rounded, 1 = angular"
+        },
+        {
+          "lower-right-tangent": "integer",
+          "description": "Is there a lower right tangent? 0 = no, 1 = yes"
+        },
+        {
+          "decoration": "integer",
+          "description": "What is the decoration inside the parts? 0 = none, 1 = vertical lines"
+        },
+        {
+          "pincer_angle": "integer",
+          "description": "Angle of the pincer. 0 = vertical, 1 = outward, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P230:1,0,0,1",
+      "integer_token": 126,
+      "count": 6,
+      "object_ids": [
+        "M-108A",
+        "M-158A",
+        "M-42A",
+        "M-62A",
+        "M-63A",
+        "M-82A"
+      ],
+      "base_sign": "P230",
+      "description": "The 'pincer' motif. Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
+      "custom_values": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "rounded-lhs": "integer",
+          "description": "0 = rounded, 1 = angular"
+        },
+        {
+          "lower-right-tangent": "integer",
+          "description": "Is there a lower right tangent? 0 = no, 1 = yes"
+        },
+        {
+          "decoration": "integer",
+          "description": "What is the decoration inside the parts? 0 = none, 1 = vertical lines"
+        },
+        {
+          "pincer_angle": "integer",
+          "description": "Angle of the pincer. 0 = vertical, 1 = outward, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P230:1,1,0,1",
+      "integer_token": 127,
+      "count": 2,
+      "object_ids": [
+        "M-63A",
+        "M-81A"
+      ],
+      "base_sign": "P230",
+      "description": "The 'pincer' motif. Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
+      "custom_values": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "rounded-lhs": "integer",
+          "description": "0 = rounded, 1 = angular"
+        },
+        {
+          "lower-right-tangent": "integer",
+          "description": "Is there a lower right tangent? 0 = no, 1 = yes"
+        },
+        {
+          "decoration": "integer",
+          "description": "What is the decoration inside the parts? 0 = none, 1 = vertical lines"
+        },
+        {
+          "pincer_angle": "integer",
+          "description": "Angle of the pincer. 0 = vertical, 1 = outward, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P231:1",
+      "integer_token": 128,
+      "count": 1,
+      "object_ids": [
+        "M-148A"
+      ],
+      "base_sign": "P231",
+      "description": "The 'pincer' motif, with vertical stroke through the middle point",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "rounded-lhs": "integer",
+          "description": "0 = rounded, 1 = angular"
+        }
+      ]
+    },
+    {
+      "variant_key": "P234:",
+      "integer_token": 129,
+      "count": 2,
+      "object_ids": [
+        "M-162A",
+        "M-62A"
+      ],
+      "base_sign": "P234",
+      "description": "Left-pointing isocoles triangle on right, right-pointing isosceles triangle on left, with small part of left line removed in middle.",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P238:",
+      "integer_token": 130,
+      "count": 1,
+      "object_ids": [
+        "M-107A"
+      ],
+      "base_sign": "P238",
+      "description": "X with vertical connection on left two tips, right tips both have a slight vertical line toward each other, and three lines off the tip away from each other. Line with three downward lines coming off left",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P251:0",
+      "integer_token": 131,
+      "count": 1,
+      "object_ids": [
+        "M-85A"
+      ],
+      "base_sign": "P251",
+      "description": "An X on top of a vertical stroke, with a decorated triangle hanging off the upper right",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "decorations": "integer",
+          "description": "How many lines decorate the small triangle?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P253:",
+      "integer_token": 132,
+      "count": 1,
+      "object_ids": [
+        "M-92A"
+      ],
+      "base_sign": "P253",
+      "description": "An X near the top of a vertical stroke, with a caret hat",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P256:0",
+      "integer_token": 133,
+      "count": 3,
+      "object_ids": [
+        "M-134A",
+        "M-146A",
+        "M-21A"
+      ],
+      "base_sign": "P256",
+      "description": "An X but drawn in outline",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "center_vline": "integer",
+          "description": "Does the center have a solid vline? 1 = yes, 0 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P256:1",
+      "integer_token": 134,
+      "count": 1,
+      "object_ids": [
+        "M-26A"
+      ],
+      "base_sign": "P256",
+      "description": "An X but drawn in outline",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "center_vline": "integer",
+          "description": "Does the center have a solid vline? 1 = yes, 0 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P268:2,3",
+      "integer_token": 135,
+      "count": 2,
+      "object_ids": [
+        "M-45A"
+      ],
+      "base_sign": "P268",
+      "description": "A grid of x by y cells",
+      "custom_values": [
+        2,
+        3
+      ],
+      "schema": [
+        {
+          "columns": "integer",
+          "description": "The number of columns in the grid"
+        },
+        {
+          "rows": "integer",
+          "description": "The number of rows in the grid"
+        }
+      ]
+    },
+    {
+      "variant_key": "P268:2,5",
+      "integer_token": 136,
+      "count": 2,
+      "object_ids": [
+        "M-81A"
+      ],
+      "base_sign": "P268",
+      "description": "A grid of x by y cells",
+      "custom_values": [
+        2,
+        5
+      ],
+      "schema": [
+        {
+          "columns": "integer",
+          "description": "The number of columns in the grid"
+        },
+        {
+          "rows": "integer",
+          "description": "The number of rows in the grid"
+        }
+      ]
+    },
+    {
+      "variant_key": "P270:3,0",
+      "integer_token": 137,
+      "count": 1,
+      "object_ids": [
+        "M-8A"
+      ],
+      "base_sign": "P270",
+      "description": "Rectangle, taller than wide, with vertical strokes for teeth inside on top and bottom",
+      "custom_values": [
+        3,
+        0
+      ],
+      "schema": [
+        {
+          "teeth": "integer",
+          "description": "The number of teeth"
+        },
+        {
+          "decoration": "integer",
+          "description": "The interior decoration. 0 = none, 1 = half circle on left with two vertical teeth in mid, 2 = two horizontal teeth in mid, 3 = two horizontal teeth on left, 4 = two horizontal strokes inside, 5 = three horizontal strokes inside"
+        }
+      ]
+    },
+    {
+      "variant_key": "P272:0",
+      "integer_token": 138,
+      "count": 1,
+      "object_ids": [
+        "M-21A"
+      ],
+      "base_sign": "P272",
+      "description": "Trapezoid with inner rectangle",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "inner_shape": "integer",
+          "description": "What shape is the inner shape? 0 = rectangle, 1 = trapezoid"
+        }
+      ]
+    },
+    {
+      "variant_key": "P276:",
+      "integer_token": 139,
+      "count": 3,
+      "object_ids": [
+        "M-131A",
+        "M-35A",
+        "M-94A"
+      ],
+      "base_sign": "P276",
+      "description": "Square at bottom with vertical bar coming off top middle",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P283:",
+      "integer_token": 140,
+      "count": 2,
+      "object_ids": [
+        "M-114A",
+        "M-140A"
+      ],
+      "base_sign": "P283",
+      "description": "Rectangle, but with bottom line missing, and bottom-half of left line missing (like backward greek capital gamma with a prominent serif)",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P288:",
+      "integer_token": 141,
+      "count": 2,
+      "object_ids": [
+        "M-120A",
+        "M-98A"
+      ],
+      "base_sign": "P288",
+      "description": "Trapezoid with no bottom line, two short outward perpendiculars off bottom left and right and from top center, bird-foot in bottom",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P289:2",
+      "integer_token": 142,
+      "count": 1,
+      "object_ids": [
+        "M-65A"
+      ],
+      "base_sign": "P289",
+      "description": "Trapezoid with no bottom line, small box resting on the top middle",
+      "custom_values": [
+        2
+      ],
+      "schema": [
+        {
+          "trapezoid_shape": "integer",
+          "description": "Is the trapezoid angled or straight? 0 = angled, 1 = straight, 2 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P290:1,1",
+      "integer_token": 143,
+      "count": 1,
+      "object_ids": [
+        "M-159A"
+      ],
+      "base_sign": "P290",
+      "description": "Tall table. Underside has a horizontal line enclosing the top part of the underside, with vertical hatches inside. Small box on top of the table.",
+      "custom_values": [
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "trapezoid_shape": "integer",
+          "description": "Is the trapezoid angled or straight? 0 = angled, 1 = straight, 2 = indeterminate"
+        },
+        {
+          "top_interior": "integer",
+          "description": "How is the top box decorated? 0 = none, 1 = horizontal hatching"
+        }
+      ]
+    },
+    {
+      "variant_key": "P293:1",
+      "integer_token": 144,
+      "count": 1,
+      "object_ids": [
+        "M-129A"
+      ],
+      "base_sign": "P293",
+      "description": "Large 'H', possibly with top points connected by horizontal bar",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "top": "integer",
+          "description": "Is the top enclosed? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P294:1",
+      "integer_token": 145,
+      "count": 1,
+      "object_ids": [
+        "M-139A"
+      ],
+      "base_sign": "P294",
+      "description": "Large 'H', possibly with top points connected by horizontal bar. Table for a hat.",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "top": "integer",
+          "description": "Is the top enclosed? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P301:1,0",
+      "integer_token": 146,
+      "count": 1,
+      "object_ids": [
+        "M-81A"
+      ],
+      "base_sign": "P301",
+      "description": "Small box with horizontal hatching, vertical lines coming from top left and bottom right corners",
+      "custom_values": [
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "hatches": "integer",
+          "description": "How many horizontal lines are in the 'box' in the middle?"
+        },
+        {
+          "flipped": "integer",
+          "description": "Is the entire symbol in mirror image along the vertical axis? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P301:2,0",
+      "integer_token": 147,
+      "count": 1,
+      "object_ids": [
+        "M-42A"
+      ],
+      "base_sign": "P301",
+      "description": "Small box with horizontal hatching, vertical lines coming from top left and bottom right corners",
+      "custom_values": [
+        2,
+        0
+      ],
+      "schema": [
+        {
+          "hatches": "integer",
+          "description": "How many horizontal lines are in the 'box' in the middle?"
+        },
+        {
+          "flipped": "integer",
+          "description": "Is the entire symbol in mirror image along the vertical axis? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P301:3,1",
+      "integer_token": 148,
+      "count": 1,
+      "object_ids": [
+        "M-63A"
+      ],
+      "base_sign": "P301",
+      "description": "Small box with horizontal hatching, vertical lines coming from top left and bottom right corners",
+      "custom_values": [
+        3,
+        1
+      ],
+      "schema": [
+        {
+          "hatches": "integer",
+          "description": "How many horizontal lines are in the 'box' in the middle?"
+        },
+        {
+          "flipped": "integer",
+          "description": "Is the entire symbol in mirror image along the vertical axis? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P303:2,0,0",
+      "integer_token": 149,
+      "count": 1,
+      "object_ids": [
+        "M-173A"
+      ],
+      "base_sign": "P303",
+      "description": "H with two horizontal bars across the middle, with vertical lines dropping down from the crossbar",
+      "custom_values": [
+        2,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "lines": "integer",
+          "description": "How many vertical lines are in the 'box' in the bottom?"
+        },
+        {
+          "decoration": "integer",
+          "description": "Is the top of the H solid with crosshatching? 0 = no, 1 = yes"
+        },
+        {
+          "animal": "integer",
+          "description": "Is the shape a discernable animal? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P309:1,2,1,1",
+      "integer_token": 150,
+      "count": 1,
+      "object_ids": [
+        "M-34A"
+      ],
+      "base_sign": "P309",
+      "description": "M with the bottom of the legs connected by horizontal lines, and vertical line decoration",
+      "custom_values": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "horizontal_line_count": "integer",
+          "description": "Number of horizontal lines across center"
+        },
+        {
+          "vertical_line_count": "integer",
+          "description": "How many vertical lines are in the 'box' in the bottom?"
+        },
+        {
+          "top_decoration": "integer",
+          "description": "What form are the triangles of the M-top? 0 = empty, 1 = hatched"
+        },
+        {
+          "bottom_decoration": "integer",
+          "description": "What form is the very bottom? 0 = no horizontal line, 1 = horizontal line"
+        }
+      ]
+    },
+    {
+      "variant_key": "P309:1,4,0,1",
+      "integer_token": 151,
+      "count": 1,
+      "object_ids": [
+        "M-140A"
+      ],
+      "base_sign": "P309",
+      "description": "M with the bottom of the legs connected by horizontal lines, and vertical line decoration",
+      "custom_values": [
+        1,
+        4,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "horizontal_line_count": "integer",
+          "description": "Number of horizontal lines across center"
+        },
+        {
+          "vertical_line_count": "integer",
+          "description": "How many vertical lines are in the 'box' in the bottom?"
+        },
+        {
+          "top_decoration": "integer",
+          "description": "What form are the triangles of the M-top? 0 = empty, 1 = hatched"
+        },
+        {
+          "bottom_decoration": "integer",
+          "description": "What form is the very bottom? 0 = no horizontal line, 1 = horizontal line"
+        }
+      ]
+    },
+    {
+      "variant_key": "P310:1,0",
+      "integer_token": 152,
+      "count": 1,
+      "object_ids": [
+        "M-62A"
+      ],
+      "base_sign": "P310",
+      "description": "Simple U with no other decoration",
+      "custom_values": [
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "What shape is the U? 0 = wide mouthed and rounded, 1 = mostly vertical sides"
+        },
+        {
+          "u_height": "integer",
+          "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        }
+      ]
+    },
+    {
+      "variant_key": "P310:1,1",
+      "integer_token": 153,
+      "count": 1,
+      "object_ids": [
+        "M-86A"
+      ],
+      "base_sign": "P310",
+      "description": "Simple U with no other decoration",
+      "custom_values": [
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "What shape is the U? 0 = wide mouthed and rounded, 1 = mostly vertical sides"
+        },
+        {
+          "u_height": "integer",
+          "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        }
+      ]
+    },
+    {
+      "variant_key": "P313:1,5",
+      "integer_token": 154,
+      "count": 1,
+      "object_ids": [
+        "M-89A"
+      ],
+      "base_sign": "P313",
+      "description": "U with several small strokes off the bottom",
+      "custom_values": [
+        1,
+        5
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+          "stroke_count": "integer",
+          "description": "How many strokes come off the bottom?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P316:0,1,0,0",
+      "integer_token": 155,
+      "count": 1,
+      "object_ids": [
+        "M-135A"
+      ],
+      "base_sign": "P316",
+      "description": "U with a long vertical stroke inserted into the gap of U",
+      "custom_values": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+          "u_height": "integer",
+          "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        },
+        {
+          "line_height": "integer",
+          "description": "How far into the U does the line extend? 0 = full height, 1 = partial height"
+        },
+        {
+          "stroke_decoration": "integer",
+          "description": "How is the bottom of the inserted stroke decorated? 0 = plain, 1 = triangle, 2 = circle, 3 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P316:0,1,1,0",
+      "integer_token": 156,
+      "count": 2,
+      "object_ids": [
+        "M-64A",
+        "M-86A"
+      ],
+      "base_sign": "P316",
+      "description": "U with a long vertical stroke inserted into the gap of U",
+      "custom_values": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+          "u_height": "integer",
+          "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        },
+        {
+          "line_height": "integer",
+          "description": "How far into the U does the line extend? 0 = full height, 1 = partial height"
+        },
+        {
+          "stroke_decoration": "integer",
+          "description": "How is the bottom of the inserted stroke decorated? 0 = plain, 1 = triangle, 2 = circle, 3 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P316:1,0,0,2",
+      "integer_token": 157,
+      "count": 1,
+      "object_ids": [
+        "M-8A"
+      ],
+      "base_sign": "P316",
+      "description": "U with a long vertical stroke inserted into the gap of U",
+      "custom_values": [
+        1,
+        0,
+        0,
+        2
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+          "u_height": "integer",
+          "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        },
+        {
+          "line_height": "integer",
+          "description": "How far into the U does the line extend? 0 = full height, 1 = partial height"
+        },
+        {
+          "stroke_decoration": "integer",
+          "description": "How is the bottom of the inserted stroke decorated? 0 = plain, 1 = triangle, 2 = circle, 3 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P316:1,1,0,2",
+      "integer_token": 158,
+      "count": 1,
+      "object_ids": [
+        "M-65A"
+      ],
+      "base_sign": "P316",
+      "description": "U with a long vertical stroke inserted into the gap of U",
+      "custom_values": [
+        1,
+        1,
+        0,
+        2
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+          "u_height": "integer",
+          "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        },
+        {
+          "line_height": "integer",
+          "description": "How far into the U does the line extend? 0 = full height, 1 = partial height"
+        },
+        {
+          "stroke_decoration": "integer",
+          "description": "How is the bottom of the inserted stroke decorated? 0 = plain, 1 = triangle, 2 = circle, 3 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P316:1,1,1,0",
+      "integer_token": 159,
+      "count": 1,
+      "object_ids": [
+        "M-122A"
+      ],
+      "base_sign": "P316",
+      "description": "U with a long vertical stroke inserted into the gap of U",
+      "custom_values": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "rounded": "integer",
+          "description": "Is the U rounded? 0 = yes, 1 = no"
+        },
+        {
+          "u_height": "integer",
+          "description": "How tall are the sides of the U? 0 = full height, 1 = partial height"
+        },
+        {
+          "line_height": "integer",
+          "description": "How far into the U does the line extend? 0 = full height, 1 = partial height"
+        },
+        {
+          "stroke_decoration": "integer",
+          "description": "How is the bottom of the inserted stroke decorated? 0 = plain, 1 = triangle, 2 = circle, 3 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P320:3",
+      "integer_token": 160,
+      "count": 1,
+      "object_ids": [
+        "M-3A"
+      ],
+      "base_sign": "P320",
+      "description": "A cat's paw perhaps, two vertical strokes on each side, and four fingers, with fingers on one side a little shorter than the other",
+      "custom_values": [
+        3
+      ],
+      "schema": [
+        {
+          "hatches": "integer",
+          "description": "How many vertical hatches make up the fingers?"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:0,0,0,0,1",
+      "integer_token": 161,
+      "count": 1,
+      "object_ids": [
+        "M-144A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:0,0,0,0,2",
+      "integer_token": 162,
+      "count": 1,
+      "object_ids": [
+        "M-146A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:0,0,0,1,0",
+      "integer_token": 163,
+      "count": 1,
+      "object_ids": [
+        "M-99A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:0,0,0,1,1",
+      "integer_token": 164,
+      "count": 2,
+      "object_ids": [
+        "M-152A",
+        "M-157A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:0,0,1,1,0",
+      "integer_token": 165,
+      "count": 2,
+      "object_ids": [
+        "M-30A",
+        "M-7A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:0,0,2,1,0",
+      "integer_token": 166,
+      "count": 1,
+      "object_ids": [
+        "M-92A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:0,1,0,1,1",
+      "integer_token": 167,
+      "count": 1,
+      "object_ids": [
+        "M-120A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:0,1,1,1,0",
+      "integer_token": 168,
+      "count": 1,
+      "object_ids": [
+        "M-162A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:1,0,0,1,0",
+      "integer_token": 169,
+      "count": 14,
+      "object_ids": [
+        "M-101A",
+        "M-104A",
+        "M-114A",
+        "M-121A",
+        "M-140A",
+        "M-143A",
+        "M-164A",
+        "M-182A",
+        "M-184A",
+        "M-18A",
+        "M-21A",
+        "M-58A",
+        "M-78A",
+        "M-98A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:1,0,0,1,1",
+      "integer_token": 170,
+      "count": 4,
+      "object_ids": [
+        "M-107A",
+        "M-148A",
+        "M-159A",
+        "M-90A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:1,0,0,2,0",
+      "integer_token": 171,
+      "count": 1,
+      "object_ids": [
+        "M-82A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:1,0,1,0,1",
+      "integer_token": 172,
+      "count": 1,
+      "object_ids": [
+        "M-145A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:1,0,1,1,0",
+      "integer_token": 173,
+      "count": 8,
+      "object_ids": [
+        "M-131A",
+        "M-173A",
+        "M-34A",
+        "M-35A",
+        "M-43A",
+        "M-46A",
+        "M-91A",
+        "M-94A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:1,0,2,1,0",
+      "integer_token": 174,
+      "count": 2,
+      "object_ids": [
+        "M-113A",
+        "M-26A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        1,
+        0,
+        2,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:1,1,1,1,1",
+      "integer_token": 175,
+      "count": 1,
+      "object_ids": [
+        "M-150A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P324:2,0,0,1,0",
+      "integer_token": 176,
+      "count": 1,
+      "object_ids": [
+        "M-89A"
+      ],
+      "base_sign": "P324",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+      "custom_values": [
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:0,0,1,1,0",
+      "integer_token": 177,
+      "count": 1,
+      "object_ids": [
+        "M-139A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:0,1,0,1,0",
+      "integer_token": 178,
+      "count": 1,
+      "object_ids": [
+        "M-120A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:1,0,0,1,0",
+      "integer_token": 179,
+      "count": 2,
+      "object_ids": [
+        "M-131A",
+        "M-93A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:1,0,1,1,0",
+      "integer_token": 180,
+      "count": 1,
+      "object_ids": [
+        "M-62A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:1,0,1,1,1",
+      "integer_token": 181,
+      "count": 1,
+      "object_ids": [
+        "M-160A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:1,0,2,1,0",
+      "integer_token": 182,
+      "count": 1,
+      "object_ids": [
+        "M-85A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        1,
+        0,
+        2,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:1,1,0,1,0",
+      "integer_token": 183,
+      "count": 1,
+      "object_ids": [
+        "M-129A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:1,1,0,1,1",
+      "integer_token": 184,
+      "count": 1,
+      "object_ids": [
+        "M-159A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P325:1,1,1,2,0",
+      "integer_token": 185,
+      "count": 1,
+      "object_ids": [
+        "M-113A"
+      ],
+      "base_sign": "P325",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+      "custom_values": [
+        1,
+        1,
+        1,
+        2,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P326:1,0,0,1,0,0",
+      "integer_token": 186,
+      "count": 1,
+      "object_ids": [
+        "M-59A"
+      ],
+      "base_sign": "P326",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, two small vertical strokes inside mouth of jar",
+      "custom_values": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        },
+        {
+          "small_strokes": "integer",
+          "description": "In what direction are the small strokes? 0 = vertical, 1 = tilted right, 2 = tilted left, 3 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P327:1,2,1,1,0,0",
+      "integer_token": 187,
+      "count": 1,
+      "object_ids": [
+        "M-9A"
+      ],
+      "base_sign": "P327",
+      "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, three small vertical strokes in mouth",
+      "custom_values": [
+        1,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "round_sides": "integer",
+          "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "width": "integer",
+          "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide"
+        },
+        {
+          "angled_bottom": "integer",
+          "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+        },
+        {
+          "lips": "integer",
+          "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate"
+        },
+        {
+          "handles": "integer",
+          "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate"
+        },
+        {
+          "small_strokes": "integer",
+          "description": "In what direction are the small strokes? 0 = vertical, 1 = tilted right, 2 = tilted left, 3 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P332:2,0,0,0",
+      "integer_token": 188,
+      "count": 2,
+      "object_ids": [
+        "M-114A",
+        "M-162A"
+      ],
+      "base_sign": "P332",
+      "description": "U with decorated branching at top",
+      "custom_values": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "branches": "integer",
+          "description": "Number of branches on each lip"
+        },
+        {
+          "closed": "integer",
+          "description": "Are the branches closed with horizontal strokes on top? 0 = no, 1 = yes"
+        },
+        {
+          "sided": "integer",
+          "description": "Do the branches only occur on left or right, inside or outside? 0 = balanced, 1 = left, 2 = right, 3 = inside, 4 = outside"
+        },
+        {
+          "decoration": "integer",
+          "description": "Do the branches have horizontal lines decorating them? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P332:2,1,2,1",
+      "integer_token": 189,
+      "count": 1,
+      "object_ids": [
+        "M-30A"
+      ],
+      "base_sign": "P332",
+      "description": "U with decorated branching at top",
+      "custom_values": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "schema": [
+        {
+          "branches": "integer",
+          "description": "Number of branches on each lip"
+        },
+        {
+          "closed": "integer",
+          "description": "Are the branches closed with horizontal strokes on top? 0 = no, 1 = yes"
+        },
+        {
+          "sided": "integer",
+          "description": "Do the branches only occur on left or right, inside or outside? 0 = balanced, 1 = left, 2 = right, 3 = inside, 4 = outside"
+        },
+        {
+          "decoration": "integer",
+          "description": "Do the branches have horizontal lines decorating them? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P341:1",
+      "integer_token": 190,
+      "count": 1,
+      "object_ids": [
+        "M-18A"
+      ],
+      "base_sign": "P341",
+      "description": "Four rounded lines going upward, curving into each other at top, with a caret hat above all, and two diagonal strokes across the four lines",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "diagonals": "integer",
+          "description": "What direction are the diagonals? 0 = up&right, 1 = up&left"
+        }
+      ]
+    },
+    {
+      "variant_key": "P342:",
+      "integer_token": 191,
+      "count": 1,
+      "object_ids": [
+        "M-95A"
+      ],
+      "base_sign": "P342",
+      "description": "A left and right paren connected only at the top, with the left paren swooping upward into the center from the bottom",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P346:",
+      "integer_token": 192,
+      "count": 1,
+      "object_ids": [
+        "M-16A"
+      ],
+      "base_sign": "P346",
+      "description": "Capital 'T' with a small leaf oriented vertically attached to both sides of the top bar",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P349:",
+      "integer_token": 193,
+      "count": 6,
+      "object_ids": [
+        "M-113A",
+        "M-120A",
+        "M-143A",
+        "M-162A",
+        "M-45A",
+        "M-90A"
+      ],
+      "base_sign": "P349",
+      "description": "Two vertical leaves, slightly overlapping",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P352:0,0",
+      "integer_token": 194,
+      "count": 1,
+      "object_ids": [
+        "M-115A"
+      ],
+      "base_sign": "P352",
+      "description": "Two overlapping leaves with diagonal hatches across the three midsections, possibly with a cage of small vertical strokes",
+      "custom_values": [
+        0,
+        0
+      ],
+      "schema": [
+        {
+          "hatch_angle": "integer",
+          "description": "Are the hatches diagonal? 1 = yes, 0 = no"
+        },
+        {
+          "cage": "integer",
+          "description": "Is there a cage of small vertical strokes? 1 = yes, 0 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P352:1,0",
+      "integer_token": 195,
+      "count": 1,
+      "object_ids": [
+        "M-7A"
+      ],
+      "base_sign": "P352",
+      "description": "Two overlapping leaves with diagonal hatches across the three midsections, possibly with a cage of small vertical strokes",
+      "custom_values": [
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "hatch_angle": "integer",
+          "description": "Are the hatches diagonal? 1 = yes, 0 = no"
+        },
+        {
+          "cage": "integer",
+          "description": "Is there a cage of small vertical strokes? 1 = yes, 0 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P353:0",
+      "integer_token": 196,
+      "count": 2,
+      "object_ids": [
+        "M-46A",
+        "M-99A"
+      ],
+      "base_sign": "P353",
+      "description": "Three stacked leaves, possibly with vertical stroke through the center",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "vertical_stroke": "integer",
+          "description": "Is there a vertical stroke? 1 = yes, 0 = no"
+        }
+      ]
+    },
+    {
+      "variant_key": "P355:1,0",
+      "integer_token": 197,
+      "count": 4,
+      "object_ids": [
+        "M-121A",
+        "M-131A",
+        "M-157A",
+        "M-172A"
+      ],
+      "base_sign": "P355",
+      "description": "Simple leaf or diamond, possibly rotated 45 degrees",
+      "custom_values": [
+        1,
+        0
+      ],
+      "schema": [
+        {
+          "size": "integer",
+          "description": "What size is the symbol? 0 = small, 1 = medium, 2 = large"
+        },
+        {
+          "rotation": "integer",
+          "description": "What is the rotation of the symbol? 0 = 0 degrees, 1 = 45 degrees"
+        }
+      ]
+    },
+    {
+      "variant_key": "P358:",
+      "integer_token": 198,
+      "count": 1,
+      "object_ids": [
+        "M-89A"
+      ],
+      "base_sign": "P358",
+      "description": "Leaf with small strokes coming out diagonally on all four diagonals",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P359:",
+      "integer_token": 199,
+      "count": 2,
+      "object_ids": [
+        "M-104A",
+        "M-184A"
+      ],
+      "base_sign": "P359",
+      "description": "Diamond with two perpendiculars coming off each edge (see similarity with P260)",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P360:5,1",
+      "integer_token": 200,
+      "count": 1,
+      "object_ids": [
+        "M-43A"
+      ],
+      "base_sign": "P360",
+      "description": "Leaf on vertical line, with sun rays coming out from the top",
+      "custom_values": [
+        5,
+        1
+      ],
+      "schema": [
+        {
+          "rays": "integer",
+          "description": "Number of rays"
+        },
+        {
+          "shape": "integer",
+          "description": "What shape is the leaf? 0 = leaf, 1 = diamond, 2 = indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P364:3,0",
+      "integer_token": 201,
+      "count": 3,
+      "object_ids": [
+        "M-147A",
+        "M-173A",
+        "M-77A"
+      ],
+      "base_sign": "P364",
+      "description": "Leaf with tree at bottom",
+      "custom_values": [
+        3,
+        0
+      ],
+      "schema": [
+        {
+          "branches": "integer",
+          "description": "The number of branches on the tree"
+        },
+        {
+          "style": "integer",
+          "description": "0 = no bifurcation, 1 = bifurcation"
+        }
+      ]
+    },
+    {
+      "variant_key": "P364:3,1",
+      "integer_token": 202,
+      "count": 2,
+      "object_ids": [
+        "M-115A",
+        "M-30A"
+      ],
+      "base_sign": "P364",
+      "description": "Leaf with tree at bottom",
+      "custom_values": [
+        3,
+        1
+      ],
+      "schema": [
+        {
+          "branches": "integer",
+          "description": "The number of branches on the tree"
+        },
+        {
+          "style": "integer",
+          "description": "0 = no bifurcation, 1 = bifurcation"
+        }
+      ]
+    },
+    {
+      "variant_key": "P366:",
+      "integer_token": 203,
+      "count": 1,
+      "object_ids": [
+        "M-77A"
+      ],
+      "base_sign": "P366",
+      "description": "Leaf with small vertical stroke inside",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P368:0",
+      "integer_token": 204,
+      "count": 2,
+      "object_ids": [
+        "M-139A",
+        "M-150A"
+      ],
+      "base_sign": "P368",
+      "description": "Leaf with small dot inside",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "decoration": "integer",
+          "description": "What shape is the dot? 0 = circular, 1 = square, 2 = diamond"
+        }
+      ]
+    },
+    {
+      "variant_key": "P369:0",
+      "integer_token": 205,
+      "count": 1,
+      "object_ids": [
+        "M-92A"
+      ],
+      "base_sign": "P369",
+      "description": "Leaf with small square hatched decoration inside",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "decoration": "integer",
+          "description": "0 = 2x1 angled grid, 1 = 2x3 grid, 2 = 2x1 angled grid with top cells making a single cell"
+        }
+      ]
+    },
+    {
+      "variant_key": "P372:3",
+      "integer_token": 206,
+      "count": 1,
+      "object_ids": [
+        "M-45A"
+      ],
+      "base_sign": "P372",
+      "description": "Leaf with diagonal-stroke central decoration",
+      "custom_values": [
+        3
+      ],
+      "schema": [
+        {
+          "strokes": "integer",
+          "description": "Number of strokes in center"
+        }
+      ]
+    },
+    {
+      "variant_key": "P378:0",
+      "integer_token": 207,
+      "count": 8,
+      "object_ids": [
+        "M-103A",
+        "M-108A",
+        "M-157A",
+        "M-160A",
+        "M-16A",
+        "M-6A",
+        "M-86A"
+      ],
+      "base_sign": "P378",
+      "description": "Wheel with 6 spokes with even angles",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "roundedness": "integer",
+          "description": "Is the wheel rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P379:",
+      "integer_token": 208,
+      "count": 1,
+      "object_ids": [
+        "M-137A"
+      ],
+      "base_sign": "P379",
+      "description": "Wheel with 6 spokes with even angles, two tall vertical strokes on left, all caged by four small vertical strokes",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P384:",
+      "integer_token": 209,
+      "count": 2,
+      "object_ids": [
+        "M-145A",
+        "M-6A"
+      ],
+      "base_sign": "P384",
+      "description": "Diamond with four small diamonds at each vertex, and a wagon wheel in the center",
+      "custom_values": [],
+      "schema": []
+    },
+    {
+      "variant_key": "P385:0",
+      "integer_token": 210,
+      "count": 11,
+      "object_ids": [
+        "M-101A",
+        "M-144A",
+        "M-148A",
+        "M-164A",
+        "M-177A",
+        "M-32A",
+        "M-42A",
+        "M-58A",
+        "M-75A",
+        "M-80A",
+        "M-90A"
+      ],
+      "base_sign": "P385",
+      "description": "Diamond or leaf shape with a small diamond attached to the top",
+      "custom_values": [
+        0
+      ],
+      "schema": [
+        {
+          "roundedness": "integer",
+          "description": "Are the left and right sides angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P385:1",
+      "integer_token": 211,
+      "count": 7,
+      "object_ids": [
+        "M-142A",
+        "M-152A",
+        "M-1A",
+        "M-21A",
+        "M-77A",
+        "M-7A",
+        "M-91A"
+      ],
+      "base_sign": "P385",
+      "description": "Diamond or leaf shape with a small diamond attached to the top",
+      "custom_values": [
+        1
+      ],
+      "schema": [
+        {
+          "roundedness": "integer",
+          "description": "Are the left and right sides angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate"
+        }
+      ]
+    },
+    {
+      "variant_key": "P390:2,0",
+      "integer_token": 212,
+      "count": 1,
+      "object_ids": [
+        "M-134A"
+      ],
+      "base_sign": "P390",
+      "description": "Diamond with small diamond at top (and maybe even smaller diamond on right), small diamond at top has decoration off the bottom",
+      "custom_values": [
+        2,
+        0
+      ],
+      "schema": [
+        {
+          "decoration": "integer",
+          "description": "What is the decoration hanging on the small top diamond? 0 = bird foot, 1 = diag stroke, 2 = tree"
+        },
+        {
+          "right_diamond": "integer",
+          "description": "Is there a small diamond on the right? 0 = no, 1 = yes"
+        }
+      ]
+    },
+    {
+      "variant_key": "P393:3",
+      "integer_token": 213,
+      "count": 1,
+      "object_ids": [
+        "M-151A"
+      ],
+      "base_sign": "P393",
+      "description": "Diamond with small diamond in top vertex, multiple trees off top right edge",
+      "custom_values": [
+        3
+      ],
+      "schema": [
+        {
+          "trees": "integer",
+          "description": "How many trees are present in the inscription?"
+        }
+      ]
+    }
+  ]
+}

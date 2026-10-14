@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.2. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.3. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -40,6 +40,10 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.2. This file distingui
 | Hidden-state stochastic grammar | results/latent_grammar.json; latent_grammar_parameters.json | 18 validation-selected candidates; selected 8-state model scores 5.919 bits/token vs bigram 5.461. HMM gain -0.457, grouped interval [-0.583,-0.343]; negative result for this tested family |
 | Near-copy overlap audit and component holdout | results/near_copy.json; near_copy_groups.json | 57/169 original eligible test texts have training neighbours. Grouped holdout retains 0.922-bit bigram gain, component interval [0.755,1.077]; similarity groups are not verified artifact families |
 | HMM numerical validation | scripts/test_latent.py | Three tests compare likelihood/posteriors against exhaustive path enumeration, verify parameter mass after EM, and verify near-copy grouping |
+| Allograph schema audit and integer inventory | data/processed/parpola_variant_catalog.json; parpola_variant_sequences.json | All 455 vectors match source schemas; 92 eligible objects contain 133 base IDs and 210 morphology-coded variants, excluding confidence/layout defaults |
+| Previous-allograph-history prediction | results/allograph_history.json | Same next-base-sign target; validation-selected strengths; five exact/reverse-group holds. Mean change -0.080 bits/token, all point estimates worse; four intervals overlap zero. No evidence to assign distinct sounds or merge variants |
+| Allograph model checks | scripts/test_allographs.py | Four checks: variant identity excludes layout/confidence, probabilities normalize, unseen histories back off, base duplicates share splits, and target morphology does not predict its own target |
+| Historical-language resource acquisition | scripts/language_inventory.py; docs/language_resource_inventory.json | Pinned Tamil and Vedic Sanskrit candidates downloaded into ignored local cache; file hashes and coverage audited. No alignment or language identification experiment reported yet |
 
 ## Revisions, errors corrected, and negative results
 
@@ -57,10 +61,10 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.2. This file distingui
 ## Pending methods and resource gaps
 
 1. Independent photographic verification, orientation review, complete inventory acquisition and catalogue crosswalk validation.
-2. Blind allograph split/merge experiments and uncertainty propagation.
+2. Blind epigraphic allograph split/merge review and uncertainty propagation; representation/history sensitivity is now executed.
 3. Verified artifact/mold/family splits, unequal-length near-duplicate analysis and metadata-conditioned models; one-substitution sensitivity is now executed.
 4. Expanded latent grammar families and state-count range, nonlocal dependency tests, richer administrative baselines; compact HMM experiment is now executed.
-5. Licensed historical corpora and matched grapheme comparisons for Dravidian, Indo-Aryan, Austroasiatic and other hypotheses.
+5. Historically matched grapheme comparisons for Dravidian, Indo-Aryan, Austroasiatic and other hypotheses; initial Tamil/Vedic resource acquisition is executed, but chronology, genre and phonological reconstruction remain unresolved.
 6. Constrained multilingual/rebus alignment with external lexical anchors, chronology and equal-complexity alternative mappings.
 7. Number/quantity reconstruction using stroke counts, metrology and independently identified archaeological contexts.
 8. OCR and glyph-shape models using appropriately licensed labeled images.

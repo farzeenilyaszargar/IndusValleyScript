@@ -16,9 +16,19 @@ The author-hosted PNAS Markov paper and supplement are available in ronojoy/indu
 
 ## Next substantive work
 
-1. Obtain historically appropriate, licensed language corpora and explicit sign/grapheme segmentation standards; compare competing families without speculative upstream translations.
+## Completed release 0.3 extension
+
+Experiment 003 audits all 455 morphology vectors across 92 eligible CISI objects and exports 210 morphology-coded variants of 133 base IDs, with schemas, descriptions, integers and per-object sequences. Previous-variant history prediction targets the same next base sign as baseline, excludes target morphology, and keeps exact/reverse base copies together. All five small holds favour base bigrams; mean change -0.080 bits/token, four intervals overlap zero. No grounds for assigning distinct sounds or merging variants were established.
+
+Candidate historical-language resources are now cached locally through scripts/language_inventory.py: Akananuru (400 verses), Purananuru (388 verses), UD Vedic Sanskrit (27,182 sentence blocks across train/dev/test). URLs, revisions, license metadata and raw hashes are in docs/language_resource_inventory.json; the texts themselves are not committed. Akananuru edition links are null and source provenance needs review. UD README counts are outdated relative to the downloaded snapshot. See LANGUAGE_RESOURCES.md for extraction and chronology limits.
+
+Thirteen correctness checks and offline numerical reproduction pass. Paper version 0.3 incorporates the allograph experiment; the research goal remains active and no decipherment is claimed.
+
+## Next substantive work
+
+1. Use the acquired candidate corpora for controlled unit/genre/short-text structural comparison; explicitly test the effect of representation and avoid interpreting a nearest curve as a language identification. Establish chronology, document grouping, and normalization before constrained alignment.
 2. Extend artifact-type controls and unequal-length/verified-family leakage audits; one-substitution component holdout is executed.
-3. Test Parpola allograph feature representations against base IDs on the annotated subset; retain morphology and uncertainty.
+3. Expand annotated graphic variant data and blind epigraphic review; the initial previous-variant prediction experiment is executed and gives no gain. Preserve morphology and uncertainty.
 4. Expand hidden-state grammar size/families and inspect train-only posterior roles; compact HMMs tested so far are worse than bigrams.
 5. Expand metrology/number-like evidence with independently annotated context, and obtain primary catalogue/photo verification.
 

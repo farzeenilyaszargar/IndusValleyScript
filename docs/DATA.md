@@ -30,6 +30,12 @@ CISI source explicitly describes visual left-to-right transcription of sealings 
 
 The verified image directory has 715 non-placeholder IDs, covering all 712 observed non-placeholder IDs in the raw export. Initially, the explorer's numeric sign list omitted seven observed IDs while listing nine IDs with no image file. The tree-based acquisition fixes the catalogue and preserves the discrepancy in `data/raw/glyph_reference_validation.json`. The Parpola description catalogue contains 395 non-damage entries. These counts describe these sources, not the number of distinct signs in the civilization. Lists differ in how they split allographs and compound signs. Cross-reference fields are attributed source proposals, not a validated merge table. Do not equate a Wells W-ID, ICIT numeric ID, and Parpola P-ID without checking actual glyphs.
 
+## Annotated variants (release 0.3)
+
+The allograph experiment retains all 92 eligible clean object occurrences, including one repeated base sequence; exact/reversed base copies share splits. Their 455 tokens contain 133 base IDs and 210 distinct base-ID/custom-vector combinations. Every vector length matches the source schema. `parpola_variant_catalog.json` exports custom values, source schema, description, counts, object references and separate dense integers. Default damage/line/uncertainty fields are excluded from identity. An integer variant is a graphic representation, not proof of a distinct historical grapheme or sound value.
+
+The prediction experiment compares the same next base-sign target while adding only the preceding sign's morphology. Target morphology is unavailable to its own prediction. It cannot establish allographic equivalence from a failed predictive gain.
+
 ## Limits on inferred independence
 
 Exact and reversed texts are grouped in train/validation/test splits. This prevents one obvious leakage mode but does not group every artifact family, shared mold, copied formula, or near duplicate. Site holds exclude sequences attested in the target site, using all eligible raw rows rather than only the first deduplicated record.
