@@ -21,4 +21,6 @@
 - Fish-rebus audit: H-9's graphic pattern matches a published witness; M-112 exposes plain/modified-fish and filter disagreement. Counts 3/6/7 are enriched in the queried subset, but three competing H-9 interpretations remain observationally indistinguishable; no phonetic value is accepted.
 - Uncertainty sensitivity: adding 25/62 annotated objects gives small fixed-clean-holdout gains with intervals overlapping zero. Source audit finds 43/733 alias-absence positions, 38 with zero annotation codes; filters do not certify transcriptions or a phonetic grammar.
 
+- Exact two-sign gap reconstruction: bigram top1 12.7%, top5 25.0%; candidate coverage 96.1%. Known-length synthetic restoration supplies no phonetics or validated original-object completion.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

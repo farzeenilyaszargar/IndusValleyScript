@@ -40,3 +40,5 @@ Mahadevan's 1977 concordance; Parpola and collaborators' CISI volumes; Wells's i
 ## Working language hypotheses
 
 Proto-Dravidian logo-syllabic readings, Indo-Aryan/Indo-Iranian readings, Austroasiatic proposals, a lost language family, and administrative or mixed-register systems remain alternative explanations. No family has been selected by the experiments here. Modern surnames, unconstrained rebuses, and visual resemblance to Brahmi are insufficient external anchors.
+
+Experiment 011 implements an independent exact one/two-sign synthetic-gap benchmark motivated by the previously inspected Markov missing-sign passages. It uses different source data and smoothing, includes all training glyphs as candidates, and retains unseen truths as failures. It does not replicate any published completion of an original damaged object.

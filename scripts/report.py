@@ -18,6 +18,12 @@ def main():
     meta=read('metadata_conditioning')
     fish_audit=read('fish_rebus_audit')
     uncertainty=read('uncertainty_sensitivity')
+    gaps=read('gap_reconstruction')
+    gap_rows='\n'.join(f'| {length} / {name} | {m["summary"]["masks"]} | {100*m["summary"]["whole_top1"]:.1f}% | {100*m["summary"]["whole_top5"]:.1f}% |'
+        for length,r in gaps['lengths'].items() for name,m in r['models'].items())
+    two_gap=gaps['lengths']['2']
+    two_summary=two_gap['models']['bigram']['summary']
+    two_gain=two_gap['paired_top1_gain']
     uncertainty_rows='\n'.join(f'| {name} | {r["training_objects"]} | {r["test_bits"]:.3f} | '+
         f'{r["clean_baseline_improvement"]["improvement_bits"]:.3f} |'
         for name,r in uncertainty['conditions'].items())
@@ -46,7 +52,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.10 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.11 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -236,6 +242,18 @@ Adding 25 intermediate-filter objects gives a 0.052-bit improvement with grouped
 
 A separate equal-length paired-source audit accepts {uncertainty['source_consistency']['accepted_pairs']} objects and examines {uncertainty['source_consistency']['aligned_positions']} reversed aligned positions against supplied Wells alias lists. It finds {uncertainty['source_consistency']['alias_absences']} alias-absence positions; {uncertainty['source_consistency']['zero_annotation_alias_absences']} have zero local damage and uncertainty codes. M-112's plain/modified fish disagreement is among these unmarked positions. Alias absence can reflect incomplete crosswalks, variant splitting or transcription differences; it is not automatically an error. The result shows that annotation filters alone do not establish cross-corpus agreement. Original-object/face and glyph verification remains an independent requirement before assigning phonetic values or interpreting inferred grammar.
 
+### 4.15 Exact reconstruction of contiguous sign gaps
+
+Experiment 011 extends synthetic masking to every contiguous one- or two-sign span of complete seed-42 held-out ICIT strings. Exact/reverse copies share partitions. Ordinary validation sequence loss selects bigram smoothing {gaps['bigram_strength']}; neither masked targets nor test-neighbor strings inform candidate selection. Every actual training sign is allowed, excluding EOS/UNK. Exhaustive fillings are scored with left, internal and right transitions and normalized over that closed inventory. The unigram baseline has the same inventory and gap lengths. One-sign results exactly reproduce the earlier diagnostic. This follows the missing-sign prediction rationale reviewed in the Markov literature [13]; it is an independent benchmark, not a replication of published restoration claims.
+
+| Gap length / model | Masks | Whole-gap top1 | Whole-gap top5 |
+|---|---|---|---|
+{gap_rows}
+
+For two-sign gaps, the best bigram filling has {100*two_summary['top1_token_accuracy']:.1f}% token accuracy; the entire true gap is in the training inventory in {100*two_summary['whole_truth_in_training_vocabulary']:.1f}% of masks. The whole-gap top1 advantage over unigrams is {100*two_gain['difference']:.1f} percentage points, grouped 95 percent interval [{100*two_gain['interval95'][0]:.1f}, {100*two_gain['interval95'][1]:.1f}]. Bootstrap resampling keeps overlapping masks within each of {two_gain['groups']} canonical inscription groups. All test targets, including unseen signs, remain in the accuracy denominator.
+
+Mean top1 conditional probability for two-sign bigram fillings is {100*two_summary['mean_top1_conditional_probability']:.1f}%. Fixed posterior-bin observed accuracies and per-mask top-five candidates are exported for audit. These probabilities assume a known gap length and a closed candidate inventory; they omit unseen glyph possibilities and must not be interpreted as archaeological certainty. Synthetic masked truth is a secondary transcription, not independently verified glyph evidence. No completion of 000 unknown stretches is produced because their cardinality is unknown, and no recovered integer code acquires a phonetic or semantic value.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -275,6 +293,8 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 [11] Parpola. A Dravidian solution to the Indus script problem. 2010 lecture. https://www.harappa.com/sites/default/files/pdf/Parpola-2010-Coimbatore.pdf
 
 [12] Mahadevan. The Indus Fish Swam in the Great Bath. Bulletin of the Indus Research Centre 2, 2011. https://www.harappa.com/content/indus-fish-swam-great-bath
+
+[13] Rao et al. A Markov model of the Indus script. PNAS, 2009. Author-hosted paper: https://raw.githubusercontent.com/ronojoy/indus/cab6c2d881307825f24d7ed28f7ad62de800ae13/papers/MarkovModelIndusScript.pdf
 '''
     (ROOT/'docs/PAPER.md').write_text(paper)
     summary=f'''# Results snapshot
@@ -299,6 +319,8 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Metadata-conditioned models: site-plus-type shows a small aggregate gain, but matched-smoothing type/site-plus-type intervals overlap zero. No robust independent metadata contribution or decoded object-class formula is established.
 - Fish-rebus audit: H-9's graphic pattern matches a published witness; M-112 exposes plain/modified-fish and filter disagreement. Counts 3/6/7 are enriched in the queried subset, but three competing H-9 interpretations remain observationally indistinguishable; no phonetic value is accepted.
 - Uncertainty sensitivity: adding 25/62 annotated objects gives small fixed-clean-holdout gains with intervals overlapping zero. Source audit finds 43/733 alias-absence positions, 38 with zero annotation codes; filters do not certify transcriptions or a phonetic grammar.
+
+- Exact two-sign gap reconstruction: bigram top1 {100*two_summary['whole_top1']:.1f}%, top5 {100*two_summary['whole_top5']:.1f}%; candidate coverage {100*two_summary['whole_truth_in_training_vocabulary']:.1f}%. Known-length synthetic restoration supplies no phonetics or validated original-object completion.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''

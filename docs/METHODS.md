@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.10. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.11. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -100,3 +100,7 @@ These are planned, not claimed as tried. The goal remains active: exhaustive acq
 ## Evidence policy
 
 Structure is not meaning. A successful sign predictor does not establish a language family. A fitted mapping is not a decipherment unless independent evidence and held-out predictions distinguish it from alternatives. Null results and unavailable resources must be recorded.
+
+## Contiguous-gap reconstruction (Experiment 011)
+
+Design committed before execution. Exact one/two-sign candidate enumeration conditions on known gap length and uses all training glyph IDs, with EOS/UNK excluded from proposed fillings. Complete validation loss selects smoothing; held-out overlapping masks are grouped by canonical inscription for uncertainty. Toy exhaustive-path normalization, unknown-neighbor behavior and unigram context invariance checks pass. Of 709 two-sign masks, 12.7% are recovered at top1 and 25.0% at top5; the entire truth is in the training vocabulary in 96.1%. The unigram whole-gap top1 baseline is 0%; the paired gain interval is [9.7,15.7] percentage points across 202 inscription groups. Top-filling token accuracy is 25.2%. Most gaps remain unresolved. Results and model-confidence diagnostics are recorded in `results/gap_reconstruction.json` and the paper; the original one-sign benchmark must match exactly. No 000 unknown stretch receives a guessed cardinality or translation.
