@@ -21,6 +21,9 @@ def main():
     gaps=read('gap_reconstruction')
     administrative=read('administrative_control')
     mahadevan=read('mahadevan_primary_audit')
+    motif=read('motif_prediction')
+    motif_rows='\n'.join(f'| {name} | {m["bits_per_row"]:.3f} | {100*m["accuracy"]:.1f}% | {100*m["macro_recall_present_classes"]:.1f}% |'
+        for name,m in (("metadata baseline",motif['baseline']),("metadata plus signs",motif['sign_augmented'])))
     admin_rows='\n'.join(f'| {seed} | {r["description"]["signs"]} | {r["within_text_null"]["observed_bits"]:.3f} | '+
         f'{r["evaluation"]["order_1"]["test_bits_per_token_including_EOS"]:.3f} | {r["evaluation"]["order_2"]["test_bits_per_token_including_EOS"]:.3f} | '+
         f'{100*r["evaluation"]["mask_prediction"]["top1_rate"]:.1f}% |'
@@ -58,7 +61,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.13 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.14 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -284,6 +287,20 @@ All {mahadevan['secondary_comparison']['counts']['same_base_sequence']} secondar
 
 A declared strict screen retains {mahadevan['strict_singleline_rows']} single-line rows with {mahadevan['strict_observed_ids']} IDs and {mahadevan['strict_canonical_texts']} distinct exact/reverse canonical strings. It excludes gaps, doubtful signs, nonhorizontal/uncertain arrangements, count inconsistencies and unresolved layouts. All 417 IDs occur somewhere in the raw snapshot. This is acquisition and numerical encoding, not a new modeling result, face-verified crosswalk or semantic anchor. Original-object verification and controlled tests of the new corpus remain separate work.
 
+### 4.18 Face-preserving field-symbol prediction
+
+Experiment 014 uses strictly screened primary lines with their own field-symbol metadata. Before target filtering, rows sharing a source object number or exact/reversed sign string form connected components. This links all faces, including rows later excluded for target codes 0/999. There are {motif['all_components']} components among 2,391 strict rows. Component-count splitting yields 1,427/787/177 rows; the largest component has 592 rows and lies wholly in validation, contributing 96 target rows. This large transitive group makes validation composition uneven and is retained rather than split to improve the score.
+
+After literal target-code exclusions, training/validation/test have {motif['split_rows']['train']}/{motif['split_rows']['validation']}/{motif['split_rows']['test']} rows. Exact codes with at least 20 distinct training objects remain separate; others become RARE. Target classes are raw codes, not animal-name glosses. The baseline interpolates site/object-type/length-bin class counts to pooled class priors. Validation selects strength {motif['selected_baseline_strength']}; this stays fixed when training-only distinct-sign likelihoods are added. Validation chooses sign weight {motif['selected_sign_weight']}, with zero weight available as an ablation. No hidden target field enters the sign predictor.
+
+| Model | Test bits/row | Accuracy | Macro recall |
+|---|---|---|---|
+{motif_rows}
+
+The paired log-loss gain is {motif['paired_gain']['improvement_bits_per_row']:.3f} bits per archaeological row, with connected-component 95 percent interval [{motif['paired_gain']['interval95'][0]:.3f}, {motif['paired_gain']['interval95'][1]:.3f}] across {motif['paired_gain']['groups']} test groups. The interval includes zero, while accuracy and macro recall both decrease. Always selecting the training-majority code scores {100*motif['majority_accuracy']:.1f}% accuracy. Code 13 supplies 67/99 test rows; neither model correctly predicts any of the four other individually retained codes in this small test set. Five test metadata strata are unseen and {motif['unknown_test_sign_tokens']}/{motif['test_sign_tokens']} sign tokens are outside the training inventory.
+
+This tested predictor does not establish an independent iconographic/semantic anchor or disprove all sign/motif associations. RARE combines heterogeneous targets, class imbalance is strong, one large group influences validation, and near-copy/mold-family independence remains unresolved. Connected splits, class-wise confusions, probability vectors and all validation candidates are exported. A sign could covary with motif through institutional or production conventions rather than name the depicted entity; no phonetic or lexical assignment follows.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -361,6 +378,8 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Richer non-phonetic administrative control: all three fixed-seed realizations show bigram gains, masked-sign prediction and within-text shuffle rejection. These features are compatible with known non-phonetic generation and cannot select Indus sound values. Full semantic records are exported; this is not a replication of SIGIL or a model classification.
 
 - Primary Mahadevan acquisition: 3,916 official records, 417 sign-list references and separate integer encodings; 2,391 rows pass the declared strict single-line screen. All secondary base sequences agree, but 265 strip doubtful marks and 92 concatenate lines. No new phonetic value or namespace merger.
+
+- Face-preserving field-code prediction: metadata baseline 1.647 vs sign-augmented 1.629 bits/row; gain interval crosses zero, accuracy/macro recall decline. Majority code dominates the 99-row test. No independent semantic anchor established; giant-component validation imbalance is disclosed.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''

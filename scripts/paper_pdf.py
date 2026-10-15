@@ -19,6 +19,7 @@ def main():
     styles.add(ParagraphStyle('PaperSection',fontName='Helvetica-Bold',fontSize=13,leading=17,spaceBefore=13,spaceAfter=7,keepWithNext=True))
     styles.add(ParagraphStyle('PaperSubsection',fontName='Helvetica-Bold',fontSize=11,leading=14,spaceBefore=9,spaceAfter=5,keepWithNext=True))
     styles.add(ParagraphStyle('PaperTable',fontName='Helvetica',fontSize=8.5,leading=11))
+    styles.add(ParagraphStyle('PaperReference',fontName='Times-Roman',fontSize=9.5,leading=12,spaceAfter=4))
     def paragraph(text,style='PaperBody'):
         return Paragraph(html.escape(text),styles[style])
     lines=(ROOT/'docs/PAPER.md').read_text().splitlines()
@@ -46,7 +47,7 @@ def main():
         elif line.startswith('## '):
             if line=='## References':
                 story.append(KeepTogether([paragraph('References','PaperSection')]+
-                    [paragraph(text) for text in lines[i+1:] if text.strip()]))
+                    [paragraph(text,'PaperReference') for text in lines[i+1:] if text.strip()]))
                 break
             story.append(paragraph(line[3:],'PaperSection'))
         else:story.append(paragraph(line))

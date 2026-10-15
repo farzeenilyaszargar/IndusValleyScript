@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.13 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.14 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -245,6 +245,21 @@ The original printed code tables and four sign-list pages were visually checked 
 All 2742 secondary sequences [16] match a side-specific reconstruction of primary base IDs. However, 265 lose doubtful marks and 92 concatenate multiple primary lines. Primary records contain 504 doubtful tokens in total. Thus matching base codes does not certify clean text or preserve layout. The secondary export remains an audit comparator, not ground truth.
 
 A declared strict screen retains 2391 single-line rows with 375 IDs and 1534 distinct exact/reverse canonical strings. It excludes gaps, doubtful signs, nonhorizontal/uncertain arrangements, count inconsistencies and unresolved layouts. All 417 IDs occur somewhere in the raw snapshot. This is acquisition and numerical encoding, not a new modeling result, face-verified crosswalk or semantic anchor. Original-object verification and controlled tests of the new corpus remain separate work.
+
+### 4.18 Face-preserving field-symbol prediction
+
+Experiment 014 uses strictly screened primary lines with their own field-symbol metadata. Before target filtering, rows sharing a source object number or exact/reversed sign string form connected components. This links all faces, including rows later excluded for target codes 0/999. There are 1321 components among 2,391 strict rows. Component-count splitting yields 1,427/787/177 rows; the largest component has 592 rows and lies wholly in validation, contributing 96 target rows. This large transitive group makes validation composition uneven and is retained rather than split to improve the score.
+
+After literal target-code exclusions, training/validation/test have 878/198/99 rows. Exact codes with at least 20 distinct training objects remain separate; others become RARE. Target classes are raw codes, not animal-name glosses. The baseline interpolates site/object-type/length-bin class counts to pooled class priors. Validation selects strength 1; this stays fixed when training-only distinct-sign likelihoods are added. Validation chooses sign weight 0.5, with zero weight available as an ablation. No hidden target field enters the sign predictor.
+
+| Model | Test bits/row | Accuracy | Macro recall |
+|---|---|---|---|
+| metadata baseline | 1.647 | 71.7% | 20.8% |
+| metadata plus signs | 1.629 | 70.7% | 19.8% |
+
+The paired log-loss gain is 0.017 bits per archaeological row, with connected-component 95 percent interval [-0.018, 0.051] across 88 test groups. The interval includes zero, while accuracy and macro recall both decrease. Always selecting the training-majority code scores 67.7% accuracy. Code 13 supplies 67/99 test rows; neither model correctly predicts any of the four other individually retained codes in this small test set. Five test metadata strata are unseen and 26/466 sign tokens are outside the training inventory.
+
+This tested predictor does not establish an independent iconographic/semantic anchor or disprove all sign/motif associations. RARE combines heterogeneous targets, class imbalance is strong, one large group influences validation, and near-copy/mold-family independence remains unresolved. Connected splits, class-wise confusions, probability vectors and all validation candidates are exported. A sign could covary with motif through institutional or production conventions rather than name the depicted entity; no phonetic or lexical assignment follows.
 
 ## 5. Limitations and implications for decipherment
 

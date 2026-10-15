@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.13. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.14. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -116,3 +116,9 @@ The scoped recent-source/retrieval audit is in RECENT_RESEARCH_AUDIT.md. The SIG
 Design committed/pushed before bulk acquisition. Official public collection paginated into 3,916 frozen whitelisted records, retaining raw annotations and update times; no unrelated collections or proposed readings. Printed code/sign-list pages 30-35 visually reviewed in the original 1977 scan. Separate 417-ID numerical catalogue and page-linked glyph references exported. Full line-level exclusion ledgers distinguish 2,391 strictly eligible rows/1,534 canonical strings/375 IDs from all raw records. Raw snapshot has all 417 IDs and 504 doubtful tokens. Source signnum agrees with nongap positions and posnum with all serialized slots throughout; unknown spans are not expanded.
 
 Secondary export pinned with MIT attribution; every one of its 2,742 base sequences matches the official side-specific reconstruction, but 265 remove doubtful marks and 92 join multiple lines. Primary codebook shows direction labels 4/5/9 differ from the secondary definitions. No motif association, reading-order correction, phonetic key or cross-namespace propagation is attempted. Four tests check doubt/gap preservation, face isolation and multiline reconstruction, corrupted slots/counts and scanned sign-page boundaries. This is acquisition/encoding, not model fitting.
+
+## Field-symbol prediction (Experiment 014)
+
+Design committed/pushed before fitting. All 2,391 strict primary rows form 1,321 connected object-or-exact/reverse-text groups before target filtering. Largest component 592 rows remains wholly in validation (96 target rows); full row/group assignments are exported. Literal target codes 0/999 are omitted after splitting. Task rows: 878 train, 198 validation, 99 test. Five raw codes meet >=20 distinct training-object threshold; the rest become RARE, with no animal-name glosses. Baseline site/type/length interpolation is validation-selected and frozen before adding averaged distinct-sign likelihoods.
+
+Chosen strength 1, sign weight 0.5. Held-out baseline/sign scores 1.647/1.629 bits per row, gain 0.017 with grouped 95% interval [-0.018,0.051] crossing zero. Accuracy 71.7%→70.7%; macro recall 20.8%→19.8%; majority-class accuracy 67.7%. Four individually retained minority classes have zero recall in this small test. Five metadata strata and 26/466 sign tokens are unseen. Negative/inconclusive incremental result, not a rejection of every motif hypothesis or an assignment of depicted-entity names. Three correctness checks verify transitive object/face grouping, distinct-object target thresholds, normalized probabilities and ignored unseen sign evidence.

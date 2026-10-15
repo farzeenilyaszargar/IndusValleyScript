@@ -27,4 +27,6 @@
 
 - Primary Mahadevan acquisition: 3,916 official records, 417 sign-list references and separate integer encodings; 2,391 rows pass the declared strict single-line screen. All secondary base sequences agree, but 265 strip doubtful marks and 92 concatenate lines. No new phonetic value or namespace merger.
 
+- Face-preserving field-code prediction: metadata baseline 1.647 vs sign-augmented 1.629 bits/row; gain interval crosses zero, accuracy/macro recall decline. Majority code dominates the 99-row test. No independent semantic anchor established; giant-component validation imbalance is disclosed.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
