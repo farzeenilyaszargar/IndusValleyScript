@@ -1,0 +1,52 @@
+{
+  "book": "Iravatham Mahadevan, The Indus Script: Texts, Concordance and Tables (ASI 1977)",
+  "book_sha256": "afa32284c375b4f501a4c38efba7806b64765f041db07b22ea2e56f7205f0f67",
+  "viewed_pdf_pages": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "printed_pages": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "review": "Codex-assisted visual reading of code tables and sign-list pages, not independent transcription or original-object photographs.",
+  "direction_codes": {
+    "0": "none",
+    "1": "RTL",
+    "2": "LTR",
+    "3": "single",
+    "4": "vertical",
+    "5": "symmetric",
+    "9": "doubtful"
+  },
+  "source_application": "https://indusscript.in",
+  "application_js_sha256": "5861d0534ce30460bc6539b8d8a6f501164ff85ff0d388c71a8468a731ff687b",
+  "secondary_repository": "gkarun876/IVS",
+  "secondary_commit": "7c0273f544998178a4e4f71b80407c52d1ac2f24",
+  "secondary_codebook_differences": {
+    "4": {
+      "primary": "vertical",
+      "secondary": "symmetric"
+    },
+    "5": {
+      "primary": "symmetric",
+      "secondary": "doubtful"
+    },
+    "9": {
+      "primary": "doubtful",
+      "secondary": "none"
+    },
+    "0": {
+      "primary": "none",
+      "secondary": "unknown"
+    }
+  }
+}

@@ -23,7 +23,7 @@ Complete acquisition of every excavated sign and successful decipherment are ope
 - [Searchable catalogue](docs/SIGN_CATALOGUE.html) (download and open locally; remote images require network access)
 - [Data audit](docs/DATA.md), [literature](docs/LITERATURE.md), [remaining hypotheses](docs/HYPOTHESES.md)
 
-Release 0.12: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
+Release 0.13: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
 
 Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, including EOS and a collapsed unknown-sign event. This measures sequence predictability, not translation. No phonetic key or language family has been identified.
 
@@ -62,3 +62,5 @@ Attribution and inherited-material limits are documented in DATA.md. Proposed tr
 The [contiguous-gap reconstruction experiment](docs/EXPERIMENT_011.md) evaluates exact one/two-sign completions on held-out synthetic masks. Candidate probabilities condition on known gap length and the training inventory; integer completions are not translations or independently verified restorations.
 
 The [richer administrative control](docs/EXPERIMENT_012.md) generates fictional records with explicit semantics and no phonetic values. Three length-matched realizations show bigram gains and masked-sign predictability. These effects remain compatible with non-phonetic generation; they do not select Indus sounds or meanings. [Recent-source audit](docs/RECENT_RESEARCH_AUDIT.md) records new literature leads and failed artifact retrievals.
+
+The [primary Mahadevan acquisition](docs/EXPERIMENT_013.md) adds 3,916 official records with preserved line/uncertainty metadata and 417 separate sign-list references/integer codes. The secondary export strips doubt in 265 records and joins lines in 92; it remains an audit comparator. These primary records are not automatically merged with existing catalogues or treated as translations.

@@ -25,4 +25,6 @@
 
 - Richer non-phonetic administrative control: all three fixed-seed realizations show bigram gains, masked-sign prediction and within-text shuffle rejection. These features are compatible with known non-phonetic generation and cannot select Indus sound values. Full semantic records are exported; this is not a replication of SIGIL or a model classification.
 
+- Primary Mahadevan acquisition: 3,916 official records, 417 sign-list references and separate integer encodings; 2,391 rows pass the declared strict single-line screen. All secondary base sequences agree, but 265 strip doubtful marks and 92 concatenate lines. No new phonetic value or namespace merger.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

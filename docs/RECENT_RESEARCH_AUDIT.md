@@ -18,3 +18,7 @@ Experiment 012 is our separate authored control, not a reconstruction or replica
 - [gkarun876/IVS](https://github.com/gkarun876/IVS): README advertises a Mahadevan-numbered corpus and motif records. Candidate acquisition requires pinned source, original-table provenance, licensing and sign-ID/face review. Its proposed phonetic anchors are not accepted evidence.
 
 These leads may support later corpus expansion or controlled hypothesis tests after source inspection. They do not constitute a semantic breakthrough in this project.
+
+## Follow-up: official Mahadevan acquisition
+
+Experiment 013 traced the secondary parser to the official Indus Research Centre application. Its public collection was acquired with raw doubt and side/line metadata, and original code/sign-list pages were visually reviewed. See EXPERIMENT_013.md, DATA.md and mahadevan_source_review.json. The repository lead now has a completed provenance/annotation audit; its proposed readings remain excluded.

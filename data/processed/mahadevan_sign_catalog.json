@@ -1,0 +1,3347 @@
+{
+  "reserved": {
+    "PAD": 0,
+    "UNK_or_gap_slot": 1,
+    "BOS": 2,
+    "EOS": 3
+  },
+  "signs": [
+    {
+      "id": "M001",
+      "integer": 4,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M002",
+      "integer": 5,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M003",
+      "integer": 6,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M004",
+      "integer": 7,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M005",
+      "integer": 8,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M006",
+      "integer": 9,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M007",
+      "integer": 10,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M008",
+      "integer": 11,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M009",
+      "integer": 12,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M010",
+      "integer": 13,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M011",
+      "integer": 14,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M012",
+      "integer": 15,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M013",
+      "integer": 16,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M014",
+      "integer": 17,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M015",
+      "integer": 18,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M016",
+      "integer": 19,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M017",
+      "integer": 20,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M018",
+      "integer": 21,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M019",
+      "integer": 22,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M020",
+      "integer": 23,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M021",
+      "integer": 24,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M022",
+      "integer": 25,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M023",
+      "integer": 26,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M024",
+      "integer": 27,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M025",
+      "integer": 28,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M026",
+      "integer": 29,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M027",
+      "integer": 30,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M028",
+      "integer": 31,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M029",
+      "integer": 32,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M030",
+      "integer": 33,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M031",
+      "integer": 34,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M032",
+      "integer": 35,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M033",
+      "integer": 36,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M034",
+      "integer": 37,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M035",
+      "integer": 38,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M036",
+      "integer": 39,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M037",
+      "integer": 40,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M038",
+      "integer": 41,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M039",
+      "integer": 42,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M040",
+      "integer": 43,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M041",
+      "integer": 44,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M042",
+      "integer": 45,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M043",
+      "integer": 46,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M044",
+      "integer": 47,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M045",
+      "integer": 48,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M046",
+      "integer": 49,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M047",
+      "integer": 50,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M048",
+      "integer": 51,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M049",
+      "integer": 52,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M050",
+      "integer": 53,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M051",
+      "integer": 54,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M052",
+      "integer": 55,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M053",
+      "integer": 56,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M054",
+      "integer": 57,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M055",
+      "integer": 58,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M056",
+      "integer": 59,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M057",
+      "integer": 60,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M058",
+      "integer": 61,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M059",
+      "integer": 62,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M060",
+      "integer": 63,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M061",
+      "integer": 64,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M062",
+      "integer": 65,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M063",
+      "integer": 66,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M064",
+      "integer": 67,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M065",
+      "integer": 68,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M066",
+      "integer": 69,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M067",
+      "integer": 70,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M068",
+      "integer": 71,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M069",
+      "integer": 72,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M070",
+      "integer": 73,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M071",
+      "integer": 74,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M072",
+      "integer": 75,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M073",
+      "integer": 76,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M074",
+      "integer": 77,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M075",
+      "integer": 78,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M076",
+      "integer": 79,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M077",
+      "integer": 80,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M078",
+      "integer": 81,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M079",
+      "integer": 82,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M080",
+      "integer": 83,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M081",
+      "integer": 84,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M082",
+      "integer": 85,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M083",
+      "integer": 86,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M084",
+      "integer": 87,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M085",
+      "integer": 88,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M086",
+      "integer": 89,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M087",
+      "integer": 90,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M088",
+      "integer": 91,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M089",
+      "integer": 92,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M090",
+      "integer": 93,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M091",
+      "integer": 94,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M092",
+      "integer": 95,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M093",
+      "integer": 96,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M094",
+      "integer": 97,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M095",
+      "integer": 98,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M096",
+      "integer": 99,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M097",
+      "integer": 100,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M098",
+      "integer": 101,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M099",
+      "integer": 102,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M100",
+      "integer": 103,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M101",
+      "integer": 104,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M102",
+      "integer": 105,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M103",
+      "integer": 106,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M104",
+      "integer": 107,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M105",
+      "integer": 108,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M106",
+      "integer": 109,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M107",
+      "integer": 110,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M108",
+      "integer": 111,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M109",
+      "integer": 112,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M110",
+      "integer": 113,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 43,
+      "source_printed_page": 32,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=43"
+    },
+    {
+      "id": "M111",
+      "integer": 114,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M112",
+      "integer": 115,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M113",
+      "integer": 116,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M114",
+      "integer": 117,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M115",
+      "integer": 118,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M116",
+      "integer": 119,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M117",
+      "integer": 120,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M118",
+      "integer": 121,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M119",
+      "integer": 122,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M120",
+      "integer": 123,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M121",
+      "integer": 124,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M122",
+      "integer": 125,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M123",
+      "integer": 126,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M124",
+      "integer": 127,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M125",
+      "integer": 128,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M126",
+      "integer": 129,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M127",
+      "integer": 130,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M128",
+      "integer": 131,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M129",
+      "integer": 132,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M130",
+      "integer": 133,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M131",
+      "integer": 134,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M132",
+      "integer": 135,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M133",
+      "integer": 136,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M134",
+      "integer": 137,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M135",
+      "integer": 138,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M136",
+      "integer": 139,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M137",
+      "integer": 140,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M138",
+      "integer": 141,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M139",
+      "integer": 142,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M140",
+      "integer": 143,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M141",
+      "integer": 144,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M142",
+      "integer": 145,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M143",
+      "integer": 146,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M144",
+      "integer": 147,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M145",
+      "integer": 148,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M146",
+      "integer": 149,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M147",
+      "integer": 150,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M148",
+      "integer": 151,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M149",
+      "integer": 152,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M150",
+      "integer": 153,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M151",
+      "integer": 154,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M152",
+      "integer": 155,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M153",
+      "integer": 156,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M154",
+      "integer": 157,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M155",
+      "integer": 158,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M156",
+      "integer": 159,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M157",
+      "integer": 160,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M158",
+      "integer": 161,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M159",
+      "integer": 162,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M160",
+      "integer": 163,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M161",
+      "integer": 164,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M162",
+      "integer": 165,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M163",
+      "integer": 166,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M164",
+      "integer": 167,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M165",
+      "integer": 168,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M166",
+      "integer": 169,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M167",
+      "integer": 170,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M168",
+      "integer": 171,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M169",
+      "integer": 172,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M170",
+      "integer": 173,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M171",
+      "integer": 174,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M172",
+      "integer": 175,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M173",
+      "integer": 176,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M174",
+      "integer": 177,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M175",
+      "integer": 178,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M176",
+      "integer": 179,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M177",
+      "integer": 180,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M178",
+      "integer": 181,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M179",
+      "integer": 182,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M180",
+      "integer": 183,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M181",
+      "integer": 184,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M182",
+      "integer": 185,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M183",
+      "integer": 186,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M184",
+      "integer": 187,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M185",
+      "integer": 188,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M186",
+      "integer": 189,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M187",
+      "integer": 190,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M188",
+      "integer": 191,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M189",
+      "integer": 192,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M190",
+      "integer": 193,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M191",
+      "integer": 194,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M192",
+      "integer": 195,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M193",
+      "integer": 196,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M194",
+      "integer": 197,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M195",
+      "integer": 198,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M196",
+      "integer": 199,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M197",
+      "integer": 200,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M198",
+      "integer": 201,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M199",
+      "integer": 202,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M200",
+      "integer": 203,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M201",
+      "integer": 204,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M202",
+      "integer": 205,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M203",
+      "integer": 206,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M204",
+      "integer": 207,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M205",
+      "integer": 208,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M206",
+      "integer": 209,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M207",
+      "integer": 210,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M208",
+      "integer": 211,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M209",
+      "integer": 212,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M210",
+      "integer": 213,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M211",
+      "integer": 214,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M212",
+      "integer": 215,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M213",
+      "integer": 216,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M214",
+      "integer": 217,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M215",
+      "integer": 218,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M216",
+      "integer": 219,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M217",
+      "integer": 220,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M218",
+      "integer": 221,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M219",
+      "integer": 222,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 44,
+      "source_printed_page": 33,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=44"
+    },
+    {
+      "id": "M220",
+      "integer": 223,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M221",
+      "integer": 224,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M222",
+      "integer": 225,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M223",
+      "integer": 226,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M224",
+      "integer": 227,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M225",
+      "integer": 228,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M226",
+      "integer": 229,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M227",
+      "integer": 230,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M228",
+      "integer": 231,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M229",
+      "integer": 232,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M230",
+      "integer": 233,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M231",
+      "integer": 234,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M232",
+      "integer": 235,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M233",
+      "integer": 236,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M234",
+      "integer": 237,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M235",
+      "integer": 238,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M236",
+      "integer": 239,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M237",
+      "integer": 240,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M238",
+      "integer": 241,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M239",
+      "integer": 242,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M240",
+      "integer": 243,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M241",
+      "integer": 244,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M242",
+      "integer": 245,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M243",
+      "integer": 246,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M244",
+      "integer": 247,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M245",
+      "integer": 248,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M246",
+      "integer": 249,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M247",
+      "integer": 250,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M248",
+      "integer": 251,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M249",
+      "integer": 252,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M250",
+      "integer": 253,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M251",
+      "integer": 254,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M252",
+      "integer": 255,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M253",
+      "integer": 256,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M254",
+      "integer": 257,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M255",
+      "integer": 258,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M256",
+      "integer": 259,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M257",
+      "integer": 260,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M258",
+      "integer": 261,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M259",
+      "integer": 262,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M260",
+      "integer": 263,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M261",
+      "integer": 264,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M262",
+      "integer": 265,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M263",
+      "integer": 266,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M264",
+      "integer": 267,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M265",
+      "integer": 268,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M266",
+      "integer": 269,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M267",
+      "integer": 270,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M268",
+      "integer": 271,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M269",
+      "integer": 272,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M270",
+      "integer": 273,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M271",
+      "integer": 274,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M272",
+      "integer": 275,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M273",
+      "integer": 276,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M274",
+      "integer": 277,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M275",
+      "integer": 278,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M276",
+      "integer": 279,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M277",
+      "integer": 280,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M278",
+      "integer": 281,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M279",
+      "integer": 282,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M280",
+      "integer": 283,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M281",
+      "integer": 284,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M282",
+      "integer": 285,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M283",
+      "integer": 286,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M284",
+      "integer": 287,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M285",
+      "integer": 288,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M286",
+      "integer": 289,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M287",
+      "integer": 290,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M288",
+      "integer": 291,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M289",
+      "integer": 292,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M290",
+      "integer": 293,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M291",
+      "integer": 294,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M292",
+      "integer": 295,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M293",
+      "integer": 296,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M294",
+      "integer": 297,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M295",
+      "integer": 298,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M296",
+      "integer": 299,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M297",
+      "integer": 300,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M298",
+      "integer": 301,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M299",
+      "integer": 302,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M300",
+      "integer": 303,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M301",
+      "integer": 304,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M302",
+      "integer": 305,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M303",
+      "integer": 306,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M304",
+      "integer": 307,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M305",
+      "integer": 308,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M306",
+      "integer": 309,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M307",
+      "integer": 310,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M308",
+      "integer": 311,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M309",
+      "integer": 312,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M310",
+      "integer": 313,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M311",
+      "integer": 314,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M312",
+      "integer": 315,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M313",
+      "integer": 316,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M314",
+      "integer": 317,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M315",
+      "integer": 318,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M316",
+      "integer": 319,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M317",
+      "integer": 320,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M318",
+      "integer": 321,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M319",
+      "integer": 322,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M320",
+      "integer": 323,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M321",
+      "integer": 324,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M322",
+      "integer": 325,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M323",
+      "integer": 326,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M324",
+      "integer": 327,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M325",
+      "integer": 328,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M326",
+      "integer": 329,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M327",
+      "integer": 330,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M328",
+      "integer": 331,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M329",
+      "integer": 332,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 45,
+      "source_printed_page": 34,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=45"
+    },
+    {
+      "id": "M330",
+      "integer": 333,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M331",
+      "integer": 334,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M332",
+      "integer": 335,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M333",
+      "integer": 336,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M334",
+      "integer": 337,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M335",
+      "integer": 338,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M336",
+      "integer": 339,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M337",
+      "integer": 340,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M338",
+      "integer": 341,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M339",
+      "integer": 342,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M340",
+      "integer": 343,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M341",
+      "integer": 344,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M342",
+      "integer": 345,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M343",
+      "integer": 346,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M344",
+      "integer": 347,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M345",
+      "integer": 348,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M346",
+      "integer": 349,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M347",
+      "integer": 350,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M348",
+      "integer": 351,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M349",
+      "integer": 352,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M350",
+      "integer": 353,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M351",
+      "integer": 354,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M352",
+      "integer": 355,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M353",
+      "integer": 356,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M354",
+      "integer": 357,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M355",
+      "integer": 358,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M356",
+      "integer": 359,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M357",
+      "integer": 360,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M358",
+      "integer": 361,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M359",
+      "integer": 362,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M360",
+      "integer": 363,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M361",
+      "integer": 364,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M362",
+      "integer": 365,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M363",
+      "integer": 366,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M364",
+      "integer": 367,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M365",
+      "integer": 368,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M366",
+      "integer": 369,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M367",
+      "integer": 370,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M368",
+      "integer": 371,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M369",
+      "integer": 372,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M370",
+      "integer": 373,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M371",
+      "integer": 374,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M372",
+      "integer": 375,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M373",
+      "integer": 376,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M374",
+      "integer": 377,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M375",
+      "integer": 378,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M376",
+      "integer": 379,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M377",
+      "integer": 380,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M378",
+      "integer": 381,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M379",
+      "integer": 382,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M380",
+      "integer": 383,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M381",
+      "integer": 384,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M382",
+      "integer": 385,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M383",
+      "integer": 386,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M384",
+      "integer": 387,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M385",
+      "integer": 388,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M386",
+      "integer": 389,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M387",
+      "integer": 390,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M388",
+      "integer": 391,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M389",
+      "integer": 392,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M390",
+      "integer": 393,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M391",
+      "integer": 394,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M392",
+      "integer": 395,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M393",
+      "integer": 396,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M394",
+      "integer": 397,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M395",
+      "integer": 398,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M396",
+      "integer": 399,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M397",
+      "integer": 400,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M398",
+      "integer": 401,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M399",
+      "integer": 402,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M400",
+      "integer": 403,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M401",
+      "integer": 404,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M402",
+      "integer": 405,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M403",
+      "integer": 406,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M404",
+      "integer": 407,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M405",
+      "integer": 408,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M406",
+      "integer": 409,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M407",
+      "integer": 410,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M408",
+      "integer": 411,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M409",
+      "integer": 412,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M410",
+      "integer": 413,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M411",
+      "integer": 414,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M412",
+      "integer": 415,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M413",
+      "integer": 416,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M414",
+      "integer": 417,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M415",
+      "integer": 418,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M416",
+      "integer": 419,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    },
+    {
+      "id": "M417",
+      "integer": 420,
+      "namespace": "Mahadevan1977",
+      "source_pdf_page": 46,
+      "source_printed_page": 35,
+      "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf#page=46"
+    }
+  ],
+  "scope": "Original sign-list page references; separate numeric namespace. Gap slots can span an unknown number of signs. Raster book pages are not redistributed."
+}

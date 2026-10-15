@@ -1,0 +1,109 @@
+{
+  "source": "RMRL Indus Research Centre official Indus Script application",
+  "application": "https://indusscript.in",
+  "collection_url": "https://firestore.googleapis.com/v1/projects/theindusscript/databases/(default)/documents/indusarray",
+  "fields_whitelist": [
+    "textnum",
+    "sideline",
+    "locus",
+    "level",
+    "inscobj",
+    "fs80",
+    "dir",
+    "posnum",
+    "signnum",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14"
+  ],
+  "started_utc": "2026-10-15T01:31:16.417243+00:00",
+  "finished_utc": "2026-10-15T01:31:32.681918+00:00",
+  "records": 3916,
+  "pages": [
+    {
+      "page": 0,
+      "sha256": "bb277d4e01a3100a84ddf48eba2ff36d4d9a8dddb6d6bb12301ee7a5b53fcb76",
+      "documents": 300
+    },
+    {
+      "page": 1,
+      "sha256": "3484d013ebf4fd0b009533c5f73861c431ea262fb2069f324eb2b1f10380d8ee",
+      "documents": 300
+    },
+    {
+      "page": 2,
+      "sha256": "b38b009574725b1f92a3701ea0f6a1d5536c1524e29bf57e6916a76c38b4077b",
+      "documents": 300
+    },
+    {
+      "page": 3,
+      "sha256": "3b876c3e75f518d6179c24e69f78dfec50e3ad49771692192b9dcef97ade431f",
+      "documents": 300
+    },
+    {
+      "page": 4,
+      "sha256": "22374cb7077bc32f6e24c9058a7c3b967c6637e4f05b215a48e92d6ea2ddea40",
+      "documents": 300
+    },
+    {
+      "page": 5,
+      "sha256": "4a76018ab522ff3265c0e4c4419dd2310fa507682012cea1b8114623eb9eb0a5",
+      "documents": 300
+    },
+    {
+      "page": 6,
+      "sha256": "9c63cfc1a6e066e9b801eb6d638badbe9d93520f337b8e58b88c7158d26d0d23",
+      "documents": 300
+    },
+    {
+      "page": 7,
+      "sha256": "5a4e7eeba58b7cc2ecabe49345167c7338b182047d690d73a45eec9850719f43",
+      "documents": 300
+    },
+    {
+      "page": 8,
+      "sha256": "ab8742e98d5c26bcd13d11f0354f61808a344e33033302b9b587516fab33be4f",
+      "documents": 300
+    },
+    {
+      "page": 9,
+      "sha256": "6a5b87d09f4cce45f96436d4ba273fc94b667c37e33464e6e988b07107f3266c",
+      "documents": 300
+    },
+    {
+      "page": 10,
+      "sha256": "aa490b0fae4c552d0a2f9aa1413e7d478687ac4c1a2b067d186ae05b3ca0d9f9",
+      "documents": 300
+    },
+    {
+      "page": 11,
+      "sha256": "2ae7d9882c34ecbaf0f90d0b5bce6e8a12cdff9283e3a6dc1d8a5e3f0299d3ab",
+      "documents": 300
+    },
+    {
+      "page": 12,
+      "sha256": "e5a252f4370b9affd9a76b59d80b53823e5c0f4136d681480d2c2dff2ac6112f",
+      "documents": 300
+    },
+    {
+      "page": 13,
+      "sha256": "1648463d21d3a8ae09b96c93a2f3c978c0b0d5b98594bb7dc96b8798c36d6678",
+      "documents": 16
+    }
+  ],
+  "output_sha256": {
+    "mahadevan_primary.json": "93286b4f36005401d7141054ba99ec1088f12dec1b6de03e28c04df5c105806c"
+  },
+  "scope": "Public archaeological numeric records only; no phonetic mappings. Paginated reads are not an atomic historical snapshot; raw response pages cached privately. Whitelisted snapshot is frozen for offline checks."
+}

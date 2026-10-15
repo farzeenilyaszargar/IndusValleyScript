@@ -1,0 +1,13 @@
+{
+  "repository": "gkarun876/IVS",
+  "commit": "7c0273f544998178a4e4f71b80407c52d1ac2f24",
+  "files": {
+    "mahadevan_secondary.json": "data__mahadevan_corpus.json",
+    "MAHADEVAN_SECONDARY_LICENSE.txt": "LICENSE"
+  },
+  "output_sha256": {
+    "mahadevan_secondary.json": "735dbca83a3907a46dad366835bbfdb3c0647e287dce896a8df6c80ca8402b7c",
+    "MAHADEVAN_SECONDARY_LICENSE.txt": "301595223fefaa9c1a2115f296fd725224ec133e0750a4082232baa6de8f6b3c"
+  },
+  "role": "Audit comparator only; source strips doubtful marks and joins lines. Not independent ground truth."
+}

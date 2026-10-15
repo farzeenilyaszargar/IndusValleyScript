@@ -1,12 +1,12 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.12 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.13 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
 ## Abstract
 
-We investigate whether public Indus transcription data support reproducible constraints useful for eventual decipherment. A pinned ICIT-derived export supplies 5,679 records, reduced to 2,156 distinct complete single-line sign sequences, 9,221 tokens, and 637 observed sign IDs. We also audit a separate annotated CISI subset and index 715 verified glyph-reference files. Methods include entropy permutation controls, held-out n-gram models, positional templates, distributional embeddings, adjacency candidates, cross-site transfer, a morphology-based tally/fish test, and substitution invariance. Bigram models average 5.452 bits/token versus 6.450 for unigrams across five splits. Three permutation tests yield lower-tail Monte Carlo p=0.005. These results establish constraints relative to specified baselines, without identifying a language family, phonetic values, or translations. The work provides a falsifiable foundation and identifies data and external anchors needed for further progress.
+We investigate whether public Indus transcription data support reproducible constraints useful for eventual decipherment. A pinned ICIT-derived export supplies 5,679 records, reduced to 2,156 distinct complete single-line sequences, 9,221 tokens and 637 sign IDs. A separate annotated CISI subset supports morphology and correspondence audits. We index 715 glyph-reference files and acquire 3,916 official Mahadevan records with raw uncertainty/layout metadata and 417 separate sign-list references. Of 2,742 secondary sequences matching primary base codes, 265 strip doubtful readings and 92 concatenate lines. Methods include entropy controls, held-out sequence models, masked reconstruction, positional/context representations and controlled language/administrative comparisons. Bigrams average 5.452 bits/token versus 6.450 for unigrams across five splits; synthetic two-sign gaps are recovered at top1 in 12.7%. A richer explicitly non-phonetic administrative generator also supports masked prediction and bigram gains. These results establish structural constraints and source-quality limits, without identifying a language family, sound values or translations. Independent semantic and archaeological anchors remain necessary for decipherment.
 
 ## 1. Research question and prior work
 
@@ -236,6 +236,16 @@ Every realization rejects its own within-text shuffle at the minimum possible p=
 
 This is a compatibility demonstration, not a calibrated linguistic/non-linguistic classifier or a reconstruction of Harappan administration. Its vocabulary and duplicate frequencies differ from the real corpus; near-copy families are not separated, and three seeds sample one chosen architecture rather than all plausible alternatives. It does not show that Indus signs are non-linguistic, nor assign an institution, commodity, quantity or sound to any Indus ID. Structural gains alone remain insufficient to configure a historically justified spoken-language reading.
 
+### 4.17 Primary Mahadevan acquisition, signs and annotation preservation
+
+Experiment 013 acquires the official Indus Research Centre/RMRL application's public archaeological collection through paginated reads. The frozen whitelist snapshot contains 3916 records, including 3573 nonempty text rows. Raw S1-S14 strings, doubtful asterisks, gaps, combined side/line codes, directions, object/field-symbol codes and locus/level metadata are retained with source update times and page hashes. Pagination is not an atomic historical database snapshot; offline results refer only to the committed frozen copy. No proposed sound mappings enter acquisition.
+
+The original printed code tables and four sign-list pages were visually checked in the 1977 source [15]. Codes 4/5/9 denote vertical/symmetric/doubtful arrangements, respectively; a secondary codebook shifts those labels. The 417 original sign-list IDs now have separate integer tokens and page-linked glyph references. They are not merged into Parpola or Wells IDs, and raster book pages are not redistributed. A zero denotes an illegible stretch of unknown cardinality, mapped to a reserved unknown slot rather than a sign or padding; doubtful readings retain both base ID and uncertainty flag.
+
+All 2742 secondary sequences [16] match a side-specific reconstruction of primary base IDs. However, 265 lose doubtful marks and 92 concatenate multiple primary lines. Primary records contain 504 doubtful tokens in total. Thus matching base codes does not certify clean text or preserve layout. The secondary export remains an audit comparator, not ground truth.
+
+A declared strict screen retains 2391 single-line rows with 375 IDs and 1534 distinct exact/reverse canonical strings. It excludes gaps, doubtful signs, nonhorizontal/uncertain arrangements, count inconsistencies and unresolved layouts. All 417 IDs occur somewhere in the raw snapshot. This is acquisition and numerical encoding, not a new modeling result, face-verified crosswalk or semantic anchor. Original-object verification and controlled tests of the new corpus remain separate work.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate (36.1 percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -279,3 +289,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 [13] Rao et al. A Markov model of the Indus script. PNAS, 2009. Author-hosted paper: https://raw.githubusercontent.com/ronojoy/indus/cab6c2d881307825f24d7ed28f7ad62de800ae13/papers/MarkovModelIndusScript.pdf
 
 [14] Raghavendra. On the Non-Specificity of Statistical Measures Used in Script Decipherment. 2026 arXiv preprint; peer-review status not established here. https://arxiv.org/abs/2608.02999
+
+[15] Mahadevan. The Indus Script: Texts, Concordance and Tables. ASI Memoir 77, 1977. Code/sign-list pages 30-35. Public scan: https://archive.org/details/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan
+
+[16] Arun G K. IVS repository, pinned source export/parser and codebook, revision 7c0273f544998178a4e4f71b80407c52d1ac2f24. https://github.com/gkarun876/IVS

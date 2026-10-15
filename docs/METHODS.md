@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.12. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.13. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -110,3 +110,9 @@ Design committed before execution. Exact one/two-sign candidate enumeration cond
 Design committed/pushed before execution. Separate fictional notation with explicit institution/guild licenses, commodity/quantity preferences, rank and validation conventions; no phonetic values. Three seeds each match only the Indus length list, not observed sign frequencies/transitions. All show conditional entropy about 2.91 bits vs within-text null about 4.43 (99 trials; p=0.010), held-out bigram improvement about 2.22-2.26 bits with grouped intervals excluding zero, and single-mask top1 33.1-34.5% vs 3.8-5.7% frequent-sign baselines. Generated duplicates stay weighted but canonical reverse/exact groups do not cross splits. This shows compatibility with non-phonetic generation, not an Indus administrative decipherment, a likelihood ratio, or SIGIL replication. Full semantic records and licenses are in results/administrative_control.json. Three new checks verify determinism, length/role constraints and detection of a corrupted semantic record.
 
 The scoped recent-source/retrieval audit is in RECENT_RESEARCH_AUDIT.md. The SIGIL corpus was not retrieved from checked sources; no reported SIGIL results are adopted as independently executed here. New proposed-readings repositories are leads and remain outside neutral analytical input.
+
+## Primary Mahadevan acquisition (Experiment 013)
+
+Design committed/pushed before bulk acquisition. Official public collection paginated into 3,916 frozen whitelisted records, retaining raw annotations and update times; no unrelated collections or proposed readings. Printed code/sign-list pages 30-35 visually reviewed in the original 1977 scan. Separate 417-ID numerical catalogue and page-linked glyph references exported. Full line-level exclusion ledgers distinguish 2,391 strictly eligible rows/1,534 canonical strings/375 IDs from all raw records. Raw snapshot has all 417 IDs and 504 doubtful tokens. Source signnum agrees with nongap positions and posnum with all serialized slots throughout; unknown spans are not expanded.
+
+Secondary export pinned with MIT attribution; every one of its 2,742 base sequences matches the official side-specific reconstruction, but 265 remove doubtful marks and 92 join multiple lines. Primary codebook shows direction labels 4/5/9 differ from the secondary definitions. No motif association, reading-order correction, phonetic key or cross-namespace propagation is attempted. Four tests check doubt/gap preservation, face isolation and multiline reconstruction, corrupted slots/counts and scanned sign-page boundaries. This is acquisition/encoding, not model fitting.

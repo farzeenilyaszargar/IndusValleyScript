@@ -51,3 +51,9 @@ All 715 pinned JPEG references are acquired into ignored `.cache/glyph-reference
 ## Limits on inferred independence
 
 Exact and reversed texts are grouped in train/validation/test splits. This prevents one obvious leakage mode but does not group every artifact family, shared mold, copied formula, or near duplicate. Site holds exclude sequences attested in the target site, using all eligible raw rows rather than only the first deduplicated record.
+
+## Primary Mahadevan snapshot
+
+Optional online acquisition: `python3 scripts/acquire_mahadevan.py`. Default offline audit: `python3 scripts/mahadevan_primary.py`. The public RMRL/Indus Research Centre application collection is frozen in data/raw/mahadevan_primary.json with a separate manifest of neutral field whitelist, page hashes, source update times and acquisition timestamps. Raw response pages remain in ignored cache; public numerical records retain original annotations. Paginated reads are not atomic; no refresh occurs during reproduction.
+
+The separate secondary export is pinned at gkarun876/IVS revision 7c0273f544998178a4e4f71b80407c52d1ac2f24 with its MIT attribution retained in MAHADEVAN_SECONDARY_LICENSE.txt. It is an audit comparator only. No proposed phonetic anchors are ingested. Source page review and primary-vs-secondary code differences are recorded in docs/mahadevan_source_review.json. The original 1977 book scan stays local; catalogue links point to its sign-list pages. Numeric namespace M001-M417 has reserved PAD/UNK/BOS/EOS states and is not a crosswalk. Unknown-span slots do not imply one missing sign.
