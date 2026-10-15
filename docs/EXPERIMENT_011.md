@@ -1,0 +1,9 @@
+# Experiment 011: exact contiguous-gap reconstruction
+
+Recorded before execution, 15 October 2026. Extend the single-sign diagnostic to one- and two-sign contiguous gaps in held-out complete unique ICIT strings. This measures graphic reconstruction conditional on known gap length, not translation or identification of an unknown stretch's size.
+
+Use seed-42 exact/reverse-group train/validation/test partitions. Select bigram smoothing 1/5/20/100 using ordinary complete validation sequence log loss. Candidate values are every actual sign observed in training; EOS, BOS and UNK are never proposed as glyphs. Exhaustively score candidate fillings using the left edge, internal transitions and right edge of each gap. Normalize over all candidate fillings, keeping top five. The unigram baseline uses the same candidate space and joint product of sign frequencies.
+
+Mask every eligible contiguous held-out span of length one or two; neither masked truth nor other test strings influence selection or candidate construction. Report exact whole-gap top1/top5, token accuracy of the top filling, train-vocabulary coverage of the entire truth, mean top1 posterior, and observed top1 accuracy in fixed posterior bins. Unknown truths count as failures; confidence is conditional on the closed training vocabulary and cannot account for unseen signs. For one-sign masks reproduce the earlier neighbor diagnostic exactly.
+
+Bootstrap paired whole-gap top1 differences by canonical inscription group (1,000 resamples), preserving overlapping masks within a group. Do not call overlapping masks independent evidence. Export per-text/mask candidate IDs and probabilities for audit. Check two-gap enumeration and normalization against an independent toy brute-force calculation. No production completion of 000 unknown stretches is authorized by this experiment because their length is not known.
