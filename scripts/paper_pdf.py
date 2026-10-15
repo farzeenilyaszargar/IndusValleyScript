@@ -6,7 +6,7 @@ from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, KeepTogether
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -44,7 +44,10 @@ def main():
         if line.startswith('# '):story.append(paragraph(line[2:],'PaperTitle'))
         elif line.startswith('### '):story.append(paragraph(line[4:],'PaperSubsection'))
         elif line.startswith('## '):
-            if line=='## References':story.append(PageBreak())
+            if line=='## References':
+                story.append(KeepTogether([paragraph('References','PaperSection')]+
+                    [paragraph(text) for text in lines[i+1:] if text.strip()]))
+                break
             story.append(paragraph(line[3:],'PaperSection'))
         else:story.append(paragraph(line))
         i+=1
