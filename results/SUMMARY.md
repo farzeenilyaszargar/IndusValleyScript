@@ -23,4 +23,6 @@
 
 - Exact two-sign gap reconstruction: bigram top1 12.7%, top5 25.0%; candidate coverage 96.1%. Known-length synthetic restoration supplies no phonetics or validated original-object completion.
 
+- Richer non-phonetic administrative control: all three fixed-seed realizations show bigram gains, masked-sign prediction and within-text shuffle rejection. These features are compatible with known non-phonetic generation and cannot select Indus sound values. Full semantic records are exported; this is not a replication of SIGIL or a model classification.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

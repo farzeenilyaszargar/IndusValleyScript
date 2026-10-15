@@ -23,7 +23,7 @@ Complete acquisition of every excavated sign and successful decipherment are ope
 - [Searchable catalogue](docs/SIGN_CATALOGUE.html) (download and open locally; remote images require network access)
 - [Data audit](docs/DATA.md), [literature](docs/LITERATURE.md), [remaining hypotheses](docs/HYPOTHESES.md)
 
-Release 0.11: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
+Release 0.12: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
 
 Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, including EOS and a collapsed unknown-sign event. This measures sequence predictability, not translation. No phonetic key or language family has been identified.
 
@@ -60,3 +60,5 @@ For optional PDF export, install ReportLab and run `python3 scripts/paper_pdf.py
 Attribution and inherited-material limits are documented in DATA.md. Proposed translations are excluded from training. Externally hosted image/font assets are not bundled.
 
 The [contiguous-gap reconstruction experiment](docs/EXPERIMENT_011.md) evaluates exact one/two-sign completions on held-out synthetic masks. Candidate probabilities condition on known gap length and the training inventory; integer completions are not translations or independently verified restorations.
+
+The [richer administrative control](docs/EXPERIMENT_012.md) generates fictional records with explicit semantics and no phonetic values. Three length-matched realizations show bigram gains and masked-sign predictability. These effects remain compatible with non-phonetic generation; they do not select Indus sounds or meanings. [Recent-source audit](docs/RECENT_RESEARCH_AUDIT.md) records new literature leads and failed artifact retrievals.

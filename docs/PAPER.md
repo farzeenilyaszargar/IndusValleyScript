@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.11 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.12 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -220,6 +220,22 @@ For two-sign gaps, the best bigram filling has 25.2% token accuracy; the entire 
 
 Mean top1 conditional probability for two-sign bigram fillings is 9.4%. Fixed posterior-bin observed accuracies and per-mask top-five candidates are exported for audit. These probabilities assume a known gap length and a closed candidate inventory; they omit unseen glyph possibilities and must not be interpreted as archaeological certainty. Synthetic masked truth is a secondary transcription, not independently verified glyph evidence. No completion of 000 unknown stretches is produced because their cardinality is unknown, and no recovered integer code acquires a phonetic or semantic value.
 
+### 4.16 Richer administrative compatibility control
+
+A recent preprint describes a purpose-built non-phonetic emblem system and stresses the specificity limits of structural measures [14]. We inspected selected construction, prediction and limitations passages, but could not retrieve its corpus from the checked article/source archive and repository searches. Its published results are not reproduced here. Experiment 012 is an independently authored control with declared parameters.
+
+Our fictional inventory has 160 institutions, 96 guilds, 160 commodities, eight quantity emblems, four ranks and five validators. Optional institution, guild/rank, quantity/commodity and validation blocks match the exact Indus length list. Fixed institution/guild and guild/commodity licenses and preferred rank/quantity pairs induce dependencies; every token retains its semantic role and value. Only lengths are empirically matched: no Indus sign frequencies or transitions tune this generator, and no sounds or dictionary enter generation. Three seeds produce 2,156 records and 9,221 tokens each. Generated duplicates remain weighted, with exact/reversed copies kept within split groups; model smoothing is validation-selected using our established EOS/UNK benchmark.
+
+| Seed | Types | Conditional bits | Unigram bits | Bigram bits | Mask top1 |
+|---|---|---|---|---|---|
+| 17 | 408 | 2.906 | 6.241 | 3.977 | 34.5% |
+| 29 | 406 | 2.905 | 6.171 | 3.954 | 34.0% |
+| 43 | 416 | 2.913 | 6.427 | 4.185 | 33.1% |
+
+Every realization rejects its own within-text shuffle at the minimum possible p=0.010 with 99 trials, and every grouped unigram-to-bigram gain interval excludes zero. Mask prediction also exceeds each realization's frequent-sign baseline. Thus conditional predictability and shuffle rejection occur in a notation generated without phonetic values. The richer control repairs a limitation of the earlier independent-slot simulation: institutional licenses create local dependencies rather than merely different positional frequencies.
+
+This is a compatibility demonstration, not a calibrated linguistic/non-linguistic classifier or a reconstruction of Harappan administration. Its vocabulary and duplicate frequencies differ from the real corpus; near-copy families are not separated, and three seeds sample one chosen architecture rather than all plausible alternatives. It does not show that Indus signs are non-linguistic, nor assign an institution, commodity, quantity or sound to any Indus ID. Structural gains alone remain insufficient to configure a historically justified spoken-language reading.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate (36.1 percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -261,3 +277,5 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 [12] Mahadevan. The Indus Fish Swam in the Great Bath. Bulletin of the Indus Research Centre 2, 2011. https://www.harappa.com/content/indus-fish-swam-great-bath
 
 [13] Rao et al. A Markov model of the Indus script. PNAS, 2009. Author-hosted paper: https://raw.githubusercontent.com/ronojoy/indus/cab6c2d881307825f24d7ed28f7ad62de800ae13/papers/MarkovModelIndusScript.pdf
+
+[14] Raghavendra. On the Non-Specificity of Statistical Measures Used in Script Decipherment. 2026 arXiv preprint; peer-review status not established here. https://arxiv.org/abs/2608.02999

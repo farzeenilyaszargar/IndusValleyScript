@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.11. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.12. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -104,3 +104,9 @@ Structure is not meaning. A successful sign predictor does not establish a langu
 ## Contiguous-gap reconstruction (Experiment 011)
 
 Design committed before execution. Exact one/two-sign candidate enumeration conditions on known gap length and uses all training glyph IDs, with EOS/UNK excluded from proposed fillings. Complete validation loss selects smoothing; held-out overlapping masks are grouped by canonical inscription for uncertainty. Toy exhaustive-path normalization, unknown-neighbor behavior and unigram context invariance checks pass. Of 709 two-sign masks, 12.7% are recovered at top1 and 25.0% at top5; the entire truth is in the training vocabulary in 96.1%. The unigram whole-gap top1 baseline is 0%; the paired gain interval is [9.7,15.7] percentage points across 202 inscription groups. Top-filling token accuracy is 25.2%. Most gaps remain unresolved. Results and model-confidence diagnostics are recorded in `results/gap_reconstruction.json` and the paper; the original one-sign benchmark must match exactly. No 000 unknown stretch receives a guessed cardinality or translation.
+
+## Richer administrative control (Experiment 012)
+
+Design committed/pushed before execution. Separate fictional notation with explicit institution/guild licenses, commodity/quantity preferences, rank and validation conventions; no phonetic values. Three seeds each match only the Indus length list, not observed sign frequencies/transitions. All show conditional entropy about 2.91 bits vs within-text null about 4.43 (99 trials; p=0.010), held-out bigram improvement about 2.22-2.26 bits with grouped intervals excluding zero, and single-mask top1 33.1-34.5% vs 3.8-5.7% frequent-sign baselines. Generated duplicates stay weighted but canonical reverse/exact groups do not cross splits. This shows compatibility with non-phonetic generation, not an Indus administrative decipherment, a likelihood ratio, or SIGIL replication. Full semantic records and licenses are in results/administrative_control.json. Three new checks verify determinism, length/role constraints and detection of a corrupted semantic record.
+
+The scoped recent-source/retrieval audit is in RECENT_RESEARCH_AUDIT.md. The SIGIL corpus was not retrieved from checked sources; no reported SIGIL results are adopted as independently executed here. New proposed-readings repositories are leads and remain outside neutral analytical input.
