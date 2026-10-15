@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.9 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.10 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -190,6 +190,20 @@ Experiment 009 examines selected published astronomical proposals [11] and their
 For the larger complete unique diagnostic subset, provisional short-stroke reference aliases yield 43 plain-fish/stroke slots. Their described counts are 1 (2), 2 (10), 3 (14), 4 (6), 6 (10), and 7 (1). The published-example count set 3/6/7 occurs in 25/43 fish slots versus 162/770 other-follower slots. An exploratory count-label permutation gives upper-tail p=0.001; opposite stored adjacency gives p=0.149. This diagnostic assumes slot exchangeability, provisional reference-code correspondences and a declared stored-order convention. The count-set enrichment is our operational extension, not a claim that the published theory restricts every fish sequence to those counts. It supports a restricted graphic combination, not a constellation, number value or language family.
 
 The audit includes an explicit conditional rendering of H-9 under Parpola's proposed fish/star rebus: if the strokes mean seven and the fish sign represents proposed miin/star, the author's eZu-miin reading refers to seven stars/Ursa Major [11]. This is a published hypothetical phonetic/semantic assignment, not a deciphered value adopted by this project. An unknown quantity/classifier template and an unknown category/rate template admit precisely the same two graphic tokens. No independent semantic label, measurement or bilingual identifies which interpretation is correct. The alternatives remain unresolved, and a plausible lexical parallel alone is insufficient to translate the inscription.
+
+### 4.14 Uncertainty-sensitive training and source-agreement limits
+
+Experiment 010 keeps the clean seed-42 validation/test objects fixed and varies only training eligibility. All broader objects have nonempty single-line transcriptions and no P000 unknown stretch; exact/reversed clean holdout copies and object IDs are excluded from additions. The intermediate condition limits each literal raw damage and uncertainty code to 25. This is not a calibrated percentage: damage codes can encode locations in higher digits. The broad condition retains all remaining damage/uncertainty-marked readings as transcription hypotheses, not known truths. Bigram smoothing is selected on the same clean validation set.
+
+| Training condition | Objects | Clean-test bits | Gain vs clean |
+|---|---|---|---|
+| clean | 73 | 5.644 | 0.000 |
+| raw_codes_le25 | 98 | 5.592 | 0.052 |
+| all_known_singleline_readings | 135 | 5.597 | 0.047 |
+
+Adding 25 intermediate-filter objects gives a 0.052-bit improvement with grouped 95 percent interval [-0.095, 0.230]. Adding 62 broader objects gives 0.047 bits, interval [-0.234, 0.329]. Both intervals overlap zero, and unseen clean-test token counts decrease from seven to five. The modest point gains may reflect coverage rather than correctness of uncertain readings. Ten canonical test groups are too few for strong conclusions, and guessed/damaged transcriptions cannot be promoted to accepted data merely because a predictor uses them.
+
+A separate equal-length paired-source audit accepts 136 objects and examines 733 reversed aligned positions against supplied Wells alias lists. It finds 43 alias-absence positions; 38 have zero local damage and uncertainty codes. M-112's plain/modified fish disagreement is among these unmarked positions. Alias absence can reflect incomplete crosswalks, variant splitting or transcription differences; it is not automatically an error. The result shows that annotation filters alone do not establish cross-corpus agreement. Original-object/face and glyph verification remains an independent requirement before assigning phonetic values or interpreting inferred grammar.
 
 ## 5. Limitations and implications for decipherment
 

@@ -17,6 +17,10 @@ def main():
     glyph=json.loads((ROOT/'data/processed/glyph_morphology.json').read_text())
     meta=read('metadata_conditioning')
     fish_audit=read('fish_rebus_audit')
+    uncertainty=read('uncertainty_sensitivity')
+    uncertainty_rows='\n'.join(f'| {name} | {r["training_objects"]} | {r["test_bits"]:.3f} | '+
+        f'{r["clean_baseline_improvement"]["improvement_bits"]:.3f} |'
+        for name,r in uncertainty['conditions'].items())
     meta_rows='\n'.join(f'| {kind} | {m["test_bits"]:.3f} | {m["paired_improvement"]["improvement_bits"]:.3f} | '+
         f'{m["matched_smoothing_ablation"]["metadata_increment"]["improvement_bits"]:.3f} |'
         for kind,m in meta['models'].items())
@@ -42,7 +46,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.9 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.10 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -220,6 +224,18 @@ For the larger complete unique diagnostic subset, provisional short-stroke refer
 
 The audit includes an explicit conditional rendering of H-9 under Parpola's proposed fish/star rebus: if the strokes mean seven and the fish sign represents proposed miin/star, the author's eZu-miin reading refers to seven stars/Ursa Major [11]. This is a published hypothetical phonetic/semantic assignment, not a deciphered value adopted by this project. An unknown quantity/classifier template and an unknown category/rate template admit precisely the same two graphic tokens. No independent semantic label, measurement or bilingual identifies which interpretation is correct. The alternatives remain unresolved, and a plausible lexical parallel alone is insufficient to translate the inscription.
 
+### 4.14 Uncertainty-sensitive training and source-agreement limits
+
+Experiment 010 keeps the clean seed-42 validation/test objects fixed and varies only training eligibility. All broader objects have nonempty single-line transcriptions and no P000 unknown stretch; exact/reversed clean holdout copies and object IDs are excluded from additions. The intermediate condition limits each literal raw damage and uncertainty code to 25. This is not a calibrated percentage: damage codes can encode locations in higher digits. The broad condition retains all remaining damage/uncertainty-marked readings as transcription hypotheses, not known truths. Bigram smoothing is selected on the same clean validation set.
+
+| Training condition | Objects | Clean-test bits | Gain vs clean |
+|---|---|---|---|
+{uncertainty_rows}
+
+Adding 25 intermediate-filter objects gives a 0.052-bit improvement with grouped 95 percent interval [-0.095, 0.230]. Adding 62 broader objects gives 0.047 bits, interval [-0.234, 0.329]. Both intervals overlap zero, and unseen clean-test token counts decrease from seven to five. The modest point gains may reflect coverage rather than correctness of uncertain readings. Ten canonical test groups are too few for strong conclusions, and guessed/damaged transcriptions cannot be promoted to accepted data merely because a predictor uses them.
+
+A separate equal-length paired-source audit accepts {uncertainty['source_consistency']['accepted_pairs']} objects and examines {uncertainty['source_consistency']['aligned_positions']} reversed aligned positions against supplied Wells alias lists. It finds {uncertainty['source_consistency']['alias_absences']} alias-absence positions; {uncertainty['source_consistency']['zero_annotation_alias_absences']} have zero local damage and uncertainty codes. M-112's plain/modified fish disagreement is among these unmarked positions. Alias absence can reflect incomplete crosswalks, variant splitting or transcription differences; it is not automatically an error. The result shows that annotation filters alone do not establish cross-corpus agreement. Original-object/face and glyph verification remains an independent requirement before assigning phonetic values or interpreting inferred grammar.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -282,6 +298,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Reference-glyph screening: all 29 candidate drawings broadly fit source descriptions, with unresolved variant/conflict cases. Scalar morphology records cover 715 cached reference images; no original-object photos, numerical values or phonetic readings are validated.
 - Metadata-conditioned models: site-plus-type shows a small aggregate gain, but matched-smoothing type/site-plus-type intervals overlap zero. No robust independent metadata contribution or decoded object-class formula is established.
 - Fish-rebus audit: H-9's graphic pattern matches a published witness; M-112 exposes plain/modified-fish and filter disagreement. Counts 3/6/7 are enriched in the queried subset, but three competing H-9 interpretations remain observationally indistinguishable; no phonetic value is accepted.
+- Uncertainty sensitivity: adding 25/62 annotated objects gives small fixed-clean-holdout gains with intervals overlapping zero. Source audit finds 43/733 alias-absence positions, 38 with zero annotation codes; filters do not certify transcriptions or a phonetic grammar.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''

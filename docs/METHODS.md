@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.9. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.10. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -63,6 +63,9 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.9. This file distingui
 | Larger diagnostic fish/count query | fish_rebus_audit.json | 43 complete unique fish/stroke slots, 25 with described counts 3/6/7 vs 162/770 other followers. Exploratory enrichment p=0.001; opposite adjacency p=0.149. Shape aliases/orientation and slot exchangeability are assumptions, not verified semantics |
 | Conditional semantic/phonetic templates | fish_rebus_audit.json | H-9 admits the published hypothetical eZu-miin/star reading, an unknown quantity/classifier reading, and an unknown category/rate reading with identical graphics. No independent anchor selects one; no proposed value adopted |
 | Fish-audit checks | scripts/test_fish_rebus.py | Two checks verify explicit direction, absence of cross-artifact adjacency and exclusion of tally-as-head combinations |
+| Uncertainty-sensitive training | results/uncertainty_sensitivity.json | Same clean validation/test objects; add 25/62 hypothesis-transcribed objects without unknown stretches or holdout copies. Gains 0.052/0.047 bits have 95% intervals crossing zero; no reading promoted to truth |
+| Broader paired-source consistency | uncertainty_sensitivity.json | 136 equal-length uniquely identified pairs, 733 positions, 43 supplied-alias absences; 38 locally unmarked. No automatic error label or correction; annotation zeroes do not establish source agreement |
+| Uncertainty-filter checks | scripts/test_uncertainty_sensitivity.py | Three checks reject unknown/multiline stretches, forbid holdout objects/reversed copies in additions, and preserve literal raw code filtering without misreading encoded location digits as calibrated percentages |
 
 ## Revisions, errors corrected, and negative results
 
