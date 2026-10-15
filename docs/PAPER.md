@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.8 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.9 | 15 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -183,6 +183,14 @@ The validation-selected pooled benchmark scores 5.499 bits/token. Site-plus-type
 
 Confidence intervals resample whole exact/reversed groups (1,000 draws); related molds, near copies and uncertain type annotations are not fully controlled. Test rows are dominated by 159 seals and 94 tablets, with other categories much smaller. Archaeological usage differences remain plausible, but these fitted formulas do not decode commodities, names, dialects or grammatical parts of speech. Metadata and transcription quality require further review before interpreting a single reconstructed grammar across object classes.
 
+### 4.13 Published fish-rebus witnesses and conditional readings
+
+Experiment 009 examines selected published astronomical proposals [11] and their critique [12]. H-9's exported stored string is 220-017: a plain-fish reference followed by seven-stroke morphology, matching the graphic example named by Parpola. M-112 contains 220-016 in the export, but its annotated CISI transcription contains P126 followed by P056, a modified fish rather than P050. Damage/uncertainty elsewhere excludes this object from the earlier clean CISI subset. Thus the absence of six/plain-fish there cannot be used to reject the published example; eligibility and sign-subtype disagreement must be reported first. These are retrospective named-witness checks, not independent discoveries or original-object photo verification.
+
+For the larger complete unique diagnostic subset, provisional short-stroke reference aliases yield 43 plain-fish/stroke slots. Their described counts are 1 (2), 2 (10), 3 (14), 4 (6), 6 (10), and 7 (1). The published-example count set 3/6/7 occurs in 25/43 fish slots versus 162/770 other-follower slots. An exploratory count-label permutation gives upper-tail p=0.001; opposite stored adjacency gives p=0.149. This diagnostic assumes slot exchangeability, provisional reference-code correspondences and a declared stored-order convention. The count-set enrichment is our operational extension, not a claim that the published theory restricts every fish sequence to those counts. It supports a restricted graphic combination, not a constellation, number value or language family.
+
+The audit includes an explicit conditional rendering of H-9 under Parpola's proposed fish/star rebus: if the strokes mean seven and the fish sign represents proposed miin/star, the author's eZu-miin reading refers to seven stars/Ursa Major [11]. This is a published hypothetical phonetic/semantic assignment, not a deciphered value adopted by this project. An unknown quantity/classifier template and an unknown category/rate template admit precisely the same two graphic tokens. No independent semantic label, measurement or bilingual identifies which interpretation is correct. The alternatives remain unresolved, and a plausible lexical parallel alone is insufficient to translate the inscription.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate (36.1 percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -218,3 +226,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 [9] Nair. How Non-Linguistic Is the Indus Sign System? A Synthetic-Baseline Scorecard. 2026 preprint. https://arxiv.org/abs/2604.17828
 
 [10] Mukhopadhyay. Administrative interpretation of Indus inscriptions: archaeological and script-internal evidence. Humanities and Social Sciences Communications, 2023. https://www.nature.com/articles/s41599-023-02320-7
+
+[11] Parpola. A Dravidian solution to the Indus script problem. 2010 lecture. https://www.harappa.com/sites/default/files/pdf/Parpola-2010-Coimbatore.pdf
+
+[12] Mahadevan. The Indus Fish Swam in the Great Bath. Bulletin of the Indus Research Centre 2, 2011. https://www.harappa.com/content/indus-fish-swam-great-bath

@@ -28,6 +28,11 @@ Reviewed 15 October 2026. These are methodological notes, not endorsements of pr
 
 - Mukhopadhyay, [administrative interpretation of Indus inscriptions (2023)](https://www.nature.com/articles/s41599-023-02320-7): inspected the numerical notation, transaction-specific quantity and tax/license-rate argument passages. The author argues that restricted number/sign combinations and sealing contexts favour regulatory uses over individual-transaction quantities. This is a published interpretation, not an established translation. We test graphic-count/follower dependencies in a small annotated corpus; we do not reproduce the exact proposed sign classes or validate commodity meanings. Our count table lacks independent amounts/weights, and some frequently sampled followers admit several counts.
 
+## Fish-rebus sources inspected for release 0.9
+
+- Parpola, [A Dravidian solution to the Indus script problem (2010)](https://www.harappa.com/sites/default/files/pdf/Parpola-2010-Coimbatore.pdf): inspected preparation, fish/star and named H-9/M-112 example passages. The author proposes astronomical rebus readings with Old Tamil lexical parallels. Our named-example checks match one graphic sequence and expose a transcription subtype disagreement in another; they do not verify proposed phonetic values or astronomical semantics.
+- Mahadevan, [The Indus Fish Swam in the Great Bath (2011)](https://www.harappa.com/content/indus-fish-swam-great-bath): inspected the constellation-extension and critique passages (PDF pp.9-11), where broader number/sign patterns and modified-fish difficulties motivate reappraisal. No alternative meaning from this work is adopted. Direct PDF downloads returned HTTP 403; web-tool document access supplied the inspected text. No complete full-text reading or original-object image review is claimed.
+
 ## Foundational catalogue access and limits
 
 Mahadevan's 1977 concordance; Parpola and collaborators' CISI volumes; Wells's inventories and ICIT documentation. They are foundational sources behind the digitizations, but a repository's attribution does not establish photographic verification of each entry. Catalogue identity and crosswalks require epigraphic review.

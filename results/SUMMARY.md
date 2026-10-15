@@ -18,5 +18,6 @@
 - Paired-object catalogue integration: 85 usable pairs; training selects reversed relative alignment. Held-out majority correspondence accuracy 31/39 positions, 82.1% source-ID coverage, 29 candidate mappings for glyph review. These are catalogue labels, not sound assignments.
 - Reference-glyph screening: all 29 candidate drawings broadly fit source descriptions, with unresolved variant/conflict cases. Scalar morphology records cover 715 cached reference images; no original-object photos, numerical values or phonetic readings are validated.
 - Metadata-conditioned models: site-plus-type shows a small aggregate gain, but matched-smoothing type/site-plus-type intervals overlap zero. No robust independent metadata contribution or decoded object-class formula is established.
+- Fish-rebus audit: H-9's graphic pattern matches a published witness; M-112 exposes plain/modified-fish and filter disagreement. Counts 3/6/7 are enriched in the queried subset, but three competing H-9 interpretations remain observationally indistinguishable; no phonetic value is accepted.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

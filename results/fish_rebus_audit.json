@@ -1,0 +1,1101 @@
+{
+  "design": "docs/EXPERIMENT_009.md",
+  "short_stroke_mapping_checks": [
+    {
+      "id": "001",
+      "described_count": 1,
+      "reference_components": 1,
+      "match": true
+    },
+    {
+      "id": "002",
+      "described_count": 2,
+      "reference_components": 2,
+      "match": true
+    },
+    {
+      "id": "003",
+      "described_count": 3,
+      "reference_components": 3,
+      "match": true
+    },
+    {
+      "id": "004",
+      "described_count": 4,
+      "reference_components": 4,
+      "match": true
+    },
+    {
+      "id": "005",
+      "described_count": 5,
+      "reference_components": 5,
+      "match": true
+    },
+    {
+      "id": "006",
+      "described_count": 6,
+      "reference_components": 6,
+      "match": true
+    },
+    {
+      "id": "007",
+      "described_count": 7,
+      "reference_components": 7,
+      "match": true
+    },
+    {
+      "id": "014",
+      "described_count": 4,
+      "reference_components": 4,
+      "match": true
+    },
+    {
+      "id": "015",
+      "described_count": 5,
+      "reference_components": 5,
+      "match": true
+    },
+    {
+      "id": "016",
+      "described_count": 6,
+      "reference_components": 6,
+      "match": true
+    },
+    {
+      "id": "017",
+      "described_count": 7,
+      "reference_components": 7,
+      "match": true
+    },
+    {
+      "id": "018",
+      "described_count": 8,
+      "reference_components": 8,
+      "match": true
+    },
+    {
+      "id": "019",
+      "described_count": 9,
+      "reference_components": 9,
+      "match": true
+    },
+    {
+      "id": "020",
+      "described_count": 10,
+      "reference_components": 10,
+      "match": true
+    }
+  ],
+  "named_witnesses": [
+    {
+      "cisi_label": "H-9",
+      "icit_records": [
+        {
+          "corpus": "ICIT_export",
+          "id": "1070.1",
+          "cisi": "H-9",
+          "site": "Harappa",
+          "type": "SEAL:S",
+          "direction": "R/L",
+          "signs": [
+            "220",
+            "017"
+          ],
+          "source_text": "+220-017+",
+          "exclusion_reasons": []
+        }
+      ],
+      "annotated_cisi_records": []
+    },
+    {
+      "cisi_label": "M-112",
+      "icit_records": [
+        {
+          "corpus": "ICIT_export",
+          "id": "2639.1",
+          "cisi": "M-112",
+          "site": "Mohenjo-daro",
+          "type": "SEAL:S",
+          "direction": "R/L",
+          "signs": [
+            "740",
+            "760",
+            "220",
+            "016",
+            "382",
+            "741",
+            "572",
+            "684"
+          ],
+          "source_text": "+740-760-220-016-382-741-572-684+",
+          "exclusion_reasons": []
+        }
+      ],
+      "annotated_cisi_records": [
+        {
+          "corpus": "CISI_Parpola",
+          "id": "M-112A",
+          "source_file": "corpus/m100_m199/m112.json",
+          "description": "unicorn IV seal",
+          "site": "Mohenjo-daro",
+          "signs": [
+            "P254",
+            "P285",
+            "P325",
+            "P111",
+            "P126",
+            "P056",
+            "P332",
+            "P324"
+          ],
+          "allographs": [
+            {
+              "id": "P254",
+              "features": [
+                0,
+                1,
+                0,
+                3,
+                0
+              ]
+            },
+            {
+              "id": "P285",
+              "features": [
+                20,
+                1,
+                60
+              ]
+            },
+            {
+              "id": "P325",
+              "features": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "id": "P111",
+              "features": [
+                10,
+                1,
+                10,
+                1
+              ]
+            },
+            {
+              "id": "P126",
+              "features": [
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "P056",
+              "features": [
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "P332",
+              "features": [
+                0,
+                1,
+                0,
+                2,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "P324",
+              "features": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+              ]
+            }
+          ],
+          "exclusion_reasons": [
+            "damage_or_uncertainty"
+          ]
+        }
+      ]
+    },
+    {
+      "cisi_label": "M-241",
+      "icit_records": [
+        {
+          "corpus": "ICIT_export",
+          "id": "2764.1",
+          "cisi": "M-241",
+          "site": "Mohenjo-daro",
+          "type": "SEAL:S",
+          "direction": "R/L",
+          "signs": [
+            "090",
+            "740",
+            "032",
+            "840",
+            "741",
+            "572",
+            "683"
+          ],
+          "source_text": "+090-740-032-840-741-572-683+",
+          "exclusion_reasons": []
+        }
+      ],
+      "annotated_cisi_records": []
+    }
+  ],
+  "complete_unique_diagnostic": {
+    "fish_slots": 43,
+    "other_slots": 770,
+    "fish_3_6_7_slots": 25,
+    "other_3_6_7_slots": 162,
+    "fish_count_distribution": {
+      "1": 2,
+      "2": 10,
+      "3": 14,
+      "4": 6,
+      "6": 10,
+      "7": 1
+    },
+    "other_count_distribution": {
+      "1": 93,
+      "2": 413,
+      "3": 91,
+      "4": 54,
+      "5": 39,
+      "6": 19,
+      "7": 52,
+      "8": 6,
+      "9": 3
+    },
+    "null_mean_special_fish_slots": 9.80980980980981,
+    "p_upper": 0.001,
+    "trials": 999,
+    "seed": 20261015,
+    "scope": "Exploratory operational test for counts 3/6/7; not a full prediction of the published star hypothesis. Unstratified slot exchangeability assumed."
+  },
+  "opposite_order_diagnostic": {
+    "fish_slots": 16,
+    "other_slots": 708,
+    "fish_3_6_7_slots": 4,
+    "other_3_6_7_slots": 88,
+    "fish_count_distribution": {
+      "1": 3,
+      "2": 9,
+      "6": 1,
+      "7": 3
+    },
+    "other_count_distribution": {
+      "1": 115,
+      "2": 473,
+      "3": 47,
+      "4": 20,
+      "5": 10,
+      "6": 9,
+      "7": 32,
+      "8": 2
+    },
+    "null_mean_special_fish_slots": 2.1221221221221223,
+    "p_upper": 0.149,
+    "trials": 999,
+    "seed": 20261015,
+    "scope": "Exploratory operational test for counts 3/6/7; not a full prediction of the published star hypothesis. Unstratified slot exchangeability assumed."
+  },
+  "plain_fish_stroke_objects_unique": [
+    {
+      "row_id": "27.1",
+      "cisi": "B-1",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "28.1",
+      "cisi": "B-3",
+      "stored_or_reversed_position": 1,
+      "stroke_id": "014",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "121.1",
+      "cisi": "C-40",
+      "stored_or_reversed_position": 7,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "173.1",
+      "cisi": "H-1086",
+      "stored_or_reversed_position": 1,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "237.1",
+      "cisi": "H-1056",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "258.1",
+      "cisi": "H-1121",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "303.1",
+      "cisi": "H-1043",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "311.2",
+      "cisi": "H-1192",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "004",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1070.1",
+      "cisi": "H-9",
+      "stored_or_reversed_position": 1,
+      "stroke_id": "017",
+      "described_count": 7,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1127.1",
+      "cisi": "H-68",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1175.1",
+      "cisi": "H-134",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1190.1",
+      "cisi": "H-149",
+      "stored_or_reversed_position": 7,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1491.1",
+      "cisi": "H-514",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1822.1",
+      "cisi": "H-942",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1884.1",
+      "cisi": "K-9",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1971.1",
+      "cisi": "-",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2085.1",
+      "cisi": "L-143",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "004",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2268.1",
+      "cisi": "M-1709",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2277.1",
+      "cisi": "M-1990",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2292.1",
+      "cisi": "M-1706",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2332.1",
+      "cisi": "M-1741",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "001",
+      "described_count": 1,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2441.1",
+      "cisi": "M-1912",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2516.1",
+      "cisi": "M-1672",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2581.1",
+      "cisi": "M-53",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2592.1",
+      "cisi": "M-64",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "004",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2603.1",
+      "cisi": "M-75",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "004",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2621.1",
+      "cisi": "M-94",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2639.1",
+      "cisi": "M-112",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2663.1",
+      "cisi": "M-136",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2735.1",
+      "cisi": "M-211",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2783.1",
+      "cisi": "M-260",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "014",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2814.1",
+      "cisi": "M-294",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2827.1",
+      "cisi": "M-308",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2938.1",
+      "cisi": "M-453",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3066.2",
+      "cisi": "M-605",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3118.1",
+      "cisi": "-",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3149.1",
+      "cisi": "M-725",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3278.1",
+      "cisi": "M-868",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3509.1",
+      "cisi": "M-1148",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3713.1",
+      "cisi": "M-1429",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3853.1",
+      "cisi": "Ns-5",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3995.1",
+      "cisi": "M-1843",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "001",
+      "described_count": 1,
+      "head_id": "220"
+    },
+    {
+      "row_id": "5277.1",
+      "cisi": "K-150",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "006",
+      "described_count": 6,
+      "head_id": "220"
+    }
+  ],
+  "plain_fish_stroke_object_occurrences": [
+    {
+      "row_id": "27.1",
+      "cisi": "B-1",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "28.1",
+      "cisi": "B-3",
+      "stored_or_reversed_position": 1,
+      "stroke_id": "014",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "121.1",
+      "cisi": "C-40",
+      "stored_or_reversed_position": 7,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "173.1",
+      "cisi": "H-1086",
+      "stored_or_reversed_position": 1,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "237.1",
+      "cisi": "H-1056",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "258.1",
+      "cisi": "H-1121",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "303.1",
+      "cisi": "H-1043",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "311.2",
+      "cisi": "H-1192",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "004",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "318.1",
+      "cisi": "H-1028",
+      "stored_or_reversed_position": 1,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1070.1",
+      "cisi": "H-9",
+      "stored_or_reversed_position": 1,
+      "stroke_id": "017",
+      "described_count": 7,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1127.1",
+      "cisi": "H-68",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1175.1",
+      "cisi": "H-134",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1190.1",
+      "cisi": "H-149",
+      "stored_or_reversed_position": 7,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1491.1",
+      "cisi": "H-514",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1680.1",
+      "cisi": "H-789",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1822.1",
+      "cisi": "H-942",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1884.1",
+      "cisi": "K-9",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "1971.1",
+      "cisi": "-",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2085.1",
+      "cisi": "L-143",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "004",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2268.1",
+      "cisi": "M-1709",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2277.1",
+      "cisi": "M-1990",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2292.1",
+      "cisi": "M-1706",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2332.1",
+      "cisi": "M-1741",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "001",
+      "described_count": 1,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2441.1",
+      "cisi": "M-1912",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2516.1",
+      "cisi": "M-1672",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2581.1",
+      "cisi": "M-53",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2592.1",
+      "cisi": "M-64",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "004",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2603.1",
+      "cisi": "M-75",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "004",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2621.1",
+      "cisi": "M-94",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2639.1",
+      "cisi": "M-112",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2663.1",
+      "cisi": "M-136",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2735.1",
+      "cisi": "M-211",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2783.1",
+      "cisi": "M-260",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "014",
+      "described_count": 4,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2814.1",
+      "cisi": "M-294",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2827.1",
+      "cisi": "M-308",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "2938.1",
+      "cisi": "M-453",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3066.2",
+      "cisi": "M-605",
+      "stored_or_reversed_position": 4,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3118.1",
+      "cisi": "-",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3149.1",
+      "cisi": "M-725",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3278.1",
+      "cisi": "M-868",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3509.1",
+      "cisi": "M-1148",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "002",
+      "described_count": 2,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3713.1",
+      "cisi": "M-1429",
+      "stored_or_reversed_position": 5,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3720.1",
+      "cisi": "M-1439",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3722.1",
+      "cisi": "M-1441",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3723.1",
+      "cisi": "M-1442",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3724.1",
+      "cisi": "M-1443",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "003",
+      "described_count": 3,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3853.1",
+      "cisi": "Ns-5",
+      "stored_or_reversed_position": 3,
+      "stroke_id": "016",
+      "described_count": 6,
+      "head_id": "220"
+    },
+    {
+      "row_id": "3995.1",
+      "cisi": "M-1843",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "001",
+      "described_count": 1,
+      "head_id": "220"
+    },
+    {
+      "row_id": "5277.1",
+      "cisi": "K-150",
+      "stored_or_reversed_position": 2,
+      "stroke_id": "006",
+      "described_count": 6,
+      "head_id": "220"
+    }
+  ],
+  "hypothetical_H9_readings": [
+    {
+      "model": "Published astronomical rebus",
+      "graphic_tokens": [
+        "220",
+        "017"
+      ],
+      "conditional_rendering": "IF the strokes encode seven and the fish sign represents proposed miin/star, Parpola reads the sequence as eZu-miin (seven stars / Ursa Major).",
+      "phonetic_value_status": "Published proposal, not independently established Indus phonetics",
+      "independent_semantic_anchor": null
+    },
+    {
+      "model": "Unknown quantity plus category",
+      "graphic_tokens": [
+        "220",
+        "017"
+      ],
+      "conditional_rendering": "IF strokes encode quantities, seven units of an unknown category.",
+      "phonetic_value_status": "No sounds assigned",
+      "independent_semantic_anchor": null
+    },
+    {
+      "model": "Unknown category/rate label",
+      "graphic_tokens": [
+        "220",
+        "017"
+      ],
+      "conditional_rendering": "IF the strokes encode a fixed category/rate, a seven-valued rule or label associated with an unknown category.",
+      "phonetic_value_status": "No sounds assigned",
+      "independent_semantic_anchor": null
+    }
+  ],
+  "identifiability": "All three templates admit the same observed graphics; this evidence alone cannot select their semantics.",
+  "M112_disagreement": "ICIT export uses plain-fish code 220; annotated CISI uses P056 (modified fish) after P126. Damage/uncertainty elsewhere excludes the object from the earlier clean CISI subset.",
+  "limitation": "Reference-based codes, incomplete/provisional crosswalk and stored-order convention; named witnesses checked retrospectively. No independent constellation, quantity or rate label exists."
+}

@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.8. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.9. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -59,6 +59,10 @@ Started 15 October 2026 (Asia/Kolkata). Current release 0.8. This file distingui
 | Metadata-conditioned formula prediction | results/metadata_conditioning.json | All 3,591 eligible rows, duplicate groups kept together; site/type/site+type histories with validation-selected smoothing. Site+type nominal gain 0.079 bits; matched-strength metadata gain 0.034 with interval crossing zero. No robust independent metadata effect established |
 | Smoothing ablation and uncertainty | metadata_conditioning.json | Post-initial-score diagnostic holds each metadata model's base strength fixed. Type gain 0.015, site+type 0.034 (both 95% intervals include zero); site alone is worse. Group bootstrap uses 1,000 resamples and three-comparison 98.33% sensitivity intervals |
 | Metadata-model checks | scripts/test_metadata_models.py | Three checks verify literal type-prefix handling, normalized probability/unseen-metadata backoff, and exact/reverse copies sharing partitions despite different metadata |
+| Published fish-rebus witness audit | results/fish_rebus_audit.json | H-9 matches the published two-glyph pattern; M-112 uses plain fish in ICIT but modified fish in annotated CISI and is excluded by damage elsewhere. Named witnesses are retrospective checks, not independent discoveries |
+| Larger diagnostic fish/count query | fish_rebus_audit.json | 43 complete unique fish/stroke slots, 25 with described counts 3/6/7 vs 162/770 other followers. Exploratory enrichment p=0.001; opposite adjacency p=0.149. Shape aliases/orientation and slot exchangeability are assumptions, not verified semantics |
+| Conditional semantic/phonetic templates | fish_rebus_audit.json | H-9 admits the published hypothetical eZu-miin/star reading, an unknown quantity/classifier reading, and an unknown category/rate reading with identical graphics. No independent anchor selects one; no proposed value adopted |
+| Fish-audit checks | scripts/test_fish_rebus.py | Two checks verify explicit direction, absence of cross-artifact adjacency and exclusion of tally-as-head combinations |
 
 ## Revisions, errors corrected, and negative results
 
