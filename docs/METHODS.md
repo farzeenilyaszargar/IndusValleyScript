@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.19. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.20. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -174,3 +174,17 @@ New 64-alias positive controls recover 64/64 aliases and 100% of covered test to
 Indus Tamil total 7.996 vs source unigram 7.233 and bigram 6.335 bits/token; Vedic 7.454 vs 7.233/6.335. Language/emission parts 5.830+2.166 and 4.771+2.682. Both channels lose even to generic unigram on this held-out point comparison. Restart mean key agreement 6.2%/7.4%. Control Tamil 7.349 vs unigram 7.033/bigram 5.259; Vedic 6.383 vs 7.033/5.259. A Vedic control gain over unigram therefore remains possible for explicitly nonphonetic data. Cyclic-key baselines and every restart's held-out diagnostic are exported. These point outcomes are not confidence statements or rejections of entire families.
 
 Full keys cover 584 training Indus IDs; 53 unseen types remain unassigned. Every group, coverage count, per-test loss, unit occupancy, training key and first 20 hypothetical Unicode recodings are exported in results/homophonic_channel.json. No source catalogue merger or accepted sound value follows. Narrow deterministic channel, 32-unit target truncation, proxy chronology/genre and scarce rare-sign evidence remain. Tests now 59 and analytical artifacts 52; final verification/publication recorded in RESEARCH_STATE.md.
+
+## Joint direction/key selection (Experiment 020)
+
+18 October 2026. Design 959069e was pushed before reverse fitting; previous forward test outcomes were already known, so the extension is explicitly retrospective. Frozen forward integer-key/source digest 65212253eaa1c20f7e149adc5c5673ab9f0dc9c122721385520ee398c8d6b4a3 is checked, with training/validation loss reconstruction. Components, row identities, full training vocabularies, target counts and hyperparameters remain unchanged. Reverse every string within its original partition, keeping row order and UNK slots; do not re-split or rotate object labels.
+
+Fit five reverse keys with the original 30,000-proposal/two-sweep budget; jointly select direction/start among ten keys by validation only. Reconstruct generic sign bigram and choose its own validation direction; source unigram is verified reversal-invariant. New test scores are computed after both choices. Export all candidates, conditional key, score diagnostics, per-test paired losses, original component IDs and grouped gain intervals. Three tests cover reversal/partition/token preservation, validation-only selection/tie rules, unigram invariance and grouped weighting. Initial tests passed; no failed model run observed.
+
+Indus Tamil chooses reverse-stored/cyclic (validation 7.563 vs stored 7.684) but test 8.034 is worse than previous stored 7.996; no post-test switch is made. Vedic chooses stored/start 17 (validation 7.203 vs reverse 7.252) and remains 7.454. Generic Indus bigram chooses reverse-stored at 6.329; unigram 7.233. Source coverage 96.9%, 584 mapped training types/53 unassigned types and 1690/235/231 rows remain unchanged.
+
+Bootstrap 5,000 original similarity-component draws seed 20261018; 172 test components across 231 rows. Gain=baseline-channel. Tamil unigram/bigram gains -0.801/-1.706, four-comparison 98.75% intervals [-1.101,-0.535]/[-1.995,-1.394]. Vedic gains -0.221/-1.125, intervals [-0.499,0.014]/[-1.370,-0.891]. Small Vedic unigram loss is uncertain under the specified sensitivity, though its 95% interval is negative; both bigram deficits persist. Bounds are corpus-conditional and do not fully include selection uncertainty. No family exclusion or historical-order claim.
+
+Both artificial ciphers choose their true stored direction and recover 64/64 keys, 100% covered original-sequence tokens. Generic bigram chooses reverse-stored even for these known-direction controls, illustrating the ambiguity of generic preference. Nonphonetic controls retain stored channels and previous scores; Vedic gain over unigram 0.650 has descriptive 95% interval [0.561,0.727], but loses to bigram. This does not select Indus semantics.
+
+Outputs results/channel_direction.json reference full source/split memberships in the frozen Experiment 019 artifact and contain all selected hypothetical recodings; no sound value is adopted. Target 32-unit truncation and literary chronology/genre remain. Core tests now 62, analytical artifacts 53; verification/publication status is recorded in RESEARCH_STATE.md.

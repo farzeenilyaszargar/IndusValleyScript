@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.19 | 18 October 2026 | Not peer reviewed
+Research draft, version 0.20 | 18 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -353,6 +353,29 @@ Positive controls give two random opaque homophones to each unit in the earlier 
 Despite successful artificial recovery, both Indus proxy channels lose to source unigram (Tamil +0.763, Vedic +0.221 bits/token) and source bigram (Tamil +1.661, Vedic +1.119). These are held-out point comparisons, not universal rejection of language families or every homophonic model. Tamil/Vedic Indus emission costs are 2.166/2.682 bits/token on top of language parts 5.830/4.771. Mean pairwise key agreement across starts is 6.2%/7.4%, so fitted keys remain highly unstable. The nonphonetic Vedic channel beats its unigram by 0.650 but remains worse than its source bigram; the Tamil control loses to both. Thus even a channel gain need not imply phonetic content.
 
 All 584 Indus training-glyph mappings, 53 unassigned types, unit occupancies, per-start keys/validation scores, split groups, per-test losses and twenty incomplete hypothetical recodings are exported. The previous source-vocabulary truncation is largely removed, while target-unit truncation, proxy chronology/genre, deterministic one-unit-per-sign assumptions, sparse signs, shared corpus ancestry and unknown original reading order remain. No mapping is adopted as a historical sound value. This calibrated extension supplies a failed broad-coverage attempt and a reusable channel, not a translation.
+
+### 4.24 Joint validation selection of channel key and order
+
+Experiment 020 freezes the earlier target counts, full training vocabulary, similarity components, source-row identities and hyperparameters. It tests stored vs reverse-stored token order within every string, without repartitioning or changing row order. Earlier forward results were already observed, making this a retrospective sensitivity check, not independent blind confirmation. Neither alternative corresponds automatically to absolute archaeological left/right reading, because source transcription and seal/impression orientation require separate verification.
+
+Five forward keys are reused after source/key-digest and training/validation loss checks; five reverse keys receive the identical 30,000-proposal/two-sweep budget. Minimum validation loss chooses among all ten candidates, with stored-order/start-index tie preference. The generic strength20 sign bigram chooses its own direction by validation. Both choices occur before new test scores are computed; source unigram is verified invariant under reversal. Test row/token identities are identical across comparisons. No test-driven direction or restart replacement occurs.
+
+| Proxy / input | Selected order | Channel bits/token | Selected sign bigram |
+|---|---|---|---|
+| Tamil / known cipher | stored | 4.385 | 4.698 |
+| Tamil / Indus | reverse stored | 8.034 | 6.329 |
+| Tamil / nonphonetic | stored | 7.349 | 5.259 |
+| Vedic Sanskrit / known cipher | stored | 4.667 | 4.853 |
+| Vedic Sanskrit / Indus | stored | 7.454 | 6.329 |
+| Vedic Sanskrit / nonphonetic | stored | 6.383 | 5.259 |
+
+Indus Tamil selects reverse-stored/cyclic, validation 7.563 versus best stored 7.684. Its test 8.034 is slightly worse than the earlier stored 7.996, a disclosed validation/test disagreement. Vedic selects stored/start 17 (validation 7.203 versus best reverse 7.252), preserving test 7.454. Both generic Indus bigrams select reverse-stored and score 6.329. Source unigram remains 7.233. Thus a simple reversal does not rescue these tested channel fits, but this result does not exclude other writing-unit inventories or linguistic systems.
+
+Paired gains mean baseline minus selected channel, so negative values favor the baseline. Similarity-component bootstrap uses 5,000 draws, seed 20261018, weighting total bits/tokens within groups. Indus has 172 test components across 231 rows. Tamil gains over unigram/bigram are -0.801/-1.706 bits/token; 98.75% intervals as four-comparison sensitivity are [-1.101,-0.535]/[-1.995,-1.394]. Vedic gains are -0.221/-1.125, intervals [-0.499,0.014]/[-1.370,-0.891]. Its small unigram deficit is therefore uncertain at that sensitivity; both bigram deficits retain negative intervals. These bounds condition on this corpus and fitted selection; they do not incorporate every model/selection uncertainty or verify archaeological families.
+
+Both artificial 64-alias controls choose stored order and recover 64/64 mappings, 100% covered-symbol and original-sequence token accuracy. The generic bigram nevertheless chooses reverse-stored for both synthetic controls, illustrating why a generic model's direction preference alone cannot establish true orientation. Cipher windows can still overlap within their held source documents. Nonphonetic controls retain stored order, scoring 7.349 Tamil and 6.383 Vedic versus unigram 7.033/bigram 5.259. The Vedic nonphonetic gain over unigram remains 0.650 (descriptive 95% interval [0.561,0.727]) while losing to bigram. Controls do not supply Indus semantics.
+
+All ten candidate keys and validation scores, post-selection diagnostic test scores, selected conditional recodings, per-component gains and paired per-test losses are exported in results/channel_direction.json. Full source/split identities remain referenced to the frozen Experiment 019 artifact; integer-key/source digest excludes floating fields to preserve cross-platform numerical tolerance. No accepted sound values, actual reading direction, language identification or translation follows. Target 32-unit coverage and historical genre/stage mismatch remain priorities for further work.
 
 ## 5. Limitations and implications for decipherment
 

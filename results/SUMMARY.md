@@ -39,4 +39,6 @@
 
 - Full-vocabulary homophonic channel: both artificial 64-alias ciphers recovered exactly. Indus training 584/637 types gives 96.9% test coverage; both normalized proxy channels lose to generic source unigram and bigram. Keys remain unstable, no phonetic reading adopted.
 
+- Direction sensitivity: validation selects reverse-stored Tamil and stored Vedic channel order, yet neither beats a direction-selected generic sign bigram. Both artificial ciphers select their true stored order and recover 64/64 aliases. Bigram-deficit intervals remain negative; the small Vedic unigram deficit is uncertain. No historical reading direction or sound key established.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
