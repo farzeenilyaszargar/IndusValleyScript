@@ -37,4 +37,6 @@
 
 - Novel-pattern audit: remove collapsed train/validation duplicates without refitting training keys. Indus test shrinks to 122 rows, control to 137; gains persist for both (Indus 0.693/1.080, nonphonetic 0.837/2.558 bits/token). This is retrospective robustness evidence, not a reading or new independent validation.
 
+- Full-vocabulary homophonic channel: both artificial 64-alias ciphers recovered exactly. Indus training 584/637 types gives 96.9% test coverage; both normalized proxy channels lose to generic source unigram and bigram. Keys remain unstable, no phonetic reading adopted.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

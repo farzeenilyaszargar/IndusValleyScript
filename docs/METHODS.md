@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.18. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.19. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -158,3 +158,19 @@ Indus retained 1723/128/122 rows: validation loses 88 train-pattern rows; test l
 Tamil Indus frequency/selected 4.976/4.283, gain 0.693 bits/token, 98.75% interval [0.453,0.975]. Vedic Indus 7.844/6.763, gain 1.080[0.700,1.484]. Nonphonetic control 4.976/4.138, gain 0.837[0.451,1.270] Tamil; 8.811/6.253, gain 2.558[1.537,3.450] Vedic. All 95% intervals also exclude zero. Group bootstrap 5,000 seed 20261017; 98.75% is four-comparison Bonferroni sensitivity, not universal uncertainty. No cross-language score ranking.
 
 Indus start 29 unchanged for both targets; Tamil control 17 unchanged. Vedic control switches 43→17; original key on the same subset scores 6.300 instead of 6.253. Positive cipher controls retain all rows/scores and 32/32 Vedic, 24/32 Tamil recovery. Statistical gains extend beyond exact repeated collapsed patterns but also occur with known nonphonetic generation; they cannot certify reading. Subset/coverage changes preclude a causal leakage estimate. This is not a new independent holdout; near-copy families and stored-order uncertainty remain. No optimized key adopted. Results: results/novel_pattern_substitution.json. Core checks now 56, analytical JSON artifacts 51; verification/publication status is in RESEARCH_STATE.md.
+
+## Full-vocabulary normalized homophonic channel (Experiment 019)
+
+18 October 2026. Design d32e2d7 was pushed before generating new artificial homophones, fitting keys or evaluating results. Selected Ravi/Knight (2011) sections 2.2/3.1 were read; our method is not their Bayesian/CRP/Gibbs/dictionary algorithm or Zodiac replication. All training glyph IDs remain distinct and map surjectively onto 32 frozen target writing units; several glyphs may share a unit. Only source types absent from training become fixed UNK. This does not supply missing target units, reconstructed phonemes or independently anchored readings.
+
+Source likelihood combines target initial/internal language probability with normalized P(glyph|unit), using training frequency+0.5 divided by total smoothed mass of glyphs assigned to that unit. Fixed UNK emits with probability 1. Surjection prevents undefined empty emissions and guarantees source-alphabet normalization. Source unigram and strength20 bigram baselines use identical alphabet, partitions, token counts and no EOS. Earlier incomplete-recoding losses are not comparable.
+
+Exact/reverse and transitive one-substitution components (length>=3) remain within partitions. Seed 42 component 80/10/10 split: Indus 1713 groups/largest 74, 1690/235/231 rows, 584 training types/637 overall, 96.9% known test tokens. Control 1160/largest 117, 1822/167/167 rows, 396/408 types, 99.2% coverage. Fixed-UNK train/test pattern overlap zero for all conditions. Groups are similarity families, not verified archaeological identities. Source order is stored order only.
+
+Five starts receive 30,000 mixed type moves/swaps and up to two greedy sweeps, with training-only fits and validation-only restart selection. Three new checks verify sparse single/swap deltas including repeated/self edges against full likelihood, state updates, normalized emissions, total-vs-per-text accounting and similarity-neighbor isolation/token preservation. Initial tests passed; no failed model run observed.
+
+New 64-alias positive controls recover 64/64 aliases and 100% of covered test tokens for both proxies, matching true-key oracles; all true keys satisfy observed-training surjection. Variant generator seed 2031 and alias permutation 1031; held-source windows can still overlap across cipher partitions, but never train the target LM. Known truth is not passed to optimizer.
+
+Indus Tamil total 7.996 vs source unigram 7.233 and bigram 6.335 bits/token; Vedic 7.454 vs 7.233/6.335. Language/emission parts 5.830+2.166 and 4.771+2.682. Both channels lose even to generic unigram on this held-out point comparison. Restart mean key agreement 6.2%/7.4%. Control Tamil 7.349 vs unigram 7.033/bigram 5.259; Vedic 6.383 vs 7.033/5.259. A Vedic control gain over unigram therefore remains possible for explicitly nonphonetic data. Cyclic-key baselines and every restart's held-out diagnostic are exported. These point outcomes are not confidence statements or rejections of entire families.
+
+Full keys cover 584 training Indus IDs; 53 unseen types remain unassigned. Every group, coverage count, per-test loss, unit occupancy, training key and first 20 hypothetical Unicode recodings are exported in results/homophonic_channel.json. No source catalogue merger or accepted sound value follows. Narrow deterministic channel, 32-unit target truncation, proxy chronology/genre and scarce rare-sign evidence remain. Tests now 59 and analytical artifacts 52; final verification/publication recorded in RESEARCH_STATE.md.

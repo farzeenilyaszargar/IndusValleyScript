@@ -26,6 +26,9 @@ def main():
     graphic=read('graphic_variant_audit')
     substitution=read('substitution_search')
     novel=read('novel_pattern_substitution')
+    homophonic=read('homophonic_channel')
+    homophonic_rows='\n'.join(f'| {lang.replace("_"," ")} / {name} | {r["test_bits"]:.3f} | {r["generic_baselines"]["unigram"]["test"]:.3f} | {r["generic_baselines"]["bigram"]["test"]:.3f} |'
+        for lang,v in homophonic['languages'].items() for name,r in (("known cipher",v['known_homophonic_cipher']),("Indus",v['Indus']),("nonphonetic",v['nonphonetic_control'])))
     novel_rows='\n'.join(f'| {lang.replace("_"," ")} / {name} | {r["frequency_test_bits"]:.3f} | {r["selected_test_bits"]:.3f} | {r["gain"]["gain_bits_per_token"]:.3f} [{r["gain"]["percentile98_75_four_comparison_sensitivity"][0]:.3f}, {r["gain"]["percentile98_75_four_comparison_sensitivity"][1]:.3f}] |'
         for lang,v in novel['languages'].items() for name,r in (("Indus",v['Indus']),("nonphonetic",v['nonphonetic_control'])))
     substitution_rows='\n'.join(f'| {lang.replace("_"," ")} / {name} | {r["frequency_baseline"]["test"]:.3f} | {r["selected_test_bits"]:.3f} | {100*r["mean_pairwise_key_agreement"]:.1f}% |'
@@ -69,7 +72,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.18 | 18 October 2026 | Not peer reviewed
+Research draft, version 0.19 | 18 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -369,6 +372,26 @@ Reselecting among the original five keys using only retained validation keeps st
 
 The improvement therefore extends beyond exactly repeated collapsed strings, but it also extends to the explicitly nonphonetic control. This narrows one explanation for the fit without validating any actual reading. Weak restart agreement, one-unit-per-sign restriction, literary target mismatch, unknown collapse, stored-order uncertainty and unseparated near-copy families remain. No phonetic key or language identification follows.
 
+### 4.23 Full-vocabulary homophonic glyph channel
+
+Experiment 019 addresses the previous top32-source restriction. It is motivated by selected homophonic/noisy-channel and type-update passages in Ravi and Knight [20], not a replication of their Bayesian CRP/Gibbs sampler or dictionary-based model. A deterministic key maps every training glyph to one of 32 selected proxy writing units; several glyphs may share a unit. All 32 units must be occupied so each target state's emission distribution is defined. Only source types unseen in training use a fixed source/target UNK slot. No full historical phonetic inventory, proto-language reconstruction or semantic anchor is supplied by these units.
+
+To account for distinct source glyphs, the normalized channel uses P(s|g(s))=(f_s+0.5)/sum_r(f_r+0.5), summing only training glyphs assigned to that unit. Frequencies are training-only; source UNK emits with probability 1 from target UNK. The sequence probability combines the frozen target initial unigram/internal bigrams with every glyph emission, without EOS. Optimizing recoded fluency alone would omit the cost of explaining multiple distinct glyphs. These total glyph-space scores therefore cannot be compared directly with Experiment 017/018's incomplete recoding scores.
+
+Equal-length one-substitution neighbors of length>=3, exact/reverse copies and their transitive closure stay in one partition. Groups are shuffled seed 42 and split 80/10/10% by component count. Indus has 1,713 components, largest 74 canonical texts, with 1,690/235/231 rows and 584 training glyph types across 637 total. Test source coverage is 96.9%; 53 types outside training receive no key. Control has 1,160 components, largest 117, with 1,822/167/167 rows, 396/408 types and 99.2% test coverage. Fixed-UNK test-pattern overlap with training is zero for every condition. Similarity groups are not independently verified artifact families; row proportions and difficulty differ from earlier splits. Source order remains as stored, not proven reading direction.
+
+Five starts each receive 30,000 mixed type moves/swaps and up to two greedy single-type sweeps. Moves that empty a target unit are rejected. Training fits the key and add0.5 emission counts; validation selects a restart. Baselines are an arbitrary cyclic key, plus generic training-only add0.5 unigram and strength20 sign bigram models on the same full source alphabet, initial/internal likelihood and test rows. No model or direction is selected using test scores.
+
+| Proxy / input | Channel bits/token | Source unigram | Source bigram |
+|---|---|---|---|
+{homophonic_rows}
+
+Positive controls give two random opaque homophones to each unit in the earlier held-source windows; 64 aliases are scrambled, variant choices use seed 2031, and every training alias remains distinct. Both selected keys recover 64/64 aliases and 100% of covered test tokens, matching their true-key channel oracles. Tamil calibration split 1,821/202/133 (1,217 components, largest 249) and Vedic 1,760/209/187 (1,579 components, largest 272). All true target units occur among training aliases, satisfying the surjection constraint. Repeated/overlapping windows within held source documents can still cross partitions; source documents never train the target model. Truth is supplied only for generation and post-selection recovery diagnostics, never optimization.
+
+Despite successful artificial recovery, both Indus proxy channels lose to source unigram (Tamil +0.763, Vedic +0.221 bits/token) and source bigram (Tamil +1.661, Vedic +1.119). These are held-out point comparisons, not universal rejection of language families or every homophonic model. Tamil/Vedic Indus emission costs are 2.166/2.682 bits/token on top of language parts 5.830/4.771. Mean pairwise key agreement across starts is 6.2%/7.4%, so fitted keys remain highly unstable. The nonphonetic Vedic channel beats its unigram by 0.650 but remains worse than its source bigram; the Tamil control loses to both. Thus even a channel gain need not imply phonetic content.
+
+All 584 Indus training-glyph mappings, 53 unassigned types, unit occupancies, per-start keys/validation scores, split groups, per-test losses and twenty incomplete hypothetical recodings are exported. The previous source-vocabulary truncation is largely removed, while target-unit truncation, proxy chronology/genre, deterministic one-unit-per-sign assumptions, sparse signs, shared corpus ancestry and unknown original reading order remain. No mapping is adopted as a historical sound value. This calibrated extension supplies a failed broad-coverage attempt and a reusable channel, not a translation.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -422,6 +445,8 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 [18] Knight et al. Unsupervised Analysis for Decipherment Problems. COLING-ACL 2006. https://aclanthology.org/P06-2065/
 
 [19] Luo, Cao and Barzilay. Neural Decipherment via Minimum-Cost Flow: From Ugaritic to Linear B. ACL 2019. https://aclanthology.org/P19-1303/
+
+[20] Ravi and Knight. Bayesian Inference for Zodiac and Other Homophonic Ciphers. ACL 2011. Selected homophonic/noisy-channel and type-update sections inspected. https://aclanthology.org/P11-1025/
 '''
     (ROOT/'docs/PAPER.md').write_text(paper)
     summary=f'''# Results snapshot
@@ -462,6 +487,8 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Conditional substitution: Vedic artificial cipher 32/32 key recovery; Tamil 24/32. Indus keys unstable across starts and nonphonetic control also improves. Only 59.4% of Indus test tokens mapped; no reading or family identification. Full keys and hypothetical Unicode recodings exported.
 
 - Novel-pattern audit: remove collapsed train/validation duplicates without refitting training keys. Indus test shrinks to 122 rows, control to 137; gains persist for both (Indus 0.693/1.080, nonphonetic 0.837/2.558 bits/token). This is retrospective robustness evidence, not a reading or new independent validation.
+
+- Full-vocabulary homophonic channel: both artificial 64-alias ciphers recovered exactly. Indus training 584/637 types gives 96.9% test coverage; both normalized proxy channels lose to generic source unigram and bigram. Keys remain unstable, no phonetic reading adopted.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''
