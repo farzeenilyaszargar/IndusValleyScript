@@ -72,7 +72,7 @@ results/graphic_variant_audit.json retains every citation lookup, candidate docu
 
 ## Conditional-substitution inputs
 
-data/substitution/inputs.json.gz freezes selected single writing-unit Unicode labels, 33-state unigram/bigram counts, exact/reverse document partition identities and opaque calibration-window ciphers/provenance. The uncompressed hash is checked before analysis; manifest also records the pinned source-inventory hash. Source texts and complete word dictionaries are not added. ATTRIBUTION.md preserves Tamil Apache-2.0 and adapted Vedic CC BY-SA4.0 credit/licenses. Units are normalization products, not historical phonemes. These artifacts support Experiment017; optional prepare_substitution.py reads already cached, hash-verified language sources. Default offline reproduction uses the frozen inputs.
+data/substitution/inputs.json.gz freezes selected single writing-unit Unicode labels, 33-state unigram/bigram counts, exact/reverse document partition identities and opaque calibration-window ciphers/provenance. The uncompressed hash is checked before analysis; manifest also records the pinned source-inventory hash. Source texts and complete word dictionaries are not added. ATTRIBUTION.md preserves Tamil Apache-2.0 and adapted Vedic CC BY-SA4.0 credit/licenses. Units are normalization products, not historical phonemes. These artifacts support Experiment 017; optional prepare_substitution.py reads already cached, hash-verified language sources. Default offline reproduction uses the frozen inputs.
 
 ## Full-source homophonic representation
 
@@ -81,3 +81,7 @@ Experiment 019 gives every distinct training glyph its own dense source index, t
 ## Direction sensitivity provenance
 
 Experiment 020 freezes Experiment 019's source-ID lists, integer keys and component memberships. A SHA256 over sorted source/key structures excludes floating fields to retain the existing 1e-12 cross-platform numerical tolerance. Source/target input hashes and independent training/validation reconstructions remain separate checks. Stored/reverse-stored conditions reverse tokens within each row; neither reorders rows or partitions. Results link original test indices/components to paired selected-channel and validation-directed baseline losses. No actual archaeological reading direction, new glyph equivalence or accepted sound assignment is added.
+
+## Complete target inventory snapshot
+
+data/full_target/inputs.json.gz stores all 225 Tamil/37 Vedic model writing units, full numeric unigram/bigram counts, frozen model/held document IDs, held-only labels and exactly the earlier sampled windows/offsets. Its manifest pins uncompressed and coarse-input hashes plus source-inventory provenance. Optional prepare_full_target.py reads only pinned cached sources; offline full_target_audit.py verifies hashes, IDs/windows and exact coarsening back to Experiment 017. Unicode labels remain normalization products; flags/names do not correct or interpret rare mark combinations. Synthetic aliases are newly generated opaque labels, with truth used for feasibility only. Adapted Vedic data retain CC BY-SA4.0; license texts/credits are linked in data/full_target/ATTRIBUTION.md.

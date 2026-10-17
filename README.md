@@ -23,7 +23,7 @@ Complete acquisition of every excavated sign and successful decipherment are ope
 - [Searchable catalogue](docs/SIGN_CATALOGUE.html) (download and open locally; remote images require network access)
 - [Data audit](docs/DATA.md), [literature](docs/LITERATURE.md), [remaining hypotheses](docs/HYPOTHESES.md)
 
-Release 0.20: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
+Release 0.21: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
 
 Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, including EOS and a collapsed unknown-sign event. This measures sequence predictability, not translation. No phonetic key or language family has been identified.
 
@@ -78,3 +78,5 @@ The [novel-pattern audit](docs/EXPERIMENT_018.md) removes collapsed train/valida
 The [full-vocabulary homophonic experiment](docs/EXPERIMENT_019.md) maps every training sign through a normalized many-to-one channel. Both artificial 64-alias keys are recovered exactly. Indus test coverage reaches 96.9%, but both proxy channels score worse than generic source unigram/bigram models. All 584 conditional mappings and 53 unassigned types are exported; no historical reading is adopted.
 
 The [validation-selected direction audit](docs/EXPERIMENT_020.md) compares ten full-vocabulary keys across stored/reverse order without changing partitions. Both artificial controls recover their original order and 64/64 aliases. Neither Indus channel beats a validation-directed generic bigram; the small Vedic unigram deficit remains uncertain under four-comparison sensitivity. This identifies no historical reading direction or sound value.
+
+The [complete target inventory audit](docs/EXPERIMENT_021.md) freezes 225 Tamil/37 Vedic model units with 99.990%/99.9998% held-language-token coverage. Every old coarse count/window reproduces exactly. Expanded artificial training lacks 27/1 true units, exposing an invalid requirement for the correct key in the old surjective channel. A decoder permitting unoccupied units remains to be implemented; this release reports preparation and feasibility only.

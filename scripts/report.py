@@ -28,6 +28,9 @@ def main():
     novel=read('novel_pattern_substitution')
     homophonic=read('homophonic_channel')
     direction=read('channel_direction')
+    full_target=read('full_target_audit')
+    full_target_rows='\n'.join(f'| {lang.replace("_"," ")} | {r["model_units"]} | {100*r["full_held_token_coverage"]:.5f}% | {len(r["synthetic_feasibility"]["missing_true_training_unit_indices"])} |'
+        for lang,r in full_target['languages'].items())
     direction_rows='\n'.join(f'| {lang.replace("_"," ")} / {name} | {r["selected_direction"].replace("_"," ")} | {r["selected_test_bits"]:.3f} | {r["bigram_test_bits"]:.3f} |'
         for lang,v in direction['languages'].items() for name,r in (("known cipher",v['known_homophonic_cipher']),("Indus",v['Indus']),("nonphonetic",v['nonphonetic_control'])))
     homophonic_rows='\n'.join(f'| {lang.replace("_"," ")} / {name} | {r["test_bits"]:.3f} | {r["generic_baselines"]["unigram"]["test"]:.3f} | {r["generic_baselines"]["bigram"]["test"]:.3f} |'
@@ -75,7 +78,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.20 | 18 October 2026 | Not peer reviewed
+Research draft, version 0.21 | 18 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -413,6 +416,22 @@ Both artificial 64-alias controls choose stored order and recover 64/64 mappings
 
 All ten candidate keys and validation scores, post-selection diagnostic test scores, selected conditional recodings, per-component gains and paired per-test losses are exported in results/channel_direction.json. Full source/split identities remain referenced to the frozen Experiment 019 artifact; integer-key/source digest excludes floating fields to preserve cross-platform numerical tolerance. No accepted sound values, actual reading direction, language identification or translation follows. Target 32-unit coverage and historical genre/stage mismatch remain priorities for further work.
 
+### 4.25 Complete target-unit acquisition and feasibility
+
+Experiment 021 prepares the broader target inventory rather than fitting a new Indus decoder. Exploratory whole-source counts were known before its design: 233 normalized Tamil units across 204,469 tokens and 38 Vedic units across 1,161,219. The Tamil text field contains three single Latin-letter tokens (a,b,r), all in the held source pool; they cannot explain the earlier model's 42% unknown mass. Rare and unusual mark combinations remain literal, with codepoint/name metadata rather than silent correction. These are writing units produced by normalization, not validated phonemes or reconstructed ancient sounds.
+
+Using the exact frozen Experiment 017 model/held document IDs and sampled-window offsets, export every model-document unit, full unigram/internal bigram counts and the same held-source windows. No new poem selection or word dictionary is introduced. Coarsening these full counts back to the earlier 32-unit inventory reproduces every integer cell exactly. The same windows also reproduce the original cipher after its diagnostic permutation is inverted. Raw pinned source hashes are checked during optional preparation; full-input and coarse-input hashes plus identity/lineage checks support the offline audit. Adapted Vedic data retain CC BY-SA4.0 attribution.
+
+| Proxy | Full model units | Held token coverage | True units absent in cipher training |
+|---|---|---|---|
+{full_target_rows}
+
+Tamil model has 225 units/124,964 tokens from 472 documents; its 316 held documents contain 79,505 tokens, with eight held-only unit types occurring once each. Vedic model has 37 units/698,682 tokens from 16,442 documents; 10,740 held documents contain 462,537 tokens, with one held-only unit (a rare Latin diacritic letter) occurring once. Full model coverage is 100% by construction. Earlier top32 model coverage 57.971%/99.811% quantifies target truncation within these fixed document pools; historical genre/stage mismatch remains unresolved.
+
+New two-alias-per-unit artificial ciphers preserve the original 2,156-window length list and use variant seed 2031/alias permutation 1031. Similarity-component splitting yields Tamil 1,731/213/212 rows (2,059 components, largest 6), 362 training aliases of 450 planned; 198/225 true units occur in training, leaving 27 absent. Vedic 1,762/200/194 (1,580 components, largest 279), 70 aliases of 74 planned; 36/37 true units occur in training. Both have enough observed training glyph types numerically, but their true keys cannot satisfy the earlier requirement that every target unit receive an observed training glyph. Truth is used solely for this known artificial feasibility diagnostic.
+
+This identifies a concrete obstacle to extending the existing surjective algorithm: deleting rare units or forcing arbitrary assignments would change the problem and could exclude the correct key. A broader normalized emission model must permit unoccupied units while accounting for unknown observations, for example by an explicit unknown emission and marginalization. That decoder is not implemented or scored in this release. Frozen inputs in data/full_target and results/full_target_audit.json now support its development. No expanded-target fit, Indus sound value, family identification or translation is claimed; earlier 32-unit experiments remain unchanged.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -512,6 +531,8 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Full-vocabulary homophonic channel: both artificial 64-alias ciphers recovered exactly. Indus training 584/637 types gives 96.9% test coverage; both normalized proxy channels lose to generic source unigram and bigram. Keys remain unstable, no phonetic reading adopted.
 
 - Direction sensitivity: validation selects reverse-stored Tamil and stored Vedic channel order, yet neither beats a direction-selected generic sign bigram. Both artificial ciphers select their true stored order and recover 64/64 aliases. Bigram-deficit intervals remain negative; the small Vedic unigram deficit is uncertain. No historical reading direction or sound key established.
+
+- Complete target acquisition: 225 Tamil/37 Vedic model units cover 99.990%/99.9998% of held tokens. Every old coarse count/window reproduces exactly. True expanded-cipher training keys omit 27/1 target units, violating the old surjection requirement. Inputs are frozen; a broader decoder has not yet been fitted.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''

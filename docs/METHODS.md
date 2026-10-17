@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.20. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.21. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -188,3 +188,13 @@ Bootstrap 5,000 original similarity-component draws seed 20261018; 172 test comp
 Both artificial ciphers choose their true stored direction and recover 64/64 keys, 100% covered original-sequence tokens. Generic bigram chooses reverse-stored even for these known-direction controls, illustrating the ambiguity of generic preference. Nonphonetic controls retain stored channels and previous scores; Vedic gain over unigram 0.650 has descriptive 95% interval [0.561,0.727], but loses to bigram. This does not select Indus semantics.
 
 Outputs results/channel_direction.json reference full source/split memberships in the frozen Experiment 019 artifact and contain all selected hypothetical recodings; no sound value is adopted. Target 32-unit truncation and literary chronology/genre remain. Core tests now 62, analytical artifacts 53; verification/publication status is recorded in RESEARCH_STATE.md.
+
+## Complete target-unit acquisition and feasibility (Experiment 021)
+
+18 October 2026. Previous whole-source exploratory counts (Tamil 233/Vedic 38, three Tamil-field Latin singleton tokens) were observed before design 9b23558 was pushed. Full model counts and expanded-cipher feasibility were inspected only after preparation. Use exact pinned raw source hashes, unique document IDs and frozen Experiment 017 model/held lists/window offsets. Save all model-unit Unicode labels/counts/codepoints/names, full unigram/internal bigrams, held-only units and numeric windows in attributed data/full_target inputs. No new word dictionary, source complete text or historical sound assignment. Vedic adaptations retain CC BY-SA4.0.
+
+Model Tamil 225 units/124,964 tokens, 472 documents; held 316/79,505 tokens, eight held-only singleton units, 99.98994% coverage. All three Latin singleton tokens belong to the held-only pool; none explains earlier model truncation. Vedic 37/698,682 tokens, 16,442 documents; held 10,740/462,537 tokens, one held-only singleton unit, 99.99978% coverage. Top32 model coverage remains 57.97110%/99.81064%. Coarsening exactly reproduces every original unigram/bigram cell and every deciphered old calibration-window index, with identity lists/window provenance checked separately. This validates lineage, not language suitability.
+
+Fresh full-unit two-alias ciphers preserve all 2,156 original window lengths. Variant seed 2031, alias permutation 1031; similarity components seed 42. Tamil 1731/213/212 rows, 2059 groups/largest 6; 362 observed training aliases of 450 planned, but only 198/225 true units in training (27 missing). Vedic 1762/200/194, 1580/largest 279 ; 70 training aliases of 74 planned, 36/37 units (one missing). Both have numerically enough training glyph types, but the true observed-training keys cannot satisfy the earlier surjection constraint. No rare unit is discarded to make that condition pass.
+
+Three new tests check count-cell aggregation with retained unknown edges, alias round-trip/unknown slots and deterministic length preservation. Initial preparation/audit/tests passed; no optimization was executed and no expanded-target accuracy is reported. A normalized emission/unknown-marginalization model permitting unoccupied target units remains necessary future work. This is a completed data/feasibility step toward that decoder, with all prior 32-unit results unchanged. Outputs results/full_target_audit.json, inputs data/full_target. Core tests now 65, analytical artifacts 54; verification/publication status is in RESEARCH_STATE.md.

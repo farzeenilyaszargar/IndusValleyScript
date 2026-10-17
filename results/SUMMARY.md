@@ -41,4 +41,6 @@
 
 - Direction sensitivity: validation selects reverse-stored Tamil and stored Vedic channel order, yet neither beats a direction-selected generic sign bigram. Both artificial ciphers select their true stored order and recover 64/64 aliases. Bigram-deficit intervals remain negative; the small Vedic unigram deficit is uncertain. No historical reading direction or sound key established.
 
+- Complete target acquisition: 225 Tamil/37 Vedic model units cover 99.990%/99.9998% of held tokens. Every old coarse count/window reproduces exactly. True expanded-cipher training keys omit 27/1 target units, violating the old surjection requirement. Inputs are frozen; a broader decoder has not yet been fitted.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
