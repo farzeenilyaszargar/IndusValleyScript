@@ -1,6 +1,6 @@
 # Results snapshot
 
-17 October 2026. No decipherment claimed.
+18 October 2026. No decipherment claimed.
 
 - Corpus: 2,156 clean distinct sequences, 9,221 tokens, 637 IDs.
 - Inventory: 715 verified remote glyph references; 395 separate Parpola descriptions.
@@ -34,5 +34,7 @@
 - Original variant inventory: 641 drawn forms in 179 source families (615/167 main plus 26/12 addendum), with page references and separate integer ordinals. M418/M419 postscript signs added as references; old benchmark unchanged. Lookup: 613 unique, 21 repeated, five base-absence cases, two unresolved suffixes; no automatic assignments.
 
 - Conditional substitution: Vedic artificial cipher 32/32 key recovery; Tamil 24/32. Indus keys unstable across starts and nonphonetic control also improves. Only 59.4% of Indus test tokens mapped; no reading or family identification. Full keys and hypothetical Unicode recodings exported.
+
+- Novel-pattern audit: remove collapsed train/validation duplicates without refitting training keys. Indus test shrinks to 122 rows, control to 137; gains persist for both (Indus 0.693/1.080, nonphonetic 0.837/2.558 bits/token). This is retrospective robustness evidence, not a reading or new independent validation.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

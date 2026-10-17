@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.17 | 17 October 2026 | Not peer reviewed
+Research draft, version 0.18 | 18 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -309,6 +309,25 @@ The selected Vedic calibration key recovers all 32 substitutions and 100% of cov
 Indus split sizes are 1,723/216/217, before training-only sign selection; only 59.4% of test tokens have one of the 32 mapped signs. Gains over frequency rank are 0.594 Tamil and 1.137 Vedic bits/token. However, mean pairwise restart key agreement is only 6.6%/28.7%. The deliberately nonphonetic administrative control also improves, by 0.761/2.292 bits/token; gains therefore do not establish linguistic decoding. Its split is 1,740/197/219 and mapped test coverage 67.5%. Collapsing rare signs produces 93/217 Indus and 81/219 control test patterns seen in training, despite full-ID exact/reverse separation. Near-copy/family leakage and the restricted one-to-one alphabet further limit generalization.
 
 All keys, restart and random scores, coverage and twenty conditional Unicode recodings per condition are exported in results/substitution_search.json. These incomplete strings are hypotheses, not translations. No external lexical, archaeological or bilingual observation validates a real key; no sound value is adopted. Known-cipher success shows the solver can recover a suitable artificial channel, while the controls show why score improvement alone is insufficient.
+
+### 4.22 Novel-pattern substitution holdout audit
+
+Experiment 018 is a retrospective sensitivity analysis: Experiment017's aggregate scores and overlap counts were already observed before its follow-up design was committed. It supplies no new independent corpus or blind confirmation. Keep the earlier training data, top32 training-selected signs, frozen target counts and five fitted keys unchanged. Remove validation strings whose exact/reverse encoded pattern appears in training. Remove test strings whose encoded pattern appears in training or retained validation. Every fixed UNK slot remains in place. Retained partitions have disjoint collapsed pattern sets; repeated patterns within one partition retain their row weights.
+
+Indus training remains 1,723 texts; validation shrinks 216 to 128 (88 training-pattern exclusions) and test 217 to 122 (93 training-pattern and two validation-pattern exclusions). Control training stays 1,740; validation 197 to 115 (82 exclusions), test 219 to 137 (81 training-pattern and one validation-pattern exclusion). Retained test mapped-token coverage is 67.3% Indus and 71.6% control; unresolved tokens remain. Their 119 and 87 canonical collapsed test patterns respectively define bootstrap groups, not verified archaeological families. Full source strings, encodings, original split indices, exclusions and per-test losses are exported.
+
+| Proxy / input | Frequency bits/token | Selected bits/token | Gain / 98.75% interval |
+|---|---|---|---|
+| Tamil / Indus | 4.976 | 4.283 | 0.693 [0.453, 0.975] |
+| Tamil / nonphonetic | 4.976 | 4.138 | 0.837 [0.451, 1.270] |
+| Vedic Sanskrit / Indus | 7.844 | 6.763 | 1.080 [0.700, 1.484] |
+| Vedic Sanskrit / nonphonetic | 8.811 | 6.253 | 2.558 [1.537, 3.450] |
+
+Intervals use 5,000 token-weighted canonical-pattern bootstrap draws, seed 20261017, with 98.75% percentiles as four-comparison Bonferroni sensitivity. All four also have 95% intervals excluding zero. These are corpus-conditional uncertainties, not evidence for a language or guarantees about unseen artifact families. Removing rows changes difficulty and coverage, so gains before/after filtering do not estimate a causal leakage effect.
+
+Reselecting among the original five keys using only retained validation keeps start 29 for both Indus proxies and start 17 for the Tamil control. Vedic control changes 43 to 17; the original key scores 6.300 on the same subset versus 6.253 for the reselected key (frequency 8.811). Thus most of that control gain survives even without reselection. No training refit or vocabulary change occurs; stored training losses are independently reconstructed and checked before reuse. Both artificial cipher controls retain every row, reproduce previous test scores and retain 32/32 Vedic and 24/32 Tamil key recovery.
+
+The improvement therefore extends beyond exactly repeated collapsed strings, but it also extends to the explicitly nonphonetic control. This narrows one explanation for the fit without validating any actual reading. Weak restart agreement, one-unit-per-sign restriction, literary target mismatch, unknown collapse, stored-order uncertainty and unseparated near-copy families remain. No phonetic key or language identification follows.
 
 ## 5. Limitations and implications for decipherment
 

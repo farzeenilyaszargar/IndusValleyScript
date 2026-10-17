@@ -56,7 +56,7 @@ def main():
         i+=1
     def footer(canvas,doc):
         canvas.saveState();canvas.setFont('Helvetica',8);canvas.setFillColor(colors.HexColor('#65756f'))
-        canvas.drawString(48,30,'INDUS SIGN SYSTEM | RESEARCH DRAFT | 17 OCTOBER 2026')
+        canvas.drawString(48,30,'INDUS SIGN SYSTEM | RESEARCH DRAFT | 18 OCTOBER 2026')
         canvas.drawRightString(564,30,str(doc.page));canvas.restoreState()
     doc=SimpleDocTemplate(str(output/'indus_structural_research.pdf'),pagesize=(612,792),
         rightMargin=48,leftMargin=48,topMargin=45,bottomMargin=48,

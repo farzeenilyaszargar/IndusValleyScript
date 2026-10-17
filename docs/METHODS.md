@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.17. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.18. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -148,3 +148,13 @@ Known-cipher selected key recovery: Vedic 32/32, covered test tokens 100%; Tamil
 Indus train/validation/test 1723/216/217; 32 training-selected signs cover59.4% of test tokens. Tamil frequency/optimized4.456/3.862 bits/token, Vedic7.908/6.771. Mean pairwise restart key agreement 6.6%/28.7%. Nonphonetic control improves4.760→4.000 and8.571→6.279, showing nonspecific likelihood gain. Its test coverage 67.5%. After collapsing rare IDs,93/217 Indus and 81/219 control test patterns recur in training. Near-copy families are not isolated. Tamil/Vedic target-unit coverage 58.0%/99.8% forbids a cross-language absolute-loss ranking.
 
 Every candidate key and twenty test Unicode recodings per condition are retained in results/substitution_search.json, explicitly hypothetical/incomplete. No English translation, actual sound value or language-family selection follows. The narrow one-sign/one-unit assumption does not cover the full script. Core checks now53; full offline reproduction and publication status are recorded in RESEARCH_STATE.md.
+
+## Novel collapsed-pattern evaluation (Experiment 018)
+
+Design begun 17 October; results documented 18 October 2026. Retrospective extension designed and pushed as 3a40694 after observing Experiment 017 aggregate scores and overlaps, before inspecting subset losses. Reuse original training-only vocabulary, training strings, target counts, five fitted keys and frequency baseline. Reconstruct frozen training losses and verify equality before use. Remove encoded exact/reverse training patterns from validation and training/retained-validation patterns from test; keep every UNK slot. Select among frozen keys using retained validation only. Every original membership/source/encoding/exclusion is exported.
+
+Indus retained 1723/128/122 rows: validation loses 88 train-pattern rows; test loses 93 train-pattern and 2 validation-pattern rows. Control retained 1740/115/137: validation loses 82, test loses 81+1 respectively. Test mapped coverage 67.3%/71.6%; bootstrap groups 119/87. Three correctness tests cover reverse collision exclusion while preserving training, unknown-slot/length distinctions and token-weighted grouped intervals. Initial tests and analysis passed; no failed model run observed.
+
+Tamil Indus frequency/selected 4.976/4.283, gain 0.693 bits/token, 98.75% interval [0.453,0.975]. Vedic Indus 7.844/6.763, gain 1.080[0.700,1.484]. Nonphonetic control 4.976/4.138, gain 0.837[0.451,1.270] Tamil; 8.811/6.253, gain 2.558[1.537,3.450] Vedic. All 95% intervals also exclude zero. Group bootstrap 5,000 seed 20261017; 98.75% is four-comparison Bonferroni sensitivity, not universal uncertainty. No cross-language score ranking.
+
+Indus start 29 unchanged for both targets; Tamil control 17 unchanged. Vedic control switches 43→17; original key on the same subset scores 6.300 instead of 6.253. Positive cipher controls retain all rows/scores and 32/32 Vedic, 24/32 Tamil recovery. Statistical gains extend beyond exact repeated collapsed patterns but also occur with known nonphonetic generation; they cannot certify reading. Subset/coverage changes preclude a causal leakage estimate. This is not a new independent holdout; near-copy families and stored-order uncertainty remain. No optimized key adopted. Results: results/novel_pattern_substitution.json. Core checks now 56, analytical JSON artifacts 51; verification/publication status is in RESEARCH_STATE.md.

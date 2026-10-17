@@ -25,6 +25,9 @@ def main():
     refs=read('reference_candidates')
     graphic=read('graphic_variant_audit')
     substitution=read('substitution_search')
+    novel=read('novel_pattern_substitution')
+    novel_rows='\n'.join(f'| {lang.replace("_"," ")} / {name} | {r["frequency_test_bits"]:.3f} | {r["selected_test_bits"]:.3f} | {r["gain"]["gain_bits_per_token"]:.3f} [{r["gain"]["percentile98_75_four_comparison_sensitivity"][0]:.3f}, {r["gain"]["percentile98_75_four_comparison_sensitivity"][1]:.3f}] |'
+        for lang,v in novel['languages'].items() for name,r in (("Indus",v['Indus']),("nonphonetic",v['nonphonetic_control'])))
     substitution_rows='\n'.join(f'| {lang.replace("_"," ")} / {name} | {r["frequency_baseline"]["test"]:.3f} | {r["selected_test_bits"]:.3f} | {100*r["mean_pairwise_key_agreement"]:.1f}% |'
         for lang,v in substitution['languages'].items() for name,r in (("known cipher",v['known_cipher']),("Indus",v['Indus']),("nonphonetic",v['nonphonetic_control'])))
     motif_rows='\n'.join(f'| {name} | {m["bits_per_row"]:.3f} | {100*m["accuracy"]:.1f}% | {100*m["macro_recall_present_classes"]:.1f}% |'
@@ -66,7 +69,7 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.17 | 17 October 2026 | Not peer reviewed
+Research draft, version 0.18 | 18 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -350,6 +353,22 @@ Indus split sizes are 1,723/216/217, before training-only sign selection; only 5
 
 All keys, restart and random scores, coverage and twenty conditional Unicode recodings per condition are exported in results/substitution_search.json. These incomplete strings are hypotheses, not translations. No external lexical, archaeological or bilingual observation validates a real key; no sound value is adopted. Known-cipher success shows the solver can recover a suitable artificial channel, while the controls show why score improvement alone is insufficient.
 
+### 4.22 Novel-pattern substitution holdout audit
+
+Experiment 018 is a retrospective sensitivity analysis: Experiment017's aggregate scores and overlap counts were already observed before its follow-up design was committed. It supplies no new independent corpus or blind confirmation. Keep the earlier training data, top32 training-selected signs, frozen target counts and five fitted keys unchanged. Remove validation strings whose exact/reverse encoded pattern appears in training. Remove test strings whose encoded pattern appears in training or retained validation. Every fixed UNK slot remains in place. Retained partitions have disjoint collapsed pattern sets; repeated patterns within one partition retain their row weights.
+
+Indus training remains 1,723 texts; validation shrinks 216 to 128 (88 training-pattern exclusions) and test 217 to 122 (93 training-pattern and two validation-pattern exclusions). Control training stays 1,740; validation 197 to 115 (82 exclusions), test 219 to 137 (81 training-pattern and one validation-pattern exclusion). Retained test mapped-token coverage is 67.3% Indus and 71.6% control; unresolved tokens remain. Their 119 and 87 canonical collapsed test patterns respectively define bootstrap groups, not verified archaeological families. Full source strings, encodings, original split indices, exclusions and per-test losses are exported.
+
+| Proxy / input | Frequency bits/token | Selected bits/token | Gain / 98.75% interval |
+|---|---|---|---|
+{novel_rows}
+
+Intervals use 5,000 token-weighted canonical-pattern bootstrap draws, seed 20261017, with 98.75% percentiles as four-comparison Bonferroni sensitivity. All four also have 95% intervals excluding zero. These are corpus-conditional uncertainties, not evidence for a language or guarantees about unseen artifact families. Removing rows changes difficulty and coverage, so gains before/after filtering do not estimate a causal leakage effect.
+
+Reselecting among the original five keys using only retained validation keeps start 29 for both Indus proxies and start 17 for the Tamil control. Vedic control changes 43 to 17; the original key scores 6.300 on the same subset versus 6.253 for the reselected key (frequency 8.811). Thus most of that control gain survives even without reselection. No training refit or vocabulary change occurs; stored training losses are independently reconstructed and checked before reuse. Both artificial cipher controls retain every row, reproduce previous test scores and retain 32/32 Vedic and 24/32 Tamil key recovery.
+
+The improvement therefore extends beyond exactly repeated collapsed strings, but it also extends to the explicitly nonphonetic control. This narrows one explanation for the fit without validating any actual reading. Weak restart agreement, one-unit-per-sign restriction, literary target mismatch, unknown collapse, stored-order uncertainty and unseparated near-copy families remain. No phonetic key or language identification follows.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -407,7 +426,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
     (ROOT/'docs/PAPER.md').write_text(paper)
     summary=f'''# Results snapshot
 
-17 October 2026. No decipherment claimed.
+18 October 2026. No decipherment claimed.
 
 - Corpus: {d['texts']:,} clean distinct sequences, {d['tokens']:,} tokens, {d['signs']} IDs.
 - Inventory: 715 verified remote glyph references; 395 separate Parpola descriptions.
@@ -441,6 +460,8 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Original variant inventory: 641 drawn forms in 179 source families (615/167 main plus 26/12 addendum), with page references and separate integer ordinals. M418/M419 postscript signs added as references; old benchmark unchanged. Lookup: 613 unique, 21 repeated, five base-absence cases, two unresolved suffixes; no automatic assignments.
 
 - Conditional substitution: Vedic artificial cipher 32/32 key recovery; Tamil 24/32. Indus keys unstable across starts and nonphonetic control also improves. Only 59.4% of Indus test tokens mapped; no reading or family identification. Full keys and hypothetical Unicode recodings exported.
+
+- Novel-pattern audit: remove collapsed train/validation duplicates without refitting training keys. Indus test shrinks to 122 rows, control to 137; gains persist for both (Indus 0.693/1.080, nonphonetic 0.837/2.558 bits/token). This is retrospective robustness evidence, not a reading or new independent validation.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''
