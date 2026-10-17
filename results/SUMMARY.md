@@ -33,4 +33,6 @@
 
 - Original variant inventory: 641 drawn forms in 179 source families (615/167 main plus 26/12 addendum), with page references and separate integer ordinals. M418/M419 postscript signs added as references; old benchmark unchanged. Lookup: 613 unique, 21 repeated, five base-absence cases, two unresolved suffixes; no automatic assignments.
 
+- Conditional substitution: Vedic artificial cipher 32/32 key recovery; Tamil 24/32. Indus keys unstable across starts and nonphonetic control also improves. Only 59.4% of Indus test tokens mapped; no reading or family identification. Full keys and hypothetical Unicode recodings exported.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

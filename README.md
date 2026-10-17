@@ -23,7 +23,7 @@ Complete acquisition of every excavated sign and successful decipherment are ope
 - [Searchable catalogue](docs/SIGN_CATALOGUE.html) (download and open locally; remote images require network access)
 - [Data audit](docs/DATA.md), [literature](docs/LITERATURE.md), [remaining hypotheses](docs/HYPOTHESES.md)
 
-Release 0.16: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
+Release 0.17: 2,156 complete distinct sequences, 9,221 tokens, 637 clean-subset IDs; 715 verified glyph references cover all 712 raw observed IDs. Separate Parpola catalogue: 395 descriptions. Namespaces are not merged.
 
 Mean held-out loss improves from 6.450 unigram to 5.452 bigram bits/token, including EOS and a collapsed unknown-sign event. This measures sequence predictability, not translation. No phonetic key or language family has been identified.
 
@@ -70,3 +70,5 @@ The [face-preserving field-symbol experiment](docs/EXPERIMENT_014.md) tests sign
 The [FC-reference and photograph audit](docs/EXPERIMENT_015.md) records 100 source references, 34 strict numeric-match candidates and a small held-out consistency test. FC and Mahadevan numbers are not interchangeable in general, so these are review candidates only. Original-object/impression photos for M-1/M-3/M-4 were inspected with mirror order and uncertainty retained.
 
 The [original graphic-variant inventory](docs/EXPERIMENT_016.md) adds 641 page-linked drawn forms across 179 source-defined families and the postscript signs M418/M419. Research ordinals and integer codes preserve the forms without assigning them to benchmark tokens or giving them sounds. The searchable catalogue now contains 2,170 overlapping catalogue/form entries, not that many distinct historical signs.
+
+The [conditional substitution experiment](docs/EXPERIMENT_017.md) recovers 32/32 Vedic and 24/32 Tamil artificial-cipher substitutions. It exports candidate 32-unit Indus keys and hypothetical recodings, but restart instability and gains on a deliberately nonphonetic control prevent interpreting the fits as readings. Only 59.4% of Indus test tokens are mapped; no phonetic key is adopted.

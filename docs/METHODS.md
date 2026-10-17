@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.16. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.17. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -136,3 +136,15 @@ Original/impression images actually viewed for M-1/M-3/M-4 on printed pp.1-3, pl
 17 October 2026. After a committed acquisition design, visually inspected every appendix page (printed785-792, PDF794-801) and the postscript (printed25/PDF36). Indexed 615 main-list forms in 167 families and 26 addendum forms in 12 further families: the combined 641/179 reproduces the introduction's totals. These forms may include the normal form; they are not 641 additional independent signs. Added page references for M418/M419, whose cited texts8401/9222 are absent from the application snapshot. Existing 417-ID benchmark remains unchanged.
 
 Every form has literal citation, source page/column, graphic position, source-defined family and a separate research ordinal/integer. An initial lookup prompted thirteen visually confirmed digit corrections recorded in raw-data revisions. Final lookup: 613 unique matching base occurrences (133 in flagged contexts), 21 repeated occurrences, five retained base-absence cases and two unresolved suffixes. Enlarged source checks retained citations1467/M254,4592/M331,7047/M347,2055/M348,4595/M278; no convenient substitute references or phonetic interpretations are inserted. No variants are assigned to primary tokens. Manual digit accuracy and source allograph classification still require independent review. Three tests cover continuation/section identity, repeated occurrences, suffix preservation and missing/base-absent cases.
+
+## Conditional writing-unit substitution (Experiment 017)
+
+17 October 2026. Design 824fa2f was pushed before numeric input preparation or key optimization. Pinned raw proxies are normalized with the earlier base-plus-following-marks function. Source exact/reverse documents split seed314 into language-model/calibration pools; train top32 writing units plus fixed UNK. Numeric counts, labels, window provenance and the secret diagnostic key are hash-frozen with explicit licenses in data/substitution. Search never receives the secret key. No source texts or full word dictionary added.
+
+Executed six searches (two proxies times known cipher/Indus/nonphonetic control), each five starts with 20,000 annealing proposals and at most two greedy sweeps. Validation selects restart, test follows selection; remaining restart tests are diagnostics only. Frequency rank and 20 fixed random keys are exported. Objectives retain initial and internal edges, no EOS. Three tests verify swap deltas against full recomputation, unknown-slot edge preservation and bijection/nonworsening training fit. Initial implementation passed all three; no failed model run was observed.
+
+Known-cipher selected key recovery: Vedic 32/32, covered test tokens 100%; Tamil 24/32, covered tokens68.4%. Frequency key recovery 20/32 and 9/32. Tamil true-key test 3.235 versus selected 3.346 bits/token exposes incomplete search/calibration; Vedic matches oracle 3.680. Windows can overlap across cipher partitions within held source documents; historical genre/stratum mismatch remains.
+
+Indus train/validation/test 1723/216/217; 32 training-selected signs cover59.4% of test tokens. Tamil frequency/optimized4.456/3.862 bits/token, Vedic7.908/6.771. Mean pairwise restart key agreement 6.6%/28.7%. Nonphonetic control improves4.760→4.000 and8.571→6.279, showing nonspecific likelihood gain. Its test coverage 67.5%. After collapsing rare IDs,93/217 Indus and 81/219 control test patterns recur in training. Near-copy families are not isolated. Tamil/Vedic target-unit coverage 58.0%/99.8% forbids a cross-language absolute-loss ranking.
+
+Every candidate key and twenty test Unicode recodings per condition are retained in results/substitution_search.json, explicitly hypothetical/incomplete. No English translation, actual sound value or language-family selection follows. The narrow one-sign/one-unit assumption does not cover the full script. Core checks now53; full offline reproduction and publication status are recorded in RESEARCH_STATE.md.

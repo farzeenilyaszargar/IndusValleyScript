@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.16 | 17 October 2026 | Not peer reviewed
+Research draft, version 0.17 | 17 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -287,11 +287,34 @@ The occurrence lookup finds 613 citations with one matching base-sign occurrence
 
 An initial citation audit prompted thirteen visually confirmed digit corrections, all recorded with before/after values and source pages. Count agreement and successful lookups do not independently certify every manual digit or the editor's allograph judgements. Original rasters remain in private cache; the repository publishes numeric metadata and page-linked glyph references. Graphic distinctions are preserved as evidence for later review, without new phonetic values, language identification or changes to historical transcriptions.
 
+### 4.21 Constrained substitution with positive and negative controls
+
+Experiment 017 follows a committed design. Substitution/noisy-channel passages in Knight et al. [18] and cognate constraints in Luo et al. [19] motivate calibration and explicit channel assumptions; neither published algorithm is replicated. Our bijective search maps 32 selected source symbols onto 32 frequent writing units in each pinned Tamil/Vedic proxy. Units use the earlier base-plus-following-marks normalization, not validated phonemes or aksharas. A fixed UNK preserves every other token and its edges. Target models use add-0.5 unigrams and strength20 interpolated bigrams, initial-unit plus internal-edge likelihood without EOS. These scores are distinct from earlier EOS-inclusive scores.
+
+Complete source documents are split by exact/reverse groups, seed314, into disjoint model and calibration pools. Tamil has 472 model/316 calibration documents; Vedic has 16,442/10,740. The 32 units cover 58.0% of Tamil model tokens versus 99.8% of Vedic tokens. Source stages, literary genres, normalization and UNK rates differ sharply, making cross-language absolute losses unsuitable for family identification. Two proxies do not exhaust language possibilities.
+
+Known artificial substitution ciphers use 2,156 held-source windows matching the Indus length list. Five starts each receive 20,000 annealing swaps and up to two greedy sweeps. Training fits keys, validation selects a restart, and test scores follow selection. Twenty fixed random keys and frequency rank are baselines. The calibration's source documents never train the target language model; its train/test windows may overlap within held documents, so this is a favorable artificial recovery check, not independent historical validation.
+
+| Proxy / input | Frequency bits/token | Selected bits/token | Restart key agreement |
+|---|---|---|---|
+| Tamil / known cipher | 4.191 | 3.346 | 69.7% |
+| Tamil / Indus | 4.456 | 3.862 | 6.6% |
+| Tamil / nonphonetic | 4.760 | 4.000 | 14.1% |
+| Vedic Sanskrit / known cipher | 4.420 | 3.680 | 36.9% |
+| Vedic Sanskrit / Indus | 7.908 | 6.771 | 28.7% |
+| Vedic Sanskrit / nonphonetic | 8.571 | 6.279 | 30.6% |
+
+The selected Vedic calibration key recovers all 32 substitutions and 100% of covered test tokens; Tamil recovers 24/32 and 68.4% of covered tokens, versus frequency-key accuracy 20/32 and 9/32 respectively. The Tamil true-key oracle scores 3.235 bits/token, better than the selected 3.346: partial calibration failure remains visible. Recovery truth is consulted only after search and validation selection.
+
+Indus split sizes are 1,723/216/217, before training-only sign selection; only 59.4% of test tokens have one of the 32 mapped signs. Gains over frequency rank are 0.594 Tamil and 1.137 Vedic bits/token. However, mean pairwise restart key agreement is only 6.6%/28.7%. The deliberately nonphonetic administrative control also improves, by 0.761/2.292 bits/token; gains therefore do not establish linguistic decoding. Its split is 1,740/197/219 and mapped test coverage 67.5%. Collapsing rare signs produces 93/217 Indus and 81/219 control test patterns seen in training, despite full-ID exact/reverse separation. Near-copy/family leakage and the restricted one-to-one alphabet further limit generalization.
+
+All keys, restart and random scores, coverage and twenty conditional Unicode recodings per condition are exported in results/substitution_search.json. These incomplete strings are hypotheses, not translations. No external lexical, archaeological or bilingual observation validates a real key; no sound value is adopted. Known-cipher success shows the solver can recover a suitable artificial channel, while the controls show why score improvement alone is insufficient.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate (36.1 percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
 
-The models establish conditional predictability under declared controls. They cannot determine whether that structure encodes phonology, names, quantities, transactions, or a mixture. Fitting an unconstrained rebus or a surname list would risk selecting the desired answer through researcher flexibility. Later Tamil and Sanskrit proxies have now been compared structurally under fixed representation choices; no Proto-Dravidian, Indo-Aryan, Austroasiatic, or isolate phonetic mapping has been tested on historically matched, independently held-out language corpora in this release.
+The models establish conditional predictability under declared controls. They cannot determine whether that structure encodes phonology, names, quantities, transactions, or a mixture. Fitting an unconstrained rebus or a surname list would risk selecting the desired answer through researcher flexibility. Later Tamil and Sanskrit proxies have now been compared structurally under fixed representation choices; the additional 32-unit conditional substitution experiment uses literary proxies, not historically matched, independently anchored Indus sound values. No Proto-Dravidian, Indo-Aryan, Austroasiatic or isolate identification is established.
 
 The next useful steps are independent photo verification, allograph sensitivity, family-aware splitting, contextual prediction by object class, and constrained comparison with appropriately licensed historical corpora. A decipherment claim should require fixed values that translate unseen material and predict independent archaeological or bilingual observations. Exhaustive acquisition and genuine decipherment remain open objectives.
 
@@ -336,3 +359,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 [16] Arun G K. IVS repository, pinned source export/parser and codebook, revision 7c0273f544998178a4e4f71b80407c52d1ac2f24. https://github.com/gkarun876/IVS
 
 [17] Joshi and Parpola. Corpus of Indus Seals and Inscriptions 1: Collections in India. 1987. Photographs pp. 1-3 and metadata pp. 365-366 inspected in public scan. https://archive.org/details/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan
+
+[18] Knight et al. Unsupervised Analysis for Decipherment Problems. COLING-ACL 2006. https://aclanthology.org/P06-2065/
+
+[19] Luo, Cao and Barzilay. Neural Decipherment via Minimum-Cost Flow: From Ugaritic to Linear B. ACL 2019. https://aclanthology.org/P19-1303/

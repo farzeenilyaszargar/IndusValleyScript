@@ -1,0 +1,5071 @@
+{
+  "design": "docs/EXPERIMENT_017.md",
+  "alphabet_size": 32,
+  "search_steps_per_start": 20000,
+  "restarts": 5,
+  "languages": {
+    "Tamil": {
+      "target_unit_labels": [
+        "\u0ba9\u0bcd",
+        "\u0b95",
+        "\u0ba4",
+        "\u0bae\u0bcd",
+        "\u0bb0\u0bcd",
+        "\u0bb5",
+        "\u0bb2\u0bcd",
+        "\u0ba8\u0bcd",
+        "\u0baf",
+        "\u0bae",
+        "\u0bb0\u0bc1",
+        "\u0baa",
+        "\u0b95\u0bcd",
+        "\u0ba4\u0bcd",
+        "\u0b99\u0bcd",
+        "\u0baa\u0bcd",
+        "\u0b95\u0bc1",
+        "\u0ba3\u0bcd",
+        "\u0ba4\u0bc1",
+        "\u0bb2",
+        "\u0b9f\u0bc1",
+        "\u0ba9",
+        "\u0bb5\u0bbf",
+        "\u0bb1\u0bcd",
+        "\u0bb1",
+        "\u0b85",
+        "\u0b9f",
+        "\u0baa\u0bc1",
+        "\u0bb1\u0bc1",
+        "\u0ba4\u0bbf",
+        "\u0bb0",
+        "\u0baf\u0bbf"
+      ],
+      "target_known_token_fraction": 0.5797109567555456,
+      "model_document_count": 472,
+      "calibration_source_document_count": 316,
+      "known_cipher": {
+        "split_sizes": {
+          "train": 1691,
+          "validation": 226,
+          "test": 239
+        },
+        "mapped_token_fraction": {
+          "train": 0.586764299530257,
+          "validation": 0.580338266384778,
+          "test": 0.5409836065573771
+        },
+        "collapsed_test_patterns_seen_in_train": 0,
+        "runs": [
+          {
+            "start": "frequency",
+            "key_indices": [
+              7,
+              30,
+              31,
+              11,
+              4,
+              15,
+              1,
+              0,
+              22,
+              10,
+              28,
+              24,
+              20,
+              12,
+              21,
+              18,
+              6,
+              2,
+              9,
+              8,
+              23,
+              19,
+              5,
+              3,
+              14,
+              25,
+              17,
+              29,
+              27,
+              16,
+              26,
+              13,
+              32
+            ],
+            "train_bits": 3.576308198907698,
+            "validation_bits": 3.551340621305839,
+            "test_bits_diagnostic_only": 3.345658186749229
+          },
+          {
+            "start": "17",
+            "key_indices": [
+              7,
+              30,
+              31,
+              11,
+              4,
+              15,
+              1,
+              0,
+              22,
+              10,
+              28,
+              24,
+              20,
+              12,
+              21,
+              18,
+              6,
+              2,
+              9,
+              8,
+              23,
+              19,
+              5,
+              3,
+              14,
+              25,
+              17,
+              29,
+              27,
+              16,
+              26,
+              13,
+              32
+            ],
+            "train_bits": 3.576308198907698,
+            "validation_bits": 3.551340621305839,
+            "test_bits_diagnostic_only": 3.345658186749229
+          },
+          {
+            "start": "29",
+            "key_indices": [
+              7,
+              30,
+              31,
+              9,
+              20,
+              17,
+              1,
+              4,
+              22,
+              10,
+              28,
+              12,
+              26,
+              23,
+              15,
+              18,
+              0,
+              2,
+              29,
+              8,
+              21,
+              24,
+              5,
+              3,
+              14,
+              25,
+              6,
+              11,
+              27,
+              16,
+              19,
+              13,
+              32
+            ],
+            "train_bits": 3.8194949527335984,
+            "validation_bits": 3.8326112163792105,
+            "test_bits_diagnostic_only": 3.646081739925769
+          },
+          {
+            "start": "43",
+            "key_indices": [
+              14,
+              30,
+              31,
+              2,
+              4,
+              7,
+              11,
+              0,
+              22,
+              10,
+              28,
+              24,
+              20,
+              13,
+              21,
+              16,
+              6,
+              1,
+              9,
+              8,
+              23,
+              19,
+              5,
+              3,
+              15,
+              25,
+              17,
+              29,
+              27,
+              18,
+              26,
+              12,
+              32
+            ],
+            "train_bits": 3.618496369437958,
+            "validation_bits": 3.5526982260789324,
+            "test_bits_diagnostic_only": 3.5407492658984885
+          },
+          {
+            "start": "59",
+            "key_indices": [
+              7,
+              30,
+              31,
+              11,
+              4,
+              15,
+              1,
+              0,
+              22,
+              10,
+              28,
+              24,
+              20,
+              12,
+              21,
+              18,
+              6,
+              2,
+              9,
+              8,
+              23,
+              19,
+              5,
+              3,
+              14,
+              25,
+              17,
+              29,
+              27,
+              16,
+              26,
+              13,
+              32
+            ],
+            "train_bits": 3.576308198907698,
+            "validation_bits": 3.551340621305839,
+            "test_bits_diagnostic_only": 3.345658186749229
+          }
+        ],
+        "selected_start": "frequency",
+        "frequency_baseline": {
+          "train": 4.362546215705436,
+          "validation": 4.153771143378203,
+          "test": 4.190812376534986
+        },
+        "random_baselines": [
+          {
+            "seed": 1000,
+            "train_bits": 4.598273140554696,
+            "validation_bits": 4.5732563272738105,
+            "test_bits": 4.330826298135017
+          },
+          {
+            "seed": 1001,
+            "train_bits": 4.700049897515513,
+            "validation_bits": 4.601773661542401,
+            "test_bits": 4.565456611689155
+          },
+          {
+            "seed": 1002,
+            "train_bits": 4.571312895826101,
+            "validation_bits": 4.416145932487862,
+            "test_bits": 4.254841623272184
+          },
+          {
+            "seed": 1003,
+            "train_bits": 4.633682652728719,
+            "validation_bits": 4.5133709907105715,
+            "test_bits": 4.332130529352483
+          },
+          {
+            "seed": 1004,
+            "train_bits": 4.617186613522665,
+            "validation_bits": 4.513900499099282,
+            "test_bits": 4.380476754318215
+          },
+          {
+            "seed": 1005,
+            "train_bits": 4.574140683210465,
+            "validation_bits": 4.491638879734561,
+            "test_bits": 4.239760307763012
+          },
+          {
+            "seed": 1006,
+            "train_bits": 4.594500258068177,
+            "validation_bits": 4.5895289340689205,
+            "test_bits": 4.43455659867016
+          },
+          {
+            "seed": 1007,
+            "train_bits": 4.697871809010364,
+            "validation_bits": 4.5908262126388255,
+            "test_bits": 4.4481686627166805
+          },
+          {
+            "seed": 1008,
+            "train_bits": 4.633068394310622,
+            "validation_bits": 4.549031793971315,
+            "test_bits": 4.38298141930586
+          },
+          {
+            "seed": 1009,
+            "train_bits": 4.568642356670345,
+            "validation_bits": 4.630523514490901,
+            "test_bits": 4.309289172883286
+          },
+          {
+            "seed": 1010,
+            "train_bits": 4.699702948588502,
+            "validation_bits": 4.526845375057359,
+            "test_bits": 4.453095324856352
+          },
+          {
+            "seed": 1011,
+            "train_bits": 4.588039758665259,
+            "validation_bits": 4.492831227764618,
+            "test_bits": 4.31762736271255
+          },
+          {
+            "seed": 1012,
+            "train_bits": 4.667994648270046,
+            "validation_bits": 4.538481779451783,
+            "test_bits": 4.336463087864303
+          },
+          {
+            "seed": 1013,
+            "train_bits": 4.559863382507487,
+            "validation_bits": 4.423797927472388,
+            "test_bits": 4.337558338566355
+          },
+          {
+            "seed": 1014,
+            "train_bits": 4.714819332743773,
+            "validation_bits": 4.673157231389986,
+            "test_bits": 4.440762793963059
+          },
+          {
+            "seed": 1015,
+            "train_bits": 4.590008553266843,
+            "validation_bits": 4.569633698666133,
+            "test_bits": 4.420580006022644
+          },
+          {
+            "seed": 1016,
+            "train_bits": 4.570722454253868,
+            "validation_bits": 4.419981480149261,
+            "test_bits": 4.267521097067173
+          },
+          {
+            "seed": 1017,
+            "train_bits": 4.640266268709149,
+            "validation_bits": 4.576488164405882,
+            "test_bits": 4.425161923091289
+          },
+          {
+            "seed": 1018,
+            "train_bits": 4.627604730780151,
+            "validation_bits": 4.369190687760503,
+            "test_bits": 4.319585426072094
+          },
+          {
+            "seed": 1019,
+            "train_bits": 4.625147710857276,
+            "validation_bits": 4.509385957949515,
+            "test_bits": 4.29733827004249
+          }
+        ],
+        "random_test_mean": 4.364709080418218,
+        "selected_test_bits": 3.345658186749229,
+        "test_gain_vs_frequency": 0.8451541897857564,
+        "mean_pairwise_key_agreement": 0.696875,
+        "conditional_key": [
+          {
+            "source_id": "C00",
+            "proxy_writing_unit": "\u0ba8\u0bcd",
+            "target_rank": 7
+          },
+          {
+            "source_id": "C01",
+            "proxy_writing_unit": "\u0bb0",
+            "target_rank": 30
+          },
+          {
+            "source_id": "C02",
+            "proxy_writing_unit": "\u0baf\u0bbf",
+            "target_rank": 31
+          },
+          {
+            "source_id": "C03",
+            "proxy_writing_unit": "\u0baa",
+            "target_rank": 11
+          },
+          {
+            "source_id": "C04",
+            "proxy_writing_unit": "\u0bb0\u0bcd",
+            "target_rank": 4
+          },
+          {
+            "source_id": "C05",
+            "proxy_writing_unit": "\u0baa\u0bcd",
+            "target_rank": 15
+          },
+          {
+            "source_id": "C06",
+            "proxy_writing_unit": "\u0b95",
+            "target_rank": 1
+          },
+          {
+            "source_id": "C07",
+            "proxy_writing_unit": "\u0ba9\u0bcd",
+            "target_rank": 0
+          },
+          {
+            "source_id": "C08",
+            "proxy_writing_unit": "\u0bb5\u0bbf",
+            "target_rank": 22
+          },
+          {
+            "source_id": "C09",
+            "proxy_writing_unit": "\u0bb0\u0bc1",
+            "target_rank": 10
+          },
+          {
+            "source_id": "C10",
+            "proxy_writing_unit": "\u0bb1\u0bc1",
+            "target_rank": 28
+          },
+          {
+            "source_id": "C11",
+            "proxy_writing_unit": "\u0bb1",
+            "target_rank": 24
+          },
+          {
+            "source_id": "C12",
+            "proxy_writing_unit": "\u0b9f\u0bc1",
+            "target_rank": 20
+          },
+          {
+            "source_id": "C13",
+            "proxy_writing_unit": "\u0b95\u0bcd",
+            "target_rank": 12
+          },
+          {
+            "source_id": "C14",
+            "proxy_writing_unit": "\u0ba9",
+            "target_rank": 21
+          },
+          {
+            "source_id": "C15",
+            "proxy_writing_unit": "\u0ba4\u0bc1",
+            "target_rank": 18
+          },
+          {
+            "source_id": "C16",
+            "proxy_writing_unit": "\u0bb2\u0bcd",
+            "target_rank": 6
+          },
+          {
+            "source_id": "C17",
+            "proxy_writing_unit": "\u0ba4",
+            "target_rank": 2
+          },
+          {
+            "source_id": "C18",
+            "proxy_writing_unit": "\u0bae",
+            "target_rank": 9
+          },
+          {
+            "source_id": "C19",
+            "proxy_writing_unit": "\u0baf",
+            "target_rank": 8
+          },
+          {
+            "source_id": "C20",
+            "proxy_writing_unit": "\u0bb1\u0bcd",
+            "target_rank": 23
+          },
+          {
+            "source_id": "C21",
+            "proxy_writing_unit": "\u0bb2",
+            "target_rank": 19
+          },
+          {
+            "source_id": "C22",
+            "proxy_writing_unit": "\u0bb5",
+            "target_rank": 5
+          },
+          {
+            "source_id": "C23",
+            "proxy_writing_unit": "\u0bae\u0bcd",
+            "target_rank": 3
+          },
+          {
+            "source_id": "C24",
+            "proxy_writing_unit": "\u0b99\u0bcd",
+            "target_rank": 14
+          },
+          {
+            "source_id": "C25",
+            "proxy_writing_unit": "\u0b85",
+            "target_rank": 25
+          },
+          {
+            "source_id": "C26",
+            "proxy_writing_unit": "\u0ba3\u0bcd",
+            "target_rank": 17
+          },
+          {
+            "source_id": "C27",
+            "proxy_writing_unit": "\u0ba4\u0bbf",
+            "target_rank": 29
+          },
+          {
+            "source_id": "C28",
+            "proxy_writing_unit": "\u0baa\u0bc1",
+            "target_rank": 27
+          },
+          {
+            "source_id": "C29",
+            "proxy_writing_unit": "\u0b95\u0bc1",
+            "target_rank": 16
+          },
+          {
+            "source_id": "C30",
+            "proxy_writing_unit": "\u0b9f",
+            "target_rank": 26
+          },
+          {
+            "source_id": "C31",
+            "proxy_writing_unit": "\u0ba4\u0bcd",
+            "target_rank": 13
+          }
+        ],
+        "first20_test_hypothetical_recodings": [
+          {
+            "source": [
+              "C20",
+              "C11",
+              "C30",
+              "C31",
+              "<UNK>",
+              "C02",
+              "<UNK>"
+            ],
+            "hypothetical_units": [
+              "\u0bb1\u0bcd",
+              "\u0bb1",
+              "\u0b9f",
+              "\u0ba4\u0bcd",
+              "<UNK>",
+              "\u0baf\u0bbf",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "C07",
+              "<UNK>",
+              "C30"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "\u0ba9\u0bcd",
+              "<UNK>",
+              "\u0b9f"
+            ]
+          },
+          {
+            "source": [
+              "C07",
+              "<UNK>",
+              "C07",
+              "<UNK>",
+              "C04"
+            ],
+            "hypothetical_units": [
+              "\u0ba9\u0bcd",
+              "<UNK>",
+              "\u0ba9\u0bcd",
+              "<UNK>",
+              "\u0bb0\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "C31",
+              "C17",
+              "C07",
+              "C10",
+              "C06",
+              "<UNK>"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0ba4\u0bcd",
+              "\u0ba4",
+              "\u0ba9\u0bcd",
+              "\u0bb1\u0bc1",
+              "\u0b95",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "C30",
+              "<UNK>",
+              "C07",
+              "<UNK>"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "\u0b9f",
+              "<UNK>",
+              "\u0ba9\u0bcd",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "C00",
+              "C17",
+              "<UNK>",
+              "C20",
+              "C11",
+              "<UNK>"
+            ],
+            "hypothetical_units": [
+              "\u0ba8\u0bcd",
+              "\u0ba4",
+              "<UNK>",
+              "\u0bb1\u0bcd",
+              "\u0bb1",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "C31",
+              "C17",
+              "C21"
+            ],
+            "hypothetical_units": [
+              "\u0ba4\u0bcd",
+              "\u0ba4",
+              "\u0bb2"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "C07",
+              "C11",
+              "<UNK>",
+              "<UNK>",
+              "C07"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "\u0ba9\u0bcd",
+              "\u0bb1",
+              "<UNK>",
+              "<UNK>",
+              "\u0ba9\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "C24",
+              "C29",
+              "<UNK>",
+              "C19"
+            ],
+            "hypothetical_units": [
+              "\u0b99\u0bcd",
+              "\u0b95\u0bc1",
+              "<UNK>",
+              "\u0baf"
+            ]
+          },
+          {
+            "source": [
+              "C17",
+              "C21",
+              "C30",
+              "C17"
+            ],
+            "hypothetical_units": [
+              "\u0ba4",
+              "\u0bb2",
+              "\u0b9f",
+              "\u0ba4"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "C13",
+              "C29",
+              "C23"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0b95\u0bcd",
+              "\u0b95\u0bc1",
+              "\u0bae\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "C15",
+              "<UNK>",
+              "C13"
+            ],
+            "hypothetical_units": [
+              "\u0ba4\u0bc1",
+              "<UNK>",
+              "\u0b95\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "C13",
+              "<UNK>",
+              "<UNK>",
+              "C22"
+            ],
+            "hypothetical_units": [
+              "\u0b95\u0bcd",
+              "<UNK>",
+              "<UNK>",
+              "\u0bb5"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "C07",
+              "<UNK>",
+              "C04",
+              "C05",
+              "C03"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0ba9\u0bcd",
+              "<UNK>",
+              "\u0bb0\u0bcd",
+              "\u0baa\u0bcd",
+              "\u0baa"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "C24",
+              "C29",
+              "<UNK>",
+              "C24",
+              "C29",
+              "C23"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0b99\u0bcd",
+              "\u0b95\u0bc1",
+              "<UNK>",
+              "\u0b99\u0bcd",
+              "\u0b95\u0bc1",
+              "\u0bae\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "<UNK>",
+              "C19",
+              "C07",
+              "<UNK>",
+              "<UNK>"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0baf",
+              "\u0ba9\u0bcd",
+              "<UNK>",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "C30",
+              "<UNK>"
+            ],
+            "hypothetical_units": [
+              "\u0b9f",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "<UNK>",
+              "C30"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0b9f"
+            ]
+          },
+          {
+            "source": [
+              "C30",
+              "<UNK>"
+            ],
+            "hypothetical_units": [
+              "\u0b9f",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "C30",
+              "<UNK>"
+            ],
+            "hypothetical_units": [
+              "\u0b9f",
+              "<UNK>"
+            ]
+          }
+        ],
+        "scope": "Conditional bijective writing-unit hypotheses; no translations or accepted historical sound values. UNK slots retained.",
+        "known_cipher_diagnostic": {
+          "key_accuracy": 0.75,
+          "covered_test_token_accuracy": 0.6844919786096256,
+          "frequency_key_accuracy": 0.28125,
+          "true_key_test_bits": 3.235186635602635,
+          "true_key_train_bits": 3.453152549556399,
+          "secret_key_for_audit": [
+            14,
+            30,
+            31,
+            11,
+            4,
+            15,
+            2,
+            0,
+            22,
+            10,
+            28,
+            24,
+            20,
+            13,
+            21,
+            16,
+            6,
+            1,
+            9,
+            8,
+            23,
+            19,
+            5,
+            3,
+            7,
+            25,
+            17,
+            29,
+            27,
+            18,
+            26,
+            12
+          ],
+          "scope": "Truth consulted only after search and validation selection, never passed into optimizer."
+        }
+      },
+      "Indus": {
+        "split_sizes": {
+          "train": 1723,
+          "validation": 216,
+          "test": 217
+        },
+        "mapped_token_fraction": {
+          "train": 0.5778471562372743,
+          "validation": 0.5797413793103449,
+          "test": 0.593952483801296
+        },
+        "collapsed_test_patterns_seen_in_train": 93,
+        "runs": [
+          {
+            "start": "frequency",
+            "key_indices": [
+              0,
+              1,
+              2,
+              7,
+              22,
+              9,
+              10,
+              15,
+              3,
+              8,
+              6,
+              5,
+              17,
+              20,
+              29,
+              26,
+              27,
+              4,
+              13,
+              11,
+              19,
+              14,
+              12,
+              18,
+              24,
+              31,
+              28,
+              21,
+              25,
+              23,
+              30,
+              16,
+              32
+            ],
+            "train_bits": 3.778674305108417,
+            "validation_bits": 3.8879592099465623,
+            "test_bits_diagnostic_only": 3.7978299145686685
+          },
+          {
+            "start": "17",
+            "key_indices": [
+              1,
+              5,
+              4,
+              19,
+              12,
+              25,
+              22,
+              9,
+              17,
+              11,
+              31,
+              3,
+              6,
+              10,
+              30,
+              2,
+              0,
+              16,
+              7,
+              8,
+              23,
+              15,
+              24,
+              13,
+              18,
+              14,
+              26,
+              29,
+              20,
+              28,
+              21,
+              27,
+              32
+            ],
+            "train_bits": 3.8068224156018355,
+            "validation_bits": 3.7765064957898344,
+            "test_bits_diagnostic_only": 3.886831559714615
+          },
+          {
+            "start": "29",
+            "key_indices": [
+              11,
+              4,
+              8,
+              9,
+              3,
+              19,
+              16,
+              1,
+              27,
+              2,
+              10,
+              14,
+              12,
+              25,
+              5,
+              0,
+              29,
+              21,
+              7,
+              17,
+              22,
+              13,
+              24,
+              30,
+              6,
+              15,
+              26,
+              20,
+              31,
+              23,
+              28,
+              18,
+              32
+            ],
+            "train_bits": 3.8235559132551673,
+            "validation_bits": 3.7669553126148587,
+            "test_bits_diagnostic_only": 3.861580854817337
+          },
+          {
+            "start": "43",
+            "key_indices": [
+              11,
+              1,
+              5,
+              0,
+              3,
+              9,
+              29,
+              18,
+              4,
+              27,
+              6,
+              7,
+              17,
+              2,
+              10,
+              8,
+              28,
+              19,
+              13,
+              16,
+              25,
+              24,
+              12,
+              21,
+              30,
+              15,
+              26,
+              20,
+              31,
+              14,
+              22,
+              23,
+              32
+            ],
+            "train_bits": 3.8209996194521145,
+            "validation_bits": 3.8369086726022874,
+            "test_bits_diagnostic_only": 3.9238994193790484
+          },
+          {
+            "start": "59",
+            "key_indices": [
+              1,
+              9,
+              6,
+              5,
+              12,
+              18,
+              24,
+              2,
+              19,
+              16,
+              0,
+              22,
+              29,
+              8,
+              27,
+              11,
+              4,
+              3,
+              10,
+              21,
+              28,
+              7,
+              25,
+              26,
+              30,
+              14,
+              20,
+              23,
+              17,
+              15,
+              13,
+              31,
+              32
+            ],
+            "train_bits": 3.804484682028932,
+            "validation_bits": 3.8141798009648684,
+            "test_bits_diagnostic_only": 3.901498306741713
+          }
+        ],
+        "selected_start": "29",
+        "frequency_baseline": {
+          "train": 4.393533279345317,
+          "validation": 4.314331723955601,
+          "test": 4.455691107125032
+        },
+        "random_baselines": [
+          {
+            "seed": 1000,
+            "train_bits": 4.58675587935444,
+            "validation_bits": 4.671864605511678,
+            "test_bits": 4.742692532339956
+          },
+          {
+            "seed": 1001,
+            "train_bits": 4.617054569605785,
+            "validation_bits": 4.670094452062705,
+            "test_bits": 4.747141971400051
+          },
+          {
+            "seed": 1002,
+            "train_bits": 4.61019527695876,
+            "validation_bits": 4.681672483961757,
+            "test_bits": 4.740632711205629
+          },
+          {
+            "seed": 1003,
+            "train_bits": 4.656261836732463,
+            "validation_bits": 4.630997440342797,
+            "test_bits": 4.694560183744738
+          },
+          {
+            "seed": 1004,
+            "train_bits": 4.420776858276083,
+            "validation_bits": 4.344041111243461,
+            "test_bits": 4.539817102747012
+          },
+          {
+            "seed": 1005,
+            "train_bits": 4.336638719946022,
+            "validation_bits": 4.298838681735572,
+            "test_bits": 4.488266893689647
+          },
+          {
+            "seed": 1006,
+            "train_bits": 4.625544931412498,
+            "validation_bits": 4.608538843186879,
+            "test_bits": 4.645340597381242
+          },
+          {
+            "seed": 1007,
+            "train_bits": 4.615793855536387,
+            "validation_bits": 4.675126599088077,
+            "test_bits": 4.819696453486073
+          },
+          {
+            "seed": 1008,
+            "train_bits": 4.916290177695031,
+            "validation_bits": 4.928291579267926,
+            "test_bits": 5.098138358263602
+          },
+          {
+            "seed": 1009,
+            "train_bits": 4.639620485046792,
+            "validation_bits": 4.7756111667297585,
+            "test_bits": 4.807644480061106
+          },
+          {
+            "seed": 1010,
+            "train_bits": 4.692792686308995,
+            "validation_bits": 4.796551829408336,
+            "test_bits": 4.900448325999929
+          },
+          {
+            "seed": 1011,
+            "train_bits": 4.709444766487791,
+            "validation_bits": 4.713210933089382,
+            "test_bits": 4.855946430323658
+          },
+          {
+            "seed": 1012,
+            "train_bits": 4.418507909534699,
+            "validation_bits": 4.397893568839913,
+            "test_bits": 4.498366009009956
+          },
+          {
+            "seed": 1013,
+            "train_bits": 4.763330190893039,
+            "validation_bits": 4.735609082444484,
+            "test_bits": 4.875157474143557
+          },
+          {
+            "seed": 1014,
+            "train_bits": 4.483857238346512,
+            "validation_bits": 4.465455018828547,
+            "test_bits": 4.557534562113918
+          },
+          {
+            "seed": 1015,
+            "train_bits": 4.5533247007860105,
+            "validation_bits": 4.64867947061619,
+            "test_bits": 4.711784036873566
+          },
+          {
+            "seed": 1016,
+            "train_bits": 4.54599508732345,
+            "validation_bits": 4.627802186801282,
+            "test_bits": 4.706998310208443
+          },
+          {
+            "seed": 1017,
+            "train_bits": 4.581510421300582,
+            "validation_bits": 4.575192406396377,
+            "test_bits": 4.572177320459623
+          },
+          {
+            "seed": 1018,
+            "train_bits": 4.903118423981176,
+            "validation_bits": 4.8707496111331094,
+            "test_bits": 5.013202866944786
+          },
+          {
+            "seed": 1019,
+            "train_bits": 4.6562604655369535,
+            "validation_bits": 4.563614276817911,
+            "test_bits": 4.769242206507776
+          }
+        ],
+        "random_test_mean": 4.739239441345213,
+        "selected_test_bits": 3.861580854817337,
+        "test_gain_vs_frequency": 0.5941102523076953,
+        "mean_pairwise_key_agreement": 0.065625,
+        "conditional_key": [
+          {
+            "source_id": "740",
+            "proxy_writing_unit": "\u0baa",
+            "target_rank": 11
+          },
+          {
+            "source_id": "002",
+            "proxy_writing_unit": "\u0bb0\u0bcd",
+            "target_rank": 4
+          },
+          {
+            "source_id": "032",
+            "proxy_writing_unit": "\u0baf",
+            "target_rank": 8
+          },
+          {
+            "source_id": "220",
+            "proxy_writing_unit": "\u0bae",
+            "target_rank": 9
+          },
+          {
+            "source_id": "400",
+            "proxy_writing_unit": "\u0bae\u0bcd",
+            "target_rank": 3
+          },
+          {
+            "source_id": "240",
+            "proxy_writing_unit": "\u0bb2",
+            "target_rank": 19
+          },
+          {
+            "source_id": "060",
+            "proxy_writing_unit": "\u0b95\u0bc1",
+            "target_rank": 16
+          },
+          {
+            "source_id": "390",
+            "proxy_writing_unit": "\u0b95",
+            "target_rank": 1
+          },
+          {
+            "source_id": "820",
+            "proxy_writing_unit": "\u0baa\u0bc1",
+            "target_rank": 27
+          },
+          {
+            "source_id": "520",
+            "proxy_writing_unit": "\u0ba4",
+            "target_rank": 2
+          },
+          {
+            "source_id": "033",
+            "proxy_writing_unit": "\u0bb0\u0bc1",
+            "target_rank": 10
+          },
+          {
+            "source_id": "741",
+            "proxy_writing_unit": "\u0b99\u0bcd",
+            "target_rank": 14
+          },
+          {
+            "source_id": "861",
+            "proxy_writing_unit": "\u0b95\u0bcd",
+            "target_rank": 12
+          },
+          {
+            "source_id": "031",
+            "proxy_writing_unit": "\u0b85",
+            "target_rank": 25
+          },
+          {
+            "source_id": "235",
+            "proxy_writing_unit": "\u0bb5",
+            "target_rank": 5
+          },
+          {
+            "source_id": "001",
+            "proxy_writing_unit": "\u0ba9\u0bcd",
+            "target_rank": 0
+          },
+          {
+            "source_id": "003",
+            "proxy_writing_unit": "\u0ba4\u0bbf",
+            "target_rank": 29
+          },
+          {
+            "source_id": "233",
+            "proxy_writing_unit": "\u0ba9",
+            "target_rank": 21
+          },
+          {
+            "source_id": "817",
+            "proxy_writing_unit": "\u0ba8\u0bcd",
+            "target_rank": 7
+          },
+          {
+            "source_id": "590",
+            "proxy_writing_unit": "\u0ba3\u0bcd",
+            "target_rank": 17
+          },
+          {
+            "source_id": "705",
+            "proxy_writing_unit": "\u0bb5\u0bbf",
+            "target_rank": 22
+          },
+          {
+            "source_id": "920",
+            "proxy_writing_unit": "\u0ba4\u0bcd",
+            "target_rank": 13
+          },
+          {
+            "source_id": "803",
+            "proxy_writing_unit": "\u0bb1",
+            "target_rank": 24
+          },
+          {
+            "source_id": "415",
+            "proxy_writing_unit": "\u0bb0",
+            "target_rank": 30
+          },
+          {
+            "source_id": "798",
+            "proxy_writing_unit": "\u0bb2\u0bcd",
+            "target_rank": 6
+          },
+          {
+            "source_id": "090",
+            "proxy_writing_unit": "\u0baa\u0bcd",
+            "target_rank": 15
+          },
+          {
+            "source_id": "176",
+            "proxy_writing_unit": "\u0b9f",
+            "target_rank": 26
+          },
+          {
+            "source_id": "760",
+            "proxy_writing_unit": "\u0b9f\u0bc1",
+            "target_rank": 20
+          },
+          {
+            "source_id": "100",
+            "proxy_writing_unit": "\u0baf\u0bbf",
+            "target_rank": 31
+          },
+          {
+            "source_id": "806",
+            "proxy_writing_unit": "\u0bb1\u0bcd",
+            "target_rank": 23
+          },
+          {
+            "source_id": "368",
+            "proxy_writing_unit": "\u0bb1\u0bc1",
+            "target_rank": 28
+          },
+          {
+            "source_id": "140",
+            "proxy_writing_unit": "\u0ba4\u0bc1",
+            "target_rank": 18
+          }
+        ],
+        "first20_test_hypothetical_recodings": [
+          {
+            "source": [
+              "740",
+              "626",
+              "176",
+              "033",
+              "705",
+              "233"
+            ],
+            "hypothetical_units": [
+              "\u0baa",
+              "<UNK>",
+              "\u0b9f",
+              "\u0bb0\u0bc1",
+              "\u0bb5\u0bbf",
+              "\u0ba9"
+            ]
+          },
+          {
+            "source": [
+              "400",
+              "740",
+              "100",
+              "176",
+              "175"
+            ],
+            "hypothetical_units": [
+              "\u0bae\u0bcd",
+              "\u0baa",
+              "\u0baf\u0bbf",
+              "\u0b9f",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "405",
+              "061",
+              "033",
+              "706",
+              "794",
+              "630",
+              "220",
+              "002",
+              "820"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0bb0\u0bc1",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "\u0bae",
+              "\u0bb0\u0bcd",
+              "\u0baa\u0bc1"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "617",
+              "550",
+              "061",
+              "435",
+              "093",
+              "740",
+              "100",
+              "415"
+            ],
+            "hypothetical_units": [
+              "\u0baa",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "\u0baa",
+              "\u0baf\u0bbf",
+              "\u0bb0"
+            ]
+          },
+          {
+            "source": [
+              "220"
+            ],
+            "hypothetical_units": [
+              "\u0bae"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "094",
+              "220",
+              "032",
+              "002",
+              "144"
+            ],
+            "hypothetical_units": [
+              "\u0baa",
+              "<UNK>",
+              "\u0bae",
+              "\u0baf",
+              "\u0bb0\u0bcd",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "504",
+              "350",
+              "741",
+              "060",
+              "920"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0b99\u0bcd",
+              "\u0b95\u0bc1",
+              "\u0ba4\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "061"
+            ],
+            "hypothetical_units": [
+              "\u0baa",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "590",
+              "407",
+              "790",
+              "440"
+            ],
+            "hypothetical_units": [
+              "\u0ba3\u0bcd",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "742",
+              "861"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0b95\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "520",
+              "315",
+              "002",
+              "861",
+              "626"
+            ],
+            "hypothetical_units": [
+              "\u0ba4",
+              "<UNK>",
+              "\u0bb0\u0bcd",
+              "\u0b95\u0bcd",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "760",
+              "017",
+              "503",
+              "368",
+              "817"
+            ],
+            "hypothetical_units": [
+              "\u0baa",
+              "\u0b9f\u0bc1",
+              "<UNK>",
+              "<UNK>",
+              "\u0bb1\u0bc1",
+              "\u0ba8\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "742"
+            ],
+            "hypothetical_units": [
+              "\u0baa",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "520",
+              "073"
+            ],
+            "hypothetical_units": [
+              "\u0ba4",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "230"
+            ],
+            "hypothetical_units": [
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "400",
+              "154",
+              "690"
+            ],
+            "hypothetical_units": [
+              "\u0bae\u0bcd",
+              "<UNK>",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "900",
+              "003",
+              "002",
+              "940",
+              "705"
+            ],
+            "hypothetical_units": [
+              "\u0baa",
+              "<UNK>",
+              "\u0ba4\u0bbf",
+              "\u0bb0\u0bcd",
+              "<UNK>",
+              "\u0bb5\u0bbf"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "861",
+              "877",
+              "741",
+              "705",
+              "319"
+            ],
+            "hypothetical_units": [
+              "\u0baa",
+              "\u0b95\u0bcd",
+              "<UNK>",
+              "\u0b99\u0bcd",
+              "\u0bb5\u0bbf",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "106",
+              "741",
+              "500",
+              "209"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0b99\u0bcd",
+              "<UNK>",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "400",
+              "740",
+              "384",
+              "033"
+            ],
+            "hypothetical_units": [
+              "\u0bae\u0bcd",
+              "\u0baa",
+              "<UNK>",
+              "\u0bb0\u0bc1"
+            ]
+          }
+        ],
+        "scope": "Conditional bijective writing-unit hypotheses; no translations or accepted historical sound values. UNK slots retained."
+      },
+      "nonphonetic_control": {
+        "split_sizes": {
+          "train": 1740,
+          "validation": 197,
+          "test": 219
+        },
+        "mapped_token_fraction": {
+          "train": 0.6547926580557444,
+          "validation": 0.6256983240223464,
+          "test": 0.674562306900103
+        },
+        "collapsed_test_patterns_seen_in_train": 81,
+        "runs": [
+          {
+            "start": "frequency",
+            "key_indices": [
+              0,
+              1,
+              29,
+              2,
+              5,
+              8,
+              4,
+              23,
+              6,
+              3,
+              10,
+              12,
+              15,
+              18,
+              21,
+              19,
+              30,
+              14,
+              17,
+              7,
+              11,
+              16,
+              24,
+              27,
+              22,
+              25,
+              31,
+              9,
+              20,
+              28,
+              13,
+              26,
+              32
+            ],
+            "train_bits": 3.954799881730961,
+            "validation_bits": 3.9447889806558405,
+            "test_bits_diagnostic_only": 4.073634540653234
+          },
+          {
+            "start": "17",
+            "key_indices": [
+              4,
+              1,
+              21,
+              30,
+              8,
+              19,
+              5,
+              0,
+              3,
+              7,
+              13,
+              10,
+              23,
+              6,
+              14,
+              2,
+              22,
+              12,
+              15,
+              27,
+              24,
+              20,
+              25,
+              16,
+              31,
+              11,
+              28,
+              26,
+              9,
+              18,
+              29,
+              17,
+              32
+            ],
+            "train_bits": 3.9083308358773787,
+            "validation_bits": 3.84409109821942,
+            "test_bits_diagnostic_only": 3.9995159805844516
+          },
+          {
+            "start": "29",
+            "key_indices": [
+              9,
+              0,
+              28,
+              10,
+              8,
+              19,
+              12,
+              1,
+              3,
+              7,
+              13,
+              15,
+              5,
+              22,
+              14,
+              4,
+              2,
+              6,
+              23,
+              16,
+              30,
+              24,
+              26,
+              18,
+              27,
+              31,
+              20,
+              21,
+              11,
+              29,
+              25,
+              17,
+              32
+            ],
+            "train_bits": 3.95730145359298,
+            "validation_bits": 3.9311989458276204,
+            "test_bits_diagnostic_only": 4.062027309667903
+          },
+          {
+            "start": "43",
+            "key_indices": [
+              0,
+              2,
+              5,
+              30,
+              8,
+              19,
+              10,
+              3,
+              6,
+              12,
+              13,
+              7,
+              14,
+              15,
+              23,
+              9,
+              18,
+              4,
+              17,
+              16,
+              1,
+              20,
+              11,
+              24,
+              25,
+              27,
+              28,
+              21,
+              22,
+              29,
+              26,
+              31,
+              32
+            ],
+            "train_bits": 3.8940924425646744,
+            "validation_bits": 3.857665524073449,
+            "test_bits_diagnostic_only": 4.036388837710587
+          },
+          {
+            "start": "59",
+            "key_indices": [
+              14,
+              10,
+              19,
+              30,
+              8,
+              24,
+              5,
+              22,
+              3,
+              12,
+              13,
+              7,
+              0,
+              1,
+              6,
+              2,
+              4,
+              15,
+              17,
+              11,
+              21,
+              18,
+              26,
+              16,
+              27,
+              23,
+              28,
+              9,
+              29,
+              25,
+              31,
+              20,
+              32
+            ],
+            "train_bits": 3.9506455415099198,
+            "validation_bits": 3.9293310810327955,
+            "test_bits_diagnostic_only": 4.1291900546705795
+          }
+        ],
+        "selected_start": "17",
+        "frequency_baseline": {
+          "train": 4.728179871595696,
+          "validation": 4.546493799715577,
+          "test": 4.760406192779884
+        },
+        "random_baselines": [
+          {
+            "seed": 1000,
+            "train_bits": 4.842281493282685,
+            "validation_bits": 4.633133123630588,
+            "test_bits": 5.0561513493005785
+          },
+          {
+            "seed": 1001,
+            "train_bits": 4.821887504176524,
+            "validation_bits": 4.608706964279793,
+            "test_bits": 4.993648341457364
+          },
+          {
+            "seed": 1002,
+            "train_bits": 5.031791157283407,
+            "validation_bits": 4.720063672681345,
+            "test_bits": 5.354683141834392
+          },
+          {
+            "seed": 1003,
+            "train_bits": 4.802014008046358,
+            "validation_bits": 4.572324344023521,
+            "test_bits": 4.871683094403636
+          },
+          {
+            "seed": 1004,
+            "train_bits": 4.977070644012905,
+            "validation_bits": 4.717234774401376,
+            "test_bits": 4.990335993145845
+          },
+          {
+            "seed": 1005,
+            "train_bits": 4.798473935379784,
+            "validation_bits": 4.605767762651924,
+            "test_bits": 4.961850940328958
+          },
+          {
+            "seed": 1006,
+            "train_bits": 4.664012014226153,
+            "validation_bits": 4.558085423082616,
+            "test_bits": 4.828857759165066
+          },
+          {
+            "seed": 1007,
+            "train_bits": 4.656525316881279,
+            "validation_bits": 4.521060022292189,
+            "test_bits": 4.858828427364969
+          },
+          {
+            "seed": 1008,
+            "train_bits": 5.065280622542507,
+            "validation_bits": 4.747715292343547,
+            "test_bits": 5.2015272351435815
+          },
+          {
+            "seed": 1009,
+            "train_bits": 5.343532224054401,
+            "validation_bits": 5.144269870585128,
+            "test_bits": 5.5684253820528085
+          },
+          {
+            "seed": 1010,
+            "train_bits": 5.095985601878306,
+            "validation_bits": 4.694617385288402,
+            "test_bits": 5.110211081777486
+          },
+          {
+            "seed": 1011,
+            "train_bits": 4.894822971110126,
+            "validation_bits": 4.529441518864762,
+            "test_bits": 5.195891063980403
+          },
+          {
+            "seed": 1012,
+            "train_bits": 4.807787998736617,
+            "validation_bits": 4.752016425979508,
+            "test_bits": 4.866952650977881
+          },
+          {
+            "seed": 1013,
+            "train_bits": 5.060841366282701,
+            "validation_bits": 4.699218078149266,
+            "test_bits": 5.204677357566218
+          },
+          {
+            "seed": 1014,
+            "train_bits": 5.026954914694495,
+            "validation_bits": 4.680613407328065,
+            "test_bits": 5.132241603023342
+          },
+          {
+            "seed": 1015,
+            "train_bits": 4.823677489225126,
+            "validation_bits": 4.660137934459393,
+            "test_bits": 4.945263031746169
+          },
+          {
+            "seed": 1016,
+            "train_bits": 4.913718853818357,
+            "validation_bits": 4.598443815222694,
+            "test_bits": 4.913417007676478
+          },
+          {
+            "seed": 1017,
+            "train_bits": 4.623248539497389,
+            "validation_bits": 4.545665053794618,
+            "test_bits": 4.766998882440401
+          },
+          {
+            "seed": 1018,
+            "train_bits": 4.9831962185059275,
+            "validation_bits": 4.567567688545809,
+            "test_bits": 5.0194665527541
+          },
+          {
+            "seed": 1019,
+            "train_bits": 5.249333553718354,
+            "validation_bits": 4.84732122085813,
+            "test_bits": 5.572875398591369
+          }
+        ],
+        "random_test_mean": 5.070699314736552,
+        "selected_test_bits": 3.9995159805844516,
+        "test_gain_vs_frequency": 0.7608902121954326,
+        "mean_pairwise_key_agreement": 0.140625,
+        "conditional_key": [
+          {
+            "source_id": "V000",
+            "proxy_writing_unit": "\u0bb0\u0bcd",
+            "target_rank": 4
+          },
+          {
+            "source_id": "I000",
+            "proxy_writing_unit": "\u0b95",
+            "target_rank": 1
+          },
+          {
+            "source_id": "R002",
+            "proxy_writing_unit": "\u0ba9",
+            "target_rank": 21
+          },
+          {
+            "source_id": "R003",
+            "proxy_writing_unit": "\u0bb0",
+            "target_rank": 30
+          },
+          {
+            "source_id": "R001",
+            "proxy_writing_unit": "\u0baf",
+            "target_rank": 8
+          },
+          {
+            "source_id": "R004",
+            "proxy_writing_unit": "\u0bb2",
+            "target_rank": 19
+          },
+          {
+            "source_id": "V001",
+            "proxy_writing_unit": "\u0bb5",
+            "target_rank": 5
+          },
+          {
+            "source_id": "Q005",
+            "proxy_writing_unit": "\u0ba9\u0bcd",
+            "target_rank": 0
+          },
+          {
+            "source_id": "Q006",
+            "proxy_writing_unit": "\u0bae\u0bcd",
+            "target_rank": 3
+          },
+          {
+            "source_id": "V004",
+            "proxy_writing_unit": "\u0ba8\u0bcd",
+            "target_rank": 7
+          },
+          {
+            "source_id": "V003",
+            "proxy_writing_unit": "\u0ba4\u0bcd",
+            "target_rank": 13
+          },
+          {
+            "source_id": "V002",
+            "proxy_writing_unit": "\u0bb0\u0bc1",
+            "target_rank": 10
+          },
+          {
+            "source_id": "Q002",
+            "proxy_writing_unit": "\u0bb1\u0bcd",
+            "target_rank": 23
+          },
+          {
+            "source_id": "Q003",
+            "proxy_writing_unit": "\u0bb2\u0bcd",
+            "target_rank": 6
+          },
+          {
+            "source_id": "Q001",
+            "proxy_writing_unit": "\u0b99\u0bcd",
+            "target_rank": 14
+          },
+          {
+            "source_id": "I001",
+            "proxy_writing_unit": "\u0ba4",
+            "target_rank": 2
+          },
+          {
+            "source_id": "Q007",
+            "proxy_writing_unit": "\u0bb5\u0bbf",
+            "target_rank": 22
+          },
+          {
+            "source_id": "Q008",
+            "proxy_writing_unit": "\u0b95\u0bcd",
+            "target_rank": 12
+          },
+          {
+            "source_id": "Q004",
+            "proxy_writing_unit": "\u0baa\u0bcd",
+            "target_rank": 15
+          },
+          {
+            "source_id": "G000",
+            "proxy_writing_unit": "\u0baa\u0bc1",
+            "target_rank": 27
+          },
+          {
+            "source_id": "C000",
+            "proxy_writing_unit": "\u0bb1",
+            "target_rank": 24
+          },
+          {
+            "source_id": "I004",
+            "proxy_writing_unit": "\u0b9f\u0bc1",
+            "target_rank": 20
+          },
+          {
+            "source_id": "C001",
+            "proxy_writing_unit": "\u0b85",
+            "target_rank": 25
+          },
+          {
+            "source_id": "I002",
+            "proxy_writing_unit": "\u0b95\u0bc1",
+            "target_rank": 16
+          },
+          {
+            "source_id": "G011",
+            "proxy_writing_unit": "\u0baf\u0bbf",
+            "target_rank": 31
+          },
+          {
+            "source_id": "G001",
+            "proxy_writing_unit": "\u0baa",
+            "target_rank": 11
+          },
+          {
+            "source_id": "I003",
+            "proxy_writing_unit": "\u0bb1\u0bc1",
+            "target_rank": 28
+          },
+          {
+            "source_id": "G036",
+            "proxy_writing_unit": "\u0b9f",
+            "target_rank": 26
+          },
+          {
+            "source_id": "G065",
+            "proxy_writing_unit": "\u0bae",
+            "target_rank": 9
+          },
+          {
+            "source_id": "G002",
+            "proxy_writing_unit": "\u0ba4\u0bc1",
+            "target_rank": 18
+          },
+          {
+            "source_id": "G047",
+            "proxy_writing_unit": "\u0ba4\u0bbf",
+            "target_rank": 29
+          },
+          {
+            "source_id": "I005",
+            "proxy_writing_unit": "\u0ba3\u0bcd",
+            "target_rank": 17
+          }
+        ],
+        "first20_test_hypothetical_recodings": [
+          {
+            "source": [
+              "I010",
+              "G001",
+              "R004",
+              "V000"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0baa",
+              "\u0bb2",
+              "\u0bb0\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "I079",
+              "G081",
+              "R002",
+              "Q008",
+              "C127",
+              "V004"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0ba9",
+              "\u0b95\u0bcd",
+              "<UNK>",
+              "\u0ba8\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G065",
+              "R001",
+              "Q006",
+              "C077"
+            ],
+            "hypothetical_units": [
+              "\u0b95",
+              "\u0bae",
+              "\u0baf",
+              "\u0bae\u0bcd",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "I099",
+              "G016",
+              "R002",
+              "Q007",
+              "C082",
+              "Q007",
+              "C018",
+              "V004"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0ba9",
+              "\u0bb5\u0bbf",
+              "<UNK>",
+              "\u0bb5\u0bbf",
+              "<UNK>",
+              "\u0ba8\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "Q003",
+              "C001"
+            ],
+            "hypothetical_units": [
+              "\u0bb2\u0bcd",
+              "\u0b85"
+            ]
+          },
+          {
+            "source": [
+              "I012",
+              "G080",
+              "R003",
+              "Q001",
+              "C094",
+              "V002"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0bb0",
+              "\u0b99\u0bcd",
+              "<UNK>",
+              "\u0bb0\u0bc1"
+            ]
+          },
+          {
+            "source": [
+              "G004",
+              "R001",
+              "Q006",
+              "C098",
+              "V003"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0baf",
+              "\u0bae\u0bcd",
+              "<UNK>",
+              "\u0ba4\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "I009",
+              "G043",
+              "R004"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0bb2"
+            ]
+          },
+          {
+            "source": [
+              "I003",
+              "Q005",
+              "C000",
+              "Q004",
+              "C007",
+              "V003"
+            ],
+            "hypothetical_units": [
+              "\u0bb1\u0bc1",
+              "\u0ba9\u0bcd",
+              "\u0bb1",
+              "\u0baa\u0bcd",
+              "<UNK>",
+              "\u0ba4\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "I023",
+              "G029",
+              "R004",
+              "V003"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0bb2",
+              "\u0ba4\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R002"
+            ],
+            "hypothetical_units": [
+              "\u0b95",
+              "\u0ba4\u0bbf",
+              "\u0ba9"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R002"
+            ],
+            "hypothetical_units": [
+              "\u0b95",
+              "\u0ba4\u0bbf",
+              "\u0ba9"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R002"
+            ],
+            "hypothetical_units": [
+              "\u0b95",
+              "\u0ba4\u0bbf",
+              "\u0ba9"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R002"
+            ],
+            "hypothetical_units": [
+              "\u0b95",
+              "\u0ba4\u0bbf",
+              "\u0ba9"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R003",
+              "Q002",
+              "C072",
+              "V000"
+            ],
+            "hypothetical_units": [
+              "\u0b95",
+              "\u0ba4\u0bbf",
+              "\u0bb0",
+              "\u0bb1\u0bcd",
+              "<UNK>",
+              "\u0bb0\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R003",
+              "Q002",
+              "C072",
+              "V000"
+            ],
+            "hypothetical_units": [
+              "\u0b95",
+              "\u0ba4\u0bbf",
+              "\u0bb0",
+              "\u0bb1\u0bcd",
+              "<UNK>",
+              "\u0bb0\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R003",
+              "Q002",
+              "C072",
+              "V000"
+            ],
+            "hypothetical_units": [
+              "\u0b95",
+              "\u0ba4\u0bbf",
+              "\u0bb0",
+              "\u0bb1\u0bcd",
+              "<UNK>",
+              "\u0bb0\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "G031",
+              "R002",
+              "Q008",
+              "C032"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u0ba9",
+              "\u0b95\u0bcd",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "I023",
+              "G053",
+              "R002",
+              "V003"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u0ba9",
+              "\u0ba4\u0bcd"
+            ]
+          },
+          {
+            "source": [
+              "Q006",
+              "C011",
+              "Q003",
+              "C045",
+              "V002"
+            ],
+            "hypothetical_units": [
+              "\u0bae\u0bcd",
+              "<UNK>",
+              "\u0bb2\u0bcd",
+              "<UNK>",
+              "\u0bb0\u0bc1"
+            ]
+          }
+        ],
+        "scope": "Conditional bijective writing-unit hypotheses; no translations or accepted historical sound values. UNK slots retained."
+      }
+    },
+    "Vedic_Sanskrit": {
+      "target_unit_labels": [
+        "a",
+        "t",
+        "\u0101",
+        "i",
+        "m",
+        "r",
+        "v",
+        "y",
+        "h",
+        "n",
+        "\u1e25",
+        "s",
+        "e",
+        "u",
+        "d",
+        "p",
+        "k",
+        "\u1e63",
+        "b",
+        "c",
+        "\u015b",
+        "j",
+        "g",
+        "\u012b",
+        "\u1e47",
+        "\u1e5b",
+        "o",
+        "\u016b",
+        "l",
+        "\u1e6d",
+        "\u1e43",
+        "\u00f1"
+      ],
+      "target_known_token_fraction": 0.998106434687025,
+      "model_document_count": 16442,
+      "calibration_source_document_count": 10740,
+      "known_cipher": {
+        "split_sizes": {
+          "train": 1647,
+          "validation": 297,
+          "test": 212
+        },
+        "mapped_token_fraction": {
+          "train": 0.9968284611141754,
+          "validation": 0.999031007751938,
+          "test": 0.9957310565635006
+        },
+        "collapsed_test_patterns_seen_in_train": 0,
+        "runs": [
+          {
+            "start": "frequency",
+            "key_indices": [
+              14,
+              30,
+              31,
+              11,
+              4,
+              15,
+              2,
+              0,
+              22,
+              10,
+              28,
+              24,
+              20,
+              13,
+              21,
+              16,
+              6,
+              1,
+              9,
+              8,
+              23,
+              19,
+              5,
+              3,
+              7,
+              25,
+              17,
+              29,
+              27,
+              18,
+              26,
+              12,
+              32
+            ],
+            "train_bits": 3.708017065406189,
+            "validation_bits": 3.5792814665118518,
+            "test_bits_diagnostic_only": 3.6804229120690906
+          },
+          {
+            "start": "17",
+            "key_indices": [
+              14,
+              30,
+              31,
+              11,
+              4,
+              15,
+              2,
+              0,
+              22,
+              10,
+              28,
+              24,
+              20,
+              13,
+              21,
+              16,
+              6,
+              1,
+              9,
+              8,
+              23,
+              19,
+              5,
+              3,
+              7,
+              25,
+              17,
+              29,
+              27,
+              18,
+              26,
+              12,
+              32
+            ],
+            "train_bits": 3.708017065406189,
+            "validation_bits": 3.5792814665118518,
+            "test_bits_diagnostic_only": 3.6804229120690906
+          },
+          {
+            "start": "29",
+            "key_indices": [
+              15,
+              31,
+              29,
+              14,
+              3,
+              22,
+              9,
+              5,
+              20,
+              12,
+              30,
+              18,
+              16,
+              10,
+              26,
+              6,
+              1,
+              0,
+              23,
+              13,
+              8,
+              21,
+              2,
+              4,
+              27,
+              19,
+              25,
+              24,
+              28,
+              7,
+              17,
+              11,
+              32
+            ],
+            "train_bits": 5.216705534131928,
+            "validation_bits": 5.106714944742529,
+            "test_bits_diagnostic_only": 5.310551269706431
+          },
+          {
+            "start": "43",
+            "key_indices": [
+              14,
+              30,
+              31,
+              11,
+              4,
+              15,
+              2,
+              0,
+              22,
+              10,
+              28,
+              24,
+              20,
+              13,
+              21,
+              16,
+              6,
+              1,
+              9,
+              8,
+              23,
+              19,
+              5,
+              3,
+              7,
+              25,
+              17,
+              29,
+              27,
+              18,
+              26,
+              12,
+              32
+            ],
+            "train_bits": 3.708017065406189,
+            "validation_bits": 3.5792814665118518,
+            "test_bits_diagnostic_only": 3.6804229120690906
+          },
+          {
+            "start": "59",
+            "key_indices": [
+              16,
+              29,
+              31,
+              23,
+              3,
+              15,
+              4,
+              1,
+              22,
+              11,
+              18,
+              25,
+              20,
+              14,
+              21,
+              7,
+              13,
+              0,
+              26,
+              12,
+              10,
+              19,
+              2,
+              5,
+              9,
+              17,
+              27,
+              30,
+              28,
+              6,
+              24,
+              8,
+              32
+            ],
+            "train_bits": 5.185051296347283,
+            "validation_bits": 5.1314142508585485,
+            "test_bits_diagnostic_only": 5.39464780191067
+          }
+        ],
+        "selected_start": "frequency",
+        "frequency_baseline": {
+          "train": 4.344917385841848,
+          "validation": 4.046107645275322,
+          "test": 4.4203375652642
+        },
+        "random_baselines": [
+          {
+            "seed": 1000,
+            "train_bits": 9.52803940151475,
+            "validation_bits": 9.666047040078917,
+            "test_bits": 9.314858439545265
+          },
+          {
+            "seed": 1001,
+            "train_bits": 7.827822023343873,
+            "validation_bits": 7.714725455877234,
+            "test_bits": 7.829314382320787
+          },
+          {
+            "seed": 1002,
+            "train_bits": 7.853187686367065,
+            "validation_bits": 7.552648305284578,
+            "test_bits": 7.89213653508482
+          },
+          {
+            "seed": 1003,
+            "train_bits": 9.16437343345932,
+            "validation_bits": 9.42223259094072,
+            "test_bits": 9.201442483574793
+          },
+          {
+            "seed": 1004,
+            "train_bits": 8.125208730549739,
+            "validation_bits": 8.251572128193194,
+            "test_bits": 8.087115172590272
+          },
+          {
+            "seed": 1005,
+            "train_bits": 8.10471327772744,
+            "validation_bits": 8.182516084775074,
+            "test_bits": 7.984514523508397
+          },
+          {
+            "seed": 1006,
+            "train_bits": 8.216933784882665,
+            "validation_bits": 7.948566992800729,
+            "test_bits": 8.497156639277206
+          },
+          {
+            "seed": 1007,
+            "train_bits": 9.107003710736919,
+            "validation_bits": 9.217413423116918,
+            "test_bits": 9.160860210439171
+          },
+          {
+            "seed": 1008,
+            "train_bits": 8.517160237246404,
+            "validation_bits": 8.743137658442981,
+            "test_bits": 8.570075975433964
+          },
+          {
+            "seed": 1009,
+            "train_bits": 7.402181801458549,
+            "validation_bits": 6.9086199918765665,
+            "test_bits": 7.5232484839253795
+          },
+          {
+            "seed": 1010,
+            "train_bits": 6.547846400338291,
+            "validation_bits": 6.106365103876822,
+            "test_bits": 6.689047952764522
+          },
+          {
+            "seed": 1011,
+            "train_bits": 8.026242796904134,
+            "validation_bits": 8.106890572996916,
+            "test_bits": 8.175373291790455
+          },
+          {
+            "seed": 1012,
+            "train_bits": 8.34676305300992,
+            "validation_bits": 8.207274358569796,
+            "test_bits": 8.313572204197225
+          },
+          {
+            "seed": 1013,
+            "train_bits": 7.851679145005938,
+            "validation_bits": 7.6138019449886585,
+            "test_bits": 7.871451817762897
+          },
+          {
+            "seed": 1014,
+            "train_bits": 8.424595828641397,
+            "validation_bits": 8.308018264443813,
+            "test_bits": 8.451233452710161
+          },
+          {
+            "seed": 1015,
+            "train_bits": 7.820554431461234,
+            "validation_bits": 7.953791342183362,
+            "test_bits": 8.048700932039502
+          },
+          {
+            "seed": 1016,
+            "train_bits": 7.834823545647201,
+            "validation_bits": 7.800273100453078,
+            "test_bits": 7.7510953560206755
+          },
+          {
+            "seed": 1017,
+            "train_bits": 8.669382490921269,
+            "validation_bits": 8.641324212131234,
+            "test_bits": 9.047724162336408
+          },
+          {
+            "seed": 1018,
+            "train_bits": 6.56277858520711,
+            "validation_bits": 6.2083992072819765,
+            "test_bits": 6.548997743334913
+          },
+          {
+            "seed": 1019,
+            "train_bits": 9.536072818388945,
+            "validation_bits": 9.600171160199338,
+            "test_bits": 9.488763111425863
+          }
+        ],
+        "random_test_mean": 8.222334143504133,
+        "selected_test_bits": 3.6804229120690906,
+        "test_gain_vs_frequency": 0.7399146531951093,
+        "mean_pairwise_key_agreement": 0.36875,
+        "conditional_key": [
+          {
+            "source_id": "C00",
+            "proxy_writing_unit": "d",
+            "target_rank": 14
+          },
+          {
+            "source_id": "C01",
+            "proxy_writing_unit": "\u1e43",
+            "target_rank": 30
+          },
+          {
+            "source_id": "C02",
+            "proxy_writing_unit": "\u00f1",
+            "target_rank": 31
+          },
+          {
+            "source_id": "C03",
+            "proxy_writing_unit": "s",
+            "target_rank": 11
+          },
+          {
+            "source_id": "C04",
+            "proxy_writing_unit": "m",
+            "target_rank": 4
+          },
+          {
+            "source_id": "C05",
+            "proxy_writing_unit": "p",
+            "target_rank": 15
+          },
+          {
+            "source_id": "C06",
+            "proxy_writing_unit": "\u0101",
+            "target_rank": 2
+          },
+          {
+            "source_id": "C07",
+            "proxy_writing_unit": "a",
+            "target_rank": 0
+          },
+          {
+            "source_id": "C08",
+            "proxy_writing_unit": "g",
+            "target_rank": 22
+          },
+          {
+            "source_id": "C09",
+            "proxy_writing_unit": "\u1e25",
+            "target_rank": 10
+          },
+          {
+            "source_id": "C10",
+            "proxy_writing_unit": "l",
+            "target_rank": 28
+          },
+          {
+            "source_id": "C11",
+            "proxy_writing_unit": "\u1e47",
+            "target_rank": 24
+          },
+          {
+            "source_id": "C12",
+            "proxy_writing_unit": "\u015b",
+            "target_rank": 20
+          },
+          {
+            "source_id": "C13",
+            "proxy_writing_unit": "u",
+            "target_rank": 13
+          },
+          {
+            "source_id": "C14",
+            "proxy_writing_unit": "j",
+            "target_rank": 21
+          },
+          {
+            "source_id": "C15",
+            "proxy_writing_unit": "k",
+            "target_rank": 16
+          },
+          {
+            "source_id": "C16",
+            "proxy_writing_unit": "v",
+            "target_rank": 6
+          },
+          {
+            "source_id": "C17",
+            "proxy_writing_unit": "t",
+            "target_rank": 1
+          },
+          {
+            "source_id": "C18",
+            "proxy_writing_unit": "n",
+            "target_rank": 9
+          },
+          {
+            "source_id": "C19",
+            "proxy_writing_unit": "h",
+            "target_rank": 8
+          },
+          {
+            "source_id": "C20",
+            "proxy_writing_unit": "\u012b",
+            "target_rank": 23
+          },
+          {
+            "source_id": "C21",
+            "proxy_writing_unit": "c",
+            "target_rank": 19
+          },
+          {
+            "source_id": "C22",
+            "proxy_writing_unit": "r",
+            "target_rank": 5
+          },
+          {
+            "source_id": "C23",
+            "proxy_writing_unit": "i",
+            "target_rank": 3
+          },
+          {
+            "source_id": "C24",
+            "proxy_writing_unit": "y",
+            "target_rank": 7
+          },
+          {
+            "source_id": "C25",
+            "proxy_writing_unit": "\u1e5b",
+            "target_rank": 25
+          },
+          {
+            "source_id": "C26",
+            "proxy_writing_unit": "\u1e63",
+            "target_rank": 17
+          },
+          {
+            "source_id": "C27",
+            "proxy_writing_unit": "\u1e6d",
+            "target_rank": 29
+          },
+          {
+            "source_id": "C28",
+            "proxy_writing_unit": "\u016b",
+            "target_rank": 27
+          },
+          {
+            "source_id": "C29",
+            "proxy_writing_unit": "b",
+            "target_rank": 18
+          },
+          {
+            "source_id": "C30",
+            "proxy_writing_unit": "o",
+            "target_rank": 26
+          },
+          {
+            "source_id": "C31",
+            "proxy_writing_unit": "e",
+            "target_rank": 12
+          }
+        ],
+        "first20_test_hypothetical_recodings": [
+          {
+            "source": [
+              "C09",
+              "C07",
+              "C18",
+              "C24",
+              "C07"
+            ],
+            "hypothetical_units": [
+              "\u1e25",
+              "a",
+              "n",
+              "y",
+              "a"
+            ]
+          },
+          {
+            "source": [
+              "C16",
+              "C07",
+              "C19",
+              "C23"
+            ],
+            "hypothetical_units": [
+              "v",
+              "a",
+              "h",
+              "i"
+            ]
+          },
+          {
+            "source": [
+              "C17",
+              "C07",
+              "C17",
+              "C03",
+              "C06",
+              "C04"
+            ],
+            "hypothetical_units": [
+              "t",
+              "a",
+              "t",
+              "s",
+              "\u0101",
+              "m"
+            ]
+          },
+          {
+            "source": [
+              "C17",
+              "C19",
+              "C06",
+              "C04",
+              "C23",
+              "C17"
+            ],
+            "hypothetical_units": [
+              "t",
+              "h",
+              "\u0101",
+              "m",
+              "i",
+              "t"
+            ]
+          },
+          {
+            "source": [
+              "C19",
+              "C06",
+              "C04",
+              "C15",
+              "C07",
+              "C22"
+            ],
+            "hypothetical_units": [
+              "h",
+              "\u0101",
+              "m",
+              "k",
+              "a",
+              "r"
+            ]
+          },
+          {
+            "source": [
+              "C16",
+              "C23",
+              "C04",
+              "C07",
+              "C00"
+            ],
+            "hypothetical_units": [
+              "v",
+              "i",
+              "m",
+              "a",
+              "d"
+            ]
+          },
+          {
+            "source": [
+              "C18",
+              "C23",
+              "C09",
+              "C08"
+            ],
+            "hypothetical_units": [
+              "n",
+              "i",
+              "\u1e25",
+              "g"
+            ]
+          },
+          {
+            "source": [
+              "C19",
+              "C30",
+              "C04",
+              "C06"
+            ],
+            "hypothetical_units": [
+              "h",
+              "o",
+              "m",
+              "\u0101"
+            ]
+          },
+          {
+            "source": [
+              "C07",
+              "C24",
+              "C07",
+              "C04",
+              "C31"
+            ],
+            "hypothetical_units": [
+              "a",
+              "y",
+              "a",
+              "m",
+              "e"
+            ]
+          },
+          {
+            "source": [
+              "C07",
+              "C17",
+              "C24",
+              "C06",
+              "C14",
+              "C13",
+              "C26"
+            ],
+            "hypothetical_units": [
+              "a",
+              "t",
+              "y",
+              "\u0101",
+              "j",
+              "u",
+              "\u1e63"
+            ]
+          },
+          {
+            "source": [
+              "C23",
+              "C04",
+              "C31",
+              "C10"
+            ],
+            "hypothetical_units": [
+              "i",
+              "m",
+              "e",
+              "l"
+            ]
+          },
+          {
+            "source": [
+              "C22",
+              "C28",
+              "C05",
+              "C07"
+            ],
+            "hypothetical_units": [
+              "r",
+              "\u016b",
+              "p",
+              "a"
+            ]
+          },
+          {
+            "source": [
+              "C07",
+              "C07"
+            ],
+            "hypothetical_units": [
+              "a",
+              "a"
+            ]
+          },
+          {
+            "source": [
+              "C04",
+              "C06",
+              "C03"
+            ],
+            "hypothetical_units": [
+              "m",
+              "\u0101",
+              "s"
+            ]
+          },
+          {
+            "source": [
+              "C11",
+              "C06",
+              "C18"
+            ],
+            "hypothetical_units": [
+              "\u1e47",
+              "\u0101",
+              "n"
+            ]
+          },
+          {
+            "source": [
+              "C25",
+              "C26"
+            ],
+            "hypothetical_units": [
+              "\u1e5b",
+              "\u1e63"
+            ]
+          },
+          {
+            "source": [
+              "C25",
+              "C26"
+            ],
+            "hypothetical_units": [
+              "\u1e5b",
+              "\u1e63"
+            ]
+          },
+          {
+            "source": [
+              "C25",
+              "C26"
+            ],
+            "hypothetical_units": [
+              "\u1e5b",
+              "\u1e63"
+            ]
+          },
+          {
+            "source": [
+              "C16",
+              "C07",
+              "C18",
+              "C17",
+              "C23"
+            ],
+            "hypothetical_units": [
+              "v",
+              "a",
+              "n",
+              "t",
+              "i"
+            ]
+          },
+          {
+            "source": [
+              "C16",
+              "C07",
+              "C18",
+              "C17",
+              "C23"
+            ],
+            "hypothetical_units": [
+              "v",
+              "a",
+              "n",
+              "t",
+              "i"
+            ]
+          }
+        ],
+        "scope": "Conditional bijective writing-unit hypotheses; no translations or accepted historical sound values. UNK slots retained.",
+        "known_cipher_diagnostic": {
+          "key_accuracy": 1.0,
+          "covered_test_token_accuracy": 1.0,
+          "frequency_key_accuracy": 0.625,
+          "true_key_test_bits": 3.6804229120690906,
+          "true_key_train_bits": 3.708017065406189,
+          "secret_key_for_audit": [
+            14,
+            30,
+            31,
+            11,
+            4,
+            15,
+            2,
+            0,
+            22,
+            10,
+            28,
+            24,
+            20,
+            13,
+            21,
+            16,
+            6,
+            1,
+            9,
+            8,
+            23,
+            19,
+            5,
+            3,
+            7,
+            25,
+            17,
+            29,
+            27,
+            18,
+            26,
+            12
+          ],
+          "scope": "Truth consulted only after search and validation selection, never passed into optimizer."
+        }
+      },
+      "Indus": {
+        "split_sizes": {
+          "train": 1723,
+          "validation": 216,
+          "test": 217
+        },
+        "mapped_token_fraction": {
+          "train": 0.5778471562372743,
+          "validation": 0.5797413793103449,
+          "test": 0.593952483801296
+        },
+        "collapsed_test_patterns_seen_in_train": 93,
+        "runs": [
+          {
+            "start": "frequency",
+            "key_indices": [
+              0,
+              2,
+              9,
+              3,
+              24,
+              22,
+              25,
+              13,
+              14,
+              1,
+              7,
+              27,
+              11,
+              12,
+              4,
+              23,
+              16,
+              8,
+              18,
+              15,
+              26,
+              17,
+              6,
+              20,
+              5,
+              19,
+              21,
+              31,
+              10,
+              28,
+              30,
+              29,
+              32
+            ],
+            "train_bits": 6.861442230316707,
+            "validation_bits": 6.967402841924381,
+            "test_bits_diagnostic_only": 6.9747223717705875
+          },
+          {
+            "start": "17",
+            "key_indices": [
+              0,
+              2,
+              16,
+              13,
+              1,
+              22,
+              27,
+              25,
+              15,
+              5,
+              3,
+              23,
+              4,
+              9,
+              8,
+              12,
+              24,
+              14,
+              7,
+              18,
+              10,
+              17,
+              6,
+              31,
+              28,
+              19,
+              20,
+              30,
+              21,
+              26,
+              11,
+              29,
+              32
+            ],
+            "train_bits": 6.857294889297327,
+            "validation_bits": 6.866553787878513,
+            "test_bits_diagnostic_only": 6.801171210772038
+          },
+          {
+            "start": "29",
+            "key_indices": [
+              0,
+              2,
+              24,
+              3,
+              1,
+              8,
+              27,
+              25,
+              10,
+              26,
+              16,
+              23,
+              11,
+              9,
+              7,
+              13,
+              22,
+              4,
+              18,
+              21,
+              17,
+              15,
+              6,
+              14,
+              5,
+              19,
+              20,
+              31,
+              30,
+              12,
+              29,
+              28,
+              32
+            ],
+            "train_bits": 6.867167382390374,
+            "validation_bits": 6.841875395592924,
+            "test_bits_diagnostic_only": 6.77063556123148
+          },
+          {
+            "start": "43",
+            "key_indices": [
+              0,
+              2,
+              3,
+              14,
+              1,
+              22,
+              25,
+              13,
+              18,
+              5,
+              24,
+              27,
+              10,
+              16,
+              4,
+              12,
+              6,
+              11,
+              21,
+              15,
+              23,
+              17,
+              7,
+              8,
+              9,
+              19,
+              20,
+              31,
+              30,
+              28,
+              26,
+              29,
+              32
+            ],
+            "train_bits": 6.9225016709261205,
+            "validation_bits": 6.970441357635686,
+            "test_bits_diagnostic_only": 6.901579104402014
+          },
+          {
+            "start": "59",
+            "key_indices": [
+              0,
+              2,
+              16,
+              3,
+              1,
+              15,
+              12,
+              26,
+              6,
+              11,
+              25,
+              13,
+              9,
+              24,
+              5,
+              23,
+              22,
+              8,
+              4,
+              14,
+              18,
+              17,
+              7,
+              20,
+              28,
+              19,
+              21,
+              31,
+              30,
+              27,
+              10,
+              29,
+              32
+            ],
+            "train_bits": 6.842947904809861,
+            "validation_bits": 6.896273227019249,
+            "test_bits_diagnostic_only": 6.750578716002787
+          }
+        ],
+        "selected_start": "29",
+        "frequency_baseline": {
+          "train": 8.037118071165557,
+          "validation": 7.863428028904901,
+          "test": 7.907994294422298
+        },
+        "random_baselines": [
+          {
+            "seed": 1000,
+            "train_bits": 8.92217748498644,
+            "validation_bits": 8.929568093333936,
+            "test_bits": 9.02951775104355
+          },
+          {
+            "seed": 1001,
+            "train_bits": 8.486686750887836,
+            "validation_bits": 8.36404134274887,
+            "test_bits": 8.3671586683232
+          },
+          {
+            "seed": 1002,
+            "train_bits": 8.870288896455488,
+            "validation_bits": 8.719848264164607,
+            "test_bits": 8.954380607599296
+          },
+          {
+            "seed": 1003,
+            "train_bits": 9.474526729800083,
+            "validation_bits": 9.312988093584536,
+            "test_bits": 9.514551263577072
+          },
+          {
+            "seed": 1004,
+            "train_bits": 9.249330169786715,
+            "validation_bits": 9.387472481113909,
+            "test_bits": 9.307254572101648
+          },
+          {
+            "seed": 1005,
+            "train_bits": 8.733151431466801,
+            "validation_bits": 8.74892964625113,
+            "test_bits": 8.558962316693288
+          },
+          {
+            "seed": 1006,
+            "train_bits": 8.758751204057392,
+            "validation_bits": 8.904489731142975,
+            "test_bits": 8.850704519051273
+          },
+          {
+            "seed": 1007,
+            "train_bits": 9.386938049009164,
+            "validation_bits": 9.363400534585837,
+            "test_bits": 9.250052714129852
+          },
+          {
+            "seed": 1008,
+            "train_bits": 8.70967372066617,
+            "validation_bits": 8.693825533840016,
+            "test_bits": 8.645087505668352
+          },
+          {
+            "seed": 1009,
+            "train_bits": 9.209700748936681,
+            "validation_bits": 9.225818849967563,
+            "test_bits": 9.224507818140582
+          },
+          {
+            "seed": 1010,
+            "train_bits": 8.786030875048919,
+            "validation_bits": 8.865732113333738,
+            "test_bits": 8.92633916678679
+          },
+          {
+            "seed": 1011,
+            "train_bits": 9.41291935829674,
+            "validation_bits": 9.354243548419198,
+            "test_bits": 9.409141022567841
+          },
+          {
+            "seed": 1012,
+            "train_bits": 9.62944217453874,
+            "validation_bits": 9.56526264610095,
+            "test_bits": 9.633762649451171
+          },
+          {
+            "seed": 1013,
+            "train_bits": 9.002028957993307,
+            "validation_bits": 8.99805942478955,
+            "test_bits": 8.892743022135708
+          },
+          {
+            "seed": 1014,
+            "train_bits": 9.18252912878421,
+            "validation_bits": 9.279382444925249,
+            "test_bits": 9.281402814148468
+          },
+          {
+            "seed": 1015,
+            "train_bits": 9.241667254163913,
+            "validation_bits": 9.337470272731675,
+            "test_bits": 9.465510903031989
+          },
+          {
+            "seed": 1016,
+            "train_bits": 8.883141225204255,
+            "validation_bits": 8.905150771620205,
+            "test_bits": 8.979632042921574
+          },
+          {
+            "seed": 1017,
+            "train_bits": 8.757410574065144,
+            "validation_bits": 8.628102334272304,
+            "test_bits": 8.676893718918624
+          },
+          {
+            "seed": 1018,
+            "train_bits": 9.624336320684678,
+            "validation_bits": 9.64442630157301,
+            "test_bits": 9.661107120524962
+          },
+          {
+            "seed": 1019,
+            "train_bits": 8.686993407055775,
+            "validation_bits": 8.733518924387468,
+            "test_bits": 8.50470477727463
+          }
+        ],
+        "random_test_mean": 9.056670748704493,
+        "selected_test_bits": 6.77063556123148,
+        "test_gain_vs_frequency": 1.1373587331908173,
+        "mean_pairwise_key_agreement": 0.2875,
+        "conditional_key": [
+          {
+            "source_id": "740",
+            "proxy_writing_unit": "a",
+            "target_rank": 0
+          },
+          {
+            "source_id": "002",
+            "proxy_writing_unit": "\u0101",
+            "target_rank": 2
+          },
+          {
+            "source_id": "032",
+            "proxy_writing_unit": "\u1e47",
+            "target_rank": 24
+          },
+          {
+            "source_id": "220",
+            "proxy_writing_unit": "i",
+            "target_rank": 3
+          },
+          {
+            "source_id": "400",
+            "proxy_writing_unit": "t",
+            "target_rank": 1
+          },
+          {
+            "source_id": "240",
+            "proxy_writing_unit": "h",
+            "target_rank": 8
+          },
+          {
+            "source_id": "060",
+            "proxy_writing_unit": "\u016b",
+            "target_rank": 27
+          },
+          {
+            "source_id": "390",
+            "proxy_writing_unit": "\u1e5b",
+            "target_rank": 25
+          },
+          {
+            "source_id": "820",
+            "proxy_writing_unit": "\u1e25",
+            "target_rank": 10
+          },
+          {
+            "source_id": "520",
+            "proxy_writing_unit": "o",
+            "target_rank": 26
+          },
+          {
+            "source_id": "033",
+            "proxy_writing_unit": "k",
+            "target_rank": 16
+          },
+          {
+            "source_id": "741",
+            "proxy_writing_unit": "\u012b",
+            "target_rank": 23
+          },
+          {
+            "source_id": "861",
+            "proxy_writing_unit": "s",
+            "target_rank": 11
+          },
+          {
+            "source_id": "031",
+            "proxy_writing_unit": "n",
+            "target_rank": 9
+          },
+          {
+            "source_id": "235",
+            "proxy_writing_unit": "y",
+            "target_rank": 7
+          },
+          {
+            "source_id": "001",
+            "proxy_writing_unit": "u",
+            "target_rank": 13
+          },
+          {
+            "source_id": "003",
+            "proxy_writing_unit": "g",
+            "target_rank": 22
+          },
+          {
+            "source_id": "233",
+            "proxy_writing_unit": "m",
+            "target_rank": 4
+          },
+          {
+            "source_id": "817",
+            "proxy_writing_unit": "b",
+            "target_rank": 18
+          },
+          {
+            "source_id": "590",
+            "proxy_writing_unit": "j",
+            "target_rank": 21
+          },
+          {
+            "source_id": "705",
+            "proxy_writing_unit": "\u1e63",
+            "target_rank": 17
+          },
+          {
+            "source_id": "920",
+            "proxy_writing_unit": "p",
+            "target_rank": 15
+          },
+          {
+            "source_id": "803",
+            "proxy_writing_unit": "v",
+            "target_rank": 6
+          },
+          {
+            "source_id": "415",
+            "proxy_writing_unit": "d",
+            "target_rank": 14
+          },
+          {
+            "source_id": "798",
+            "proxy_writing_unit": "r",
+            "target_rank": 5
+          },
+          {
+            "source_id": "090",
+            "proxy_writing_unit": "c",
+            "target_rank": 19
+          },
+          {
+            "source_id": "176",
+            "proxy_writing_unit": "\u015b",
+            "target_rank": 20
+          },
+          {
+            "source_id": "760",
+            "proxy_writing_unit": "\u00f1",
+            "target_rank": 31
+          },
+          {
+            "source_id": "100",
+            "proxy_writing_unit": "\u1e43",
+            "target_rank": 30
+          },
+          {
+            "source_id": "806",
+            "proxy_writing_unit": "e",
+            "target_rank": 12
+          },
+          {
+            "source_id": "368",
+            "proxy_writing_unit": "\u1e6d",
+            "target_rank": 29
+          },
+          {
+            "source_id": "140",
+            "proxy_writing_unit": "l",
+            "target_rank": 28
+          }
+        ],
+        "first20_test_hypothetical_recodings": [
+          {
+            "source": [
+              "740",
+              "626",
+              "176",
+              "033",
+              "705",
+              "233"
+            ],
+            "hypothetical_units": [
+              "a",
+              "<UNK>",
+              "\u015b",
+              "k",
+              "\u1e63",
+              "m"
+            ]
+          },
+          {
+            "source": [
+              "400",
+              "740",
+              "100",
+              "176",
+              "175"
+            ],
+            "hypothetical_units": [
+              "t",
+              "a",
+              "\u1e43",
+              "\u015b",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "405",
+              "061",
+              "033",
+              "706",
+              "794",
+              "630",
+              "220",
+              "002",
+              "820"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "k",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "i",
+              "\u0101",
+              "\u1e25"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "617",
+              "550",
+              "061",
+              "435",
+              "093",
+              "740",
+              "100",
+              "415"
+            ],
+            "hypothetical_units": [
+              "a",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>",
+              "a",
+              "\u1e43",
+              "d"
+            ]
+          },
+          {
+            "source": [
+              "220"
+            ],
+            "hypothetical_units": [
+              "i"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "094",
+              "220",
+              "032",
+              "002",
+              "144"
+            ],
+            "hypothetical_units": [
+              "a",
+              "<UNK>",
+              "i",
+              "\u1e47",
+              "\u0101",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "504",
+              "350",
+              "741",
+              "060",
+              "920"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "\u012b",
+              "\u016b",
+              "p"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "061"
+            ],
+            "hypothetical_units": [
+              "a",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "590",
+              "407",
+              "790",
+              "440"
+            ],
+            "hypothetical_units": [
+              "j",
+              "<UNK>",
+              "<UNK>",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "742",
+              "861"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "s"
+            ]
+          },
+          {
+            "source": [
+              "520",
+              "315",
+              "002",
+              "861",
+              "626"
+            ],
+            "hypothetical_units": [
+              "o",
+              "<UNK>",
+              "\u0101",
+              "s",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "760",
+              "017",
+              "503",
+              "368",
+              "817"
+            ],
+            "hypothetical_units": [
+              "a",
+              "\u00f1",
+              "<UNK>",
+              "<UNK>",
+              "\u1e6d",
+              "b"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "742"
+            ],
+            "hypothetical_units": [
+              "a",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "520",
+              "073"
+            ],
+            "hypothetical_units": [
+              "o",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "230"
+            ],
+            "hypothetical_units": [
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "400",
+              "154",
+              "690"
+            ],
+            "hypothetical_units": [
+              "t",
+              "<UNK>",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "900",
+              "003",
+              "002",
+              "940",
+              "705"
+            ],
+            "hypothetical_units": [
+              "a",
+              "<UNK>",
+              "g",
+              "\u0101",
+              "<UNK>",
+              "\u1e63"
+            ]
+          },
+          {
+            "source": [
+              "740",
+              "861",
+              "877",
+              "741",
+              "705",
+              "319"
+            ],
+            "hypothetical_units": [
+              "a",
+              "s",
+              "<UNK>",
+              "\u012b",
+              "\u1e63",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "106",
+              "741",
+              "500",
+              "209"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "\u012b",
+              "<UNK>",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "400",
+              "740",
+              "384",
+              "033"
+            ],
+            "hypothetical_units": [
+              "t",
+              "a",
+              "<UNK>",
+              "k"
+            ]
+          }
+        ],
+        "scope": "Conditional bijective writing-unit hypotheses; no translations or accepted historical sound values. UNK slots retained."
+      },
+      "nonphonetic_control": {
+        "split_sizes": {
+          "train": 1740,
+          "validation": 197,
+          "test": 219
+        },
+        "mapped_token_fraction": {
+          "train": 0.6547926580557444,
+          "validation": 0.6256983240223464,
+          "test": 0.674562306900103
+        },
+        "collapsed_test_patterns_seen_in_train": 81,
+        "runs": [
+          {
+            "start": "frequency",
+            "key_indices": [
+              0,
+              1,
+              15,
+              22,
+              8,
+              6,
+              5,
+              2,
+              3,
+              13,
+              7,
+              9,
+              12,
+              25,
+              23,
+              16,
+              27,
+              26,
+              24,
+              4,
+              14,
+              17,
+              21,
+              29,
+              11,
+              10,
+              30,
+              20,
+              19,
+              18,
+              28,
+              31,
+              32
+            ],
+            "train_bits": 6.312799611077467,
+            "validation_bits": 6.599899069860907,
+            "test_bits_diagnostic_only": 6.352876218106308
+          },
+          {
+            "start": "17",
+            "key_indices": [
+              13,
+              0,
+              8,
+              22,
+              16,
+              15,
+              9,
+              3,
+              2,
+              5,
+              7,
+              6,
+              12,
+              25,
+              23,
+              1,
+              26,
+              27,
+              24,
+              14,
+              17,
+              11,
+              20,
+              31,
+              10,
+              28,
+              21,
+              19,
+              30,
+              4,
+              18,
+              29,
+              32
+            ],
+            "train_bits": 6.2230701823269134,
+            "validation_bits": 6.438528517421636,
+            "test_bits_diagnostic_only": 6.259546890906301
+          },
+          {
+            "start": "29",
+            "key_indices": [
+              7,
+              0,
+              8,
+              22,
+              13,
+              2,
+              9,
+              3,
+              24,
+              5,
+              6,
+              15,
+              16,
+              26,
+              23,
+              1,
+              27,
+              12,
+              25,
+              14,
+              17,
+              11,
+              4,
+              31,
+              18,
+              21,
+              29,
+              19,
+              20,
+              28,
+              10,
+              30,
+              32
+            ],
+            "train_bits": 6.316132960898605,
+            "validation_bits": 6.652117436953363,
+            "test_bits_diagnostic_only": 6.379938730518455
+          },
+          {
+            "start": "43",
+            "key_indices": [
+              0,
+              3,
+              8,
+              22,
+              16,
+              15,
+              9,
+              2,
+              23,
+              7,
+              5,
+              6,
+              13,
+              26,
+              27,
+              1,
+              12,
+              25,
+              24,
+              14,
+              17,
+              11,
+              21,
+              29,
+              10,
+              28,
+              20,
+              19,
+              30,
+              4,
+              18,
+              31,
+              32
+            ],
+            "train_bits": 6.23016467663587,
+            "validation_bits": 6.431509374851935,
+            "test_bits_diagnostic_only": 6.279102786801388
+          },
+          {
+            "start": "59",
+            "key_indices": [
+              9,
+              0,
+              2,
+              8,
+              16,
+              22,
+              6,
+              3,
+              23,
+              5,
+              7,
+              15,
+              13,
+              12,
+              27,
+              1,
+              26,
+              25,
+              24,
+              14,
+              17,
+              11,
+              20,
+              29,
+              28,
+              10,
+              19,
+              21,
+              30,
+              4,
+              18,
+              31,
+              32
+            ],
+            "train_bits": 6.309271759794241,
+            "validation_bits": 6.57164666160489,
+            "test_bits_diagnostic_only": 6.376927047020349
+          }
+        ],
+        "selected_start": "43",
+        "frequency_baseline": {
+          "train": 8.38448762226356,
+          "validation": 8.65301926002659,
+          "test": 8.571374835227747
+        },
+        "random_baselines": [
+          {
+            "seed": 1000,
+            "train_bits": 9.107171467260242,
+            "validation_bits": 9.187732225382137,
+            "test_bits": 9.180048640394883
+          },
+          {
+            "seed": 1001,
+            "train_bits": 9.012194823545673,
+            "validation_bits": 9.435305358985461,
+            "test_bits": 8.940711520103093
+          },
+          {
+            "seed": 1002,
+            "train_bits": 8.77382636457152,
+            "validation_bits": 8.64699408196183,
+            "test_bits": 8.788126940654479
+          },
+          {
+            "seed": 1003,
+            "train_bits": 8.688229245101486,
+            "validation_bits": 8.84985436638417,
+            "test_bits": 8.847909835099935
+          },
+          {
+            "seed": 1004,
+            "train_bits": 8.686987328370328,
+            "validation_bits": 8.879380550149582,
+            "test_bits": 8.822186480221818
+          },
+          {
+            "seed": 1005,
+            "train_bits": 9.516830034449569,
+            "validation_bits": 9.450820245761612,
+            "test_bits": 9.409723103448128
+          },
+          {
+            "seed": 1006,
+            "train_bits": 9.188208872399466,
+            "validation_bits": 9.223226928280972,
+            "test_bits": 9.116917285713523
+          },
+          {
+            "seed": 1007,
+            "train_bits": 9.547507503347619,
+            "validation_bits": 9.377143897187509,
+            "test_bits": 9.654092719276248
+          },
+          {
+            "seed": 1008,
+            "train_bits": 8.939369492173544,
+            "validation_bits": 9.266073290968508,
+            "test_bits": 9.091186524958424
+          },
+          {
+            "seed": 1009,
+            "train_bits": 9.078161903968562,
+            "validation_bits": 8.809469896717678,
+            "test_bits": 9.13163643010588
+          },
+          {
+            "seed": 1010,
+            "train_bits": 8.983054861685197,
+            "validation_bits": 9.325702056709174,
+            "test_bits": 9.101884362569612
+          },
+          {
+            "seed": 1011,
+            "train_bits": 9.556364189402233,
+            "validation_bits": 9.793758386667957,
+            "test_bits": 9.703512214504913
+          },
+          {
+            "seed": 1012,
+            "train_bits": 8.71496276077951,
+            "validation_bits": 9.037313888226155,
+            "test_bits": 8.730879522413508
+          },
+          {
+            "seed": 1013,
+            "train_bits": 8.770998521655597,
+            "validation_bits": 8.708580040793784,
+            "test_bits": 8.857876351559705
+          },
+          {
+            "seed": 1014,
+            "train_bits": 9.65339243967157,
+            "validation_bits": 9.861568787308345,
+            "test_bits": 9.949496827989325
+          },
+          {
+            "seed": 1015,
+            "train_bits": 8.989631247910173,
+            "validation_bits": 9.223658412059077,
+            "test_bits": 8.974741352421725
+          },
+          {
+            "seed": 1016,
+            "train_bits": 9.06463249933928,
+            "validation_bits": 9.039172020394236,
+            "test_bits": 8.99783405096552
+          },
+          {
+            "seed": 1017,
+            "train_bits": 9.17752684145297,
+            "validation_bits": 9.407886403112979,
+            "test_bits": 9.226649328330948
+          },
+          {
+            "seed": 1018,
+            "train_bits": 9.105025808105609,
+            "validation_bits": 8.862295696461338,
+            "test_bits": 9.306134584829017
+          },
+          {
+            "seed": 1019,
+            "train_bits": 9.166070621226403,
+            "validation_bits": 9.796741974314289,
+            "test_bits": 9.404967696192461
+          }
+        ],
+        "random_test_mean": 9.161825788587658,
+        "selected_test_bits": 6.279102786801388,
+        "test_gain_vs_frequency": 2.2922720484263595,
+        "mean_pairwise_key_agreement": 0.30625,
+        "conditional_key": [
+          {
+            "source_id": "V000",
+            "proxy_writing_unit": "a",
+            "target_rank": 0
+          },
+          {
+            "source_id": "I000",
+            "proxy_writing_unit": "i",
+            "target_rank": 3
+          },
+          {
+            "source_id": "R002",
+            "proxy_writing_unit": "h",
+            "target_rank": 8
+          },
+          {
+            "source_id": "R003",
+            "proxy_writing_unit": "g",
+            "target_rank": 22
+          },
+          {
+            "source_id": "R001",
+            "proxy_writing_unit": "k",
+            "target_rank": 16
+          },
+          {
+            "source_id": "R004",
+            "proxy_writing_unit": "p",
+            "target_rank": 15
+          },
+          {
+            "source_id": "V001",
+            "proxy_writing_unit": "n",
+            "target_rank": 9
+          },
+          {
+            "source_id": "Q005",
+            "proxy_writing_unit": "\u0101",
+            "target_rank": 2
+          },
+          {
+            "source_id": "Q006",
+            "proxy_writing_unit": "\u012b",
+            "target_rank": 23
+          },
+          {
+            "source_id": "V004",
+            "proxy_writing_unit": "y",
+            "target_rank": 7
+          },
+          {
+            "source_id": "V003",
+            "proxy_writing_unit": "r",
+            "target_rank": 5
+          },
+          {
+            "source_id": "V002",
+            "proxy_writing_unit": "v",
+            "target_rank": 6
+          },
+          {
+            "source_id": "Q002",
+            "proxy_writing_unit": "u",
+            "target_rank": 13
+          },
+          {
+            "source_id": "Q003",
+            "proxy_writing_unit": "o",
+            "target_rank": 26
+          },
+          {
+            "source_id": "Q001",
+            "proxy_writing_unit": "\u016b",
+            "target_rank": 27
+          },
+          {
+            "source_id": "I001",
+            "proxy_writing_unit": "t",
+            "target_rank": 1
+          },
+          {
+            "source_id": "Q007",
+            "proxy_writing_unit": "e",
+            "target_rank": 12
+          },
+          {
+            "source_id": "Q008",
+            "proxy_writing_unit": "\u1e5b",
+            "target_rank": 25
+          },
+          {
+            "source_id": "Q004",
+            "proxy_writing_unit": "\u1e47",
+            "target_rank": 24
+          },
+          {
+            "source_id": "G000",
+            "proxy_writing_unit": "d",
+            "target_rank": 14
+          },
+          {
+            "source_id": "C000",
+            "proxy_writing_unit": "\u1e63",
+            "target_rank": 17
+          },
+          {
+            "source_id": "I004",
+            "proxy_writing_unit": "s",
+            "target_rank": 11
+          },
+          {
+            "source_id": "C001",
+            "proxy_writing_unit": "j",
+            "target_rank": 21
+          },
+          {
+            "source_id": "I002",
+            "proxy_writing_unit": "\u1e6d",
+            "target_rank": 29
+          },
+          {
+            "source_id": "G011",
+            "proxy_writing_unit": "\u1e25",
+            "target_rank": 10
+          },
+          {
+            "source_id": "G001",
+            "proxy_writing_unit": "l",
+            "target_rank": 28
+          },
+          {
+            "source_id": "I003",
+            "proxy_writing_unit": "\u015b",
+            "target_rank": 20
+          },
+          {
+            "source_id": "G036",
+            "proxy_writing_unit": "c",
+            "target_rank": 19
+          },
+          {
+            "source_id": "G065",
+            "proxy_writing_unit": "\u1e43",
+            "target_rank": 30
+          },
+          {
+            "source_id": "G002",
+            "proxy_writing_unit": "m",
+            "target_rank": 4
+          },
+          {
+            "source_id": "G047",
+            "proxy_writing_unit": "b",
+            "target_rank": 18
+          },
+          {
+            "source_id": "I005",
+            "proxy_writing_unit": "\u00f1",
+            "target_rank": 31
+          }
+        ],
+        "first20_test_hypothetical_recodings": [
+          {
+            "source": [
+              "I010",
+              "G001",
+              "R004",
+              "V000"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "l",
+              "p",
+              "a"
+            ]
+          },
+          {
+            "source": [
+              "I079",
+              "G081",
+              "R002",
+              "Q008",
+              "C127",
+              "V004"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "h",
+              "\u1e5b",
+              "<UNK>",
+              "y"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G065",
+              "R001",
+              "Q006",
+              "C077"
+            ],
+            "hypothetical_units": [
+              "i",
+              "\u1e43",
+              "k",
+              "\u012b",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "I099",
+              "G016",
+              "R002",
+              "Q007",
+              "C082",
+              "Q007",
+              "C018",
+              "V004"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "h",
+              "e",
+              "<UNK>",
+              "e",
+              "<UNK>",
+              "y"
+            ]
+          },
+          {
+            "source": [
+              "Q003",
+              "C001"
+            ],
+            "hypothetical_units": [
+              "o",
+              "j"
+            ]
+          },
+          {
+            "source": [
+              "I012",
+              "G080",
+              "R003",
+              "Q001",
+              "C094",
+              "V002"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "g",
+              "\u016b",
+              "<UNK>",
+              "v"
+            ]
+          },
+          {
+            "source": [
+              "G004",
+              "R001",
+              "Q006",
+              "C098",
+              "V003"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "k",
+              "\u012b",
+              "<UNK>",
+              "r"
+            ]
+          },
+          {
+            "source": [
+              "I009",
+              "G043",
+              "R004"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "p"
+            ]
+          },
+          {
+            "source": [
+              "I003",
+              "Q005",
+              "C000",
+              "Q004",
+              "C007",
+              "V003"
+            ],
+            "hypothetical_units": [
+              "\u015b",
+              "\u0101",
+              "\u1e63",
+              "\u1e47",
+              "<UNK>",
+              "r"
+            ]
+          },
+          {
+            "source": [
+              "I023",
+              "G029",
+              "R004",
+              "V003"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "p",
+              "r"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R002"
+            ],
+            "hypothetical_units": [
+              "i",
+              "b",
+              "h"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R002"
+            ],
+            "hypothetical_units": [
+              "i",
+              "b",
+              "h"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R002"
+            ],
+            "hypothetical_units": [
+              "i",
+              "b",
+              "h"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R002"
+            ],
+            "hypothetical_units": [
+              "i",
+              "b",
+              "h"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R003",
+              "Q002",
+              "C072",
+              "V000"
+            ],
+            "hypothetical_units": [
+              "i",
+              "b",
+              "g",
+              "u",
+              "<UNK>",
+              "a"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R003",
+              "Q002",
+              "C072",
+              "V000"
+            ],
+            "hypothetical_units": [
+              "i",
+              "b",
+              "g",
+              "u",
+              "<UNK>",
+              "a"
+            ]
+          },
+          {
+            "source": [
+              "I000",
+              "G047",
+              "R003",
+              "Q002",
+              "C072",
+              "V000"
+            ],
+            "hypothetical_units": [
+              "i",
+              "b",
+              "g",
+              "u",
+              "<UNK>",
+              "a"
+            ]
+          },
+          {
+            "source": [
+              "G031",
+              "R002",
+              "Q008",
+              "C032"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "h",
+              "\u1e5b",
+              "<UNK>"
+            ]
+          },
+          {
+            "source": [
+              "I023",
+              "G053",
+              "R002",
+              "V003"
+            ],
+            "hypothetical_units": [
+              "<UNK>",
+              "<UNK>",
+              "h",
+              "r"
+            ]
+          },
+          {
+            "source": [
+              "Q006",
+              "C011",
+              "Q003",
+              "C045",
+              "V002"
+            ],
+            "hypothetical_units": [
+              "\u012b",
+              "<UNK>",
+              "o",
+              "<UNK>",
+              "v"
+            ]
+          }
+        ],
+        "scope": "Conditional bijective writing-unit hypotheses; no translations or accepted historical sound values. UNK slots retained."
+      }
+    }
+  },
+  "scope": "Proxy writing-unit substitution under a narrow artificial channel; language-family and real-key accuracy are not identifiable from these scores."
+}
