@@ -1,0 +1,66 @@
+{
+  "review_date": "2026-10-17",
+  "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/Corpus%20of%20Indus%20Seals%20and%20Inscriptions.%20Collections%20in%20India.pdf",
+  "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+  "reviewer": "Codex-assisted, unblinded visual review; no specialist epigraphic validation",
+  "source_pages_viewed": [
+    37,
+    38,
+    39,
+    401,
+    402
+  ],
+  "records": [
+    {
+      "object": "M-1",
+      "pdf_page": 37,
+      "printed_page": 1,
+      "labels_seen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "a"
+      ],
+      "observation": "Original inscription face A and mirrored impression a are both shown, along with back/edge views. Ring-and-stem, enclosed angular, comb-like and linear sign shapes are visible. Excavation marking HR 2406 is visible on edge view D and agrees with catalogue row. No independent phonetic assignment or complete allograph verification.",
+      "pilot_before_design": true
+    },
+    {
+      "object": "M-3",
+      "pdf_page": 38,
+      "printed_page": 2,
+      "labels_seen": [
+        "A",
+        "a"
+      ],
+      "observation": "Original and reversed impression show three main sign groups: fork-like, paired linear strokes and a curved comb-like group. Lower/right body is broken, while the text groups are largely visible. This is broad photographic screening, not a new authoritative transcription."
+    },
+    {
+      "object": "M-4",
+      "pdf_page": 39,
+      "printed_page": 3,
+      "labels_seen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "a"
+      ],
+      "observation": "Original and impression mirror the longer sequence. Multiple linear and compound forms and surface damage/texture are visible. No reliable new segment count or reading is assigned. FC digits were flagged uncertain independently of the learned mapping, and this object is excluded from candidate fitting."
+    },
+    {
+      "object": "M-2",
+      "pdf_page": 37,
+      "printed_page": 1,
+      "labels_seen": [
+        "A"
+      ],
+      "observation": "Fragmentary object also appears on the reviewed M-1 page; inscription edge is incomplete. No full text or object match inferred."
+    }
+  ],
+  "limitations": [
+    "FC-to-Mahadevan identities remain unresolved beyond broad candidate compatibility.",
+    "A/a labels require mirror handling; stored normalized order is not automatically the left-to-right order on either photograph.",
+    "Book photographs are not redistributed; reviewed source pages remain in ignored cache."
+  ]
+}

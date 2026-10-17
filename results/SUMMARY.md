@@ -1,6 +1,6 @@
 # Results snapshot
 
-15 October 2026. No decipherment claimed.
+17 October 2026. No decipherment claimed.
 
 - Corpus: 2,156 clean distinct sequences, 9,221 tokens, 637 IDs.
 - Inventory: 715 verified remote glyph references; 395 separate Parpola descriptions.
@@ -28,5 +28,7 @@
 - Primary Mahadevan acquisition: 3,916 official records, 417 sign-list references and separate integer encodings; 2,391 rows pass the declared strict single-line screen. All secondary base sequences agree, but 265 strip doubtful marks and 92 concatenate lines. No new phonetic value or namespace merger.
 
 - Face-preserving field-code prediction: metadata baseline 1.647 vs sign-augmented 1.629 bits/row; gain interval crosses zero, accuracy/macro recall decline. Majority code dominates the 99-row test. No independent semantic anchor established; giant-component validation imbalance is disclosed.
+
+- FC-reference candidate audit: 34 strict tentative pairs; 10/21 test positions covered and predicted correctly, with all other source signs unseen. Original/impression photos of M-1/M-3/M-4 reviewed. FC/Mahadevan identity remains unresolved, so mappings are not propagated.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.

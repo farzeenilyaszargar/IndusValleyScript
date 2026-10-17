@@ -1,0 +1,511 @@
+{
+  "source_title": "Joshi and Parpola, Corpus of Indus Seals and Inscriptions 1: Collections in India (1987)",
+  "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/Corpus%20of%20Indus%20Seals%20and%20Inscriptions.%20Collections%20in%20India.pdf",
+  "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+  "source_pdf_page": 402,
+  "source_printed_page": 366,
+  "transcription": "Manual Codex-assisted reading of first complete reference page; uncertain digits flagged before fitting. No sign aliases used to select references.",
+  "caution": "FC numbers are not uniformly Mahadevan numbers. Numerical matches are unverified candidates, not independently established identities.",
+  "records": [
+    {
+      "cisi_object": "M-1",
+      "fc_raw": "1067",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-2",
+      "fc_raw": "0776",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-3",
+      "fc_raw": "2225",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-4",
+      "fc_raw": "0108",
+      "uncertain_digits": true
+    },
+    {
+      "cisi_object": "M-5",
+      "fc_raw": "2247",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-6",
+      "fc_raw": "2422",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-7",
+      "fc_raw": "1011",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-8",
+      "fc_raw": "1038",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-9",
+      "fc_raw": "2615",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-10",
+      "fc_raw": "1006",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-11",
+      "fc_raw": "1062",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-12",
+      "fc_raw": "0211",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-13",
+      "fc_raw": "1069",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-14",
+      "fc_raw": "1022",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-15",
+      "fc_raw": "2177",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-16",
+      "fc_raw": "1037",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-17",
+      "fc_raw": "1035",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-18",
+      "fc_raw": "1548",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-19",
+      "fc_raw": "1065",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-20",
+      "fc_raw": "1054",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-21",
+      "fc_raw": "2103",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-22",
+      "fc_raw": "1023",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-23",
+      "fc_raw": "2398",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-24",
+      "fc_raw": "2694",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-25",
+      "fc_raw": "1056",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-26",
+      "fc_raw": "2074",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-27",
+      "fc_raw": "2084",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-28",
+      "fc_raw": "2178",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-29",
+      "fc_raw": "2033",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-30",
+      "fc_raw": "2396",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-31",
+      "fc_raw": "2576",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-32",
+      "fc_raw": "2180",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-33",
+      "fc_raw": "1042",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-34",
+      "fc_raw": "1058",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-35",
+      "fc_raw": "2333",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-36",
+      "fc_raw": "2455",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-37",
+      "fc_raw": "0011",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-38",
+      "fc_raw": "1087",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-39",
+      "fc_raw": "1544",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-40",
+      "fc_raw": "1051",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-41",
+      "fc_raw": "2271",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-42",
+      "fc_raw": "1096",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-43",
+      "fc_raw": "2584",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-44",
+      "fc_raw": "0110",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-45",
+      "fc_raw": "1552",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-46",
+      "fc_raw": "0241",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-47",
+      "fc_raw": "1098",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-48",
+      "fc_raw": "1186",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-49",
+      "fc_raw": "1047",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-50",
+      "fc_raw": "1557",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-51",
+      "fc_raw": "1555",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-52",
+      "fc_raw": "1540",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-53",
+      "fc_raw": "2128",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-54",
+      "fc_raw": "2307",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-55",
+      "fc_raw": "2511",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-56",
+      "fc_raw": "2406",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-57",
+      "fc_raw": "2340",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-58",
+      "fc_raw": "2680",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-59",
+      "fc_raw": "1029",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-60",
+      "fc_raw": "2124",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-61",
+      "fc_raw": "0144",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-62",
+      "fc_raw": "0118",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-63",
+      "fc_raw": "0223",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-64",
+      "fc_raw": "2524",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-65",
+      "fc_raw": "2440",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-66",
+      "fc_raw": "1052",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-67",
+      "fc_raw": "2264",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-68",
+      "fc_raw": "0105",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-69",
+      "fc_raw": "1095",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-70",
+      "fc_raw": "1048",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-71",
+      "fc_raw": "0235",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-72",
+      "fc_raw": "2085",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-73",
+      "fc_raw": "1046",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-74",
+      "fc_raw": "2353",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-75",
+      "fc_raw": "1019",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-76",
+      "fc_raw": "1210",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-77",
+      "fc_raw": "0113",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-78",
+      "fc_raw": "0102",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-79",
+      "fc_raw": "2083",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-80",
+      "fc_raw": "2635",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-81",
+      "fc_raw": "1180",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-82",
+      "fc_raw": "2451",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-83",
+      "fc_raw": "2267",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-84",
+      "fc_raw": "1108",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-85",
+      "fc_raw": "2365",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-86",
+      "fc_raw": "2208",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-87",
+      "fc_raw": "2148",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-88",
+      "fc_raw": "1075",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-89",
+      "fc_raw": "0138",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-90",
+      "fc_raw": "0214",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-91",
+      "fc_raw": "2429",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-92",
+      "fc_raw": "2407",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-93",
+      "fc_raw": "2305",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-94",
+      "fc_raw": "2594",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-95",
+      "fc_raw": "2657",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-96",
+      "fc_raw": "2698",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-97",
+      "fc_raw": "2549",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-98",
+      "fc_raw": "2012",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-99",
+      "fc_raw": "2475",
+      "uncertain_digits": false
+    },
+    {
+      "cisi_object": "M-100",
+      "fc_raw": "1115",
+      "uncertain_digits": false
+    }
+  ]
+}

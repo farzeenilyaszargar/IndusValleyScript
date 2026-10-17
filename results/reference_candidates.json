@@ -1,0 +1,2541 @@
+{
+  "design": "docs/EXPERIMENT_015.md",
+  "reference_rows": 100,
+  "accepted_numeric_candidates": 34,
+  "rejection_counts": {
+    "outside_supported_mohenjo_daro_range": 14,
+    "uncertain_reference_digits": 1,
+    "parpola_ineligible": 45,
+    "unequal_lengths": 4,
+    "missing_or_ambiguous_parpola_face": 2
+  },
+  "rejected": [
+    {
+      "cisi_object": "M-2",
+      "fc_raw": "0776",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "776"
+    },
+    {
+      "cisi_object": "M-4",
+      "fc_raw": "0108",
+      "uncertain_digits": true,
+      "reason": "uncertain_reference_digits",
+      "primary_candidate_textnum": "108"
+    },
+    {
+      "cisi_object": "M-5",
+      "fc_raw": "2247",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2247"
+    },
+    {
+      "cisi_object": "M-7",
+      "fc_raw": "1011",
+      "uncertain_digits": false,
+      "reason": "unequal_lengths",
+      "primary_candidate_textnum": "1011"
+    },
+    {
+      "cisi_object": "M-9",
+      "fc_raw": "2615",
+      "uncertain_digits": false,
+      "reason": "unequal_lengths",
+      "primary_candidate_textnum": "2615"
+    },
+    {
+      "cisi_object": "M-10",
+      "fc_raw": "1006",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1006"
+    },
+    {
+      "cisi_object": "M-11",
+      "fc_raw": "1062",
+      "uncertain_digits": false,
+      "reason": "missing_or_ambiguous_parpola_face",
+      "primary_candidate_textnum": "1062"
+    },
+    {
+      "cisi_object": "M-12",
+      "fc_raw": "0211",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "211"
+    },
+    {
+      "cisi_object": "M-14",
+      "fc_raw": "1022",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1022"
+    },
+    {
+      "cisi_object": "M-15",
+      "fc_raw": "2177",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2177"
+    },
+    {
+      "cisi_object": "M-17",
+      "fc_raw": "1035",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1035"
+    },
+    {
+      "cisi_object": "M-19",
+      "fc_raw": "1065",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1065"
+    },
+    {
+      "cisi_object": "M-20",
+      "fc_raw": "1054",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1054"
+    },
+    {
+      "cisi_object": "M-22",
+      "fc_raw": "1023",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1023"
+    },
+    {
+      "cisi_object": "M-23",
+      "fc_raw": "2398",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2398"
+    },
+    {
+      "cisi_object": "M-24",
+      "fc_raw": "2694",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2694"
+    },
+    {
+      "cisi_object": "M-25",
+      "fc_raw": "1056",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1056"
+    },
+    {
+      "cisi_object": "M-27",
+      "fc_raw": "2084",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2084"
+    },
+    {
+      "cisi_object": "M-28",
+      "fc_raw": "2178",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2178"
+    },
+    {
+      "cisi_object": "M-29",
+      "fc_raw": "2033",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2033"
+    },
+    {
+      "cisi_object": "M-31",
+      "fc_raw": "2576",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2576"
+    },
+    {
+      "cisi_object": "M-33",
+      "fc_raw": "1042",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1042"
+    },
+    {
+      "cisi_object": "M-36",
+      "fc_raw": "2455",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2455"
+    },
+    {
+      "cisi_object": "M-37",
+      "fc_raw": "0011",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "11"
+    },
+    {
+      "cisi_object": "M-38",
+      "fc_raw": "1087",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1087"
+    },
+    {
+      "cisi_object": "M-39",
+      "fc_raw": "1544",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1544"
+    },
+    {
+      "cisi_object": "M-40",
+      "fc_raw": "1051",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1051"
+    },
+    {
+      "cisi_object": "M-41",
+      "fc_raw": "2271",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2271"
+    },
+    {
+      "cisi_object": "M-44",
+      "fc_raw": "0110",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "110"
+    },
+    {
+      "cisi_object": "M-45",
+      "fc_raw": "1552",
+      "uncertain_digits": false,
+      "reason": "unequal_lengths",
+      "primary_candidate_textnum": "1552"
+    },
+    {
+      "cisi_object": "M-46",
+      "fc_raw": "0241",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "241"
+    },
+    {
+      "cisi_object": "M-47",
+      "fc_raw": "1098",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1098"
+    },
+    {
+      "cisi_object": "M-48",
+      "fc_raw": "1186",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1186"
+    },
+    {
+      "cisi_object": "M-49",
+      "fc_raw": "1047",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1047"
+    },
+    {
+      "cisi_object": "M-50",
+      "fc_raw": "1557",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1557"
+    },
+    {
+      "cisi_object": "M-51",
+      "fc_raw": "1555",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1555"
+    },
+    {
+      "cisi_object": "M-52",
+      "fc_raw": "1540",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1540"
+    },
+    {
+      "cisi_object": "M-53",
+      "fc_raw": "2128",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2128"
+    },
+    {
+      "cisi_object": "M-54",
+      "fc_raw": "2307",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2307"
+    },
+    {
+      "cisi_object": "M-55",
+      "fc_raw": "2511",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2511"
+    },
+    {
+      "cisi_object": "M-56",
+      "fc_raw": "2406",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2406"
+    },
+    {
+      "cisi_object": "M-57",
+      "fc_raw": "2340",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2340"
+    },
+    {
+      "cisi_object": "M-60",
+      "fc_raw": "2124",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2124"
+    },
+    {
+      "cisi_object": "M-61",
+      "fc_raw": "0144",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "144"
+    },
+    {
+      "cisi_object": "M-62",
+      "fc_raw": "0118",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "118"
+    },
+    {
+      "cisi_object": "M-63",
+      "fc_raw": "0223",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "223"
+    },
+    {
+      "cisi_object": "M-66",
+      "fc_raw": "1052",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1052"
+    },
+    {
+      "cisi_object": "M-67",
+      "fc_raw": "2264",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2264"
+    },
+    {
+      "cisi_object": "M-68",
+      "fc_raw": "0105",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "105"
+    },
+    {
+      "cisi_object": "M-69",
+      "fc_raw": "1095",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1095"
+    },
+    {
+      "cisi_object": "M-70",
+      "fc_raw": "1048",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1048"
+    },
+    {
+      "cisi_object": "M-71",
+      "fc_raw": "0235",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "235"
+    },
+    {
+      "cisi_object": "M-72",
+      "fc_raw": "2085",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2085"
+    },
+    {
+      "cisi_object": "M-73",
+      "fc_raw": "1046",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1046"
+    },
+    {
+      "cisi_object": "M-74",
+      "fc_raw": "2353",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2353"
+    },
+    {
+      "cisi_object": "M-76",
+      "fc_raw": "1210",
+      "uncertain_digits": false,
+      "reason": "missing_or_ambiguous_parpola_face",
+      "primary_candidate_textnum": "1210"
+    },
+    {
+      "cisi_object": "M-77",
+      "fc_raw": "0113",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "113"
+    },
+    {
+      "cisi_object": "M-78",
+      "fc_raw": "0102",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "102"
+    },
+    {
+      "cisi_object": "M-79",
+      "fc_raw": "2083",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2083"
+    },
+    {
+      "cisi_object": "M-84",
+      "fc_raw": "1108",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1108"
+    },
+    {
+      "cisi_object": "M-87",
+      "fc_raw": "2148",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "2148"
+    },
+    {
+      "cisi_object": "M-88",
+      "fc_raw": "1075",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1075"
+    },
+    {
+      "cisi_object": "M-89",
+      "fc_raw": "0138",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "138"
+    },
+    {
+      "cisi_object": "M-90",
+      "fc_raw": "0214",
+      "uncertain_digits": false,
+      "reason": "outside_supported_mohenjo_daro_range",
+      "primary_candidate_textnum": "214"
+    },
+    {
+      "cisi_object": "M-98",
+      "fc_raw": "2012",
+      "uncertain_digits": false,
+      "reason": "unequal_lengths",
+      "primary_candidate_textnum": "2012"
+    },
+    {
+      "cisi_object": "M-100",
+      "fc_raw": "1115",
+      "uncertain_digits": false,
+      "reason": "parpola_ineligible",
+      "primary_candidate_textnum": "1115"
+    }
+  ],
+  "pairs": [
+    {
+      "object": "M-1",
+      "fc_raw": "1067",
+      "primary_document": "67",
+      "primary_textnum": "1067",
+      "parpola_id": "M-1A",
+      "parpola_signs": [
+        "P108",
+        "P073",
+        "P385",
+        "P202",
+        "P121"
+      ],
+      "mahadevan_signs": [
+        "M397",
+        "M051",
+        "M267",
+        "M402",
+        "M098"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-3",
+      "fc_raw": "2225",
+      "primary_document": "838",
+      "primary_textnum": "2225",
+      "parpola_id": "M-3A",
+      "parpola_signs": [
+        "P094",
+        "P145",
+        "P320"
+      ],
+      "mahadevan_signs": [
+        "M212",
+        "M087",
+        "M341"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-6",
+      "fc_raw": "2422",
+      "primary_document": "1047",
+      "primary_textnum": "2422",
+      "parpola_id": "M-6A",
+      "parpola_signs": [
+        "P065",
+        "P201",
+        "P384",
+        "P378"
+      ],
+      "mahadevan_signs": [
+        "M083",
+        "M125",
+        "M286",
+        "M391"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-8",
+      "fc_raw": "1038",
+      "primary_document": "40",
+      "primary_textnum": "1038",
+      "parpola_id": "M-8A",
+      "parpola_signs": [
+        "P270",
+        "P011",
+        "P316"
+      ],
+      "mahadevan_signs": [
+        "M244",
+        "M017",
+        "M336"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-13",
+      "fc_raw": "1069",
+      "primary_document": "69",
+      "primary_textnum": "1069",
+      "parpola_id": "M-13A",
+      "parpola_signs": [
+        "P035",
+        "P205",
+        "P202"
+      ],
+      "mahadevan_signs": [
+        "M028",
+        "M180",
+        "M402"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-16",
+      "fc_raw": "1037",
+      "primary_document": "39",
+      "primary_textnum": "1037",
+      "parpola_id": "M-16A",
+      "parpola_signs": [
+        "P346",
+        "P151",
+        "P026",
+        "P378"
+      ],
+      "mahadevan_signs": [
+        "M409",
+        "M096",
+        "M019",
+        "M391"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-18",
+      "fc_raw": "1548",
+      "primary_document": "522",
+      "primary_textnum": "1548",
+      "parpola_id": "M-18A",
+      "parpola_signs": [
+        "P142",
+        "P324",
+        "P341"
+      ],
+      "mahadevan_signs": [
+        "M121",
+        "M342",
+        "M318"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-21",
+      "fc_raw": "2103",
+      "primary_document": "724",
+      "primary_textnum": "2103",
+      "parpola_id": "M-21A",
+      "parpola_signs": [
+        "P385",
+        "P122",
+        "P145",
+        "P256",
+        "P272",
+        "P324",
+        "P121",
+        "P091"
+      ],
+      "mahadevan_signs": [
+        "M267",
+        "M099",
+        "M087",
+        "M150",
+        "M201",
+        "M342",
+        "M098",
+        "M175"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-26",
+      "fc_raw": "2074",
+      "primary_document": "696",
+      "primary_textnum": "2074",
+      "parpola_id": "M-26A",
+      "parpola_signs": [
+        "P256",
+        "P120",
+        "P228",
+        "P324",
+        "P013"
+      ],
+      "mahadevan_signs": [
+        "M150",
+        "M123",
+        "M228",
+        "M342",
+        "M001"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-30",
+      "fc_raw": "2396",
+      "primary_document": "1016",
+      "primary_textnum": "2396",
+      "parpola_id": "M-30A",
+      "parpola_signs": [
+        "P364",
+        "P060",
+        "P062",
+        "P210",
+        "P127",
+        "P332",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M389",
+        "M065",
+        "M067",
+        "M204",
+        "M112",
+        "M358",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-32",
+      "fc_raw": "2180",
+      "primary_document": "797",
+      "primary_textnum": "2180",
+      "parpola_id": "M-32A",
+      "parpola_signs": [
+        "P385",
+        "P122",
+        "P123",
+        "P086"
+      ],
+      "mahadevan_signs": [
+        "M267",
+        "M099",
+        "M102",
+        "M162"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-34",
+      "fc_raw": "1058",
+      "primary_document": "61",
+      "primary_textnum": "1058",
+      "parpola_id": "M-34A",
+      "parpola_signs": [
+        "P103",
+        "P108",
+        "P086",
+        "P122",
+        "P194",
+        "P309",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M400",
+        "M396",
+        "M169",
+        "M099",
+        "M048",
+        "M193",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-35",
+      "fc_raw": "2333",
+      "primary_document": "948",
+      "primary_textnum": "2333",
+      "parpola_id": "M-35A",
+      "parpola_signs": [
+        "P007",
+        "P122",
+        "P056",
+        "P058",
+        "P276",
+        "P086",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M004",
+        "M099",
+        "M070",
+        "M072",
+        "M249",
+        "M169",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-42",
+      "fc_raw": "1096",
+      "primary_document": "98",
+      "primary_textnum": "1096",
+      "parpola_id": "M-42A",
+      "parpola_signs": [
+        "P385",
+        "P122",
+        "P062",
+        "P230",
+        "P301"
+      ],
+      "mahadevan_signs": [
+        "M267",
+        "M099",
+        "M067",
+        "M216",
+        "M254"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-43",
+      "fc_raw": "2584",
+      "primary_document": "1217",
+      "primary_textnum": "2584",
+      "parpola_id": "M-43A",
+      "parpola_signs": [
+        "P360",
+        "P142",
+        "P122",
+        "P056",
+        "P230",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M399",
+        "M121",
+        "M099",
+        "M070",
+        "M053",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-58",
+      "fc_raw": "2680",
+      "primary_document": "1319",
+      "primary_textnum": "2680",
+      "parpola_id": "M-58A",
+      "parpola_signs": [
+        "P385",
+        "P122",
+        "P210",
+        "P215",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M267",
+        "M099",
+        "M204",
+        "M230",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-59",
+      "fc_raw": "1029",
+      "primary_document": "31",
+      "primary_textnum": "1029",
+      "parpola_id": "M-59A",
+      "parpola_signs": [
+        "P160",
+        "P120",
+        "P326",
+        "P123",
+        "P202"
+      ],
+      "mahadevan_signs": [
+        "M293",
+        "M123",
+        "M344",
+        "M102",
+        "M402"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-64",
+      "fc_raw": "2524",
+      "primary_document": "1154",
+      "primary_textnum": "2524",
+      "parpola_id": "M-64A",
+      "parpola_signs": [
+        "P124",
+        "P050",
+        "P120",
+        "P316",
+        "P147",
+        "P217"
+      ],
+      "mahadevan_signs": [
+        "M104",
+        "M059",
+        "M123",
+        "M336",
+        "M089",
+        "M211"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-65",
+      "fc_raw": "2440",
+      "primary_document": "1068",
+      "primary_textnum": "2440",
+      "parpola_id": "M-65A",
+      "parpola_signs": [
+        "P289",
+        "P316",
+        "P121",
+        "P144",
+        "P050",
+        "P217"
+      ],
+      "mahadevan_signs": [
+        "M197",
+        "M336",
+        "M097",
+        "M086",
+        "M059",
+        "M211"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-75",
+      "fc_raw": "1019",
+      "primary_document": "21",
+      "primary_textnum": "1019",
+      "parpola_id": "M-75A",
+      "parpola_signs": [
+        "P385",
+        "P122",
+        "P124",
+        "P050",
+        "P217"
+      ],
+      "mahadevan_signs": [
+        "M267",
+        "M099",
+        "M104",
+        "M059",
+        "M211"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-80",
+      "fc_raw": "2635",
+      "primary_document": "1274",
+      "primary_textnum": "2635",
+      "parpola_id": "M-80A",
+      "parpola_signs": [
+        "P385",
+        "P202",
+        "P120",
+        "P123",
+        "P004"
+      ],
+      "mahadevan_signs": [
+        "M267",
+        "M402",
+        "M123",
+        "M102",
+        "M015"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-81",
+      "fc_raw": "1180",
+      "primary_document": "185",
+      "primary_textnum": "1180",
+      "parpola_id": "M-81A",
+      "parpola_signs": [
+        "P217",
+        "P268",
+        "P268",
+        "P122",
+        "P062",
+        "P230",
+        "P301"
+      ],
+      "mahadevan_signs": [
+        "M155",
+        "M245",
+        "M245",
+        "M099",
+        "M067",
+        "M222",
+        "M254"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-82",
+      "fc_raw": "2451",
+      "primary_document": "1079",
+      "primary_textnum": "2451",
+      "parpola_id": "M-82A",
+      "parpola_signs": [
+        "P086",
+        "P230",
+        "P082",
+        "P122",
+        "P053",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M162",
+        "M216",
+        "M057",
+        "M099",
+        "M062",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-83",
+      "fc_raw": "2267",
+      "primary_document": "882",
+      "primary_textnum": "2267",
+      "parpola_id": "M-83A",
+      "parpola_signs": [
+        "P180",
+        "P128",
+        "P086"
+      ],
+      "mahadevan_signs": [
+        "M306",
+        "M114",
+        "M162"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-85",
+      "fc_raw": "2365",
+      "primary_document": "984",
+      "primary_textnum": "2365",
+      "parpola_id": "M-85A",
+      "parpola_signs": [
+        "P070",
+        "P251",
+        "P325",
+        "P058",
+        "P217"
+      ],
+      "mahadevan_signs": [
+        "M080",
+        "M160",
+        "M343",
+        "M072",
+        "M211"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-86",
+      "fc_raw": "2208",
+      "primary_document": "824",
+      "primary_textnum": "2208",
+      "parpola_id": "M-86A",
+      "parpola_signs": [
+        "P310",
+        "P378",
+        "P122",
+        "P056",
+        "P316",
+        "P147",
+        "P217"
+      ],
+      "mahadevan_signs": [
+        "M328",
+        "M391",
+        "M099",
+        "M070",
+        "M336",
+        "M089",
+        "M211"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-91",
+      "fc_raw": "2429",
+      "primary_document": "1054",
+      "primary_textnum": "2429",
+      "parpola_id": "M-91A",
+      "parpola_signs": [
+        "P095",
+        "P073",
+        "P385",
+        "P122",
+        "P145",
+        "P050",
+        "P230",
+        "P009",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M173",
+        "M051",
+        "M267",
+        "M099",
+        "M087",
+        "M059",
+        "M053",
+        "M008",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-92",
+      "fc_raw": "2407",
+      "primary_document": "1033",
+      "primary_textnum": "2407",
+      "parpola_id": "M-92A",
+      "parpola_signs": [
+        "P253",
+        "P369",
+        "P122",
+        "P091",
+        "P215",
+        "P075",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M159",
+        "M381",
+        "M099",
+        "M175",
+        "M230",
+        "M053",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-93",
+      "fc_raw": "2305",
+      "primary_document": "920",
+      "primary_textnum": "2305",
+      "parpola_id": "M-93A",
+      "parpola_signs": [
+        "P043",
+        "P325",
+        "P062",
+        "P123",
+        "P004"
+      ],
+      "mahadevan_signs": [
+        "M050",
+        "M343",
+        "M067",
+        "M102",
+        "M015"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-94",
+      "fc_raw": "2594",
+      "primary_document": "1228",
+      "primary_textnum": "2594",
+      "parpola_id": "M-94A",
+      "parpola_signs": [
+        "P123",
+        "P050",
+        "P276",
+        "P086",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M102",
+        "M059",
+        "M249",
+        "M162",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-95",
+      "fc_raw": "2657",
+      "primary_document": "1296",
+      "primary_textnum": "2657",
+      "parpola_id": "M-95A",
+      "parpola_signs": [
+        "P342",
+        "P040",
+        "P122",
+        "P123",
+        "P086"
+      ],
+      "mahadevan_signs": [
+        "M319",
+        "M032",
+        "M099",
+        "M102",
+        "M162"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-96",
+      "fc_raw": "2698",
+      "primary_document": "1341",
+      "primary_textnum": "2698",
+      "parpola_id": "M-96A",
+      "parpola_signs": [
+        "P124",
+        "P004"
+      ],
+      "mahadevan_signs": [
+        "M104",
+        "M015"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-97",
+      "fc_raw": "2549",
+      "primary_document": "1180",
+      "primary_textnum": "2549",
+      "parpola_id": "M-97A",
+      "parpola_signs": [
+        "P073",
+        "P188",
+        "P004"
+      ],
+      "mahadevan_signs": [
+        "M051",
+        "M130",
+        "M015"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    },
+    {
+      "object": "M-99",
+      "fc_raw": "2475",
+      "primary_document": "1104",
+      "primary_textnum": "2475",
+      "parpola_id": "M-99A",
+      "parpola_signs": [
+        "P038",
+        "P202",
+        "P122",
+        "P353",
+        "P324"
+      ],
+      "mahadevan_signs": [
+        "M030",
+        "M402",
+        "M099",
+        "M415",
+        "M342"
+      ],
+      "identity_status": "unverified numeric-reference candidate"
+    }
+  ],
+  "groups": 34,
+  "split_objects": {
+    "train": [
+      "M-1",
+      "M-93",
+      "M-18",
+      "M-35",
+      "M-64",
+      "M-92",
+      "M-42",
+      "M-81",
+      "M-59",
+      "M-34",
+      "M-58",
+      "M-80",
+      "M-83",
+      "M-32",
+      "M-95",
+      "M-86",
+      "M-21",
+      "M-91",
+      "M-3",
+      "M-97",
+      "M-43",
+      "M-75",
+      "M-8",
+      "M-65",
+      "M-82",
+      "M-13",
+      "M-96"
+    ],
+    "validation": [
+      "M-16",
+      "M-94",
+      "M-99"
+    ],
+    "test": [
+      "M-30",
+      "M-85",
+      "M-6",
+      "M-26"
+    ]
+  },
+  "pilot": "M-1 component forced into training; source aliases and original photo were seen before design",
+  "training_alignment_entropy": {
+    "direct": 0.1534567389668859,
+    "reversed": 1.5621451097314676
+  },
+  "selected_alignment": "direct",
+  "mapping_candidates": [
+    {
+      "parpola": "P004",
+      "majority_mahadevan": "M015",
+      "support": 4,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-80",
+        "M-93",
+        "M-96",
+        "M-97"
+      ],
+      "distribution": {
+        "M015": 4
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P007",
+      "majority_mahadevan": "M004",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-35"
+      ],
+      "distribution": {
+        "M004": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P009",
+      "majority_mahadevan": "M008",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-91"
+      ],
+      "distribution": {
+        "M008": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P011",
+      "majority_mahadevan": "M017",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-8"
+      ],
+      "distribution": {
+        "M017": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P035",
+      "majority_mahadevan": "M028",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-13"
+      ],
+      "distribution": {
+        "M028": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P040",
+      "majority_mahadevan": "M032",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-95"
+      ],
+      "distribution": {
+        "M032": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P043",
+      "majority_mahadevan": "M050",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-93"
+      ],
+      "distribution": {
+        "M050": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P050",
+      "majority_mahadevan": "M059",
+      "support": 4,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-64",
+        "M-65",
+        "M-75",
+        "M-91"
+      ],
+      "distribution": {
+        "M059": 4
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P053",
+      "majority_mahadevan": "M062",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-82"
+      ],
+      "distribution": {
+        "M062": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P056",
+      "majority_mahadevan": "M070",
+      "support": 3,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-35",
+        "M-43",
+        "M-86"
+      ],
+      "distribution": {
+        "M070": 3
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P058",
+      "majority_mahadevan": "M072",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-35"
+      ],
+      "distribution": {
+        "M072": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P062",
+      "majority_mahadevan": "M067",
+      "support": 3,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-42",
+        "M-81",
+        "M-93"
+      ],
+      "distribution": {
+        "M067": 3
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P073",
+      "majority_mahadevan": "M051",
+      "support": 3,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-1",
+        "M-91",
+        "M-97"
+      ],
+      "distribution": {
+        "M051": 3
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P075",
+      "majority_mahadevan": "M053",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-92"
+      ],
+      "distribution": {
+        "M053": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P082",
+      "majority_mahadevan": "M057",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-82"
+      ],
+      "distribution": {
+        "M057": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P086",
+      "majority_mahadevan": "M162",
+      "support": 6,
+      "purity": 0.6666666666666666,
+      "candidate_objects": [
+        "M-32",
+        "M-34",
+        "M-35",
+        "M-82",
+        "M-83",
+        "M-95"
+      ],
+      "distribution": {
+        "M162": 4,
+        "M169": 2
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P091",
+      "majority_mahadevan": "M175",
+      "support": 2,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-21",
+        "M-92"
+      ],
+      "distribution": {
+        "M175": 2
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P094",
+      "majority_mahadevan": "M212",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-3"
+      ],
+      "distribution": {
+        "M212": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P095",
+      "majority_mahadevan": "M173",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-91"
+      ],
+      "distribution": {
+        "M173": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P103",
+      "majority_mahadevan": "M400",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-34"
+      ],
+      "distribution": {
+        "M400": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P108",
+      "majority_mahadevan": "M396",
+      "support": 2,
+      "purity": 0.5,
+      "candidate_objects": [
+        "M-1",
+        "M-34"
+      ],
+      "distribution": {
+        "M396": 1,
+        "M397": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P120",
+      "majority_mahadevan": "M123",
+      "support": 3,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-59",
+        "M-64",
+        "M-80"
+      ],
+      "distribution": {
+        "M123": 3
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P121",
+      "majority_mahadevan": "M098",
+      "support": 3,
+      "purity": 0.6666666666666666,
+      "candidate_objects": [
+        "M-1",
+        "M-21",
+        "M-65"
+      ],
+      "distribution": {
+        "M097": 1,
+        "M098": 2
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P122",
+      "majority_mahadevan": "M099",
+      "support": 14,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-21",
+        "M-32",
+        "M-34",
+        "M-35",
+        "M-42",
+        "M-43",
+        "M-58",
+        "M-75",
+        "M-81",
+        "M-82",
+        "M-86",
+        "M-91",
+        "M-92",
+        "M-95"
+      ],
+      "distribution": {
+        "M099": 14
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P123",
+      "majority_mahadevan": "M102",
+      "support": 5,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-32",
+        "M-59",
+        "M-80",
+        "M-93",
+        "M-95"
+      ],
+      "distribution": {
+        "M102": 5
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P124",
+      "majority_mahadevan": "M104",
+      "support": 3,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-64",
+        "M-75",
+        "M-96"
+      ],
+      "distribution": {
+        "M104": 3
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P128",
+      "majority_mahadevan": "M114",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-83"
+      ],
+      "distribution": {
+        "M114": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P142",
+      "majority_mahadevan": "M121",
+      "support": 2,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-18",
+        "M-43"
+      ],
+      "distribution": {
+        "M121": 2
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P144",
+      "majority_mahadevan": "M086",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-65"
+      ],
+      "distribution": {
+        "M086": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P145",
+      "majority_mahadevan": "M087",
+      "support": 3,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-21",
+        "M-3",
+        "M-91"
+      ],
+      "distribution": {
+        "M087": 3
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P147",
+      "majority_mahadevan": "M089",
+      "support": 2,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-64",
+        "M-86"
+      ],
+      "distribution": {
+        "M089": 2
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P160",
+      "majority_mahadevan": "M293",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-59"
+      ],
+      "distribution": {
+        "M293": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P180",
+      "majority_mahadevan": "M306",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-83"
+      ],
+      "distribution": {
+        "M306": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P188",
+      "majority_mahadevan": "M130",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-97"
+      ],
+      "distribution": {
+        "M130": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P194",
+      "majority_mahadevan": "M048",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-34"
+      ],
+      "distribution": {
+        "M048": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P202",
+      "majority_mahadevan": "M402",
+      "support": 4,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-1",
+        "M-13",
+        "M-59",
+        "M-80"
+      ],
+      "distribution": {
+        "M402": 4
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P205",
+      "majority_mahadevan": "M180",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-13"
+      ],
+      "distribution": {
+        "M180": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P210",
+      "majority_mahadevan": "M204",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-58"
+      ],
+      "distribution": {
+        "M204": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P215",
+      "majority_mahadevan": "M230",
+      "support": 2,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-58",
+        "M-92"
+      ],
+      "distribution": {
+        "M230": 2
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P217",
+      "majority_mahadevan": "M211",
+      "support": 5,
+      "purity": 0.8,
+      "candidate_objects": [
+        "M-64",
+        "M-65",
+        "M-75",
+        "M-81",
+        "M-86"
+      ],
+      "distribution": {
+        "M155": 1,
+        "M211": 4
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P230",
+      "majority_mahadevan": "M053",
+      "support": 5,
+      "purity": 0.4,
+      "candidate_objects": [
+        "M-42",
+        "M-43",
+        "M-81",
+        "M-82",
+        "M-91"
+      ],
+      "distribution": {
+        "M053": 2,
+        "M216": 2,
+        "M222": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P253",
+      "majority_mahadevan": "M159",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-92"
+      ],
+      "distribution": {
+        "M159": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P256",
+      "majority_mahadevan": "M150",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-21"
+      ],
+      "distribution": {
+        "M150": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P268",
+      "majority_mahadevan": "M245",
+      "support": 2,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-81"
+      ],
+      "distribution": {
+        "M245": 2
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P270",
+      "majority_mahadevan": "M244",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-8"
+      ],
+      "distribution": {
+        "M244": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P272",
+      "majority_mahadevan": "M201",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-21"
+      ],
+      "distribution": {
+        "M201": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P276",
+      "majority_mahadevan": "M249",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-35"
+      ],
+      "distribution": {
+        "M249": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P289",
+      "majority_mahadevan": "M197",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-65"
+      ],
+      "distribution": {
+        "M197": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P301",
+      "majority_mahadevan": "M254",
+      "support": 2,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-42",
+        "M-81"
+      ],
+      "distribution": {
+        "M254": 2
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P309",
+      "majority_mahadevan": "M193",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-34"
+      ],
+      "distribution": {
+        "M193": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P310",
+      "majority_mahadevan": "M328",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-86"
+      ],
+      "distribution": {
+        "M328": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P316",
+      "majority_mahadevan": "M336",
+      "support": 4,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-64",
+        "M-65",
+        "M-8",
+        "M-86"
+      ],
+      "distribution": {
+        "M336": 4
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P320",
+      "majority_mahadevan": "M341",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-3"
+      ],
+      "distribution": {
+        "M341": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P324",
+      "majority_mahadevan": "M342",
+      "support": 9,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-18",
+        "M-21",
+        "M-34",
+        "M-35",
+        "M-43",
+        "M-58",
+        "M-82",
+        "M-91",
+        "M-92"
+      ],
+      "distribution": {
+        "M342": 9
+      },
+      "review_priority": true
+    },
+    {
+      "parpola": "P325",
+      "majority_mahadevan": "M343",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-93"
+      ],
+      "distribution": {
+        "M343": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P326",
+      "majority_mahadevan": "M344",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-59"
+      ],
+      "distribution": {
+        "M344": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P341",
+      "majority_mahadevan": "M318",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-18"
+      ],
+      "distribution": {
+        "M318": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P342",
+      "majority_mahadevan": "M319",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-95"
+      ],
+      "distribution": {
+        "M319": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P360",
+      "majority_mahadevan": "M399",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-43"
+      ],
+      "distribution": {
+        "M399": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P369",
+      "majority_mahadevan": "M381",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-92"
+      ],
+      "distribution": {
+        "M381": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P378",
+      "majority_mahadevan": "M391",
+      "support": 1,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-86"
+      ],
+      "distribution": {
+        "M391": 1
+      },
+      "review_priority": false
+    },
+    {
+      "parpola": "P385",
+      "majority_mahadevan": "M267",
+      "support": 8,
+      "purity": 1.0,
+      "candidate_objects": [
+        "M-1",
+        "M-21",
+        "M-32",
+        "M-42",
+        "M-58",
+        "M-75",
+        "M-80",
+        "M-91"
+      ],
+      "distribution": {
+        "M267": 8
+      },
+      "review_priority": true
+    }
+  ],
+  "review_priority_count": 14,
+  "validation": {
+    "candidate_objects": 3,
+    "positions": 14,
+    "correct": 9,
+    "known_source_positions": 9,
+    "top1": 0.6428571428571429,
+    "source_coverage": 0.6428571428571429,
+    "whole_correct": 1,
+    "records": [
+      {
+        "object": "M-16",
+        "fc_raw": "1037",
+        "primary_candidate_textnum": "1037",
+        "positions": [
+          {
+            "parpola": "P346",
+            "mahadevan_candidate": "M409",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P151",
+            "mahadevan_candidate": "M096",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P026",
+            "mahadevan_candidate": "M019",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P378",
+            "mahadevan_candidate": "M391",
+            "prediction": "M391",
+            "correct": true,
+            "training_candidates": {
+              "M391": 1
+            }
+          }
+        ],
+        "whole_correct": false
+      },
+      {
+        "object": "M-94",
+        "fc_raw": "2594",
+        "primary_candidate_textnum": "2594",
+        "positions": [
+          {
+            "parpola": "P123",
+            "mahadevan_candidate": "M102",
+            "prediction": "M102",
+            "correct": true,
+            "training_candidates": {
+              "M102": 5
+            }
+          },
+          {
+            "parpola": "P050",
+            "mahadevan_candidate": "M059",
+            "prediction": "M059",
+            "correct": true,
+            "training_candidates": {
+              "M059": 4
+            }
+          },
+          {
+            "parpola": "P276",
+            "mahadevan_candidate": "M249",
+            "prediction": "M249",
+            "correct": true,
+            "training_candidates": {
+              "M249": 1
+            }
+          },
+          {
+            "parpola": "P086",
+            "mahadevan_candidate": "M162",
+            "prediction": "M162",
+            "correct": true,
+            "training_candidates": {
+              "M162": 4,
+              "M169": 2
+            }
+          },
+          {
+            "parpola": "P324",
+            "mahadevan_candidate": "M342",
+            "prediction": "M342",
+            "correct": true,
+            "training_candidates": {
+              "M342": 9
+            }
+          }
+        ],
+        "whole_correct": true
+      },
+      {
+        "object": "M-99",
+        "fc_raw": "2475",
+        "primary_candidate_textnum": "2475",
+        "positions": [
+          {
+            "parpola": "P038",
+            "mahadevan_candidate": "M030",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P202",
+            "mahadevan_candidate": "M402",
+            "prediction": "M402",
+            "correct": true,
+            "training_candidates": {
+              "M402": 4
+            }
+          },
+          {
+            "parpola": "P122",
+            "mahadevan_candidate": "M099",
+            "prediction": "M099",
+            "correct": true,
+            "training_candidates": {
+              "M099": 14
+            }
+          },
+          {
+            "parpola": "P353",
+            "mahadevan_candidate": "M415",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P324",
+            "mahadevan_candidate": "M342",
+            "prediction": "M342",
+            "correct": true,
+            "training_candidates": {
+              "M342": 9
+            }
+          }
+        ],
+        "whole_correct": false
+      }
+    ]
+  },
+  "test": {
+    "candidate_objects": 4,
+    "positions": 21,
+    "correct": 10,
+    "known_source_positions": 10,
+    "top1": 0.47619047619047616,
+    "source_coverage": 0.47619047619047616,
+    "whole_correct": 0,
+    "records": [
+      {
+        "object": "M-30",
+        "fc_raw": "2396",
+        "primary_candidate_textnum": "2396",
+        "positions": [
+          {
+            "parpola": "P364",
+            "mahadevan_candidate": "M389",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P060",
+            "mahadevan_candidate": "M065",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P062",
+            "mahadevan_candidate": "M067",
+            "prediction": "M067",
+            "correct": true,
+            "training_candidates": {
+              "M067": 3
+            }
+          },
+          {
+            "parpola": "P210",
+            "mahadevan_candidate": "M204",
+            "prediction": "M204",
+            "correct": true,
+            "training_candidates": {
+              "M204": 1
+            }
+          },
+          {
+            "parpola": "P127",
+            "mahadevan_candidate": "M112",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P332",
+            "mahadevan_candidate": "M358",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P324",
+            "mahadevan_candidate": "M342",
+            "prediction": "M342",
+            "correct": true,
+            "training_candidates": {
+              "M342": 9
+            }
+          }
+        ],
+        "whole_correct": false
+      },
+      {
+        "object": "M-85",
+        "fc_raw": "2365",
+        "primary_candidate_textnum": "2365",
+        "positions": [
+          {
+            "parpola": "P070",
+            "mahadevan_candidate": "M080",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P251",
+            "mahadevan_candidate": "M160",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P325",
+            "mahadevan_candidate": "M343",
+            "prediction": "M343",
+            "correct": true,
+            "training_candidates": {
+              "M343": 1
+            }
+          },
+          {
+            "parpola": "P058",
+            "mahadevan_candidate": "M072",
+            "prediction": "M072",
+            "correct": true,
+            "training_candidates": {
+              "M072": 1
+            }
+          },
+          {
+            "parpola": "P217",
+            "mahadevan_candidate": "M211",
+            "prediction": "M211",
+            "correct": true,
+            "training_candidates": {
+              "M155": 1,
+              "M211": 4
+            }
+          }
+        ],
+        "whole_correct": false
+      },
+      {
+        "object": "M-6",
+        "fc_raw": "2422",
+        "primary_candidate_textnum": "2422",
+        "positions": [
+          {
+            "parpola": "P065",
+            "mahadevan_candidate": "M083",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P201",
+            "mahadevan_candidate": "M125",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P384",
+            "mahadevan_candidate": "M286",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P378",
+            "mahadevan_candidate": "M391",
+            "prediction": "M391",
+            "correct": true,
+            "training_candidates": {
+              "M391": 1
+            }
+          }
+        ],
+        "whole_correct": false
+      },
+      {
+        "object": "M-26",
+        "fc_raw": "2074",
+        "primary_candidate_textnum": "2074",
+        "positions": [
+          {
+            "parpola": "P256",
+            "mahadevan_candidate": "M150",
+            "prediction": "M150",
+            "correct": true,
+            "training_candidates": {
+              "M150": 1
+            }
+          },
+          {
+            "parpola": "P120",
+            "mahadevan_candidate": "M123",
+            "prediction": "M123",
+            "correct": true,
+            "training_candidates": {
+              "M123": 3
+            }
+          },
+          {
+            "parpola": "P228",
+            "mahadevan_candidate": "M228",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          },
+          {
+            "parpola": "P324",
+            "mahadevan_candidate": "M342",
+            "prediction": "M342",
+            "correct": true,
+            "training_candidates": {
+              "M342": 9
+            }
+          },
+          {
+            "parpola": "P013",
+            "mahadevan_candidate": "M001",
+            "prediction": null,
+            "correct": false,
+            "training_candidates": {}
+          }
+        ],
+        "whole_correct": false
+      }
+    ]
+  },
+  "scope": "FC numbers are not uniformly Mahadevan numbers. Accuracy measures consistency of numeric-reference candidate transcriptions, not independently verified object identities or sound values. No automatic crosswalk propagation."
+}

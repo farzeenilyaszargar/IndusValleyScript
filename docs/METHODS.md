@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.14. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.15. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -122,3 +122,11 @@ Secondary export pinned with MIT attribution; every one of its 2,742 base sequen
 Design committed/pushed before fitting. All 2,391 strict primary rows form 1,321 connected object-or-exact/reverse-text groups before target filtering. Largest component 592 rows remains wholly in validation (96 target rows); full row/group assignments are exported. Literal target codes 0/999 are omitted after splitting. Task rows: 878 train, 198 validation, 99 test. Five raw codes meet >=20 distinct training-object threshold; the rest become RARE, with no animal-name glosses. Baseline site/type/length interpolation is validation-selected and frozen before adding averaged distinct-sign likelihoods.
 
 Chosen strength 1, sign weight 0.5. Held-out baseline/sign scores 1.647/1.629 bits per row, gain 0.017 with grouped 95% interval [-0.018,0.051] crossing zero. Accuracy 71.7%→70.7%; macro recall 20.8%→19.8%; majority-class accuracy 67.7%. Four individually retained minority classes have zero recall in this small test. Five metadata strata and 26/466 sign tokens are unseen. Negative/inconclusive incremental result, not a rejection of every motif hypothesis or an assignment of depicted-entity names. Three correctness checks verify transitive object/face grouping, distinct-object target thresholds, normalized probabilities and ignored unseen sign evidence.
+
+## FC-reference candidates and actual photograph screening (Experiment 015)
+
+17 October 2026. Original CISI 1 metadata pp.365-366 explicitly caution that FC/Mahadevan numbers differ. Manually transcribed all 100 FC references from the first Mohenjo-daro page, retaining source PDF hash/page and one uncertain numeric reading. Candidate generation never certifies object identity: 34 strict side-0/line-0, A-face, equal-length pairs survive; 66 exclusions remain visible. M-1 pilot/aliases were seen before design and its duplicate group is forced into training.
+
+Grouped split 27/3/4, direct training entropy 0.153 vs reversed 1.562. Test consistency 10/21 positions, exactly 10/21 source coverage, no complete test inscription. Fourteen training correspondences pass review thresholds; none is automatically adopted. Tiny holdout and unresolved numeric identities preclude independent crosswalk validation. Three checks cover wrong-face rejection, uncertain-number exclusion and pilot/duplicate isolation.
+
+Original/impression images actually viewed for M-1/M-3/M-4 on printed pp.1-3, plus a visible M-2 fragment. M-1 edge marking HR2406 agrees with its printed metadata; original/impression pairs are mirrored. M-3's three broad sign groups and broken lower body are recorded; M-4 is excluded for its uncertain reference. This is unblinded Codex-assisted photo screening, not expert transcription or allograph verification. Full records: docs/original_photo_review.json. Books remain in ignored cache; no scans or new phonetic values are redistributed.

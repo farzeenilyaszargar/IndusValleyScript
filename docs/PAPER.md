@@ -1,6 +1,6 @@
 # Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.14 | 15 October 2026 | Not peer reviewed
+Research draft, version 0.15 | 17 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
@@ -261,6 +261,16 @@ The paired log-loss gain is 0.017 bits per archaeological row, with connected-co
 
 This tested predictor does not establish an independent iconographic/semantic anchor or disprove all sign/motif associations. RARE combines heterogeneous targets, class imbalance is strong, one large group influences validation, and near-copy/mold-family independence remains unresolved. Connected splits, class-wise confusions, probability vectors and all validation candidates are exported. A sign could covary with motif through institutional or production conventions rather than name the depicted entity; no phonetic or lexical assignment follows.
 
+### 4.19 Reference-number candidates and original photographs
+
+Experiment 015 reads the original CISI 1 metadata page for M-1 through M-100 [17]. The book warns that Finnish concordance (FC) and Mahadevan reference numbers are not uniformly interchangeable. Consequently a matching FC/Mahadevan number is used only to generate a candidate transcription pair, not to establish an independently verified object identity. One uncertain numeric reading is flagged; no supplied sign alias selects or filters the pairs. An M-1 pilot and its aliases were inspected before design, so its whole duplicate group is forced into training.
+
+Eligibility requires a unique Parpola A-face transcription and a strict primary Mahadevan side-0/line-0 record with the same candidate number and length. Of 100 references, 34 survive; exclusions are 45 Parpola-ineligible, 14 outside the supported reference range, four unequal lengths, two missing/ambiguous Parpola faces and one uncertain number. Exact/reverse copies in either namespace share groups. The 27/3/4 train/validation/test candidate split selects direct relative alignment by training correspondence entropy (0.153 vs 1.562 bits reversed).
+
+A training-majority Parpola-to-Mahadevan mapper predicts 10/21 test positions, with 10/21 source-sign coverage and no fully correct test inscription. Every covered test position agrees, while unseen source signs remain failures. Fourteen training mappings reach the declared review threshold. These are conditional consistency results on unverified reference candidates, with only four test objects, not validation of all FC identities or sound values. No crosswalk is automatically propagated.
+
+Original seal/impression photographs were actually inspected for M-1, M-3 and M-4 (printed pp. 1-3), rather than standardized drawings alone. M-1's HR 2406 edge marking matches its catalogue metadata; A-face and lowercase-a impression are visibly mirrored. M-3 shows three main graphic groups, with a broken lower/right body. M-4 has a longer mirrored sequence and textured/damaged surface, but its uncertain reference remains excluded. The record explicitly distinguishes this unblinded Codex-assisted screening from an expert transcription or complete allograph verification. The scans are cached privately, not redistributed. Further object-reference resolution and independent glyph review remain necessary.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate (36.1 percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -308,3 +318,5 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 [15] Mahadevan. The Indus Script: Texts, Concordance and Tables. ASI Memoir 77, 1977. Code/sign-list pages 30-35. Public scan: https://archive.org/details/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan
 
 [16] Arun G K. IVS repository, pinned source export/parser and codebook, revision 7c0273f544998178a4e4f71b80407c52d1ac2f24. https://github.com/gkarun876/IVS
+
+[17] Joshi and Parpola. Corpus of Indus Seals and Inscriptions 1: Collections in India. 1987. Photographs pp. 1-3 and metadata pp. 365-366 inspected in public scan. https://archive.org/details/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan
