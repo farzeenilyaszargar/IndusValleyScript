@@ -23,6 +23,7 @@ def main():
     mahadevan=read('mahadevan_primary_audit')
     motif=read('motif_prediction')
     refs=read('reference_candidates')
+    graphic=read('graphic_variant_audit')
     motif_rows='\n'.join(f'| {name} | {m["bits_per_row"]:.3f} | {100*m["accuracy"]:.1f}% | {100*m["macro_recall_present_classes"]:.1f}% |'
         for name,m in (("metadata baseline",motif['baseline']),("metadata plus signs",motif['sign_augmented'])))
     admin_rows='\n'.join(f'| {seed} | {r["description"]["signs"]} | {r["within_text_null"]["observed_bits"]:.3f} | '+
@@ -62,13 +63,13 @@ def main():
                           for name,r in site.items())
     paper=f'''# Structural Constraints in the Indus Sign System: A Reproducible Computational Investigation
 
-Research draft, version 0.15 | 17 October 2026 | Not peer reviewed
+Research draft, version 0.16 | 17 October 2026 | Not peer reviewed
 
 Prepared with Codex for the IndusValleyScript research repository. This draft reports executed exploratory analyses. It is not a claim of decipherment or a human author's approved publication.
 
 ## Abstract
 
-We investigate whether public Indus transcription data support reproducible constraints useful for eventual decipherment. A pinned ICIT-derived export supplies {audit['icit_raw_rows']:,} records, reduced to {d['texts']:,} distinct complete single-line sequences, {d['tokens']:,} tokens and {d['signs']} sign IDs. A separate annotated CISI subset supports morphology and correspondence audits. We index 715 glyph-reference files and acquire 3,916 official Mahadevan records with raw uncertainty/layout metadata and 417 separate sign-list references. Of 2,742 secondary sequences matching primary base codes, 265 strip doubtful readings and 92 concatenate lines. Methods include entropy controls, held-out sequence models, masked reconstruction, positional/context representations and controlled language/administrative comparisons. Bigrams average {mean(2):.3f} bits/token versus {mean(1):.3f} for unigrams across five splits; synthetic two-sign gaps are recovered at top1 in 12.7%. A richer explicitly non-phonetic administrative generator also supports masked prediction and bigram gains. These results establish structural constraints and source-quality limits, without identifying a language family, sound values or translations. Independent semantic and archaeological anchors remain necessary for decipherment.
+We investigate whether public Indus transcription data support reproducible constraints useful for eventual decipherment. A pinned ICIT-derived export supplies {audit['icit_raw_rows']:,} records, reduced to {d['texts']:,} distinct complete single-line sequences, {d['tokens']:,} tokens and {d['signs']} sign IDs. A separate annotated CISI subset supports morphology and correspondence audits. We index 715 glyph-reference files and acquire 3,916 official Mahadevan records with raw uncertainty/layout metadata and 417 separate sign-list references, supplemented by 641 original graphic forms and two postscript signs. Of 2,742 secondary sequences matching primary base codes, 265 strip doubtful readings and 92 concatenate lines. Methods include entropy controls, held-out sequence models, masked reconstruction, positional/context representations and controlled language/administrative comparisons. Bigrams average {mean(2):.3f} bits/token versus {mean(1):.3f} for unigrams across five splits; synthetic two-sign gaps are recovered at top1 in 12.7%. A richer explicitly non-phonetic administrative generator also supports masked prediction and bigram gains. These results establish structural constraints and source-quality limits, without identifying a language family, sound values or translations. Independent semantic and archaeological anchors remain necessary for decipherment.
 
 ## 1. Research question and prior work
 
@@ -312,6 +313,22 @@ A training-majority Parpola-to-Mahadevan mapper predicts {refs['test']['correct'
 
 Original seal/impression photographs were actually inspected for M-1, M-3 and M-4 (printed pp. 1-3), rather than standardized drawings alone. M-1's HR 2406 edge marking matches its catalogue metadata; A-face and lowercase-a impression are visibly mirrored. M-3 shows three main graphic groups, with a broken lower/right body. M-4 has a longer mirrored sequence and textured/damaged surface, but its uncertain reference remains excluded. The record explicitly distinguishes this unblinded Codex-assisted screening from an expert transcription or complete allograph verification. The scans are cached privately, not redistributed. Further object-reference resolution and independent glyph review remain necessary.
 
+### 4.20 Original graphic variants and postscript signs
+
+Experiment 016 manually indexes every drawn form in the original variant appendix (printed pp.785-792) and inspects the sign-list postscript (printed p.25) [15]. The appendix count reconciles with the introduction only when the separate variant-addendum column is included:
+
+| Section | Source families | Drawn forms |
+|---|---|---|
+| Main appendix | 167 | 615 |
+| Variant addendum | 12 | 26 |
+| Combined | {graphic['families']} | {graphic['forms']} |
+
+All 641 forms have a source page/column, a literal example citation and a separate research ordinal/integer. Continuations of one family across columns preserve ordinal order. These are source-defined graphic families, may include the normal form and are not 641 additional independent signs or sounds. The catalogue adds two postscript base-sign references, M418/M419, while keeping the existing 417-ID benchmark and its integer assignments unchanged. The cited postscript inscriptions 8401/9222 are absent from the frozen application snapshot.
+
+The occurrence lookup finds {graphic['lookup_counts']['unique_base_occurrence']} citations with one matching base-sign occurrence, {graphic['lookup_counts']['multiple_base_occurrences']} with repeated matching occurrences, five with no matching base ID and two unresolved parenthetical suffixes. Of the unique candidates, {graphic['unique_candidates_in_flagged_context']} are in rows flagged by the earlier source screen. No variant is automatically assigned even when the lookup is unique. The five remaining base-absence cases are MV254-main-07/1467, MV331-main-03/4592, MV347-main-04/7047, MV348-main-02/2055 and MV278-addendum-01/4595; enlarged page checks retained those printed citations rather than substituting convenient corpus matches.
+
+An initial citation audit prompted thirteen visually confirmed digit corrections, all recorded with before/after values and source pages. Count agreement and successful lookups do not independently certify every manual digit or the editor's allograph judgements. Original rasters remain in private cache; the repository publishes numeric metadata and page-linked glyph references. Graphic distinctions are preserved as evidence for later review, without new phonetic values, language identification or changes to historical transcriptions.
+
 ## 5. Limitations and implications for decipherment
 
 The main dataset is a secondary public export. No new glyph transcription, full catalogue reconciliation, artifact-family grouping, or independent translation anchor has been established. Splitting reverse/exact copies does not eliminate all near-duplicate or formula leakage. Allograph distinctions may inflate the vocabulary and hapax rate ({100*d['hapax_fraction']:.1f} percent in the main subset). The complete-only filter selects against difficult inscriptions and may bias inference. Rare sign embeddings and small CISI morphology counts are unstable.
@@ -356,7 +373,7 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 
 [14] Raghavendra. On the Non-Specificity of Statistical Measures Used in Script Decipherment. 2026 arXiv preprint; peer-review status not established here. https://arxiv.org/abs/2608.02999
 
-[15] Mahadevan. The Indus Script: Texts, Concordance and Tables. ASI Memoir 77, 1977. Code/sign-list pages 30-35. Public scan: https://archive.org/details/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan
+[15] Mahadevan. The Indus Script: Texts, Concordance and Tables. ASI Memoir 77, 1977. Postscript p.25, code/sign-list pp.30-35 and graphic-variant appendix pp.785-792 inspected. Public scan: https://archive.org/details/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan
 
 [16] Arun G K. IVS repository, pinned source export/parser and codebook, revision 7c0273f544998178a4e4f71b80407c52d1ac2f24. https://github.com/gkarun876/IVS
 
@@ -395,6 +412,8 @@ Codex drafted code, literature notes, and text and executed the analyses. No spe
 - Face-preserving field-code prediction: metadata baseline 1.647 vs sign-augmented 1.629 bits/row; gain interval crosses zero, accuracy/macro recall decline. Majority code dominates the 99-row test. No independent semantic anchor established; giant-component validation imbalance is disclosed.
 
 - FC-reference candidate audit: 34 strict tentative pairs; 10/21 test positions covered and predicted correctly, with all other source signs unseen. Original/impression photos of M-1/M-3/M-4 reviewed. FC/Mahadevan identity remains unresolved, so mappings are not propagated.
+
+- Original variant inventory: 641 drawn forms in 179 source families (615/167 main plus 26/12 addendum), with page references and separate integer ordinals. M418/M419 postscript signs added as references; old benchmark unchanged. Lookup: 613 unique, 21 repeated, five base-absence cases, two unresolved suffixes; no automatic assignments.
 
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
 '''

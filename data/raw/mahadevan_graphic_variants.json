@@ -1,0 +1,2595 @@
+{
+  "source_url": "https://archive.org/download/TheIndusScript.TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf",
+  "source_sha256": "afa32284c375b4f501a4c38efba7806b64765f041db07b22ea2e56f7205f0f67",
+  "transcribed_date": "2026-10-17",
+  "method": "Manual Codex-assisted visual transcription of every appendix family and drawn-form citation. Source order is column-major. Ordinal IDs are research labels, not printed variant identifiers.",
+  "source_stated_totals": {
+    "families": 179,
+    "forms": 641
+  },
+  "postscript": {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "new_signs": [
+      418,
+      419
+    ],
+    "referenced_inscriptions": [
+      "8401",
+      "9222"
+    ]
+  },
+  "segments": [
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 1,
+      "references": [
+        "2538",
+        "1386",
+        "6122"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 8,
+      "references": [
+        "1010",
+        "6122",
+        "7080",
+        "1393",
+        "1339",
+        "1401",
+        "1407"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 9,
+      "references": [
+        "2634",
+        "4035",
+        "1011"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 12,
+      "references": [
+        "7053",
+        "2293",
+        "2678",
+        "1563",
+        "2569",
+        "1360",
+        "4815",
+        "2421",
+        "8013",
+        "5515",
+        "5123",
+        "9842"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 14,
+      "references": [
+        "4036",
+        "1079",
+        "4254",
+        "2428"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 15,
+      "references": [
+        "1178",
+        "1475",
+        "4029",
+        "1287",
+        "5063",
+        "1436",
+        "4322",
+        "2108",
+        "1030"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 17,
+      "references": [
+        "1011",
+        "1101",
+        "1018",
+        "1381",
+        "1905"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 19,
+      "references": [
+        "2361",
+        "2106",
+        "1037",
+        "1050"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "L",
+      "section": "main",
+      "base": 28,
+      "references": [
+        "1012",
+        "8017",
+        "1069",
+        "6116",
+        "6402"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 29,
+      "references": [
+        "2049",
+        "6402"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 32,
+      "references": [
+        "7202",
+        "2264"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 35,
+      "references": [
+        "3248",
+        "1260"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 38,
+      "references": [
+        "2546",
+        "2630",
+        "2058",
+        "2285"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 40,
+      "references": [
+        "2266",
+        "5271"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 48,
+      "references": [
+        "1058",
+        "1010",
+        "4312",
+        "6301",
+        "1187",
+        "2518",
+        "2395",
+        "5268",
+        "8218"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 49,
+      "references": [
+        "1194",
+        "2442"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 50,
+      "references": [
+        "2527",
+        "3118",
+        "2313",
+        "1544"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 51,
+      "references": [
+        "4296",
+        "1067",
+        "1100",
+        "6304",
+        "9845",
+        "1400",
+        "2918(?)"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 53,
+      "references": [
+        "1017",
+        "1134",
+        "4162"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 794,
+      "printed_page": 785,
+      "column": "R",
+      "section": "main",
+      "base": 54,
+      "references": [
+        "1319",
+        "1319",
+        "4280",
+        "4004"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 55,
+      "references": [
+        "2398",
+        "2687"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 56,
+      "references": [
+        "2204",
+        "4345",
+        "4701"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 57,
+      "references": [
+        "1182",
+        "2002",
+        "2117",
+        "2451",
+        "4290",
+        "9801"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 60,
+      "references": [
+        "1177",
+        "7025"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 67,
+      "references": [
+        "2026",
+        "9071",
+        "2426",
+        "1088"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 68,
+      "references": [
+        "2199",
+        "1036"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 69,
+      "references": [
+        "2153",
+        "2929"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 70,
+      "references": [
+        "1447",
+        "2584"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 72,
+      "references": [
+        "1075",
+        "1001"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 73,
+      "references": [
+        "8025",
+        "2226"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 74,
+      "references": [
+        "1395",
+        "9832"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "L",
+      "section": "main",
+      "base": 76,
+      "references": [
+        "1338",
+        "1207",
+        "5471",
+        "2077"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 78,
+      "references": [
+        "1342",
+        "1237",
+        "2141"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 81,
+      "references": [
+        "2028",
+        "2696",
+        "4228",
+        "1006"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 84,
+      "references": [
+        "3083",
+        "4227",
+        "2614",
+        "1289",
+        "2527"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 86,
+      "references": [
+        "1030",
+        "1385"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 87,
+      "references": [
+        "1008",
+        "4583"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 89,
+      "references": [
+        "1003",
+        "2573"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 90,
+      "references": [
+        "2167",
+        "2931"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 91,
+      "references": [
+        "2699",
+        "2617"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 94,
+      "references": [
+        "2620",
+        "4573",
+        "4103"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 96,
+      "references": [
+        "1037",
+        "2179"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 98,
+      "references": [
+        "4001",
+        "2515"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 102,
+      "references": [
+        "2470",
+        "1116",
+        "2657"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 795,
+      "printed_page": 786,
+      "column": "R",
+      "section": "main",
+      "base": 103,
+      "references": [
+        "1366",
+        "2481",
+        "4564"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 104,
+      "references": [
+        "1019",
+        "2524",
+        "2926",
+        "2928"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 106,
+      "references": [
+        "1051",
+        "1092"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 109,
+      "references": [
+        "1035",
+        "2565"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 111,
+      "references": [
+        "1231",
+        "2011"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 112,
+      "references": [
+        "1344",
+        "1025"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 119,
+      "references": [
+        "5498",
+        "4094",
+        "4444",
+        "5401",
+        "8013",
+        "4456"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 120,
+      "references": [
+        "1273",
+        "7074"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 121,
+      "references": [
+        "1404",
+        "1415",
+        "3505"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 123,
+      "references": [
+        "2065",
+        "1041",
+        "1100",
+        "2190",
+        "9822"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 124,
+      "references": [
+        "1086",
+        "2121",
+        "2293",
+        "1535",
+        "1448"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 125,
+      "references": [
+        "4693",
+        "1110"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 128,
+      "references": [
+        "5087",
+        "7069",
+        "2118"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "L",
+      "section": "main",
+      "base": 132,
+      "references": [
+        "1253",
+        "4037"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 136,
+      "references": [
+        "2157",
+        "1471",
+        "2018"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 137,
+      "references": [
+        "1179",
+        "2847"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 141,
+      "references": [
+        "7025",
+        "7094",
+        "4077"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 142,
+      "references": [
+        "4481",
+        "4472"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 143,
+      "references": [
+        "3119",
+        "2098"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 146,
+      "references": [
+        "1536",
+        "9042"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 149,
+      "references": [
+        "1370",
+        "4001",
+        "3108",
+        "2229",
+        "2505"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 150,
+      "references": [
+        "1100",
+        "1102"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 155,
+      "references": [
+        "1006",
+        "1225"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 158,
+      "references": [
+        "4808",
+        "1016",
+        "6201",
+        "7048"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 159,
+      "references": [
+        "1320",
+        "2407"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 162,
+      "references": [
+        "1076",
+        "1361",
+        "2934",
+        "1539",
+        "2648"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 796,
+      "printed_page": 787,
+      "column": "R",
+      "section": "main",
+      "base": 167,
+      "references": [
+        "5123",
+        "7034",
+        "8038",
+        "8201"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 169,
+      "references": [
+        "1025",
+        "2525",
+        "1011",
+        "1055",
+        "1467",
+        "1006",
+        "4107",
+        "8213",
+        "4269",
+        "9061",
+        "2542",
+        "7072"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 171,
+      "references": [
+        "1010",
+        "1310",
+        "4254",
+        "1399"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 173,
+      "references": [
+        "1494",
+        "1360",
+        "1234",
+        "2421"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 175,
+      "references": [
+        "1139",
+        "1047",
+        "1420",
+        "1167"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 176,
+      "references": [
+        "1046",
+        "2674",
+        "4320",
+        "6213",
+        "1227",
+        "2121",
+        "2140",
+        "1118",
+        "8208",
+        "2289"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 177,
+      "references": [
+        "2577",
+        "1219",
+        "3151"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 178,
+      "references": [
+        "1401",
+        "1051",
+        "2039",
+        "2170",
+        "3109",
+        "4341"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 180,
+      "references": [
+        "1552",
+        "1069",
+        "2049",
+        "1033",
+        "2495",
+        "2616",
+        "2465",
+        "1175",
+        "6402"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "L",
+      "section": "main",
+      "base": 182,
+      "references": [
+        "1161",
+        "9071",
+        "2470",
+        "2428",
+        "2296",
+        "2220"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 184,
+      "references": [
+        "3378",
+        "3398",
+        "9832",
+        "2515",
+        "2092"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 186,
+      "references": [
+        "4006",
+        "7202",
+        "3151",
+        "1191",
+        "2052",
+        "2665"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 190,
+      "references": [
+        "4091",
+        "2175",
+        "2395",
+        "4380",
+        "2077",
+        "2601"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 193,
+      "references": [
+        "1058",
+        "1140",
+        "1438",
+        "2563",
+        "2562",
+        "4451",
+        "2018"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 194,
+      "references": [
+        "4002",
+        "1014"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 197,
+      "references": [
+        "1015",
+        "4271",
+        "2518"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 198,
+      "references": [
+        "4584",
+        "6227",
+        "2355",
+        "4583"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 201,
+      "references": [
+        "2661",
+        "2103"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 202,
+      "references": [
+        "1262",
+        "2654"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 204,
+      "references": [
+        "1416",
+        "1066",
+        "4079",
+        "1022",
+        "2290"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 797,
+      "printed_page": 788,
+      "column": "R",
+      "section": "main",
+      "base": 205,
+      "references": [
+        "4460",
+        "1090",
+        "2548",
+        "2079",
+        "6210"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 206,
+      "references": [
+        "1049",
+        "5064"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 210,
+      "references": [
+        "4315",
+        "2119",
+        "2490"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 214,
+      "references": [
+        "2120",
+        "2018",
+        "4008"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 216,
+      "references": [
+        "1096",
+        "8212"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 217,
+      "references": [
+        "2311",
+        "8039"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 219,
+      "references": [
+        "1033",
+        "2651",
+        "9092"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 224,
+      "references": [
+        "4223",
+        "2469"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 228,
+      "references": [
+        "2074",
+        "6120"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 229,
+      "references": [
+        "2420",
+        "8043"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 230,
+      "references": [
+        "1459",
+        "1054",
+        "1186",
+        "1139",
+        "4823"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 244,
+      "references": [
+        "1038",
+        "1002",
+        "4040",
+        "1337",
+        "2502",
+        "2334",
+        "1034",
+        "4042",
+        "1550",
+        "5073"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "L",
+      "section": "main",
+      "base": 245,
+      "references": [
+        "4002",
+        "2431",
+        "2294",
+        "4240",
+        "1004"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 245,
+      "references": [
+        "1424",
+        "2072",
+        "1542",
+        "1159",
+        "1242",
+        "9902",
+        "8204"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 247,
+      "references": [
+        "1444",
+        "2409"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 252,
+      "references": [
+        "1463",
+        "1018",
+        "4220",
+        "1337"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 253,
+      "references": [
+        "1201",
+        "4541",
+        "1346",
+        "1054"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 254,
+      "references": [
+        "1244",
+        "1096",
+        "1319",
+        "4260",
+        "9832",
+        "2545",
+        "1467",
+        "4713"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 258,
+      "references": [
+        "2341",
+        "1438",
+        "7020",
+        "4411"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 261,
+      "references": [
+        "4006",
+        "5090"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 264,
+      "references": [
+        "1227",
+        "2574"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 267,
+      "references": [
+        "1057",
+        "1022",
+        "8106"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 272,
+      "references": [
+        "7025",
+        "4359"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 798,
+      "printed_page": 789,
+      "column": "R",
+      "section": "main",
+      "base": 275,
+      "references": [
+        "4447",
+        "4480"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 277,
+      "references": [
+        "2187",
+        "4107",
+        "4871"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 284,
+      "references": [
+        "2579",
+        "1338",
+        "1059",
+        "2522",
+        "4871",
+        "2554"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 286,
+      "references": [
+        "1387",
+        "2422",
+        "7042"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 287,
+      "references": [
+        "1036",
+        "4618",
+        "2851"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 289,
+      "references": [
+        "1074",
+        "1162"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 292,
+      "references": [
+        "2358",
+        "5060"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 294,
+      "references": [
+        "1023",
+        "2706"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 295,
+      "references": [
+        "2106",
+        "2471"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 296,
+      "references": [
+        "1005",
+        "1711"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 297,
+      "references": [
+        "1043",
+        "9832"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 298,
+      "references": [
+        "1072",
+        "4713"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "L",
+      "section": "main",
+      "base": 302,
+      "references": [
+        "2002",
+        "1471",
+        "1444",
+        "4008",
+        "4230",
+        "3512"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 303,
+      "references": [
+        "1403",
+        "1209"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 305,
+      "references": [
+        "2316",
+        "2157",
+        "4139"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 307,
+      "references": [
+        "1340",
+        "4573"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 312,
+      "references": [
+        "2923",
+        "4802"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 322,
+      "references": [
+        "1537",
+        "2171",
+        "4055"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 324,
+      "references": [
+        "8056",
+        "8056"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 326,
+      "references": [
+        "1126",
+        "2461",
+        "4004",
+        "1150",
+        "1340",
+        "8121",
+        "2673"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 327,
+      "references": [
+        "1244",
+        "1161",
+        "2908"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 328,
+      "references": [
+        "4371",
+        "1206",
+        "2815",
+        "4543",
+        "4497"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 330,
+      "references": [
+        "1248",
+        "2560"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 331,
+      "references": [
+        "1128",
+        "2408",
+        "4592",
+        "4463"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 799,
+      "printed_page": 790,
+      "column": "R",
+      "section": "main",
+      "base": 334,
+      "references": [
+        "2364",
+        "1403"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 336,
+      "references": [
+        "1038",
+        "1337",
+        "1056",
+        "1061",
+        "1603",
+        "1030",
+        "1065",
+        "1094"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 337,
+      "references": [
+        "4322",
+        "2126"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 338,
+      "references": [
+        "2216",
+        "1392"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 340,
+      "references": [
+        "4337",
+        "1494",
+        "9011"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 341,
+      "references": [
+        "4069",
+        "4102",
+        "1464",
+        "2225",
+        "1426",
+        "2644",
+        "1340",
+        "4344",
+        "4446"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 342,
+      "references": [
+        "4001",
+        "1401",
+        "1405",
+        "7029",
+        "1093",
+        "1904",
+        "2269",
+        "8206",
+        "8216",
+        "8217",
+        "4827",
+        "8071"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 343,
+      "references": [
+        "2115",
+        "4386",
+        "7025"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 345,
+      "references": [
+        "1016",
+        "1434",
+        "1710",
+        "6104",
+        "2936"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "L",
+      "section": "main",
+      "base": 347,
+      "references": [
+        "1060",
+        "1093",
+        "4262",
+        "7047",
+        "1298"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 347,
+      "references": [
+        "1089",
+        "2045"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 348,
+      "references": [
+        "1374",
+        "2055",
+        "2414",
+        "4270",
+        "2591"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 358,
+      "references": [
+        "2125",
+        "1415",
+        "2213",
+        "1708"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 359,
+      "references": [
+        "4088",
+        "3102"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 365,
+      "references": [
+        "9102",
+        "4691"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 367,
+      "references": [
+        "1022",
+        "6306"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 371,
+      "references": [
+        "1071",
+        "2004",
+        "2184"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 373,
+      "references": [
+        "4379",
+        "3387"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 374,
+      "references": [
+        "1135",
+        "2332"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 375,
+      "references": [
+        "2500",
+        "2281",
+        "2185"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 379,
+      "references": [
+        "1084",
+        "4423"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 381,
+      "references": [
+        "2069",
+        "1028",
+        "4266",
+        "6402"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 800,
+      "printed_page": 791,
+      "column": "R",
+      "section": "main",
+      "base": 384,
+      "references": [
+        "2043",
+        "2940",
+        "4123"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 387,
+      "references": [
+        "1111",
+        "1080",
+        "2272"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 389,
+      "references": [
+        "1430",
+        "1204",
+        "1467",
+        "1401",
+        "1006"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 391,
+      "references": [
+        "1010",
+        "2651",
+        "1186"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 393,
+      "references": [
+        "2431",
+        "1016",
+        "4901",
+        "4902"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 394,
+      "references": [
+        "2318",
+        "1394"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 395,
+      "references": [
+        "2206",
+        "1330",
+        "1203"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 402,
+      "references": [
+        "1008",
+        "1036",
+        "1069",
+        "1029",
+        "1103",
+        "2373",
+        "1394"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 403,
+      "references": [
+        "1099",
+        "2363",
+        "4555",
+        "5103"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "L",
+      "section": "main",
+      "base": 417,
+      "references": [
+        "4034",
+        "2827"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 2,
+      "references": [
+        "1117",
+        "8059"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 59,
+      "references": [
+        "1032",
+        "8211"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 107,
+      "references": [
+        "1157",
+        "7072"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 127,
+      "references": [
+        "1004",
+        "4012",
+        "8054",
+        "8072"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 130,
+      "references": [
+        "1012",
+        "4019"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 181,
+      "references": [
+        "2191",
+        "1052"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 213,
+      "references": [
+        "2086",
+        "9103"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 259,
+      "references": [
+        "1470",
+        "7301(?)"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 278,
+      "references": [
+        "4595",
+        "8033"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 290,
+      "references": [
+        "2656",
+        "3016"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 332,
+      "references": [
+        "3116",
+        "3032"
+      ],
+      "uncertain_ordinals": []
+    },
+    {
+      "pdf_page": 801,
+      "printed_page": 792,
+      "column": "R",
+      "section": "addendum",
+      "base": 400,
+      "references": [
+        "1012",
+        "7063"
+      ],
+      "uncertain_ordinals": []
+    }
+  ],
+  "scope": "Graphic source-family membership attributed to Mahadevan. May include normal forms. No phonetic equivalence, auto-assignment to tokens, or raster redistribution.",
+  "transcription_revisions": [
+    {
+      "section": "main",
+      "base": 14,
+      "family_ordinal": 4,
+      "before": "2628",
+      "after": "2428",
+      "pdf_page": 794,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 15,
+      "family_ordinal": 6,
+      "before": "1636",
+      "after": "1436",
+      "pdf_page": 794,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 17,
+      "family_ordinal": 4,
+      "before": "1281",
+      "after": "1381",
+      "pdf_page": 794,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 50,
+      "family_ordinal": 3,
+      "before": "2331",
+      "after": "2313",
+      "pdf_page": 794,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 57,
+      "family_ordinal": 1,
+      "before": "1187",
+      "after": "1182",
+      "pdf_page": 795,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 60,
+      "family_ordinal": 2,
+      "before": "7825",
+      "after": "7025",
+      "pdf_page": 795,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 67,
+      "family_ordinal": 3,
+      "before": "2446",
+      "after": "2426",
+      "pdf_page": 795,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 119,
+      "family_ordinal": 5,
+      "before": "8033",
+      "after": "8013",
+      "pdf_page": 796,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 176,
+      "family_ordinal": 1,
+      "before": "1045",
+      "after": "1046",
+      "pdf_page": 797,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 193,
+      "family_ordinal": 3,
+      "before": "1436",
+      "after": "1438",
+      "pdf_page": 797,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 345,
+      "family_ordinal": 4,
+      "before": "8104",
+      "after": "6104",
+      "pdf_page": 800,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "main",
+      "base": 358,
+      "family_ordinal": 4,
+      "before": "1706",
+      "after": "1708",
+      "pdf_page": 800,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    },
+    {
+      "section": "addendum",
+      "base": 290,
+      "family_ordinal": 2,
+      "before": "1016",
+      "after": "3016",
+      "pdf_page": 801,
+      "reason": "First-pass citation lookup triggered enlarged source-region reinspection; corrected only after visual reading, not by substituting a matching corpus reference."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Methods and experiment ledger
 
-Started 15 October 2026 (Asia/Kolkata). Current release 0.15. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
+Started 15 October 2026 (Asia/Kolkata). Current release 0.16. This file distinguishes completed experiments from planned work. Every reported result must be reproducible from pinned sources and linked output.
 
 ## Completed preparation
 
@@ -130,3 +130,9 @@ Chosen strength 1, sign weight 0.5. Held-out baseline/sign scores 1.647/1.629 bi
 Grouped split 27/3/4, direct training entropy 0.153 vs reversed 1.562. Test consistency 10/21 positions, exactly 10/21 source coverage, no complete test inscription. Fourteen training correspondences pass review thresholds; none is automatically adopted. Tiny holdout and unresolved numeric identities preclude independent crosswalk validation. Three checks cover wrong-face rejection, uncertain-number exclusion and pilot/duplicate isolation.
 
 Original/impression images actually viewed for M-1/M-3/M-4 on printed pp.1-3, plus a visible M-2 fragment. M-1 edge marking HR2406 agrees with its printed metadata; original/impression pairs are mirrored. M-3's three broad sign groups and broken lower body are recorded; M-4 is excluded for its uncertain reference. This is unblinded Codex-assisted photo screening, not expert transcription or allograph verification. Full records: docs/original_photo_review.json. Books remain in ignored cache; no scans or new phonetic values are redistributed.
+
+## Original graphic forms and sign-list postscript (Experiment 016)
+
+17 October 2026. After a committed acquisition design, visually inspected every appendix page (printed785-792, PDF794-801) and the postscript (printed25/PDF36). Indexed 615 main-list forms in 167 families and 26 addendum forms in 12 further families: the combined 641/179 reproduces the introduction's totals. These forms may include the normal form; they are not 641 additional independent signs. Added page references for M418/M419, whose cited texts8401/9222 are absent from the application snapshot. Existing 417-ID benchmark remains unchanged.
+
+Every form has literal citation, source page/column, graphic position, source-defined family and a separate research ordinal/integer. An initial lookup prompted thirteen visually confirmed digit corrections recorded in raw-data revisions. Final lookup: 613 unique matching base occurrences (133 in flagged contexts), 21 repeated occurrences, five retained base-absence cases and two unresolved suffixes. Enlarged source checks retained citations1467/M254,4592/M331,7047/M347,2055/M348,4595/M278; no convenient substitute references or phonetic interpretations are inserted. No variants are assigned to primary tokens. Manual digit accuracy and source allograph classification still require independent review. Three tests cover continuation/section identity, repeated occurrences, suffix preservation and missing/base-absent cases.

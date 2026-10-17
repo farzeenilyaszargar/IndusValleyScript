@@ -28,13 +28,15 @@ def main():
         line=lines[i]
         if not line.strip():i+=1;continue
         if line.startswith('|'):
-            rows=[]
+            rows=[];headers=None
             while i<len(lines) and lines[i].startswith('|'):
                 cells=[x.strip() for x in lines[i].strip('|').split('|')]
                 if not all(re.fullmatch(r'[-:]+',x) for x in cells):
+                    if headers is None:headers=cells
                     rows.append([paragraph(x,'PaperTable') for x in cells])
                 i+=1
             widths={3:[90,60,282],4:[160,90,90,92],6:[40,88,88,88,64,64]}[len(rows[0])]
+            if headers==['Section','Source families','Drawn forms']:widths=[160,136,136]
             table=Table(rows,colWidths=widths,repeatRows=1,hAlign='LEFT',splitByRow=0)
             table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#e7efed')),
                 ('LINEBELOW',(0,0),(-1,0),.8,colors.HexColor('#37625b')),

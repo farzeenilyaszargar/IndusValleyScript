@@ -96,6 +96,12 @@ Experiment 015 was committed/pushed before fitting, after an exploratory M-1 pil
 
 Original/impression photographs for M1/M3/M4 were actually viewed in the source scan (printed pp.1-3); M2 fragment also visible. M1's HR2406 edge marking agrees with catalogue metadata; mirror pairs and broad graphic/damage observations are recorded in docs/original_photo_review.json. Review is unblinded Codex-assisted and incomplete at allograph level. Original scans stay in ignored cache. Remaining source identity resolution and independent specialist/photo validation are necessary. Full decipherment remains unachieved and goal active.
 
+## Release 0.16 original-variant acquisition extension
+
+17 October 2026. The previous turn made verified progress with original photographs, a source-reference audit and tested/pushed outputs. Experiment016's design was committed/pushed before complete appendix transcription. All eight original variant pages and the postscript were visually inspected. Manual count: main615 forms/167 families plus addendum26/12 =641/179, reconciling the book's stated totals. M418/M419 postscript drawings are newly referenced; cited texts8401/9222 are absent from the frozen application data. Existing 417-ID benchmark remains unchanged.
+
+Full source-page/column/family/ordinal/example metadata and separate numeric graphic IDs are exported. The catalogue has 2,170 overlapping entries, not distinct-sign or phonetic counts. An initial lookup triggered thirteen visually confirmed citation-digit corrections retained with revision history. Final lookup: 613 unique base-occurrence candidates (133 flagged contexts), 21 repeated candidates, five base-absence cases retained after enlarged source checks, and two unresolved parenthetical suffixes. No variant is assigned automatically, even on a unique lookup. Raster source pages stay in ignored cache. Manual transcription accuracy and source allograph judgments remain unverified independently. Three new tests bring core checks to 50. Offline reproduction passed for 49 JSON artifacts, and all fifteen pages of paper version0.16 were rendered and visually reviewed. The full decipherment goal remains active.
+
 ## Next substantive work
 
 1. Constrain prospective phonetic/rebus alignments through independent lexical or archaeological anchors; controlled representation comparison is now executed and rank reversal confirms that nearest entropy alone cannot select a family. Investigate matching vocabulary/sparse-estimator controls and other language families before alignment claims.

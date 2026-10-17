@@ -61,3 +61,11 @@ The separate secondary export is pinned at gkarun876/IVS revision 7c0273f5449981
 ## Original CISI reference and photograph audit
 
 The first M1-100 reference page of CISI 1 (printed p.366, PDF page402 in the frozen scan) is manually encoded in data/raw/cisi1_fc_candidates.json with hash/page and uncertain digits. data/raw/cisi1_fc_manifest.json fixes the numeric snapshot. These are literal FC numbers, not verified Mahadevan IDs; source text cautions against universal interchange. Candidate rejection and split ledgers remain in results/reference_candidates.json. Actual original/impression pages viewed are logged in docs/original_photo_review.json; scans and rendered pages remain private cache. No sign aliases select the candidates, and no correspondence is automatically propagated.
+
+## Original Mahadevan graphic appendix and postscript
+
+Frozen manual numeric transcription: data/raw/mahadevan_graphic_variants.json, with source PDF hash, printed/PDF pages, columns, source-family IDs, 641 literal example references and thirteen before/after digit corrections confirmed through enlarged source views. Separate manifest fixes its digest. The source's main615 forms/167 families plus addendum26/12 reproduce combined641/179. These source forms may include normal forms and are not extra independent signs.
+
+Generated data/processed/mahadevan_graphic_catalog.json uses research IDs MV###-main-## or MV###-addendum-## and integers4..644 in the separate MahadevanGraphic1977 namespace. Postscript M418/M419 have codes421/422 under a distinct postscript reference namespace; existing 417-ID benchmark codes are unchanged. Always retain namespace with integer ID. Source-page links locate the drawn forms; raw raster pages are not redistributed.
+
+results/graphic_variant_audit.json retains every citation lookup, candidate document/side/line/slot and original uncertainty. Unique lookup does not establish the drawn variant at that slot; all automatic_assignment flags are false. Repeated candidates, two parenthetical suffixes and five base-absence references remain unresolved. Count agreement is not independent proof of manual digit accuracy, allograph equivalence or phonetic value.

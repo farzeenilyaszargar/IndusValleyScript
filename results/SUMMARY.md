@@ -31,4 +31,6 @@
 
 - FC-reference candidate audit: 34 strict tentative pairs; 10/21 test positions covered and predicted correctly, with all other source signs unseen. Original/impression photos of M-1/M-3/M-4 reviewed. FC/Mahadevan identity remains unresolved, so mappings are not propagated.
 
+- Original variant inventory: 641 drawn forms in 179 source families (615/167 main plus 26/12 addendum), with page references and separate integer ordinals. M418/M419 postscript signs added as references; old benchmark unchanged. Lookup: 613 unique, 21 repeated, five base-absence cases, two unresolved suffixes; no automatic assignments.
+
 Full methods and limitations are in docs/PAPER.md and docs/METHODS.md. Results are structure, not translations.
